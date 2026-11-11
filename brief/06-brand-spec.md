@@ -65,7 +65,10 @@ These are the guidelines' rules. Each one is replaced if a later part of the for
 
 ## Proof (form part 3)
 - Public reviews (Judge.me product pages, Google Reviews) and customer emails can be quoted, full names where the customer used them publicly.
-- Lab (Trinity Bioactives, 2024, in vitro): Relief 42.7%, Joints 48.1%, Sports 54.1% reduction in macrophage concentration; control indomethacin 30%. Client wording includes "proven to decrease pain-associated cells" and "almost twice as effective as" indomethacin. Recommendation: always keep "in independent lab tests" in front of any of this.
+- Lab (Trinity Bioactives, 2024, in vitro): Relief 42.7%, Joints 48.1%, Sports 54.1% reduction in macrophage concentration; control indomethacin 30%. Client wording includes "proven to decrease pain-associated cells" and "almost twice as effective as" indomethacin. **Decision (11 Nov): always say "in independent lab tests". Do not use "proven" or present the indomethacin comparison as a product claim.**
+
+## Names
+Always "Jess and Dan" (not Danny), decided 11 Nov.
 
 ## Story (form part 3)
 Friends since primary school in West Auckland, aged six. Waitākere Ranges. Jess (commercial real estate) and Dan (advertising) left corporate jobs. Bought the business from a horse trainer whose race-horse rub became a human product, "Comfort Zone". Retail X research, a rongoā course, reformulated from two native herbs (harakeke, kūmarahou) to eleven across three ranges.

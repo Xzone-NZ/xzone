@@ -1,0 +1,746 @@
+{
+ "posts": [
+  {
+   "id": "w3-testimonial",
+   "date": "2026-12-11",
+   "day": "Fri",
+   "where": "IG + FB",
+   "format": "Testimonial graphic",
+   "pillar": "Social proof",
+   "kind": "Educate",
+   "template": "quote",
+   "range": "joints",
+   "photo": "bush",
+   "title": "Mavis and Pam on the Joints Rub",
+   "about": "The first testimonial graphic of the quarter: two real Joints Rub reviews from Mavis and Pam, inside a short lesson on living with stiff joints, aimed at our 40 to 85 core customer.",
+   "headline": "\"Excellent for my arthritis.\"",
+   "subline": "Mavis, Huntly. Joints Rub review",
+   "pill": "Joints range",
+   "steps": [],
+   "slides": [],
+   "shots": [],
+   "duration": "",
+   "poll": [],
+   "caption": "Stiff joints are often worst first thing in the morning and after sitting still, and they can make summer feel smaller: shorter walks, less time in the garden.\n\nWhat helps alongside a rub:\nMove little and often. Short walks beat one long one.\nWarmth for morning stiffness: a warm shower before you get going.\nKeep the muscles around the joint strong with gentle exercise.\n\nIf a joint is suddenly hot, red and swollen, or the pain keeps you up at night, see your GP.\n\nTwo of our customers put it in their own words. Mavis from Huntly: \"Excellent for my arthritis.\" Pam from Balclutha: \"Excellent for my rheumatics.\"\n\nTheir words, not a promise: every body is different. Our Joints Rub is our higher-strength rub for stiffness and mobility, made with native herbs traditionally used for pain. Link in bio.",
+   "hashtags": "#XZoneNZ #Aotearoa #NativeHerbs #StiffJoints #RealReviews",
+   "cta": "Link in bio",
+   "shoot": "No new shoot needed: the quote card sits on the Bush Deep ground over our existing bush photo; a second frame with Pam's quote can follow as a two-image post.",
+   "flags": [
+    "Confirm Mavis's and Pam's reviews are on the Joints Rub page (the subline says 'Joints Rub review')",
+    "Mavis and Pam's quotes are also on the last two slides of the week 8 turmeric carousel (w8-mon); keep both or swap week 8 to other reviews",
+    "Reviews name conditions (arthritis, rheumatics): the caption quotes them without claiming the rub treats either; check against NZ therapeutic advertising rules before posting",
+    "Option: a second frame with Pam's quote, \"Excellent for my rheumatics.\", Pam, Balclutha, as a two-image post",
+    "UTM-tagged Joints Rub link for the bio",
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+   ]
+  },
+  {
+   "id": "w5-sat",
+   "date": "2026-12-26",
+   "day": "Sat",
+   "where": "IG + FB",
+   "format": "Post",
+   "pillar": "Promo anchored in education",
+   "kind": "Promo",
+   "template": "band",
+   "range": "all",
+   "photo": "shoulder",
+   "title": "Boxing Day recovery and one-day offer",
+   "about": "The week's one promo, merging the Boxing Day recovery guide (from the dehydration blog article) with the one-day Boxing Day offer: the lesson first, the offer last.",
+   "headline": "Is your Boxing Day ache actually thirst?",
+   "subline": "A recovery guide, then a one-day offer",
+   "pill": "Boxing Day only",
+   "steps": [
+    {
+     "b": "Water first",
+     "t": "A big glass when you wake, then sip all day. Electrolytes if you sweated."
+    },
+    {
+     "b": "Then move",
+     "t": "A gentle walk or swim gets blood moving through tight, tired muscles."
+    },
+    {
+     "b": "Rub before bed",
+     "t": "Massage a little rub into sore spots, then sleep. Sleep does the real work."
+    }
+   ],
+   "slides": [],
+   "shots": [],
+   "duration": "",
+   "poll": [],
+   "caption": "Muscle aches the day after Christmas are often less about the cricket and more about the heat, the sun and the extra glass of bubbles. Even mild dehydration can leave muscles tight, crampy and sore.\n\nOur Boxing Day recovery order:\n1. Water first. A big glass when you wake, then keep sipping. Electrolytes if you sweated a lot.\n2. Then move. A slow walk or a swim beats a day on the couch.\n3. A rub before bed. Massage a little into the sore spots, then get a proper sleep.\n\nIf cramps are severe, or you feel dizzy or confused, see your GP or call Healthline on 0800 611 116.\n\nMissing step three? Boxing Day only: {OFFER} across the Relief, Joints and Sports ranges. Use code {CODE}, link in bio. Ends midnight tonight. Trial pots start from $3 if you would rather try before you commit.",
+   "hashtags": "#Aotearoa #BoxingDay #Hydration #MuscleRecovery #XZoneNZ",
+   "cta": "Link in bio",
+   "shoot": "A glass of water and the three ranges on a bach deck in morning light, jandals and a towel in the frame.",
+   "flags": [
+    "Boxing Day offer: confirm the mechanic (a one-day Buy 2 Get 1 Free like Labour Day is suggested), code {CODE}, end time and whether it is separate from the mid-December pre-Christmas sale",
+    "Confirm whether trial pots are included in the Boxing Day offer",
+    "UTM-tagged link for the bio and the story link sticker",
+    "Blog link for 'Dehydration and muscle pain' and the new week 5 article 'Boxing Day recovery: hydration, movement and sleep' (for stories)",
+    "This post replaces both w5-sat and w5-sat-2; remove w5-sat-2 from the calendar"
+   ]
+  }
+ ],
+ "emails": [
+  {
+   "id": "w1-email",
+   "week": 1,
+   "date": "2026-11-27",
+   "day": "Fri",
+   "type": "campaign",
+   "subject": "Black Friday: stock the summer kit",
+   "preheader": "Our Black Friday offer, and old prices held until {DATE}. Plus a summer kit list.",
+   "title": "Black Friday summer kit",
+   "about": "Black Friday campaign, sent on Black Friday itself (Friday 27 Nov, not Thursday) because the offer runs that day: a summer first-aid kit checklist first, then the offer and the old-price window.",
+   "hero": {
+    "headline": "Stock the summer kit",
+    "subline": "What every bach, car and sports bag needs this summer",
+    "photo": "range"
+   },
+   "sections": [
+    {
+     "h": "Start with the kit",
+     "b": "Summer injuries happen at the bach, in the car and on the sideline, so that is where the kit belongs. For cuts and blisters: plasters, blister pads, strapping tape, antiseptic wipes and tweezers. For sprains and knocks: a crepe bandage, an instant ice pack and the nearest medical centre's number written inside the lid. Phone signal at the bach is not a given."
+    },
+    {
+     "h": "For the days after",
+     "b": "Once the first 48 hours have passed, a rub massaged into tired muscles helps you get moving again. Relief for the family's everyday bumps and aches. Sports for the ones who overdo it. Joints for stiff knees and hands. Roll-ons fit a glovebox. If a knock is serious, the kit is not the answer: see your GP or call 111."
+    },
+    {
+     "h": "Our Black Friday offer",
+     "b": "This Black Friday: {OFFER}. Our prices went up this month for the first time in six years, but we are holding the old prices until {DATE}, so it is a good week to fill the kit for summer. Trial pots start from $3 if you would like to try one first.\n\nNgā mihi, Jess and Dan"
+    }
+   ],
+   "review": {
+    "quote": "Customers who have tried everything else rave over it.",
+    "name": "Jo, Bowen Equine Therapy"
+   },
+   "cta": {
+    "label": "Shop Black Friday",
+    "link": "{LINK}"
+   },
+   "ps": "Not sure which range suits you? Reply and tell us what hurts. We read every email.",
+   "flags": [
+    "Black Friday offer details for {OFFER} (and any {CODE})",
+    "End date of the old-price window for {DATE}",
+    "If the Black Friday offer opens on Thursday 26 Nov, send this email on the Thursday instead",
+    "Confirm replies to Shopify Messaging emails reach Jess and Dan",
+    "UTM-tagged {LINK} for the email button and every product link",
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+   ]
+  },
+  {
+   "id": "w2-email",
+   "week": 2,
+   "date": "2026-12-03",
+   "day": "Thu",
+   "type": "newsletter",
+   "subject": "Christmas gifts, sorted by person",
+   "preheader": "Gift ideas for the tradie, the tramper and the gardener. Plus what bruise colours mean.",
+   "title": "Gift guide and bruise colours",
+   "about": "Week 2 newsletter: the bruise-colour lesson from the unscheduled w2-wed post, the Christmas gift guide from w2-thu, and the week's three posts.",
+   "hero": {
+    "headline": "The gift guide, sorted by person",
+    "subline": "For the tradie, the tramper, the touch player and the gardener",
+    "photo": "range"
+   },
+   "sections": [
+    {
+     "h": "Your bruise colour is a clock",
+     "b": "A bruise changes colour as it heals. Red to purple: day one or two, so a cold pack in short bursts helps. Blue to green: days three to six, when gentle warmth and light massage around the spot can help. Yellow to brown: about a week in, nearly there. See your GP if a bruise appears for no reason, is very large, sits over a joint you can't move, or isn't fading after two weeks."
+    },
+    {
+     "h": "The gift guide",
+     "b": "Start with the person, not the product. The tradie with a sore back and shoulders: the Sports Rub. The tramper with tight calves on day two: a roll-on for the pack. The touch player: the Sports Spray, quick at the sideline. The grandparent who still gardens: the Joints Rub. The family first-aid kit: the Relief range. Stocking fillers: trial pots from $3."
+    },
+    {
+     "h": "This week on Instagram and Facebook",
+     "b": "Monday: herb two of eleven, horopito, the native pepper tree. Bite a leaf and it bites back. Wednesday: Jess tells how two friends from West Auckland ended up reformulating a horse trainer's rub. Friday: the post we will pin to the top of our page, which range and which format suits you."
+    },
+    {
+     "h": "Before you go",
+     "b": "Our old prices stay until {DATE}, so it is a good week to tick a few names off the list. Every gift in the guide is on one page, sorted by person.\n\nNgā mihi, Jess and Dan"
+    }
+   ],
+   "review": {
+    "quote": "Cannot be bettered.",
+    "name": "Marni MacDonald, Auckland"
+   },
+   "cta": {
+    "label": "Shop the gift guide",
+    "link": "{LINK}"
+   },
+   "ps": "Last order dates for Christmas delivery land in next week's email.",
+   "flags": [
+    "Old-price end date for {DATE}",
+    "Gift guide page link {LINK} with UTM",
+    "Confirm Sports Spray and roll-on formats and Christmas stock",
+    "Horopito range: week 2 hook says Sports, the FAQ says Relief; this email names no range, but confirm before the Monday post",
+    "Bruise timeline and GP guidance to be checked by Jess and Dan",
+    "Any gift wrapping or gift card option to mention",
+    "Instagram and Facebook links in the email footer (handles not given on the form)",
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+   ]
+  },
+  {
+   "id": "w3-email",
+   "week": 3,
+   "date": "2026-12-10",
+   "day": "Thu",
+   "type": "newsletter",
+   "subject": "Last order dates for Christmas",
+   "preheader": "Order by {DATE_URBAN} for urban delivery. Plus what goes wrong on day two of a tramp.",
+   "title": "Last Christmas order dates",
+   "about": "Week 3 newsletter: last Christmas order dates (from w3-thu), the day-two tramping lesson from the unscheduled w3-wed post, and the first hint of next week's one-day sale.",
+   "hero": {
+    "headline": "Last order dates for Christmas",
+    "subline": "Urban, rural and overseas, so your gifts arrive in time",
+    "photo": "range"
+   },
+   "sections": [
+    {
+     "h": "Order by",
+     "b": "Urban addresses: order by {DATE_URBAN}. Rural addresses: order by {DATE_RURAL}, as rural delivery takes a few extra days. Overseas: order by {DATE_INTL}. We usually send orders within {DISPATCH_TIME}, but couriers are busy in December, so earlier is always better. Our old prices stay until {DATE}."
+    },
+    {
+     "h": "Day two on the track",
+     "b": "Day two is when the track catches up with you. A hot spot on your heel: stop, dry the skin and tape it before it becomes a blister. A blister that is intact: leave it whole and cover it. Tight calves: stretch at every break and massage them properly at the hut. See your GP if a blister shows spreading redness, swelling, pus or heat."
+    },
+    {
+     "h": "This week on Instagram and Facebook",
+     "b": "Monday: five things for a tramper's first-aid kit, and why the last one is a plan someone else knows. Wednesday: herb three, kūmarahou, the gumdiggers' soap, filmed in the bush. Friday: our first customer quote card, two real Joints Rub reviews from Huntly and Balclutha."
+    },
+    {
+     "h": "For the pack",
+     "b": "Heading out on a track this summer? Our Sports roll-on fits the lid pocket of a pack, and there is nothing to scoop out with dirty hands.\n\nNgā mihi, Jess and Dan"
+    }
+   ],
+   "review": {
+    "quote": "Only days after placing the order.",
+    "name": "Eileen, UK"
+   },
+   "cta": {
+    "label": "Order in time",
+    "link": "{LINK}"
+   },
+   "ps": "Keep an eye on your inbox next week. We have a one-day pre-Christmas sale on {SALE_DATE}.",
+   "flags": [
+    "Last order dates for urban, rural and overseas ({DATE_URBAN}, {DATE_RURAL}, {DATE_INTL}) from the courier",
+    "Dispatch time for {DISPATCH_TIME}",
+    "Old-price end date for {DATE}",
+    "The PS is build-up email 1 of 3 for the pre-Christmas sale; confirm {SALE_DATE} (suggested Thursday 17 Dec)",
+    "Blister and infection guidance to be checked by Jess and Dan",
+    "Confirm the Sports roll-on is the one to feature (Relief roll-on is the alternative)",
+    "UTM-tagged {LINK} for the email button and every product link",
+    "Instagram and Facebook links in the email footer (handles not given on the form)",
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+   ]
+  },
+  {
+   "id": "w4-email",
+   "week": 4,
+   "date": "2026-12-17",
+   "day": "Thu",
+   "type": "campaign",
+   "subject": "Today only: buy 2, get 1 free",
+   "preheader": "Our one-day pre-Christmas sale across Relief, Joints and Sports. Ends midnight tonight.",
+   "title": "Pre-Christmas one-day sale",
+   "about": "The pre-Christmas sale email, sent on the morning of the suggested one-day sale (Thursday 17 Dec), modelled on the Labour Day Buy 2 Get 1 Free, with the bach cupboard lesson first.",
+   "hero": {
+    "headline": "One day only: buy 2, get 1 free",
+    "subline": "Across Relief, Joints and Sports. Ends midnight tonight.",
+    "photo": "range"
+   },
+   "sections": [
+    {
+     "h": "Stock the bach cupboard once",
+     "b": "The bach cupboard is where summer first aid actually happens. The first-aid tin: plasters, a crepe bandage, tweezers for splinters, antiseptic, and the local medical centre's number inside the lid. Sun and bugs: sunscreen, a spare hat and insect repellent. For bumps and aches: a rub for the family, and a roll-on for the beach bag."
+    },
+    {
+     "h": "Today only",
+     "b": "Buy any two X-ZONE products and get a third free, across the Relief, Joints and Sports ranges. Use code {CODE} at the checkout. The sale ends at midnight tonight. It is the easiest way to stock the bach, the car and a few Christmas stockings in one order."
+    },
+    {
+     "h": "How to choose your three",
+     "b": "Relief: mid strength, for everyday bumps, bruises and aches, and the one for the family. Joints: higher strength, for stiffness and mobility when joint pain is long-term. Sports: higher strength, for warm-up and recovery. Rubs for massaging in, sprays for the sideline, roll-ons for bags and gloveboxes.\n\nNgā mihi, Jess and Dan"
+    }
+   ],
+   "review": {
+    "quote": "I can't live without it.",
+    "name": "Pearl, Auckland"
+   },
+   "cta": {
+    "label": "Shop the one-day sale",
+    "link": "{LINK}"
+   },
+   "ps": "Want it under the tree? Our last order date for urban delivery is {DATE_URBAN}.",
+   "flags": [
+    "Suggested offer: a one-day Buy 2 Get 1 Free on Thursday 17 Dec, like the Labour Day sale (60+ orders, about $4k, the best result to date). Confirm or replace the offer, date, code {CODE} and end time",
+    "Build-up, as with Labour Day: 3 emails before the sale. Email 1 is the PS in the week 3 newsletter (Thu 10 Dec); emails 2 and 3 are two short extra sends outside this 13 (suggested Mon 14 Dec announcement and Wed 16 Dec 'tomorrow' reminder), plus story countdowns",
+    "The w4-fri bach cupboard post (Fri 18 Dec) says 'our pre-Christmas sale is on'; for a one-day sale on 17 Dec, move that post to Thursday or reword it",
+    "Check the sale date is before the last urban order date ({DATE_URBAN}) so orders arrive for Christmas",
+    "Confirm whether trial pots and bundles count towards the offer",
+    "Boxing Day offer follows nine days later; confirm both run, to avoid discount fatigue",
+    "Confirm base descriptions (rub, spray, roll-on) against the labels",
+    "UTM-tagged {LINK} for the email button and every product link",
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+   ]
+  },
+  {
+   "id": "w5-email",
+   "week": 5,
+   "date": "2026-12-24",
+   "day": "Thu",
+   "type": "newsletter",
+   "subject": "Meri Kirihimete from Jess and Dan",
+   "preheader": "A thank you from us, a 20-second warm-up for backyard cricket and a Boxing Day offer.",
+   "title": "Christmas greeting and Boxing Day",
+   "about": "Week 5 newsletter, sent on Christmas Eve: a Christmas greeting from Jess and Dan, the backyard cricket warm-up and Boxing Day hydration lessons, and Saturday's one-day offer.",
+   "hero": {
+    "headline": "Meri Kirihimete from our whānau",
+    "subline": "Thank you for every jar, every message and every story",
+    "photo": "founders"
+   },
+   "sections": [
+    {
+     "h": "Meri Kirihimete",
+     "b": "From our whānau to yours, thank you for every jar, every message and every story you shared with us this year. You are the reason we keep doing this. We hope tomorrow is slow, warm and full of good kai and good people. We will still be reading your messages over the break, just a little more slowly."
+    },
+    {
+     "h": "Twenty seconds before backyard cricket",
+     "b": "Most backyard cricket injuries happen in the first over: cold muscles, a big lunch and one heroic dive. Ten arm circles each way. Six walking lunges each side, with a twist. Side shuffles across the lawn, then three easy run-ups before you bowl flat out. If you go down hard and something swells fast, get it checked by your GP or an after-hours clinic."
+    },
+    {
+     "h": "This week on Instagram and Facebook",
+     "b": "Monday: herb five, koromiko, the native hebe that families once sent to soldiers overseas. Wednesday: the backyard cricket warm-up, filmed on a real lawn. Saturday, Boxing Day: our recovery guide, because the day-after ache is often less about the cricket and more about the heat and too little water."
+    },
+    {
+     "h": "Boxing Day only",
+     "b": "Water first, then move, then a rub before bed. If your cupboard is missing step three, on Boxing Day only we have {OFFER} across the Relief, Joints and Sports ranges, with code {CODE}. It ends at midnight on the 26th.\n\nNgā mihi, Jess and Dan"
+    }
+   ],
+   "review": {
+    "quote": "Pre and post workouts.",
+    "name": "Matt A, personal trainer and CrossFit competitor"
+   },
+   "cta": {
+    "label": "See the Boxing Day offer",
+    "link": "{LINK}"
+   },
+   "ps": "Orders placed over the break are sent from {DISPATCH_RESTART}.",
+   "flags": [
+    "Boxing Day offer details ({OFFER}, {CODE}, end time); a one-day Buy 2 Get 1 Free is suggested, and confirm it is separate from the pre-Christmas sale",
+    "Confirm how quickly messages and orders are handled over the Christmas break, and the dispatch restart date ({DISPATCH_RESTART})",
+    "Confirm Jess and Dan are happy to use a personal photo for the hero (founders photo)",
+    "Check koromiko's traditional uses and the Second World War story against the herb fact sheet",
+    "Consider a short Boxing Day morning reminder email for the one-day offer; it is not one of the 13",
+    "UTM-tagged {LINK} for the email button and every product link",
+    "Instagram and Facebook links in the email footer (handles not given on the form)",
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+   ]
+  },
+  {
+   "id": "w6-email",
+   "week": 6,
+   "date": "2026-12-31",
+   "day": "Thu",
+   "type": "campaign",
+   "subject": "Start 2027 with a recovery plan",
+   "preheader": "The 10% rule, a weekly recovery routine, and our New Year Recovery Kit.",
+   "title": "New Year Recovery Kit",
+   "about": "Week 6 campaign, sent on New Year's Eve: the 10% rule and a weekly recovery routine first, then the New Year Recovery Kit that Friday's post launches.",
+   "hero": {
+    "headline": "Start 2027 without getting hurt",
+    "subline": "The 10% rule, three habits, then the kit",
+    "photo": "range"
+   },
+   "sections": [
+    {
+     "h": "The 10% rule",
+     "b": "Most January injuries are not bad luck. They are too much, too soon. Increase your weekly training by no more than about 10%, whether that is minutes walked, kilometres run or kilos lifted. Muscles adapt quickly, but tendons, ligaments and joints take longer. If you are coming back after years off or carrying an old injury, slow progress is still progress."
+    },
+    {
+     "h": "A weekly recovery routine",
+     "b": "Two easy days a week: walk, swim or stretch between the harder sessions. Seven to nine hours of sleep, when muscles do their repairing. And a few minutes massaging the sore spots after training or before bed. If an ache turns into sharp pain or swelling, see your GP or physio before you push on."
+    },
+    {
+     "h": "The New Year Recovery Kit",
+     "b": "To make step three easy, we have put together the New Year Recovery Kit: {KIT_CONTENTS}. {OFFER} until {DATE}. It is the kit we would want on hand for a year of walking, training and gardening.\n\nNgā mihi, Jess and Dan"
+    }
+   ],
+   "review": {
+    "quote": "Before and after joint surgery, and when training.",
+    "name": "Karlene J, Auckland"
+   },
+   "cta": {
+    "label": "Get the Recovery Kit",
+    "link": "{LINK}"
+   },
+   "ps": "Happy New Year. Thank you for being part of our 2026.",
+   "flags": [
+    "New Year Recovery Kit: contents ({KIT_CONTENTS}), price, offer ({OFFER}), end date ({DATE})",
+    "The kit must be live on the site by Thursday 31 Dec, a day before the w6-fri post",
+    "Karlene's quote mentions joint surgery: quote only, the email makes no claim about surgery recovery",
+    "Blog link for the week 6 article 'The 10% rule: how to start 2027 without getting hurt' (optional second link)",
+    "UTM-tagged {LINK} for the email button and every product link",
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+   ]
+  },
+  {
+   "id": "w7-email",
+   "week": 7,
+   "date": "2027-01-07",
+   "day": "Thu",
+   "type": "newsletter",
+   "subject": "Why day two hurts more than day one",
+   "preheader": "DOMS explained, plus what independent lab tests found when they tested our three rubs.",
+   "title": "DOMS and the lab results",
+   "about": "Week 7 newsletter: the DOMS lesson from Monday's carousel, the Trinity Bioactives in-vitro results from Friday's post, and the unscheduled hamstring tip from w7-sat.",
+   "hero": {
+    "headline": "Why day two hurts more",
+    "subline": "Delayed onset muscle soreness, explained in plain English",
+    "photo": "shoulder"
+   },
+   "sections": [
+    {
+     "h": "DOMS, explained",
+     "b": "The soreness that turns up two days after a big session is DOMS, delayed onset muscle soreness. New or harder work leaves tiny strains in muscle fibres, and repairing them takes time. It is not lactic acid. What helps: keep moving gently, drink water, eat some protein, sleep well and massage the sore muscles. A sudden, sharp pain at the back of the thigh is different: stop and see a physio or GP."
+    },
+    {
+     "h": "What the lab found",
+     "b": "In independent in-vitro lab tests by Trinity Bioactives in 2024, our Sports Rub reduced inflammation-associated cells by 54.1%, the Joints Rub by 48.1% and the Relief Rub by 42.7%. These were tests on cells in a lab, not a clinical trial on people. We share them because you deserve to see the science behind what goes on your skin."
+    },
+    {
+     "h": "This week on Instagram and Facebook",
+     "b": "Monday: DOMS explained, slide by slide. Wednesday: herb seven, rātā, the red-flowering cousin of the pōhutukawa, and why it belongs in our everyday Relief range. Friday: the full lab results in plain English, with the independent review of them on our blog."
+    },
+    {
+     "h": "Back into training",
+     "b": "If January means a return to training, our Sports Rub is the one we made for warm-up and recovery. Massage it in after the session, not just on.\n\nNgā mihi, Jess and Dan"
+    }
+   ],
+   "review": {
+    "quote": "Fantastic at helping my muscles recover.",
+    "name": "Joanna Sharpe, ultra-distance cyclist"
+   },
+   "cta": {
+    "label": "Read the lab results",
+    "link": "{LINK}"
+   },
+   "ps": "If soreness is still getting worse after three days, or your urine is dark, see your GP.",
+   "flags": [
+    "Check the lab wording against NZ therapeutic advertising rules; link the lab results page for {LINK}",
+    "Blog link for the week 7 article 'DOMS explained: why day two hurts more than day one'",
+    "Confirm Dr Vanessa Ingraham's evaluation is live on the blog before referring to it",
+    "Check rātā's traditional uses against the herb fact sheet",
+    "Instagram and Facebook links in the email footer (handles not given on the form)",
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+   ]
+  },
+  {
+   "id": "w8-email",
+   "week": 8,
+   "date": "2027-01-14",
+   "day": "Thu",
+   "type": "newsletter",
+   "subject": "Heat or ice? It depends how new it is",
+   "preheader": "The question we get asked most, answered. Plus a tip for shoulders after overhead work.",
+   "title": "Heat or ice, answered",
+   "about": "Week 8 newsletter: heat or ice from Friday's post, the overhead-work shoulder tip from the unscheduled w8-sat Reel, and the week's turmeric and pukatea posts.",
+   "hero": {
+    "headline": "Heat or ice, answered",
+    "subline": "It depends on how new the pain is",
+    "photo": "ankle"
+   },
+   "sections": [
+    {
+     "h": "Heat or ice",
+     "b": "Ice is for new injuries: a fresh sprain, a knock or anything swelling in the first 48 hours. Wrap it in a cloth, 15 to 20 minutes, never straight on the skin. Heat is for stiffness: a tight lower back, a sore neck, muscles that ache after a long day. Morning joint stiffness often prefers warmth. A joint that is suddenly hot, red and swollen is worth a GP visit."
+    },
+    {
+     "h": "Shoulders after overhead work",
+     "b": "Ceilings, gutters, painting and pruning leave the muscles around the shoulder tight and tired. At the end of the day, massage a rub into the top and back of the shoulder for a minute, then finish with slow arm circles. If your shoulder catches with pain, will not lift above your head, or the ache wakes you at night, see your GP or physio."
+    },
+    {
+     "h": "This week on Instagram and Facebook",
+     "b": "Monday: turmeric inside, herbs outside, a natural routine for stiff joints, with a safety check for anyone on blood thinners. Wednesday: herb eight, pukatea, the swamp forest giant that sits in two of our ranges. Friday: heat or ice, in one post to save."
+    },
+    {
+     "h": "For stiff joints",
+     "b": "Our Joints Rub is our higher-strength rub for stiffness and mobility, made with native herbs traditionally used for pain. A lot of our customers keep a jar by the back door.\n\nNgā mihi, Jess and Dan"
+    }
+   ],
+   "review": {
+    "quote": "Excellent for my rheumatics.",
+    "name": "Pam, Balclutha"
+   },
+   "cta": {
+    "label": "Meet the Joints Rub",
+    "link": "{LINK}"
+   },
+   "ps": "Never put heat on fresh swelling, and never fall asleep on a heat pack.",
+   "flags": [
+    "Blog link for the week 8 article 'Heat or ice? Muscle vs joint pain, answered'",
+    "Check the turmeric safety line with a pharmacist or GP before it is mentioned",
+    "Pam's review names a condition: quote only, no claim that the rub treats rheumatism",
+    "Check pukatea's traditional uses against the herb fact sheet",
+    "UTM-tagged {LINK} for the email button and every product link",
+    "Instagram and Facebook links in the email footer (handles not given on the form)",
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+   ]
+  },
+  {
+   "id": "w9-email",
+   "week": 9,
+   "date": "2027-01-21",
+   "day": "Thu",
+   "type": "newsletter",
+   "subject": "Tennis elbow isn't just tennis",
+   "preheader": "Why most people with it never held a racquet, and five free habits for your back.",
+   "title": "Tennis elbow and site backs",
+   "about": "Week 9 tradie-week newsletter: tennis elbow from the unscheduled w9-wed post, the lower-back habits from Monday's carousel, and Friday's tradie pack.",
+   "hero": {
+    "headline": "Tennis elbow isn't just tennis",
+    "subline": "Gripping, drilling, pruning and scrolling all count",
+    "photo": "shoulder"
+   },
+   "sections": [
+    {
+     "h": "Tennis elbow, explained",
+     "b": "Tennis elbow is pain on the outside of the elbow, and most people who get it have never held a racquet. It comes from the same small movement repeated: gripping a drill, painting a ceiling, pruning. What helps: ease the load by changing grip or swapping hands, build strength back gently once the sharp pain settles, and massage the forearm morning and night. If it came from a fall, or your hand is numb or weak, see your GP."
+    },
+    {
+     "h": "Five free habits for your back",
+     "b": "Warm up for two minutes before the first lift. Keep the load close and turn with your feet. Change position every 30 minutes. Ask for a hand with the heavy stuff. Look after the drive home and your sleep. Back pain with numbness, weakness, pain down a leg, or any change to your bladder or bowel needs your GP straight away."
+    },
+    {
+     "h": "This week on Instagram and Facebook",
+     "b": "Monday: lower back on site, five habits that cost nothing. Wednesday: herb nine, kahikatea, New Zealand's tallest native tree. Friday: the three injuries that come up most on site, and our tradie pack for the ute."
+    },
+    {
+     "h": "For the ute",
+     "b": "Our Sports and Joints rubs are made with native NZ herbs, with 11 to 14 active ingredients in every jar, where most rubs use five or six. A jar in the glovebox makes the end-of-day massage easy.\n\nNgā mihi, Jess and Dan"
+    }
+   ],
+   "review": {
+    "quote": "Something that actually works really well.",
+    "name": "Ben M, electrician and sportsman, Auckland"
+   },
+   "cta": {
+    "label": "See the tradie pack",
+    "link": "{LINK}"
+   },
+   "ps": "Know a tradie who never stops? Forward this to them.",
+   "flags": [
+    "Tradie pack contents, price and site-crew offer ({OFFER}); the email names no price until confirmed",
+    "Confirm Kahikatea is in the Relief range only",
+    "Tennis elbow and back-pain guidance to be checked by Jess and Dan",
+    "UTM-tagged {LINK} for the email button and every product link",
+    "Instagram and Facebook links in the email footer (handles not given on the form)",
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+   ]
+  },
+  {
+   "id": "w10-email",
+   "week": 10,
+   "date": "2027-01-28",
+   "day": "Thu",
+   "type": "newsletter",
+   "subject": "Sleep is recovery",
+   "preheader": "Three free sleep habits, and which common medicines can be linked to muscle aches.",
+   "title": "Sleep and medicine aches",
+   "about": "Week 10 newsletter: sleep habits from Friday's post, the medicines-and-muscle-pain lesson from Monday's carousel, and the unscheduled hands-and-wrists tip from w10-sat.",
+   "hero": {
+    "headline": "Your body repairs while you sleep",
+    "subline": "Three free habits that matter more than any product",
+    "photo": "bush"
+   },
+   "sections": [
+    {
+     "h": "Three sleep habits",
+     "b": "Your body does most of its repair while you sleep, and no product beats a good night. Keep the same wake time every day, weekends too. Make the room cool, dark and quiet, with the phone out of reach. Give yourself thirty minutes of wind-down off screens. A slow massage into whatever aches is a good way to tell your body the day is over."
+    },
+    {
+     "h": "When a medicine and aches arrive together",
+     "b": "Some common medicines are linked to muscle aches as a side effect, including statins for cholesterol, some antibiotics and longer courses of steroid tablets. It doesn't happen to everyone. The important thing: don't stop a prescribed medicine on your own. Write down when the aches started and talk to your GP or pharmacist. Check with your pharmacist that a rub suits you alongside your medicines."
+    },
+    {
+     "h": "This week on Instagram and Facebook",
+     "b": "Monday: medicines linked to muscle pain, and why the first step is a GP or pharmacist. Wednesday: herb ten, tūpākihi, with its in-vitro lab result and an important safety note about the wild plant. Friday: sleep is recovery, three habits to save for tonight."
+    },
+    {
+     "h": "For hard-working hands",
+     "b": "For wrists, thumbs and forearms, a roll-on is the easy option: roll it over the sore spot, then massage it in with your thumb for a minute. It fits in a pocket or the glovebox.\n\nNgā mihi, Jess and Dan"
+    }
+   ],
+   "review": {
+    "quote": "I've never slept like this.",
+    "name": "Tracey, New Zealand"
+   },
+   "cta": {
+    "label": "Find your roll-on",
+    "link": "{LINK}"
+   },
+   "ps": "If pain wakes you most nights, or you're tired however long you sleep, talk to your GP.",
+   "flags": [
+    "Match the medicines wording to the blog article '7 Medicines Linked to Muscle Pain' and have a pharmacist or GP check it",
+    "Tracey's quote is used on its own with no condition named, per the plan",
+    "Confirm which roll-on to feature (Relief or Sports) and the use guidance against the label",
+    "Confirm the Tūpākihi toxicity line and lab wording before the Wednesday Reel",
+    "UTM-tagged {LINK} for the email button and every product link",
+    "Instagram and Facebook links in the email footer (handles not given on the form)",
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+   ]
+  },
+  {
+   "id": "w11-email",
+   "week": 11,
+   "date": "2027-02-04",
+   "day": "Thu",
+   "type": "campaign",
+   "subject": "Free NZ shipping this long weekend",
+   "preheader": "First aid for the first 48 hours of a long weekend, and free shipping across Aotearoa.",
+   "title": "Waitangi weekend free shipping",
+   "about": "Week 11 campaign, sent the Thursday before Waitangi weekend: long-weekend first aid first, the completed eleven-herb set, then free NZ shipping.",
+   "hero": {
+    "headline": "Ready for the long weekend",
+    "subline": "First aid for the first 48 hours, and free NZ shipping",
+    "photo": "ankle"
+   },
+   "sections": [
+    {
+     "h": "The first 48 hours",
+     "b": "Long weekends bring long drives, new tracks and backyard games. Rolled ankle: rest it, ice wrapped in a cloth for 15 to 20 minutes, a firm bandage, and keep it raised. Bumps and bruises: cold first, then a gentle massage once the swelling settles. Stiff after the drive: stop every two hours to walk and stretch. If you can't put weight on it, see a doctor or call Healthline on 0800 611 116."
+    },
+    {
+     "h": "All eleven herbs",
+     "b": "This week we finished our summer series on the eleven native herbs behind X-ZONE, each one traditionally used in rongoā rākau, Māori plant medicine. That knowledge belongs to Māori, and our job is to credit it properly. The full eleven-herb guide is on our blog."
+    },
+    {
+     "h": "Free shipping this weekend",
+     "b": "Keep a Relief Rub in the bach or the car, and a roll-on in the beach bag. From {START_DATE} to {END_DATE}, shipping is free anywhere in New Zealand. {SHIPPING_TERMS}\n\nNgā mihi, Jess and Dan"
+    }
+   ],
+   "review": {
+    "quote": "The physiotherapist introduced me to the product.",
+    "name": "Jeanette, Auckland"
+   },
+   "cta": {
+    "label": "Shop with free shipping",
+    "link": "{LINK}"
+   },
+   "ps": "Couriers do not deliver on Monday 8 February, the Waitangi Day holiday, so orders arrive from Tuesday.",
+   "flags": [
+    "Free NZ shipping terms: start and end dates ({START_DATE}, {END_DATE}), minimum spend and any code ({SHIPPING_TERMS})",
+    "Waitangi Day falls on Saturday 6 Feb 2027 and is Mondayised to Monday 8 Feb; confirm the courier delivery line in the PS",
+    "Keep the Waitangi tone low-key: the offer is framed as a long-weekend offer, not a Waitangi Day sale. Rongoā wording to be reviewed by someone with the right knowledge",
+    "Blog link for the eleven-herb guide",
+    "UTM-tagged {LINK} for the email button and every product link",
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+   ]
+  },
+  {
+   "id": "w12-email",
+   "week": 12,
+   "date": "2027-02-11",
+   "day": "Thu",
+   "type": "newsletter",
+   "subject": "Saturday sport is back",
+   "preheader": "What to pack in the sideline bag, and when a knock means sit them out.",
+   "title": "The sideline kit for parents",
+   "about": "Week 12 newsletter for parents: the sideline kit from the unscheduled w12-wed post, the trials warm-up from Wednesday's Reel, and Steve Wilbury's quote from the unscheduled w12-thu post.",
+   "hero": {
+    "headline": "Pack the sideline bag once",
+    "subline": "What to bring, and when to sit them out",
+    "photo": "ankle"
+   },
+   "sections": [
+    {
+     "h": "The sideline bag",
+     "b": "School's back, so Saturday sport is back, and so are the knocks. Pack it once and leave it in the car: water, snacks, an ice pack, a bandage, plasters and sunscreen. Knocks and bruises: cold for 15 minutes, then a gentle massage once the swelling settles. Rolled ankles: off the field, rest, ice, a firm bandage, and no more play until it is pain-free."
+    },
+    {
+     "h": "Head knocks are different",
+     "b": "If your child has a knock to the head and seems dazed, sick, sleepy or not themselves, take them off and see a doctor. When in doubt, sit them out. And before trials, a 20-second warm-up helps: high knees, side shuffles, calf raises, then small hops landing soft with knees over toes."
+    },
+    {
+     "h": "This week on Instagram and Facebook",
+     "b": "Monday: all eleven herbs in one post, grouped by range, to save. Wednesday: the trials warm-up, a routine kids can do on their own in the car park. Friday: the sideline kit again, with our Relief bundle for families."
+    },
+    {
+     "h": "For the family",
+     "b": "Our Relief range is the family one: mid strength, made with native NZ herbs, and suitable for children over five. Trial pots start from $3 if you want to try it first.\n\nNgā mihi, Jess and Dan"
+    }
+   ],
+   "review": {
+    "quote": "Really helps me move when sometimes I can't.",
+    "name": "Steve Wilbury, magician"
+   },
+   "cta": {
+    "label": "See the Relief bundle",
+    "link": "{LINK}"
+   },
+   "ps": "Good luck to everyone trialling this week.",
+   "flags": [
+    "Confirm label age guidance (Relief from five) against the current labels",
+    "Relief bundle contents and price ({BUNDLE CONTENTS}, {PRICE}) before the button goes to it",
+    "Confirm Steve Wilbury's permission to feature his name and quote",
+    "Head-knock guidance to be checked before sending",
+    "UTM-tagged {LINK} for the email button and every product link",
+    "Instagram and Facebook links in the email footer (handles not given on the form)",
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+   ]
+  },
+  {
+   "id": "w13-email",
+   "week": 13,
+   "date": "2027-02-18",
+   "day": "Thu",
+   "type": "newsletter",
+   "subject": "Thank you, and what should we cover next?",
+   "preheader": "Thirteen weeks of lessons, your most-asked questions, and a two-minute survey for autumn.",
+   "title": "Summer thank-you and survey",
+   "about": "Week 13 newsletter: a summer thank-you from Jess and Dan, the most-asked questions from Friday's post, and the 'what should we cover next' survey from the unscheduled w13-thu post.",
+   "hero": {
+    "headline": "Thank you for a summer of learning",
+    "subline": "Now help us choose what we cover this autumn",
+    "photo": "founders"
+   },
+   "sections": [
+    {
+     "h": "Thank you",
+     "b": "Thirteen weeks ago we set out to teach, not just sell. You saved the first-aid posts, learned eleven native herbs with us and sent us your questions. Every one of those shapes what we make next. Ngā mihi nui."
+    },
+    {
+     "h": "What you asked most",
+     "b": "Which one is right for me? Relief for everyday aches and the family, Joints for stiffness and mobility, Sports for warm-up and recovery. How much should I use? 1 to 5 ml, massaged in, up to five times a day, best after a shower. Patch test first. Heat or ice? Ice for a fresh injury in the first 48 hours, gentle warmth for stiff muscles and joints."
+    },
+    {
+     "h": "What should we cover next?",
+     "b": "Choose this autumn's topics: arthritis and stiff joints through winter, getting back into sport after 50, more herb stories from the bush, or something else entirely. It takes two minutes, and Jess and Dan read every answer. This week on Instagram and Facebook: your twelve most-saved posts, our top Reel of the summer, and the questions you asked most."
+    },
+    {
+     "h": "See you in autumn",
+     "b": "Cooler mornings are coming, and stiff joints notice them first. Our Relief, Joints and Sports ranges are online and in 200+ stores around Aotearoa when you need them.\n\nNgā mihi, Jess and Dan"
+    }
+   ],
+   "review": {
+    "quote": "Excellent for my arthritis.",
+    "name": "Mavis, Huntly"
+   },
+   "cta": {
+    "label": "Take the two-minute survey",
+    "link": "{SURVEY_LINK}"
+   },
+   "ps": "Got a question we haven't answered? Reply to this email and it may make the autumn plan.",
+   "flags": [
+    "Survey link ({SURVEY_LINK}): Shopify Messaging has no built-in poll, so set up a short form (or link the Facebook poll post)",
+    "Confirm the three survey topics with Jess and Dan; they are suggestions aimed at the 40 to 85 core customer",
+    "Confirm use and age guidance (1 to 5 ml, up to five times a day, patch test) against the current labels",
+    "Mavis's quote names a condition: quote only, no claim that the rub treats arthritis",
+    "Instagram and Facebook links in the email footer (handles not given on the form)",
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+   ]
+  }
+ ]
+}

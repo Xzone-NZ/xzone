@@ -33,8 +33,8 @@ Left blank on the website form. Tick off as more info comes in.
 
 ## From form part 3 (11 Nov)
 - [ ] Social handles: form lists the platforms but not the handles. Confirm @xzonenz
-- [ ] "Dan" or "Danny"? Contact line says Dan, their story says Danny. Pages use Dan
+- [x] Name: use "Dan" everywhere (Jessica, 11 Nov)
 - [ ] 'Since 2003': is this the original horse-trainer product? Affects weeks 6 and 11 copy
-- [ ] Lab wording: client happy with "proven" and the indomethacin comparison. Agree how far to go under NZ therapeutic advertising rules
+- [x] Lab wording: always "in independent lab tests"; no "proven", no drug comparison as a claim (Jessica, 11 Nov)
 - [ ] New labels ("Sports Rub" etc.) rolling out; only new Sports Rub photos so far. Stock images coming
 - [ ] Calendar cadence: plan is 6 feed posts a week, client wants 3 (see README)
