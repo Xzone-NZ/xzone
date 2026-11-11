@@ -3,18 +3,18 @@
 Left blank on the website form. Tick off as more info comes in.
 
 ## Visual
-- [ ] Resolve form vs guidelines conflicts (green, navy Joints range, accents, tagline, fonts). See README
+- [x] Form vs guidelines conflicts: form wins (see 06-brand-spec.md)
 - [ ] Background and text colours
 - [x] Logo files (in Drive, see 02-brand-assets.md). Still need: logo rules, white/green tagline lock-ups
 - [ ] Re-upload 2 broken photos (IMG_8848, IMG_9452 are 0 bytes)
 - [ ] Product packshots and lifestyle photos
 - [ ] Brand photos, stock preferences, "look you love" references
-- [ ] Confirm Poppins + Open Sans (guidelines) replace the four Canva fonts
+- [x] Fonts: Galano Grotesque, Poppins as the Canva/web match
 
 ## Voice
-- [ ] Voice words, I or we, humour level (guidelines v1 cover a lot of this: check the client agrees)
+- [ ] Voice words, I or we, humour level (guidelines v1 apply until the form answers)
 - [ ] Spelling (assume NZ English)
-- [ ] Emoji: guidelines say none in body copy. Confirm with client
+- [ ] Emoji: guidelines say none in body copy, until the form answers
 - [ ] Emoji use, tone per channel, who is on camera
 - [ ] Guidance on te reo Māori / rongoā rākau references (macrons, cultural review)
 

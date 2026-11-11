@@ -2,6 +2,8 @@
 
 Source: `source/xzone-brand-guidelines-v1.pdf` (2 pages).
 
+> **Superseded where the form says otherwise.** Brand line, colours and fonts below are overridden by the client's form. See `06-brand-spec.md`.
+
 ## Brand line
 **Backed by science. Powered by plants.** Always these words, this order, full stops included. Supporting proof point beneath it: "11 NZ healing herbs".
 Positioning: Natural pain relief, made in Aotearoa.

@@ -13,7 +13,11 @@ Three versions (joint, Jess, Dan). Table-based HTML, Arial, tap-to-call numbers,
 
 ## Fix before sending
 
-1. **Colours and tagline follow guidelines v1.** Bush #1E4D27, Sun #FBCD0A rule, Arial fallback and "Backed by science. Powered by plants." are all as the guidelines specify. The open question is the clash with the client's form (#16B800 green, "Move Freely. Live Naturally."). See README conflicts. No change until that is agreed.
+1. **Update to the form's brand (form overrides guidelines).**
+   - Divider rule: #16B800 in place of yellow #FBCD0A
+   - Name: black #000000 in place of #1E4D27 (#16B800 is too light for small text)
+   - Website link: #16B800 bold or black
+   - Brand line: **"Move Freely. Live Naturally."** in place of "Backed by science. Powered by plants." Keep "11 NZ healing herbs" if wanted.
 2. **Logo URL.** It loads `https://xzone.nz/cdn/shop/files/X-Zone_Logo_Landscape_Green.png`, the same file the guidelines name as hosted on xzone.nz. It couldn't be reached from this session, so open the link once in a browser to confirm it loads.
 3. **Facebook dropped, but it's their biggest channel.** The note says "Instagram is the channel that matters". Facebook has 2.5k followers to Instagram's 656, and the older Joints audience lives there. Keep both: `Facebook · Instagram`.
 4. **Unconfirmed details.**
