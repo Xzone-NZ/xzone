@@ -23,5 +23,6 @@ Form overrides were applied to these pages:
 - Brand guidelines v1.1: https://claude.ai/artifact/2PmSvpcLQ2HuV8TafG3ac3
 - Email signature: https://claude.ai/artifact/MmXp2cYwedpcEExEPPweyT
 - Summer social plan: https://claude.ai/artifact/HcSkHfjZAGz8UBYpkFjTsj
+- Instagram concepts: https://claude.ai/artifact/FZKXmwYVD5y2afJcVzKvAT (type, emoji, competitor wording, lab claim, "Dan" not "Danny")
 
 Re-apply as more form parts arrive.
