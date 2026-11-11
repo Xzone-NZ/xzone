@@ -14,6 +14,9 @@ if os.path.exists(os.path.join(H, 'extra.json')):
     extra = json.load(open(os.path.join(H, 'extra.json')))
 for p in extra.get('posts', []):
     posts[p['id']] = p          # new pieces and replacements win
+story_over = {x['id']: x for x in extra.get('stories', [])}
+for w in weeks:
+    w['stories'] = [story_over.get(x['id'], x) for x in w['stories']]
 emails = {}
 for e in extra.get('emails', []):
     emails.setdefault(int(e['week']), []).append(e)

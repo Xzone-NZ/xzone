@@ -67,6 +67,9 @@ These are the guidelines' rules. Each one is replaced if a later part of the for
 - Public reviews (Judge.me product pages, Google Reviews) and customer emails can be quoted, full names where the customer used them publicly.
 - Lab (Trinity Bioactives, 2024, in vitro): Relief 42.7%, Joints 48.1%, Sports 54.1% reduction in macrophage concentration; control indomethacin 30%. Client wording includes "proven to decrease pain-associated cells" and "almost twice as effective as" indomethacin. **Decision (11 Nov): always say "in independent lab tests". Do not use "proven" or present the indomethacin comparison as a product claim.**
 
+## Offers (decided 11 Nov)
+Only use offers the client suggested: the old-price hold for a month after the mid-November price rise, and a pre-Christmas sale in mid-December (offer to be set by Jess and Dan). No other sales, bundles, kits, subscriptions, free shipping or codes unless they suggest them.
+
 ## Names
 Always "Jess and Dan" (not Danny), decided 11 Nov.
 
