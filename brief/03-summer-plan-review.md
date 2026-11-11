@@ -3,7 +3,9 @@
 Draft: https://claude.ai/artifact/HcSkHfjZAGz8UBYpkFjTsj
 13 weeks, 23 Nov 2026 to 21 Feb 2027. IG + FB, 6 feed pieces a week, 80/20 educate/promo.
 
-Checked against the client brief (`01-website-form.md`) and assets (`02-brand-assets.md`).
+Checked against the client brief (`01-website-form.md`), assets (`02-brand-assets.md`) and guidelines v1 (`05-brand-guidelines.md`). The plan's 80/20 rule, story formats and grid system match the guidelines.
+
+> Draft notes. The form is arriving in parts, so revisit once it is complete.
 
 ## What works
 - Herb of the week across 11 weeks is a strong, ownable spine. No competitor can copy it.
@@ -21,7 +23,7 @@ Checked against the client brief (`01-website-form.md`) and assets (`02-brand-as
    - Kids' age guidance ("Relief from five, Joints and Sports from seven, not in pregnancy"). Use exact label wording only.
    - The "is your pain really dehydration" and "seven medicines" posts must stay general information with "see your GP".
 5. **Facts that don't match the brief.** The plan says 186 stockists, the brief says 200+. The 2026 numbers (carbon offset, sugarcane packaging, countries) aren't in the brief. Check the 11-herb list and which range each herb is in against the ingredient labels.
-6. **Off-brand palette.** The page uses dark green #1E4D27 and yellow #FBCD0A. The brand colours are #16B800 green, black, navy #00176D and the range accents (#E3FF2F, #FFA726, #FF1D00). The page and the "green-ground posts" should use the real palette.
+6. **Palette.** The page follows the Reclaim Co guidelines v1 (Bush #1E4D27, Sun #FBCD0A), so it is on-guideline. But the client's form gives #16B800 green, black and a navy Joints range, which clash with the guidelines (see README conflicts). Hold until that is resolved.
 
 ## Check with the client
 - **Capacity.** 78 feed pieces, 26 Reels and daily stories, many with Jess and Dan on camera. The on-camera and asset-quantity questions on the form were left blank. Confirm before committing to 2 Reels a week.
