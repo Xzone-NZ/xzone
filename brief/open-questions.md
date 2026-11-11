@@ -37,4 +37,5 @@ Left blank on the website form. Tick off as more info comes in.
 - [ ] 'Since 2003': is this the original horse-trainer product? Affects weeks 6 and 11 copy
 - [x] Lab wording: always "in independent lab tests"; no "proven", no drug comparison as a claim (Jessica, 11 Nov)
 - [ ] New labels ("Sports Rub" etc.) rolling out; only new Sports Rub photos so far. Stock images coming
-- [ ] Calendar cadence: plan is 6 feed posts a week, client wants 3 (see README)
+- [x] Calendar cadence: now 3 posts a week + 1 email a week (Jessica, 11 Nov)
+- [ ] Pre-Christmas sale suggested as a one-day Buy 2 Get 1 Free on Fri 18 Dec, 8 days before the Boxing Day offer. Confirm both

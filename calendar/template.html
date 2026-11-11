@@ -51,18 +51,18 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .tg.fb{background:#1b3f8f;color:#fff}
 .tg.em{background:#5c6b60;color:#fff}
 .slot.email{background:var(--card)}
-.pv.em{aspect-ratio:4/5;background:#f6f7f4;color:#171717;display:flex;flex-direction:column}
-.pv.em .eh{background:var(--deep);height:9cqw;display:flex;align-items:center;justify-content:center;flex:none}
-.pv.em .eh img{height:5cqw;filter:brightness(0) invert(1)}
-.pv.em .ehero{position:relative;height:38cqw;flex:none;background-size:cover;background-position:center}
-.pv.em .ehero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,54,25,.1),rgba(17,54,25,.8))}
-.pv.em .ehero b{position:absolute;left:5cqw;right:5cqw;bottom:4cqw;z-index:1;color:#fff;font-size:6.4cqw;line-height:1.05;font-weight:800}
-.pv.em .ehero b i{display:block;font-style:normal;color:var(--sun);font-size:3.6cqw;font-weight:600;margin-top:1.2cqw}
-.pv.em .ebody{padding:4cqw 5cqw;display:grid;gap:2.4cqw;align-content:start;flex:1;overflow:hidden}
-.pv.em .ebody h5{margin:0;font-size:4.2cqw;line-height:1.15;font-weight:700;color:var(--deep)}
-.pv.em .ebody p{margin:0;font-size:3.1cqw;line-height:1.4;color:#3b463e}
-.pv.em .ebtn{justify-self:start;background:var(--deep);color:#fff;font-size:3.2cqw;font-weight:700;padding:2cqw 4cqw;border-radius:6cqw}
-.pv.em .etag{position:absolute;top:11cqw;right:3cqw;z-index:2;background:var(--sun);color:#171717;font-size:2.8cqw;font-weight:700;padding:.8cqw 2cqw;border-radius:2cqw;text-transform:uppercase;letter-spacing:.06em}
+.pv.em{container-type:normal;aspect-ratio:auto;background:#f6f7f4;color:#171717;display:block;font-size:11px}
+.pv.em .eh{background:var(--deep);height:26px;display:flex;align-items:center;justify-content:center}
+.pv.em .eh img{height:14px;width:auto;filter:brightness(0) invert(1)}
+.pv.em .ehero{position:relative;aspect-ratio:16/9;background-size:cover;background-position:center}
+.pv.em .ehero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,54,25,.1),rgba(17,54,25,.82))}
+.pv.em .ehero b{position:absolute;left:10px;right:10px;bottom:8px;z-index:1;color:#fff;font-size:1.35em;line-height:1.1;font-weight:800}
+.pv.em .ehero b i{display:block;font-style:normal;color:var(--sun);font-size:.72em;font-weight:600;margin-top:3px}
+.pv.em .ebody{padding:10px}
+.pv.em .ebody h5{margin:0 0 4px;font-size:1.05em;line-height:1.2;font-weight:700;color:var(--deep)}
+.pv.em .ebody p{margin:0 0 8px;font-size:.92em;line-height:1.4;color:#3b463e}
+.pv.em .ebtn{display:inline-block;background:var(--deep);color:#fff;font-size:.9em;font-weight:700;padding:5px 10px;border-radius:999px}
+.pv.em .etag{position:absolute;top:32px;right:8px;z-index:2;background:var(--sun);color:#171717;font-size:.8em;font-weight:700;padding:2px 6px;border-radius:4px;text-transform:uppercase;letter-spacing:.06em}
 .esec{display:grid;gap:4px;border-top:1px solid var(--line);padding-top:10px}.esec b{font-size:14px}
 
 .rest{border:1px dashed var(--line);border-radius:12px;padding:12px;font-size:12px;color:var(--muted)}
@@ -198,7 +198,7 @@ const fmtDate=iso=>{const d=new Date(iso+'T12:00:00');return d.getDate()+' '+MON
 const addDays=(iso,n)=>{const d=new Date(iso+'T12:00:00');d.setDate(d.getDate()+n);return d.toISOString().slice(0,10)};
 const all=[];D.weeks.forEach(w=>w.posts.forEach(p=>{p._w=w.week;all.push(p)}));
 const mails=[];D.weeks.forEach(w=>(w.emails||[]).forEach(e=>{e._w=w.week;mails.push(e)}));
-function emailPv(e){const s=(e.sections||[])[0]||{};return `<div class="pv em"><div class="eh"><img src="${IMG.logo}" alt=""></div><span class="etag">${e.type==='campaign'?'Campaign':'Newsletter'}</span><div class="ehero" style="background-image:url(${photo(e.hero&&e.hero.photo)})"><b>${esc(e.hero&&e.hero.headline)}<i>${esc(e.hero&&e.hero.subline)}</i></b></div><div class="ebody"><h5>${esc(s.h)}</h5><p>${esc((s.b||'').slice(0,140))}${(s.b||'').length>140?'…':''}</p><span class="ebtn">${esc(e.cta&&e.cta.label)}</span></div></div>`}
+function emailPv(e){const s=(e.sections||[])[0]||{};return `<div class="pv em"><div class="eh"><img src="${IMG.logo}" alt=""></div><span class="etag">${e.type==='campaign'?'Campaign':'Newsletter'}</span><div class="ehero" style="background-image:url(${photo(e.hero&&e.hero.photo)})"><b>${esc(e.hero&&e.hero.headline)}<i>${esc(e.hero&&e.hero.subline)}</i></b></div><div class="ebody"><h5>${esc(s.h)}</h5><p>${esc((s.b||'').slice(0,110))}${(s.b||'').length>110?'…':''}</p><span class="ebtn">${esc(e.cta&&e.cta.label)}</span></div></div>`}
 const stories=[];D.weeks.forEach(w=>w.stories.forEach(s=>{s._w=w.week;stories.push(s)}));
 
 function photo(k){return IMG[k]||IMG.bush}
@@ -247,9 +247,9 @@ function render(){
     DAYS.forEach((d,i)=>{
       const date=addDays(monday,i);
       const ps=w.posts.filter(p=>p.date===date);
+      const es=(w.emails||[]).filter(e=>e.date===date);
       html+=`<div class="day"><div class="dlab"><span>${d}</span><span>${fmtDate(date)}</span></div>`;
       if(!ps.length&&!es.length) html+=`<div class="rest">${i===6?'Rest day. Reply to comments and DMs only.':'No post. Reply to comments and messages.'}</div>`;
-      const es=(w.emails||[]).filter(e=>e.date===date);
       es.forEach(e=>{const show=FILTER==='all'||FILTER==='emails'||(FILTER==='promo'&&e.type==='campaign')||(FILTER==='flags'&&(e.flags||[]).length);html+=`<button class="slot email ${e.type==='campaign'?'promo':''}" data-eid="${esc(e.id)}" ${show?'':'hidden'} aria-label="Email: ${esc(e.title)}">${emailPv(e)}<div class="info"><div class="tags"><span class="tg em">Email · ${e.type==='campaign'?'Campaign':'Newsletter'}</span>${e.type==='campaign'?'<span class="tg pr">Promo</span>':''}</div><div class="t">${esc(e.title)}</div><div class="a">${esc(e.subject)}</div></div></button>`});
       ps.forEach(p=>{const show=match(p);html+=`<button class="slot ${p.kind==='Promo'?'promo':''}" data-id="${esc(p.id)}" ${show?'':'hidden'} aria-label="${esc(p.title)}">${preview(p)}<div class="info">${tags(p)}<div class="t">${esc(p.title)}</div><div class="a">${esc(p.about)}</div></div></button>`});
       html+=`</div>`;
