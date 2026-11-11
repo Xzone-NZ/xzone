@@ -1,6 +1,6 @@
 # X-ZONE Brand Intake: Website Form
 
-Source: Reclaim Co. website form (Netlify). Part 1 received 11 Nov 2026 12:42, part 2 (voice) 13:36. Cleaned up and organised; client wording kept where it matters.
+Source: Reclaim Co. website form (Netlify). Part 1 received 11 Nov 2026 12:42, part 2 (voice) 13:36, part 3 (everything else) 14:47. Form now complete. Cleaned up and organised; client wording kept where it matters.
 
 ## Business
 
@@ -158,4 +158,55 @@ Galano Grotesque is paid and not licensed in Canva. No set type rules.
 | Spelling | NZ English |
 | Emoji | Against emoji ("overused AI devices"). Hashtags fine on all channels |
 
-Still blank: channel tone, on camera, testimonials, named clients, awards, story, handles, channel order, cadence, email platform, blog, approver, scheduler, all asset wants.
+
+## Look (form part 3)
+- Like: **Antipodes**, **Harkers Herbals**
+- Don't like: Voltaren
+
+## Channels, proof and story (form part 3, received 11 Nov 14:47)
+
+| | |
+|---|---|
+| Channel tone | Channel-specific tone is fine |
+| On camera | Yes, happy to appear on camera and do voiceovers |
+| Testimonials | All customer-published reviews can be quoted directly or indirectly: Judge.me reviews on the 7 product pages (e.g. https://xzone.nz/products/x-zone-joints-rub), Google Reviews, and customer emails |
+| Named clients | Full name OK where the customer used it publicly |
+| Handles | Facebook, Instagram, YouTube, LinkedIn (handles not given). No TikTok |
+| Channel order | Facebook and Instagram first. YouTube for the corporate video. LinkedIn barely used |
+| Cadence | **3 posts a week on Facebook and Instagram.** Low engagement, so replying is easy |
+| Email | Shopify Messaging, 2,991 subscribers |
+| Blog | Monthly, plus Grandranker recently started writing blogs. They can manage blogs |
+| Approver | Jess and Dan, "very quick" |
+| Scheduler | Meta Business Suite only |
+
+### Lab results (their wording, "Awards")
+Independent in-vitro lab tests by Trinity Bioactives (2024):
+1. Relief Rub: reduced macrophage concentration by 42.7%. "Therefore, proven to decrease pain-associated cells."
+2. Joints Rub: reduced macrophage concentration by 48.1%. "Helping to reduce joint pain by targeting and decreasing inflammatory cells."
+3. Sports Rub: most effective, reduced macrophage concentration by 54.1%. "Almost twice as effective as the Control, Indomethacin, which is 30% reduction."
+
+### Story (their words, summarised)
+- Friends since they met at primary school in West Auckland, aged 6. Grew up with the Waitākere Ranges on their doorstep.
+- Corporate backgrounds: Jess in commercial real estate, Danny in advertising. Wanted something more meaningful.
+- Bought the business from a horse trainer who made the original product for race horses' tight, sore muscles. Friends and family kept asking for "that horse stuff", so she made a human version under the brand **Comfort Zone**, the precursor to X-ZONE.
+- After buying it: market research with **Retail X**, did a **rongoā course**, and reformulated. The original had only harakeke and kūmarahou. They added the 11 NZ natives plus extra herbals to create the three ranges.
+
+### Assets wanted (per month)
+| Asset | Want | Per month |
+|---|---|---|
+| Instagram Reels | Top priority (1) | 4 |
+| Instagram single-image posts | Top priority (1) | 4 |
+| Instagram carousels | Top priority (1) | 4 |
+| Facebook posts | Top priority (1) | 12 |
+| EDM newsletter template | Priority 2 | 3 newsletters |
+| EDM campaign emails | Priority 2 | 1 |
+| Testimonial / case study graphics | Priority 3, "we would love this" | |
+| Stories and highlight covers | Yes, not a priority | |
+| LinkedIn | Yes, not a priority | |
+| Profile images and banners | Yes, not a priority | |
+| TikTok | Maybe, not a priority | |
+| Blog | Yes, "we can manage" | |
+
+### Anything else
+- Stock images still to upload (coming now).
+- Labels being updated one product at a time ("Sports" becomes "Sports Rub" plus minor tweaks). Only the new Sports Rub has product photos so far; it is going in the Drive folder.

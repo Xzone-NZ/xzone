@@ -617,17 +617,17 @@
       },
       {
        "t": "0:04-0:12",
-       "shot": "Jess to camera, telling the moment it began in her own words",
+       "shot": "Jess to camera: friends since primary school in West Auckland, buying the business from a horse trainer",
        "text": ""
       },
       {
        "t": "0:12-0:18",
        "shot": "Cutaway: hands at the workbench, filling a jar",
-       "text": "Making in Aotearoa since {YEAR}"
+       "text": "From \"that horse stuff\" to eleven native herbs"
       },
       {
        "t": "0:18-0:25",
-       "shot": "Jess to camera, on what customers tell them",
+       "shot": "Jess to camera: the rongoā course and reformulating from two native herbs to eleven",
        "text": ""
       },
       {
@@ -638,14 +638,13 @@
      ],
      "duration": "30s",
      "poll": [],
-     "caption": "We get asked this a lot, so Jess answers it herself.\n\nX-ZONE started with {STORY_LINE}. Since then we have been making our rubs, sprays and roll-ons here in Aotearoa, built on native herbs traditionally used in rongoā rākau.\n\nWhat keeps us going is what customers tell us: that it helps them keep doing the things they love, from gardening to touch to the long walk with the dog.\n\nThat is the whole idea. Move freely, live naturally.\n\nGot a question for Jess or Dan? Ask it in the comments and we may answer it on camera.\n\nNgā mihi, Jess and Dan",
+     "caption": "We get asked this a lot, so Jess answers it herself.\n\nWe have been friends since we met at primary school in West Auckland, aged six, with the Waitākere Ranges on our doorstep. After years in corporate jobs, Jess in commercial real estate and Dan in advertising, we wanted to do something more meaningful.\n\nSo we bought a small business from a horse trainer. She had made a rub for her race horses' tight, sore muscles, and when friends and family kept asking for \"that horse stuff\", she made one for people. We did a rongoā course, did our research, and reformulated it. The original had two native herbs, harakeke and kūmarahou. Today there are eleven, across three ranges.\n\nThat is still the whole idea. Move freely, live naturally.\n\nGot a question for Jess or Dan? Ask it in the comments and we may answer it on camera.\n\nNgā mihi, Jess and Dan",
      "hashtags": "#XZoneNZ #Aotearoa #MadeInNZ #NativeHerbs #SmallBusinessNZ",
      "cta": "Comment below",
      "shoot": "Jess filmed to camera in the workshop on a phone, natural light, unscripted, one take with cutaways of the bench.",
      "flags": [
-      "Jess to give the founding story in her own words; fill {STORY_LINE} from what she says",
-      "Confirm the year they started making for {YEAR} (plan FAQ says since 2003)",
-      "Confirm Jess is comfortable on camera and the workshop can be filmed"
+      "Jess tells it in her own words on camera; caption follows the story from the brief form",
+      "Confirm Jess is comfortable on camera and the workshop can be filmed (form says both are happy on camera and doing voiceovers)"
      ]
     }
    ],
@@ -895,7 +894,6 @@
       "Last order dates for urban, rural and overseas ({DATE_URBAN}, {DATE_RURAL}, {DATE_INTL}) from the courier",
       "Dispatch time for {DISPATCH_TIME}",
       "Old-price end date for {DATE}",
-      "Permission to quote Eileen (UK) by first name",
       "Order link {LINK} with UTM"
      ]
     },
@@ -1269,7 +1267,6 @@
      "flags": [
       "Pre-Christmas sale offer details for {OFFER} (best previous result was a one-day Buy 2 Get 1 Free with 3 emails beforehand; confirm offer, dates and email build-up)",
       "Confirm a Relief bundle exists, what is in it and its price",
-      "Permission to quote Pearl (Auckland) by first name",
       "Bundle link with UTM"
      ]
     },

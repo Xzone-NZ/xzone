@@ -55,9 +55,7 @@
      "hashtags": "#XZoneNZ #Aotearoa #NZTradies #BackCare #NaturalPainRelief",
      "cta": "Save this",
      "shoot": "A tradie on a real Auckland site lifting a timber stack close to the body, natural morning light, faces optional.",
-     "flags": [
-      "Confirm permission to use Ben M's testimonial and first name/initial on a slide."
-     ]
+     "flags": []
     },
     {
      "id": "w9-tue",
@@ -216,7 +214,6 @@
      "flags": [
       "Confirm tradie pack contents and price.",
       "Confirm the site-crew discount, code and end date ({OFFER}).",
-      "Confirm permission to use Ben M's testimonial.",
       "UTM-tagged link for the stories link sticker."
      ]
     },
@@ -482,9 +479,7 @@
      "hashtags": "#XZoneNZ #Aotearoa #SleepIsRecovery #Recovery #NaturalPainRelief",
      "cta": "Save this",
      "shoot": "A bedside table at dusk with a lamp, a book and a jar, hands massaging a shoulder, warm low light.",
-     "flags": [
-      "Confirm permission to use Tracey's testimonial; quote only, no condition named."
-     ]
+     "flags": []
     },
     {
      "id": "w10-thu",
@@ -809,7 +804,7 @@
        "b": "The full article, and our new rongoā and eleven-herb guide, are on the blog. Link in bio."
       }
      ],
-     "caption": "Every herb in our range was known and used here long before we came along.\n\nOur eleven native herbs are traditionally used in rongoā rākau, Māori plant medicine. That knowledge belongs to Māori. Our job is to credit it properly, use the plants with care, and keep learning.\n\nIt also takes people to get a plant from the bush into a jar. Phytomed Medicinal Herbs extract the herbal tinctures and oils we use, and 95% of what goes into X-ZONE is sourced in New Zealand.\n\nWe've been making it since 2003: vegan, never tested on animals, carbon positive, in sugarcane packaging.\n\nThe full story, and our new eleven-herb guide, are on the blog. Link in bio.",
+     "caption": "Every herb in our range was known and used here long before we came along.\n\nOur eleven native herbs are traditionally used in rongoā rākau, Māori plant medicine. That knowledge belongs to Māori. Our job is to credit it properly, use the plants with care, and keep learning.\n\nIt also takes people to get a plant from the bush into a jar. Phytomed Medicinal Herbs extract the herbal tinctures and oils we use, and 95% of what goes into X-ZONE is sourced in New Zealand.\n\nIt has been made here since 2003: vegan, never tested on animals, carbon positive, in sugarcane packaging.\n\nThe full story, and our new eleven-herb guide, are on the blog. Link in bio.",
      "hashtags": "#XZoneNZ #Aotearoa #RongoāRākau #NativeHerbs #MadeInNZ",
      "cta": "Link in bio",
      "shoot": "Herb tinctures in amber bottles on a bench beside fresh native leaves, soft side light.",
@@ -817,7 +812,8 @@
       "Rongoā content to be reviewed by someone with the right knowledge before posting, with credit given properly.",
       "Confirm Phytomed's role and permission to name them; fill {PHYTOMED DETAIL FROM BLOG} from the article.",
       "Confirm grower details before naming any growers; the blog article is the source.",
-      "Confirm 95% NZ sourced, vegan, carbon positive, sugarcane packaging, making since 2003 are current."
+      "Confirm 95% NZ sourced, vegan, carbon positive, sugarcane packaging, making since 2003 are current.",
+      "'Since 2003' likely dates from the original product before Jess and Dan bought the business. Confirm the year and wording"
      ]
     },
     {

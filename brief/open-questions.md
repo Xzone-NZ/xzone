@@ -30,3 +30,11 @@ Left blank on the website form. Tick off as more info comes in.
 
 ## Deliverables wanted
 - [ ] Yes/no and monthly quantity for each: Reels, feed posts, carousels, stories/highlights, LinkedIn, Facebook, TikTok, blog, newsletter template, campaign emails, testimonial graphics, profile images/banners
+
+## From form part 3 (11 Nov)
+- [ ] Social handles: form lists the platforms but not the handles. Confirm @xzonenz
+- [ ] "Dan" or "Danny"? Contact line says Dan, their story says Danny. Pages use Dan
+- [ ] 'Since 2003': is this the original horse-trainer product? Affects weeks 6 and 11 copy
+- [ ] Lab wording: client happy with "proven" and the indomethacin comparison. Agree how far to go under NZ therapeutic advertising rules
+- [ ] New labels ("Sports Rub" etc.) rolling out; only new Sports Rub photos so far. Stock images coming
+- [ ] Calendar cadence: plan is 6 feed posts a week, client wants 3 (see README)

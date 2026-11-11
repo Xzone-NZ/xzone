@@ -55,6 +55,21 @@ These are the guidelines' rules. Each one is replaced if a later part of the for
 - **No emoji anywhere** (stricter than guidelines). Hashtags fine on all channels (keep the guidelines' five-max habit on Instagram).
 - From guidelines: teach first, te reo greetings, name the herbs, "supports / helps / traditionally used", never "cures", no price-only posts, no exclamation marks in headlines.
 
+## Channels and cadence (form part 3)
+- Facebook and Instagram first. YouTube for corporate video. LinkedIn and TikTok not a priority.
+- **Cadence: 3 posts a week**, cross-posted to FB and IG.
+- Monthly asset mix: 4 Reels, 4 single-image posts, 4 carousels (IG), 12 Facebook posts, 3 email newsletters, 1 campaign email, testimonial graphics ("we would love this"). Stories and highlight covers: not a priority.
+- Channel-specific tone is fine. Jess and Dan happy on camera and doing voiceovers.
+- Scheduling in Meta Business Suite. Approvals: Jess and Dan, fast.
+- Visual references they like: Antipodes, Harkers Herbals. Dislike: Voltaren.
+
+## Proof (form part 3)
+- Public reviews (Judge.me product pages, Google Reviews) and customer emails can be quoted, full names where the customer used them publicly.
+- Lab (Trinity Bioactives, 2024, in vitro): Relief 42.7%, Joints 48.1%, Sports 54.1% reduction in macrophage concentration; control indomethacin 30%. Client wording includes "proven to decrease pain-associated cells" and "almost twice as effective as" indomethacin. Recommendation: always keep "in independent lab tests" in front of any of this.
+
+## Story (form part 3)
+Friends since primary school in West Auckland, aged six. Waitākere Ranges. Jess (commercial real estate) and Dan (advertising) left corporate jobs. Bought the business from a horse trainer whose race-horse rub became a human product, "Comfort Zone". Retail X research, a rongoā course, reformulated from two native herbs (harakeke, kūmarahou) to eleven across three ranges.
+
 ## Facts (form)
 - Stockists: 200+
 - 11 native herbs. 11 to 14 actives per SKU.

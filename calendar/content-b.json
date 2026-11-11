@@ -294,14 +294,15 @@
      "headline": "The year in eleven herbs",
      "subline": "Thank you, Aotearoa. Here is 2026 in numbers.",
      "pill": "2026",
-     "caption": "Thank you, Aotearoa. This is what 2026 looked like from our side of the jar.\n\n{JARS_2026} jars sent out.\n200+ stockists, from pharmacies to market stalls.\nCustomers in four countries: Aotearoa, Australia, the UK and the USA.\n{CARBON_OFFSET} of carbon offset, and still carbon positive.\nSugarcane packaging.\n\nBehind every number is the same thing: eleven native healing herbs traditionally used in rongoā Māori, and ingredients that are 95% NZ sourced. Vegan, never tested on animals, and made by us since 2003.\n\nMostly, though, it was you. The messages, the reviews, the photos from the track and the sideline. Ngā mihi nui.\n\nWhat should we teach more of in 2027? Tell us below.",
+     "caption": "Thank you, Aotearoa. This is what 2026 looked like from our side of the jar.\n\n{JARS_2026} jars sent out.\n200+ stockists, from pharmacies to market stalls.\nCustomers in four countries: Aotearoa, Australia, the UK and the USA.\n{CARBON_OFFSET} of carbon offset, and still carbon positive.\nSugarcane packaging.\n\nBehind every number is the same thing: eleven native healing herbs traditionally used in rongoā Māori, and ingredients that are 95% NZ sourced. Vegan, never tested on animals, and made in Aotearoa since 2003.\n\nMostly, though, it was you. The messages, the reviews, the photos from the track and the sideline. Ngā mihi nui.\n\nWhat should we teach more of in 2027? Tell us below.",
      "hashtags": "#Aotearoa #NativeHerbs #NZMade #CarbonPositive #XZoneNZ",
      "cta": "Comment below",
      "shoot": "Jess and Dan in the workshop with a stack of jars or the last boxes of the year, natural light.",
      "flags": [
       "Number of jars sold or sent in 2026 ({JARS_2026}).",
       "Carbon offset figure for 2026 ({CARBON_OFFSET}).",
-      "Confirm the four countries (NZ, Australia, UK, USA) and that sugarcane packaging, carbon positive, vegan, 95% NZ sourced and 'since 2003' are all current."
+      "Confirm the four countries (NZ, Australia, UK, USA) and that sugarcane packaging, carbon positive, vegan, 95% NZ sourced and 'since 2003' are all current.",
+      "'Since 2003' likely dates from the original horse-trainer product; Jess and Dan bought the business later. Confirm the year and wording"
      ]
     },
     {
@@ -476,8 +477,7 @@
      "shoot": "The kit contents laid out on a wooden bench beside a towel and walking shoes, natural light.",
      "flags": [
       "New Year Recovery Kit: contents ({KIT_CONTENTS}), price, offer ({OFFER}), end date ({DATE}) and UTM link.",
-      "The hook says the kit is 'the last slide' but the format is a single post: confirm post or carousel.",
-      "Permission to use Karlene J's testimonial by first name and town."
+      "The hook says the kit is 'the last slide' but the format is a single post: confirm post or carousel."
      ]
     },
     {
@@ -665,7 +665,6 @@
      "cta": "Save this",
      "shoot": "A cyclist or walker sitting on the stairs the day after a big ride, rubbing their thighs, natural light.",
      "flags": [
-      "Permission to use Joanna Sharpe's testimonial.",
       "Blog link for the week 7 article 'DOMS explained: why day two hurts more than day one'."
      ]
     },
@@ -821,8 +820,7 @@
      "cta": "Link in bio",
      "shoot": "A training bag on a club bench at dusk with boots, a water bottle and the Sports range.",
      "flags": [
-      "Pre-season kit: contents ({KIT_CONTENTS}), price, offer ({OFFER}) and UTM link.",
-      "Permission to use Matt A's testimonial."
+      "Pre-season kit: contents ({KIT_CONTENTS}), price, offer ({OFFER}) and UTM link."
      ]
     },
     {
@@ -995,7 +993,6 @@
      "cta": "Save this",
      "shoot": "A mug of golden milk beside the Joints Rub on a kitchen bench in morning light, with older hands around the mug.",
      "flags": [
-      "Permission to use Mavis (Huntly) and Pam (Balclutha) testimonials by first name and town.",
       "Check the turmeric safety line with a pharmacist or GP.",
       "Blog link for the Golden Turmeric article."
      ]
@@ -1150,8 +1147,7 @@
      "shoot": "A full jar next to an almost-empty one on a bedside table, morning light.",
      "flags": [
       "Confirm a subscription exists, plus its interval ({INTERVAL}), saving ({SAVING}), pause and cancel terms and UTM link.",
-      "Jar size ({JAR_SIZE}) and how many weeks it lasts at daily use ({WEEKS}).",
-      "Permission to use Marni MacDonald's testimonial."
+      "Jar size ({JAR_SIZE}) and how many weeks it lasts at daily use ({WEEKS})."
      ]
     },
     {
