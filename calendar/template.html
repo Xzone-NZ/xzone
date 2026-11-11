@@ -49,6 +49,22 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .tg{font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:2px 6px;border-radius:4px;background:var(--chip);color:var(--fg)}
 .tg.pr{background:var(--sun);color:#171717}
 .tg.fb{background:#1b3f8f;color:#fff}
+.tg.em{background:#5c6b60;color:#fff}
+.slot.email{background:var(--card)}
+.pv.em{aspect-ratio:4/5;background:#f6f7f4;color:#171717;display:flex;flex-direction:column}
+.pv.em .eh{background:var(--deep);height:9cqw;display:flex;align-items:center;justify-content:center;flex:none}
+.pv.em .eh img{height:5cqw;filter:brightness(0) invert(1)}
+.pv.em .ehero{position:relative;height:38cqw;flex:none;background-size:cover;background-position:center}
+.pv.em .ehero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,54,25,.1),rgba(17,54,25,.8))}
+.pv.em .ehero b{position:absolute;left:5cqw;right:5cqw;bottom:4cqw;z-index:1;color:#fff;font-size:6.4cqw;line-height:1.05;font-weight:800}
+.pv.em .ehero b i{display:block;font-style:normal;color:var(--sun);font-size:3.6cqw;font-weight:600;margin-top:1.2cqw}
+.pv.em .ebody{padding:4cqw 5cqw;display:grid;gap:2.4cqw;align-content:start;flex:1;overflow:hidden}
+.pv.em .ebody h5{margin:0;font-size:4.2cqw;line-height:1.15;font-weight:700;color:var(--deep)}
+.pv.em .ebody p{margin:0;font-size:3.1cqw;line-height:1.4;color:#3b463e}
+.pv.em .ebtn{justify-self:start;background:var(--deep);color:#fff;font-size:3.2cqw;font-weight:700;padding:2cqw 4cqw;border-radius:6cqw}
+.pv.em .etag{position:absolute;top:11cqw;right:3cqw;z-index:2;background:var(--sun);color:#171717;font-size:2.8cqw;font-weight:700;padding:.8cqw 2cqw;border-radius:2cqw;text-transform:uppercase;letter-spacing:.06em}
+.esec{display:grid;gap:4px;border-top:1px solid var(--line);padding-top:10px}.esec b{font-size:14px}
+
 .rest{border:1px dashed var(--line);border-radius:12px;padding:12px;font-size:12px;color:var(--muted)}
 .stories{display:grid;gap:8px;background:var(--soft);border-radius:12px;padding:12px}
 .stories h3{font-size:13px;font-weight:600}
@@ -149,7 +165,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
   <header class="top">
     <div class="eyebrow">Reclaim Co for X-ZONE New Zealand · Instagram and Facebook · draft for review</div>
     <h1>Summer content calendar</h1>
-    <p class="lede">Thirteen weeks, 23 November 2026 to 21 February 2027. Every slot shows a preview of the piece in the brand system and what it is for. Click any post or story to open the full piece: every carousel slide, the Reel shot list, the ready-to-post caption, the photo or footage to capture, and anything to confirm with Jess and Dan before it goes live.</p>
+    <p class="lede">Thirteen weeks, 23 November 2026 to 21 February 2027, at the pace Jess and Dan asked for: three posts a week on Instagram and Facebook (a carousel on Monday, a Reel on Wednesday, a single post on Friday), one email a week, and a couple of light stories. Click anything to open the full piece: every slide, the Reel shot list, the caption or email copy, what to shoot, and what to confirm before it goes live.</p>
     <div class="stats" id="stats"></div>
   </header>
 
@@ -181,6 +197,8 @@ const MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','De
 const fmtDate=iso=>{const d=new Date(iso+'T12:00:00');return d.getDate()+' '+MON[d.getMonth()]};
 const addDays=(iso,n)=>{const d=new Date(iso+'T12:00:00');d.setDate(d.getDate()+n);return d.toISOString().slice(0,10)};
 const all=[];D.weeks.forEach(w=>w.posts.forEach(p=>{p._w=w.week;all.push(p)}));
+const mails=[];D.weeks.forEach(w=>(w.emails||[]).forEach(e=>{e._w=w.week;mails.push(e)}));
+function emailPv(e){const s=(e.sections||[])[0]||{};return `<div class="pv em"><div class="eh"><img src="${IMG.logo}" alt=""></div><span class="etag">${e.type==='campaign'?'Campaign':'Newsletter'}</span><div class="ehero" style="background-image:url(${photo(e.hero&&e.hero.photo)})"><b>${esc(e.hero&&e.hero.headline)}<i>${esc(e.hero&&e.hero.subline)}</i></b></div><div class="ebody"><h5>${esc(s.h)}</h5><p>${esc((s.b||'').slice(0,140))}${(s.b||'').length>140?'…':''}</p><span class="ebtn">${esc(e.cta&&e.cta.label)}</span></div></div>`}
 const stories=[];D.weeks.forEach(w=>w.stories.forEach(s=>{s._w=w.week;stories.push(s)}));
 
 function photo(k){return IMG[k]||IMG.bush}
@@ -214,23 +232,25 @@ function storyPv(s){
 }
 function tags(p){
   const fb=p.where&&p.where.toLowerCase().includes('fb only');
-  return `<div class="tags"><span class="tg ${fb?'fb':''}">${esc(p.format)}${fb?' · FB':''}</span>${p.kind==='Promo'?'<span class="tg pr">Promo</span>':''}</div>`;
+  return `<div class="tags"><span class="tg ${fb?'fb':''}">${esc(p.format)}${fb?' · FB':''}</span><span class="tg">IG + FB</span>${p.kind==='Promo'?'<span class="tg pr">Promo</span>':''}</div>`;
 }
 
 // ---------- render ----------
 let FILTER='all';
-const match=p=>FILTER==='all'||(FILTER==='reel'&&p.template==='reel')||(FILTER==='promo'&&p.kind==='Promo')||(FILTER==='fb'&&/fb only/i.test(p.where))||(FILTER==='carousel'&&p.template==='carousel')||(FILTER==='flags'&&(p.flags||[]).length);
+const match=p=>FILTER==='all'||(FILTER==='reel'&&p.template==='reel')||(FILTER==='promo'&&p.kind==='Promo')||(FILTER==='fb'&&/fb only/i.test(p.where))||(FILTER==='carousel'&&p.template==='carousel')||(FILTER==='single'&&!['reel','carousel'].includes(p.template))||(FILTER==='flags'&&(p.flags||[]).length);
 function render(){
   const root=$('#weeks');root.innerHTML='';
   D.weeks.forEach(w=>{
     const start=w.posts[0].date;const monday=addDays(start,-DAYS.indexOf(w.posts[0].day));
     const promo=w.posts.filter(p=>p.kind==='Promo').length;
-    let html=`<section class="week" id="week-${w.week}"><div class="whead"><div><span class="wn">Week ${w.week}</span><h2>${esc(w.theme)}</h2></div><div class="wmeta">${esc(w.dates)}<br>${w.posts.length-promo} educate · ${promo} promo · ${w.stories.length} stories</div></div><div class="days">`;
+    let html=`<section class="week" id="week-${w.week}"><div class="whead"><div><span class="wn">Week ${w.week}</span><h2>${esc(w.theme)}</h2></div><div class="wmeta">${esc(w.dates)}<br>${w.posts.length} posts (${promo} promo) · ${(w.emails||[]).length} email · ${w.stories.length} stories</div></div><div class="days">`;
     DAYS.forEach((d,i)=>{
       const date=addDays(monday,i);
       const ps=w.posts.filter(p=>p.date===date);
       html+=`<div class="day"><div class="dlab"><span>${d}</span><span>${fmtDate(date)}</span></div>`;
-      if(!ps.length) html+=`<div class="rest">${i===6?'Rest day. Reply to comments and DMs only.':'No feed post. Stories only.'}</div>`;
+      if(!ps.length&&!es.length) html+=`<div class="rest">${i===6?'Rest day. Reply to comments and DMs only.':'No post. Reply to comments and messages.'}</div>`;
+      const es=(w.emails||[]).filter(e=>e.date===date);
+      es.forEach(e=>{const show=FILTER==='all'||FILTER==='emails'||(FILTER==='promo'&&e.type==='campaign')||(FILTER==='flags'&&(e.flags||[]).length);html+=`<button class="slot email ${e.type==='campaign'?'promo':''}" data-eid="${esc(e.id)}" ${show?'':'hidden'} aria-label="Email: ${esc(e.title)}">${emailPv(e)}<div class="info"><div class="tags"><span class="tg em">Email · ${e.type==='campaign'?'Campaign':'Newsletter'}</span>${e.type==='campaign'?'<span class="tg pr">Promo</span>':''}</div><div class="t">${esc(e.title)}</div><div class="a">${esc(e.subject)}</div></div></button>`});
       ps.forEach(p=>{const show=match(p);html+=`<button class="slot ${p.kind==='Promo'?'promo':''}" data-id="${esc(p.id)}" ${show?'':'hidden'} aria-label="${esc(p.title)}">${preview(p)}<div class="info">${tags(p)}<div class="t">${esc(p.title)}</div><div class="a">${esc(p.about)}</div></div></button>`});
       html+=`</div>`;
     });
@@ -240,12 +260,13 @@ function render(){
     root.insertAdjacentHTML('beforeend',html);
   });
   if(FILTER==='stories') document.querySelectorAll('.slot').forEach(e=>e.hidden=true);
+  if(FILTER==='emails') document.querySelectorAll('.slot:not(.email)').forEach(e=>e.hidden=true);
 }
 function stats(){
   const c=k=>all.filter(k).length;
-  const items=[[all.length,'feed pieces'],[c(p=>p.template==='reel'),'Reels'],[c(p=>p.template==='carousel'),'carousels'],[c(p=>/fb only/i.test(p.where)),'Facebook only'],[c(p=>p.kind==='Promo'),'promo'],[stories.length,'stories'],[c(p=>(p.flags||[]).length),'with items to confirm']];
+  const items=[[all.length,'posts, all on IG and FB'],[c(p=>p.template==='reel'),'Reels'],[c(p=>p.template==='carousel'),'carousels'],[c(p=>!['reel','carousel'].includes(p.template)),'single posts'],[mails.length,'emails ('+mails.filter(e=>e.type==='campaign').length+' campaigns)'],[stories.length,'stories'],[c(p=>(p.flags||[]).length)+mails.filter(e=>(e.flags||[]).length).length,'with items to confirm']];
   $('#stats').innerHTML=items.map(([n,l])=>`<div class="stat"><b>${n}</b>${l}</div>`).join('');
-  const F=[['all','Everything'],['reel','Reels'],['carousel','Carousels'],['fb','Facebook only'],['promo','Promo'],['stories','Stories'],['flags','Needs confirming']];
+  const F=[['all','Everything'],['reel','Reels'],['carousel','Carousels'],['single','Single posts'],['emails','Emails'],['promo','Promo'],['stories','Stories'],['flags','Needs confirming']];
   $('#filters').insertAdjacentHTML('beforeend',F.map(([k,l])=>`<button class="chipbtn" data-f="${k}" aria-pressed="${k==='all'}">${l}</button>`).join(''));
   $('#weeknav').insertAdjacentHTML('beforeend',D.weeks.map(w=>`<a class="wkl" href="#week-${w.week}">Wk ${w.week}</a>`).join(''));
 }
@@ -274,6 +295,16 @@ function open(p){
   $('#copycap').onclick=async()=>{try{await navigator.clipboard.writeText(full);toast('Caption copied')}catch(e){const rg=document.createRange();rg.selectNodeContents($('#captext'));const sl=getSelection();sl.removeAllRanges();sl.addRange(rg);toast('Caption selected. Press copy.')}};
   $('#ov').hidden=false;$('#close').focus();
 }
+function openEmail(e){
+  $('#pleft').innerHTML=`<div style="max-width:360px">${emailPv(e)}</div>`;
+  const txt=['Subject: '+e.subject,'Preview text: '+e.preheader,'',(e.hero&&e.hero.headline)||'',(e.hero&&e.hero.subline)||'','',...(e.sections||[]).flatMap(s=>[s.h,s.b,'']),e.review?'"'+e.review.quote+'" '+e.review.name:'','',(e.cta&&e.cta.label)+': '+((e.cta&&e.cta.link)||''),e.ps?'\nPS '+e.ps:'','\nNgā mihi, Jess and Dan'].join('\n');
+  let r=`<h3 id="ptitle">${esc(e.title)}</h3><div class="hint">Week ${e._w} · ${esc(e.day)} ${fmtDate(e.date)} · Shopify Messaging · ${e.type==='campaign'?'Campaign email':'Newsletter'}</div><p style="margin:0">${esc(e.about)}</p><dl class="kv"><dt>Subject</dt><dd><b>${esc(e.subject)}</b></dd><dt>Preview text</dt><dd>${esc(e.preheader)}</dd><dt>Button</dt><dd>${esc(e.cta&&e.cta.label)}</dd></dl>`;
+  r+=`<div class="sec"><h4>Email copy</h4>${(e.sections||[]).map(s=>`<div class="esec"><b>${esc(s.h)}</b><span>${esc(s.b)}</span></div>`).join('')}${e.review?`<div class="esec"><b>Review</b><span>"${esc(e.review.quote)}" ${esc(e.review.name)}</span></div>`:''}${e.ps?`<div class="esec"><b>PS</b><span>${esc(e.ps)}</span></div>`:''}</div><button class="copy" id="copyem">Copy email text</button>`;
+  if((e.flags||[]).length) r+=`<div class="sec flagbox"><h4>Confirm with Jess and Dan before sending</h4><ul class="flags">${e.flags.map(f=>`<li>${esc(f)}</li>`).join('')}</ul></div>`;
+  $('#pright').innerHTML=r;
+  $('#copyem').onclick=async()=>{try{await navigator.clipboard.writeText(txt);toast('Email text copied')}catch(_){toast('Copy blocked. Select the text instead.')}};
+  $('#ov').hidden=false;$('#close').focus();
+}
 function openStory(s){
   $('#pleft').innerHTML=`<div style="max-width:300px">${storyPv(s)}</div>`;
   $('#pright').innerHTML=`<h3 id="ptitle">Story: ${esc(SLAB[s.type]||s.type)}</h3><div class="hint">Week ${s._w} · ${esc(s.day)}</div><div class="sec"><h4>On the frame</h4><p style="margin:0">${esc(s.text)}</p></div>${(s.options||[]).length?`<div class="sec"><h4>Options</h4><ol class="flags">${s.options.map(o=>`<li>${esc(o)}</li>`).join('')}</ol></div>`:''}<div class="sec"><h4>How to run it</h4><p style="margin:0">${esc(s.note)}</p></div>`;
@@ -281,7 +312,8 @@ function openStory(s){
 }
 let lastFocus=null;
 document.addEventListener('click',e=>{
-  const sl=e.target.closest('.slot');if(sl){lastFocus=sl;ORDER=[...document.querySelectorAll('.slot:not([hidden])')].map(x=>x.dataset.id);POS=ORDER.indexOf(sl.dataset.id);open(all.find(p=>p.id===sl.dataset.id));return}
+  const sl=e.target.closest('.slot:not(.email)');if(sl){lastFocus=sl;ORDER=[...document.querySelectorAll('.slot:not([hidden]):not(.email)')].map(x=>x.dataset.id);POS=ORDER.indexOf(sl.dataset.id);open(all.find(p=>p.id===sl.dataset.id));return}
+  const em=e.target.closest('.slot.email');if(em){lastFocus=em;openEmail(mails.find(x=>x.id===em.dataset.eid));return}
   const st=e.target.closest('.story');if(st){lastFocus=st;openStory(stories.find(s=>s.id===st.dataset.sid));return}
   const nv=e.target.closest('[data-nav]');if(nv){POS=(POS+ +nv.dataset.nav+ORDER.length)%ORDER.length;open(all.find(p=>p.id===ORDER[POS]));return}
   const f=e.target.closest('[data-f]');if(f){FILTER=f.dataset.f;document.querySelectorAll('[data-f]').forEach(b=>b.setAttribute('aria-pressed',b===f));render();return}
