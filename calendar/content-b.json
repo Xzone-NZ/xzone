@@ -258,13 +258,6 @@
      "note": "Link sticker to the UTM-tagged {LINK}; post at 7am and again at 7pm."
     },
     {
-     "id": "w5-s4",
-     "day": "Sat",
-     "type": "countdown",
-     "text": "Boxing Day offer ends at midnight tonight.",
-     "note": "Countdown sticker set to midnight; implied by the one-day offer. Post mid-afternoon."
-    },
-    {
      "id": "w5-s5",
      "day": "Sun",
      "type": "prompt",
@@ -1260,13 +1253,6 @@
      "type": "explainer",
      "text": "At daily use on one area, a {JAR_SIZE} jar lasts about {WEEKS} weeks.",
      "note": "Subscription frame 2 of 3; photo of a full and a near-empty jar."
-    },
-    {
-     "id": "w8-s8",
-     "day": "Fri",
-     "type": "link",
-     "text": "Subscribe: {SAVING} off, delivered every {INTERVAL}.",
-     "note": "Subscription frame 3 of 3; link sticker to the UTM-tagged {LINK}."
     },
     {
      "id": "w8-s9",

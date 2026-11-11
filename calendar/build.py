@@ -35,10 +35,6 @@ for w in weeks:
         p['where'] = 'IG + FB'
         chosen.append(p)
     st = list(w['stories'])
-    if w['week'] == 5 and 'w5-fri' in posts:  # Christmas greeting moves from the feed to a story
-        st.insert(0, {'id': 'w5-greet', 'day': 'Fri', 'type': 'greeting',
-                      'text': 'Meri Kirihimete from Jess and Dan. Thank you for a big year.',
-                      'note': 'Christmas morning. One photo of Jess and Dan, no selling.'})
     st.sort(key=lambda s: STORY_PRI.index(s['type']) if s['type'] in STORY_PRI else 99)
     keep = st[:2]
     keep.sort(key=lambda s: DAYS.index(s['day']) if s['day'] in DAYS else 9)

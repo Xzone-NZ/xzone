@@ -325,32 +325,11 @@
      "note": "Question box sticker on a founders photo; save the best questions for next week's stories and the week 13 post."
     },
     {
-     "id": "w1-s3",
-     "day": "Thu",
-     "type": "countdown",
-     "text": "Black Friday, the X-ZONE way. Our summer kit post lands tomorrow morning.",
-     "note": "Countdown sticker set to Friday 7am NZT so followers get a reminder."
-    },
-    {
      "id": "w1-s4",
      "day": "Fri",
      "type": "link",
      "text": "Stock the summer kit. {OFFER}. Old prices until {DATE}.",
      "note": "Link sticker to the Black Friday landing page with UTM; reshare the Friday post behind it."
-    },
-    {
-     "id": "w1-s5",
-     "day": "Sat",
-     "type": "link",
-     "text": "Still on: {OFFER}. Old prices until {DATE}.",
-     "note": "Repeat of Friday's offer story with the same link sticker."
-    },
-    {
-     "id": "w1-s6",
-     "day": "Sun",
-     "type": "link",
-     "text": "Last chance for Black Friday: {OFFER}.",
-     "note": "Final repeat of the offer story; add an end time if the offer closes Sunday night."
     }
    ]
   },
