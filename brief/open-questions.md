@@ -4,7 +4,9 @@ Left blank on the website form. Tick off as more info comes in.
 
 ## Visual
 - [ ] Background and text colours
-- [ ] Logo files (and any do/don't rules)
+- [x] Logo files (in Drive, see 02-brand-assets.md). Still need: logo rules, white/green tagline lock-ups
+- [ ] Re-upload 2 broken photos (IMG_8848, IMG_9452 are 0 bytes)
+- [ ] Product packshots and lifestyle photos
 - [ ] Brand photos, stock preferences, "look you love" references
 - [ ] Pick ONE Canva substitute font family (four are listed now: Montserrat, Poppins, League Spartan, Hussar Bold)
 
