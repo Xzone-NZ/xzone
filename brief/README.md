@@ -17,3 +17,11 @@ The client is filling in the form in parts. Everything here is a **living draft*
 **Anything the client sends in the form overrides the Reclaim Co guidelines v1.** Where the form is silent, the guidelines stand. The merged result lives in `06-brand-spec.md`.
 
 Resolved so far in favour of the form: #16B800 green, black, navy Joints range, per-range accents, "Move Freely. Live Naturally.", Galano Grotesque (Poppins in Canva), 200+ stockists.
+
+## Applied to the live pages (11 Nov)
+Form overrides were applied to these pages:
+- Brand guidelines v1.1: https://claude.ai/artifact/2PmSvpcLQ2HuV8TafG3ac3
+- Email signature: https://claude.ai/artifact/MmXp2cYwedpcEExEPPweyT
+- Summer social plan: https://claude.ai/artifact/HcSkHfjZAGz8UBYpkFjTsj
+
+Re-apply as more form parts arrive.

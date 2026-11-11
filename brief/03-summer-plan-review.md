@@ -23,7 +23,7 @@ Checked against the client brief (`01-website-form.md`), assets (`02-brand-asset
    - Kids' age guidance ("Relief from five, Joints and Sports from seven, not in pregnancy"). Use exact label wording only.
    - The "is your pain really dehydration" and "seven medicines" posts must stay general information with "see your GP".
 5. **Facts that don't match the brief.** The plan says 186 stockists, the brief says 200+. The 2026 numbers (carbon offset, sugarcane packaging, countries) aren't in the brief. Check the 11-herb list and which range each herb is in against the ingredient labels.
-6. **Palette and type.** The form overrides the guidelines, so the plan page and the grid system move to #16B800 / black / navy with range accents, and Poppins only (see `06-brand-spec.md`). "Green-ground posts" need black or dark text, because white on #16B800 fails contrast.
+6. **DONE 11 Nov (also stockists set to 200+). Palette and type.** The form overrides the guidelines, so the plan page and the grid system move to #16B800 / black / navy with range accents, and Poppins only (see `06-brand-spec.md`). "Green-ground posts" need black or dark text, because white on #16B800 fails contrast.
 
 ## Check with the client
 - **Capacity.** 78 feed pieces, 26 Reels and daily stories, many with Jess and Dan on camera. The on-camera and asset-quantity questions on the form were left blank. Confirm before committing to 2 Reels a week.

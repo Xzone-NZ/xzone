@@ -13,7 +13,7 @@ Three versions (joint, Jess, Dan). Table-based HTML, Arial, tap-to-call numbers,
 
 ## Fix before sending
 
-1. **Update to the form's brand (form overrides guidelines).**
+1. **DONE 11 Nov. Update to the form's brand (form overrides guidelines).**
    - Divider rule: #16B800 in place of yellow #FBCD0A
    - Name: black #000000 in place of #1E4D27 (#16B800 is too light for small text)
    - Website link: #16B800 bold or black
