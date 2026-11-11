@@ -53,3 +53,12 @@ open(f'{H}/xzone-summer-calendar.html', 'w').write(out)
 print('weeks', len(out_weeks), 'posts', sum(len(w['posts']) for w in out_weeks),
       'stories', sum(len(w['stories']) for w in out_weeks),
       'emails', sum(len(w['emails']) for w in out_weeks), 'bytes', len(out))
+
+# ---------- feed mock-up (shares preview CSS and JS with the calendar) ----------
+ft = open(f'{H}/feed-template.html').read()
+css = t[t.index('/* ---------- brand previews'):t.index('/* ---------- detail panel')]
+js = t[t.index("const esc="):t.index("const SLAB=")]
+js = '\n'.join(l for l in js.splitlines() if not l.startswith('const all=') and not l.startswith('const mails=') and not l.startswith('const stories='))
+feed = ft.replace('__PREVIEW_CSS__', css).replace('__PREVIEW_JS__', js).replace('__DATA__', data).replace('__IMG__', json.dumps(img))
+open(f'{H}/xzone-feed-preview.html', 'w').write(feed)
+print('feed bytes', len(feed))

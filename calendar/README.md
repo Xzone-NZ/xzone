@@ -11,3 +11,4 @@
 - `small/` stand-in photos used in the previews. Swap for real shoot photos later.
 
 Live page: https://claude.ai/artifact/Q3HxajV6KzhTtxjB5EwkNf
+Feed mock-up (built by the same build.py from feed-template.html): https://claude.ai/artifact/HNnYraacGdZhj92hFhsrHJ
