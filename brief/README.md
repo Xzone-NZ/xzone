@@ -14,9 +14,9 @@ The client is filling in the form in parts. Everything here is a **living draft*
 
 ## Rule
 
-**Anything the client sends in the form overrides the Reclaim Co guidelines v1.** Where the form is silent, the guidelines stand. The merged result lives in `06-brand-spec.md`.
+**Anything the client sends in the form overrides the Reclaim Co guidelines v1, except colour.** The form's hex codes were wrong, so the guidelines palette stays (logo green measures #004F23). Where the form is silent, the guidelines stand. The merged result lives in `06-brand-spec.md`.
 
-Resolved so far in favour of the form: #16B800 green, black, navy Joints range, per-range accents, "Move Freely. Live Naturally.", Galano Grotesque (Poppins in Canva), 200+ stockists.
+Resolved in favour of the form: "Move Freely. Live Naturally.", Galano Grotesque (Poppins in Canva), 200+ stockists.
 
 ## Applied to the live pages (11 Nov)
 Form overrides were applied to these pages:
