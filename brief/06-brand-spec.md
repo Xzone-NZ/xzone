@@ -43,9 +43,17 @@ Rules from guidelines stand: 60/30/10, one yellow element per layout, no blue or
 These are the guidelines' rules. Each one is replaced if a later part of the form answers it.
 - Logo use, clear space, minimum sizes, avatar (black icon on white circle)
 - Photography: place, people, product. Natural light. No stock, no studio, no AI people.
-- Voice: teach first, plain and warm, te reo greetings, name the herbs, no "cures", no price-only posts, no emoji in body copy. (Form voice section still to come.)
 - 80/20 educate/sell
 - Instagram system: green-ground and photo-led posts, alternating.
+
+## Voice (form part 2, with guidelines where silent)
+- Personality: **authentic, trustworthy, empowering, informative, generous** (replaces "honest, outdoorsy, knowledgeable, warm")
+- Write as **we**. NZ spelling.
+- Humour rarely, never political or sexual. Slang only where it fits.
+- Let customers do the selling: surprise that it works, "the only one that works for me".
+- Never name a competitor negatively. A general contrast with pharmaceutical options is fine.
+- **No emoji anywhere** (stricter than guidelines). Hashtags fine on all channels (keep the guidelines' five-max habit on Instagram).
+- From guidelines: teach first, te reo greetings, name the herbs, "supports / helps / traditionally used", never "cures", no price-only posts, no exclamation marks in headlines.
 
 ## Facts (form)
 - Stockists: 200+

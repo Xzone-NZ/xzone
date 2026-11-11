@@ -12,10 +12,10 @@ Left blank on the website form. Tick off as more info comes in.
 - [x] Fonts: Galano Grotesque, Poppins as the Canva/web match
 
 ## Voice
-- [ ] Voice words, I or we, humour level (guidelines v1 apply until the form answers)
-- [ ] Spelling (assume NZ English)
-- [ ] Emoji: guidelines say none in body copy, until the form answers
-- [ ] Emoji use, tone per channel, who is on camera
+- [x] Voice words, we, humour, words, competitors (form part 2)
+- [x] Spelling: NZ
+- [x] Emoji: none anywhere. Hashtags fine
+- [ ] Tone per channel, who is on camera
 - [ ] Guidance on te reo Māori / rongoā rākau references (macrons, cultural review)
 
 ## Proof

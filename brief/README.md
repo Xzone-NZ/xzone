@@ -4,7 +4,7 @@ The client is filling in the form in parts. Everything here is a **living draft*
 
 | File | What | Status |
 |---|---|---|
-| 01-website-form.md | Form answers, part 1 (business, audience, goals, colours, fonts) | Part 1 received 11 Nov. Voice, proof, channels, assets still to come |
+| 01-website-form.md | Form answers, part 1 (business, audience, goals, colours, fonts) | Parts 1 and 2 (voice) received 11 Nov. Proof, channels, assets still to come |
 | 02-brand-assets.md | Drive inventory: logos, photos, videos | Received 11 Nov |
 | **06-brand-spec.md** | **Working source of truth: form overrides guidelines** | Update with each form part |
 | 05-brand-guidelines.md | Reclaim Co brand guidelines v1 (PDF in `source/`) | v1, 4 Nov |

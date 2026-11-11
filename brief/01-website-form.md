@@ -1,6 +1,6 @@
 # X-ZONE Brand Intake: Website Form
 
-Source: Reclaim Co. website form (Netlify), received 11 Nov 2026. Cleaned up and organised; client wording kept where it matters.
+Source: Reclaim Co. website form (Netlify). Part 1 received 11 Nov 2026 12:42, part 2 (voice) 13:36. Cleaned up and organised; client wording kept where it matters.
 
 ## Business
 
@@ -145,3 +145,17 @@ Galano Grotesque is paid and not licensed in Canva. No set type rules.
 - Instruction video: https://youtu.be/JIkXSSABxPI
 - Canva: no brand kit. Previous templates were made but they did not like them.
 - Logo rules: none set
+
+## Voice (form part 2, received 11 Nov)
+
+| | |
+|---|---|
+| Voice words | Authentic, trustworthy, empowering, informative, generous |
+| I or we | We |
+| Humour | Rarely. Customers are diverse and often in pain, so it can be misread. Non-political, non-sexual humour sparingly. Slang and swearing not ruled out in the right context |
+| Words they love | Customer testimonials and calls expressing surprise and gratitude at how well it works, and that X-ZONE is the only brand that has worked for them |
+| Competitors | No negative commentary on competitors by name. Inferences about pharmaceutical brands are fine |
+| Spelling | NZ English |
+| Emoji | Against emoji ("overused AI devices"). Hashtags fine on all channels |
+
+Still blank: channel tone, on camera, testimonials, named clients, awards, story, handles, channel order, cadence, email platform, blog, approver, scheduler, all asset wants.
