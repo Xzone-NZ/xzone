@@ -22,12 +22,18 @@ No reversed (white) or green tagline lock-ups yet. No SVGs. PDFs can stand in as
 
 Note: one file is misspelt `X-Zone_Landcsape_Black.jpg`.
 
+In the repo (12 Nov): the portrait (secondary) logo set is in `source/drive/logos/`: Green (JPG, PDF, PNG), Black (JPG, PDF, PNG), White (PNG). PNGs are 2480 x 1748. Landscape logos, icon and tagline lock-ups have not been sent through yet.
+
 ## Photos (10)
 
 - Founders: `Jess n Dan.jpg`, `Jess Dan Garden.jpg`, `jess dan expo 1.png` (expo stand, 14 MB)
 - Dan: `Dan Guitar 1 (1).jpg`, `Dan Guitar2 (1).jpg`
-- Untitled: `IMG_0654.jpg`, `IMG_0075a.JPG`, `IMG_0035a.JPG`
+- Untitled:
+  - `IMG_0035a.JPG` (portrait) and `IMG_0075a.JPG` (landscape): a woman in a pale blue dress and hat with a buckskin horse by a paddock fence. Professional shoot (Canon). Who it is isn't labelled: ask whether this is the horse trainer from the origin story
+  - `IMG_0654.jpg`: outdoor selfie of two people holding an X-ZONE flyer ("Feel the natural power of X-ZONE") and product. iPhone, Sep 2026. Casual, better for Stories than the feed
 - **Broken (0 bytes, need re-uploading):** `IMG_8848.jpg`, `IMG_9452.JPG`
+
+Copies of the 8 working photos are in `source/drive/photos/` (received 12 Nov). The two broken files were 0 bytes in the download too.
 
 ## Videos
 
