@@ -5,30 +5,40 @@ OUT, EXTRA = sys.argv[1], sys.argv[2]
 B = {'founders': '02e558eca951173a5ebb2af8f459a960', 'logo': '25197b28f4e73a8b274a5afe746a93c6', 'ankle': 'f607cd51a5bb2629d7f6c5893b16d228',
      'shoulder': '6c462ddd8d677371819572e77b5cec30', 'range': '274593319a3db54845362f5e4a374066', 'bush': 'ca1622b259e43296a606a6f48ca34f0a',
      'cricket': '11a7cd58a4080325358b6129ce7498e9', 'aoraki': '05eb395fa63417fa9b52a0a72b64d79a', 'bushwalk': '1e3be30ec195c75a250fcea6bebb2c8e',
-     'hands': '2904a9a5b12644007408ef19c33a72f3', 'handsclose': '9ee689101ce237ac8bd2bc2c81fbc0a1', 'running': '812990ea70541643834c6b3b08c76d9e'}
+     'hands': '2904a9a5b12644007408ef19c33a72f3', 'handsclose': '9ee689101ce237ac8bd2bc2c81fbc0a1', 'running': '812990ea70541643834c6b3b08c76d9e',
+     'jess-dan-tees': '2e0053c0b4994ed2020b08b26ac36ac4', 'jess-dan-garden': '5de84cca1ac1924820cfab3106c42c36', 'jess-dan-expo': '5c547f267afde9f9aa4bd829dbae4d68', 'relief-rollon-shoulder': 'bc9c642fb9787508d512b14216a6a0fd', 'relief-rub-leg': '7c4dc8163ed84ea819baf23ffaaaa973', 'sports-rub-gym': '687c3ea396d216bafa56dd82643c01fb', 'sports-spray-knee': 'ab98e6ec43549b66058b8cdfea34bb44', 'sports-spray-arm': 'a26ba0467a35ce72edfcbec2cb642c42', 'relief-rub-back': '9f42f545745a082ee90e54e2cc819e60'}
 G, L = '#0D441F', '#E0E64A'
 HEAD = "'Poppins', Arial, Helvetica, sans-serif"
 BODY = "Arial, Helvetica, sans-serif"
 REV = {
- 'maria': {'title': 'Rub it on and forget', 'quote': 'I have found the X-Zone Joints product easy to use. I use it both for relieving aches and pains in my joints and for prevention support prior to hiking/tramping. It has been really effective. I am on my second bottle.', 'name': 'Maria G., New Zealand', 'product': 'Joints Rub'},
- 'james': {'title': 'I was sceptical, but wow!', 'quote': 'I’m a runner that runs long distances. This stuff post run provides instant relief to sore muscles and speeds up recovery. Totally recommend.', 'name': 'James H., New Zealand', 'product': 'Sports Rub'},
- 'philippa': {'title': 'By far better than anything else I’ve used.', 'quote': 'Gives instant and long lasting pain relief for my arthritis and calcific tendonitis. I highly recommend it.', 'name': 'Philippa C., New Zealand', 'product': 'Sports Roll-On'},
+ 'maria': {'title': 'Rub it on and forget', 'quote': 'I have found the X-Zone Joints product easy to use. I use it both for relieving aches and pains in my joints and for prevention support prior to hiking/tramping. It has been really effective. I am on my second bottle.', 'name': 'Maria G., New Zealand', 'product': 'Joints Rub', 'verified': True},
+ 'james': {'title': 'I was sceptical, but wow!', 'quote': 'I’m a runner that runs long distances. This stuff post run provides instant relief to sore muscles and speeds up recovery. Totally recommend.', 'name': 'James H., New Zealand', 'product': 'Sports Rub', 'verified': True},
+ 'philippa': {'title': 'By far better than anything else I’ve used.', 'quote': 'Gives instant and long lasting pain relief for my arthritis and calcific tendonitis. I highly recommend it.', 'name': 'Philippa C., New Zealand', 'product': 'Sports Roll-On', 'verified': True},
+ 'joyann': {'title': 'Staple Pain relief', 'quote': 'I accidentally found this little gem at the Mangawhai market and I’m so glad I did! I first tried one bottle of the joint rub for my lower back and knee pain from all the heavy moving and handling I do as a nurse, and the difference has been incredible. It truly soothes the pain and melts away the stiffness after work, so now I use it regularly before my shifts and before bed. I’ve since grabbed another bottle of the joint rub plus the muscle spray, which now live in my work bag, and I’m excited to share this amazing find with my colleagues too!', 'name': 'Joyann', 'product': 'Joints Rub', 'verified': False},
+ 'emma': {'title': 'This sports spray is a gem', 'quote': "I couldn't do without this spray, I use it almost every day. It's amazing for pains and niggles. Perfect for those hard to reach places like shoulder blades and middle back. Great for me as a surfer. Love the fragrance too, earthy with a bit of zing. Very happy with this product!!", 'name': 'Emma Cooper', 'product': 'Sports Spray', 'verified': False},
+ 'paul': {'title': 'Love the product.', 'quote': 'It really eases the pain. We used to buy it from the Waipu markets but much easier online. We would recomend this product to anyone with still or sore joints.', 'name': 'Paul Fleming', 'product': 'Sports Spray', 'verified': False},
+ 'kamini': {'title': 'Have purchased 4 products for a long time.', 'quote': 'They are amazing and the pain relief and healing from them is beyond awesome.', 'name': 'Kamini Edie', 'product': 'X-ZONE range', 'verified': False},
+ 'chrissy': {'title': 'Magic spray', 'quote': "I love x zone magic spray was introduced by my beauty therapist\nIt's fantastic for all aches and pain and super easy to use spray rolli on or rub\nSuper convenient delivers to your door\nFabulous supporters of the Wellington bulldog club", 'name': 'Chrissy Greeks', 'product': 'X-ZONE range', 'verified': False},
+ 'timvernon': {'title': 'This product is by far the best on the market.', 'quote': 'Another great example of how amazingly beneficial New Zealand’s native plans can be on our health. We are so grateful to the people who have dedicated their time gathering the knowledge and producing such powerful pain relief.', 'name': 'Tim & Phillippa Vernon', 'product': 'X-ZONE range', 'verified': False},
+ 'caroline': {'title': 'This stuff really works', 'quote': 'Fabulous stuff, really helped with some aches and pains after a mountain bike crash. Every sports person should have some.', 'name': 'Caroline', 'product': 'Sports Spray', 'verified': False},
+ 'chris': {'title': 'Used for a week and Physio commented there was a big improvement while massaging.', 'quote': 'She is going to try both on her husband’s injured hand that has put him off work for months .', 'name': 'Chris', 'product': 'Sports Spray', 'verified': False},
+ 'alison': {'title': 'Great heat great muscle recovery', 'quote': '', 'name': 'Alison Murray', 'product': 'Sports Spray', 'verified': False},
 }
 # id: hero hook ([[highlight]]), hero subline, photo, crop, review key (None keeps the plan's quote)
 E = {
- 'w1-email':  ('The summer kit [[most baches]] are missing', 'Plus our old prices, held until [date]', 'cricket', '58% 50%', None),
- 'w2-email':  ('Christmas gifts, [[sorted by person]]', 'For the tradie, the tramper, the touch player and the gardener', 'founders', '50% 25%', None),
- 'w3-email':  ('Will it arrive [[before Christmas]]?', 'Our last order dates, plus what goes wrong on day two of a tramp', 'aoraki', '50% 60%', None),
- 'w4-email':  ('What every [[bach cupboard]] should hold', '[Offer] in our pre-Christmas sale', 'ankle', '50% 45%', None),
- 'w5-email':  ('[[Meri Kirihimete]] from our whānau', 'Thank you for every jar, every message and every story', 'founders', '50% 20%', None),
- 'w6-email':  ('Stiff joints this summer? [[Here is what helps]]', 'Three habits, the 10% rule, then the Joints Rub', 'hands', '50% 50%', 'maria'),
- 'w7-email':  ('Why day two [[hurts more]] than day one', 'DOMS in plain English, and what the lab found', 'running', '55% 45%', None),
- 'w8-email':  ('Heat or ice? [[The honest answer]]', 'It depends on how new the pain is', 'ankle', '50% 40%', None),
- 'w9-email':  ("Tennis elbow [[isn't just tennis]]", 'Gripping, drilling, pruning and scrolling all count', 'shoulder', '50% 35%', None),
+ 'w1-email':  ('The summer kit [[most baches]] are missing', 'Plus our old prices, held until [date]', 'cricket', '58% 50%', 'paul'),
+ 'w2-email':  ('Christmas gifts, [[sorted by person]]', 'For the tradie, the tramper, the touch player and the gardener', 'relief-rub-back', '50% 45%', 'chrissy'),
+ 'w3-email':  ('Will it arrive [[before Christmas]]?', 'Our last order dates, plus what goes wrong on day two of a tramp', 'aoraki', '50% 60%', 'maria'),
+ 'w4-email':  ('What every [[bach cupboard]] should hold', '[Offer] in our pre-Christmas sale', 'relief-rub-leg', '50% 50%', 'timvernon'),
+ 'w5-email':  ('[[Meri Kirihimete]] from our whānau', 'Thank you for every jar, every message and every story', 'jess-dan-tees', '50% 30%', 'caroline'),
+ 'w6-email':  ('Stiff joints this summer? [[Here is what helps]]', 'Three habits, the 10% rule, then the Joints Rub', 'hands', '50% 50%', 'joyann'),
+ 'w7-email':  ('Why day two [[hurts more]] than day one', 'DOMS in plain English, and what the lab found', 'sports-rub-gym', '50% 50%', 'james'),
+ 'w8-email':  ('Heat or ice? [[The honest answer]]', 'It depends on how new the pain is', 'relief-rollon-shoulder', '50% 50%', 'chris'),
+ 'w9-email':  ("Tennis elbow [[isn't just tennis]]", 'Gripping, drilling, pruning and scrolling all count', 'sports-spray-arm', '50% 50%', None),
  'w10-email': ("The best recovery tool is free, and [[it's your bed]]", 'Three sleep habits, and when a medicine is behind the aches', 'bushwalk', '50% 45%', 'philippa'),
- 'w11-email': ('The five minutes that [[save your long weekend]]', 'First aid, a quick warm-up and the Sports Rub', 'running', '45% 40%', 'james'),
- 'w12-email': ('What smart [[sideline parents]] keep in the car', 'What to pack, and when to sit them out', 'cricket', '40% 50%', None),
- 'w13-email': ('Thank you for a summer of [[learning with us]]', 'Now help us choose what we cover this autumn', 'bush', '50% 50%', None),
+ 'w11-email': ('The five minutes that [[save your long weekend]]', 'First aid, a quick warm-up and the Sports Rub', 'sports-spray-knee', '50% 50%', 'emma'),
+ 'w12-email': ('What smart [[sideline parents]] keep in the car', 'What to pack, and when to sit them out', 'cricket', '40% 50%', 'alison'),
+ 'w13-email': ('Thank you for a summer of [[learning with us]]', 'Now help us choose what we cover this autumn', 'jess-dan-garden', '50% 35%', 'kamini'),
 }
 DAY = r'(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday):'
 def ph(s):  # {PLACEHOLDER} -> [placeholder]
@@ -65,10 +75,11 @@ def email(e):
     rbg, rfg, rlab, rsub, rnote = (('#f3f5ef', G, G, 'rgba(13,68,31,0.85)', 'rgba(13,68,31,0.55)') if green else (G, '#ffffff', L, 'rgba(255,255,255,0.88)', 'rgba(255,255,255,0.6)'))
     if rk:
         r = REV[rk]
+        qdiv = (f'<div style="margin-top: 10px; font-family: {BODY}; font-size: 16px; line-height: 1.6; color: {rsub}">{html.escape(r["quote"]).replace(chr(10), "<br>")}”</div>' if r['quote'] else '')
         review = (f'<div style="margin: 12px 0 0; background: {rbg}; padding: 34px 32px"><div style="font-family: {HEAD}; font-weight: 700; font-size: 12px; letter-spacing: 3px; text-transform: uppercase; color: {rlab}">In their words · {r["product"]}</div>'
-                  f'<div style="margin-top: 12px; font-family: {HEAD}; font-weight: 800; font-size: 26px; line-height: 1.2; color: {rfg}">“{html.escape(r["title"])}</div>'
-                  f'<div style="margin-top: 10px; font-family: {BODY}; font-size: 16px; line-height: 1.6; color: {rsub}">{html.escape(r["quote"])}”</div>'
-                  f'<div style="margin-top: 14px; font-family: {BODY}; font-size: 14px; font-weight: 700; color: {rfg}">{html.escape(r["name"])} <span style="font-weight: 400; color: {rnote}">· Verified Judge.me review</span></div></div>')
+                  f'<div style="margin-top: 12px; font-family: {HEAD}; font-weight: 800; font-size: 26px; line-height: 1.2; color: {rfg}">“{html.escape(r["title"])}{"" if r["quote"] else "”"}</div>'
+                  f'{qdiv}'
+                  f'<div style="margin-top: 14px; font-family: {BODY}; font-size: 14px; font-weight: 700; color: {rfg}">{html.escape(r["name"])} <span style="font-weight: 400; color: {rnote}">· {"Verified Judge.me review" if r.get("verified") else "Judge.me review"}</span></div></div>')
     else:
         rv = e.get('review') or {}
         review = (f'<div style="margin: 12px 0 0; background: {rbg}; padding: 34px 32px"><div style="font-family: {HEAD}; font-weight: 700; font-size: 12px; letter-spacing: 3px; text-transform: uppercase; color: {rlab}">In their words</div>'

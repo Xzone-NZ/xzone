@@ -42,7 +42,7 @@ for w in weeks:
                       'stories': keep, 'emails': emails.get(w['week'], [])})
 
 img = {}
-for n in ['bush', 'founders', 'bruise', 'shoulder', 'ankle', 'cricket', 'aoraki', 'bushwalk', 'hands', 'handsclose', 'running']:
+for n in ['bush', 'founders', 'bruise', 'shoulder', 'ankle', 'cricket', 'aoraki', 'bushwalk', 'hands', 'handsclose', 'running', 'relief-rub-back', 'relief-rub-leg', 'jess-dan-tees', 'jess-dan-garden', 'sports-rub-gym', 'relief-rollon-shoulder', 'sports-spray-arm', 'sports-spray-knee']:
     img[n] = 'data:image/jpeg;base64,' + base64.b64encode(open(f'{H}/small/{n}.jpg', 'rb').read()).decode()
 for n in ['range', 'icon', 'logo']:
     img[n] = 'data:image/png;base64,' + base64.b64encode(open(f'{H}/small/{n}.png', 'rb').read()).decode()

@@ -13,7 +13,8 @@ BODY = "Arial, Helvetica, sans-serif"
 SMALL = '/home/user/xzone/calendar/small'; ORIG = os.path.join(SCR, '..', 'images')
 PHOTO = {'cricket': f'{ORIG}/1.jpg', 'aoraki': f'{ORIG}/2.jpg', 'bushwalk': f'{ORIG}/3.jpg', 'hands': f'{ORIG}/4.jpg', 'handsclose': f'{ORIG}/5.jpg',
          'running': f'{SCR}/render/812990ea70541643834c6b3b08c76d9e.jpg', 'founders': f'{SMALL}/founders.jpg', 'shoulder': f'{SMALL}/shoulder.jpg',
-         'ankle': f'{SMALL}/ankle.jpg', 'bush': f'{SMALL}/bush.jpg'}
+         'ankle': f'{SMALL}/ankle.jpg', 'bush': f'{SMALL}/bush.jpg',
+         'jess-dan-tees': '/tmp/claude-0/-home-user-xzone/86ea63bf-5758-5665-bc90-8e5f32934080/assets2/jess-dan-tees.jpg', 'jess-dan-garden': '/tmp/claude-0/-home-user-xzone/86ea63bf-5758-5665-bc90-8e5f32934080/assets2/jess-dan-garden.jpg', 'jess-dan-expo': '/tmp/claude-0/-home-user-xzone/86ea63bf-5758-5665-bc90-8e5f32934080/assets2/jess-dan-expo.jpg', 'relief-rollon-shoulder': '/tmp/claude-0/-home-user-xzone/86ea63bf-5758-5665-bc90-8e5f32934080/assets2/relief-rollon-shoulder.jpg', 'relief-rub-leg': '/tmp/claude-0/-home-user-xzone/86ea63bf-5758-5665-bc90-8e5f32934080/assets2/relief-rub-leg.jpg', 'sports-rub-gym': '/tmp/claude-0/-home-user-xzone/86ea63bf-5758-5665-bc90-8e5f32934080/assets2/sports-rub-gym.jpg', 'sports-spray-knee': '/tmp/claude-0/-home-user-xzone/86ea63bf-5758-5665-bc90-8e5f32934080/assets2/sports-spray-knee.jpg', 'sports-spray-arm': '/tmp/claude-0/-home-user-xzone/86ea63bf-5758-5665-bc90-8e5f32934080/assets2/sports-spray-arm.jpg', 'relief-rub-back': '/tmp/claude-0/-home-user-xzone/86ea63bf-5758-5665-bc90-8e5f32934080/assets2/relief-rub-back.jpg'}
 os.makedirs(f'{OUT}/images', exist_ok=True)
 
 def crop(src_path, pos, dst, w=1200, h=760):
@@ -75,10 +76,11 @@ def build(e):
     rbg, rfg, rlab, rsub, rnote = ('#f3f5ef', G, G, '#3d5a46', '#6b7d70') if green else (G, '#ffffff', L, '#d5e0d8', '#a9bcae')
     if rk:
         r = REV[rk]
+        qp = (f'<p style="margin:10px 0 0 0;font-family:{BODY};font-size:16px;line-height:1.6;color:{rsub};">{html.escape(r["quote"], quote=False).replace(chr(10), "<br>")}&rdquo;</p>' if r['quote'] else '')
         rv = (f'<p style="margin:0;font-family:{HEAD};font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:{rlab};">In their words &middot; {r["product"]}</p>'
-              f'<p style="margin:12px 0 0 0;font-family:{HEAD};font-size:25px;line-height:1.2;font-weight:800;color:{rfg};">&ldquo;{html.escape(r["title"], quote=False)}</p>'
-              f'<p style="margin:10px 0 0 0;font-family:{BODY};font-size:16px;line-height:1.6;color:{rsub};">{html.escape(r["quote"], quote=False)}&rdquo;</p>'
-              f'<p style="margin:14px 0 0 0;font-family:{BODY};font-size:14px;font-weight:700;color:{rfg};">{html.escape(r["name"])} <span style="font-weight:400;color:{rnote};">&middot; Verified Judge.me review</span></p>')
+              f'<p style="margin:12px 0 0 0;font-family:{HEAD};font-size:25px;line-height:1.2;font-weight:800;color:{rfg};">&ldquo;{html.escape(r["title"], quote=False)}{"" if r["quote"] else "&rdquo;"}</p>'
+              f'{qp}'
+              f'<p style="margin:14px 0 0 0;font-family:{BODY};font-size:14px;font-weight:700;color:{rfg};">{html.escape(r["name"])} <span style="font-weight:400;color:{rnote};">&middot; {"Verified Judge.me review" if r.get("verified") else "Judge.me review"}</span></p>')
     else:
         q = e.get('review') or {}
         rv = (f'<p style="margin:0;font-family:{HEAD};font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:{rlab};">In their words</p>'
