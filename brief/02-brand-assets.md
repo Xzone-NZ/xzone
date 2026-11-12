@@ -48,7 +48,8 @@ Copies of the 8 working photos are in `source/drive/photos/` (received 12 Nov). 
 
 Compressed copies in the repo (12 Nov), `source/drive/videos/`. Originals stay in Drive (too big for GitHub):
 - `xzone-promo-landscape-1080p.mp4`: 1920 x 1080, 1 min 43 s, 35 MB (from the 4K, 970 MB original)
-- `xzone-promo-portrait-864x1080.mp4`: 864 x 1080 (4:5, feed size), 1 min 43 s, 23 MB (from 109 MB). For full-screen 9:16 Reels or Stories it will need re-cutting or padding
+- `xzone-promo-portrait-864x1080.mp4`: 864 x 1080 (4:5, feed size), 1 min 43 s, 23 MB (from 109 MB). For Reels and Stories use the 9:16 version below
+- `xzone-promo-reel-1080x1920.mp4`: 1080 x 1920 (9:16) for Reels and Stories, 1 min 43 s, 36 MB. The full 4:5 frame sits centred, with a blurred, slightly darkened copy filling above and below, so nothing is cropped. Captions and stickers fit in the blurred bands
 - Plus the YouTube instruction video: https://youtu.be/JIkXSSABxPI
 
 ## Other
