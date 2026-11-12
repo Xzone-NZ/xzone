@@ -109,8 +109,40 @@ python3 ambassadors/export_instagram.py
 
 ## Step 5 (only when asked): Buffer drafts
 
-When the user asks to add posts to Buffer, save them as **drafts** (`saveToDraft: true`), never scheduled or published. Use the `xzonenz` Instagram channel from `list_channels`, type `post`, all three slides as image assets with alt text, caption plus hashtags as the text. Commit and push the slide PNGs first, then point Buffer at the raw GitHub URLs pinned to that commit (`https://raw.githubusercontent.com/Xzone-NZ/xzone/<commit sha>/ambassadors/instagram/<slug>-slide-<n>.png`); the repo is public, so these load. Record the Buffer post IDs in `ambassadors/README.md`.
+When the user asks to add posts to Buffer, save them as **drafts** (`saveToDraft: true`, `schedulingType: automatic`), never scheduled or published. Organisation "My organization"; get channel IDs from `list_channels` (Instagram `xzonenz`, Facebook page `XZone NZ`).
 
-## Step 6: Report back
+- Commit and push the images first, then point Buffer at raw GitHub URLs pinned to that commit: `https://raw.githubusercontent.com/Xzone-NZ/xzone/<commit sha>/ambassadors/...`. The repo is public, so these load. Don't delete those files while drafts use them.
+- **Instagram:** `metadata.instagram = {type: "post", shouldShareToFeed: true}`, all three slides (`instagram/<slug>-slide-<n>.png`) as image assets with alt text, text = `ig.caption` + blank line + `ig.hashtags`.
+- **Facebook:** `metadata.facebook = {type: "post"}`, the ambassador's main photo (`photos/<slug>-1.jpg`) as the image with alt text, text = `fb.caption` exactly (it keeps `{BLOG LINK}` until the blog is live).
+- Save the returned IDs in the content JSON as `"buffer": {"instagram": "<id>", "facebook": "<id>"}` and in `ambassadors/README.md`.
 
-Send the user the exported slide PNGs for the new ambassador (SendUserFile), then give them: the IG headline and caption, the FB caption, the list of edits and the flags. Keep it short; the mock-up holds the rest.
+## Step 6: Notion
+
+Every finished ambassador goes into Notion (Head of Marketing > Outputs > **Output Log** database, data source `collection://2d89e36d-bbb6-4aad-8afd-3854cff4ebc6`). Fetch the data source first to confirm the schema, and search it for the ambassador's name so you update an existing row instead of adding a duplicate.
+
+1. Generate the page body (flags as a checklist, the three IG slides as images, IG caption, FB post, full blog post, Buffer draft IDs, edits):
+
+   ```bash
+   python3 ambassadors/notion_page.py <slug> <commit sha the images were pushed in>
+   ```
+
+2. Create one row per ambassador with that output as `content` and these properties:
+
+   | Property | Value |
+   |---|---|
+   | Output | `Ambassador <NN>: <Name>, <sport> (blog, IG carousel, FB post)` |
+   | Status | `Awaiting approval` (they go to Jess and Dan) |
+   | Skill | `Brand Ambassador Posts` |
+   | Channel | `["Instagram", "Facebook"]` |
+   | Format | `Carousel` |
+   | Range | the range, e.g. `["Sports"]` |
+   | Claims Check | `Ask Jess and Dan` while there are flags, `Pass` once cleared |
+   | Design link | the mock-up artifact URL |
+   | Flags | the flags, shortened to one line each |
+
+   Leave Publish date empty until a date is agreed.
+3. Add one line to the top of the **Activity Log** page table (newest first): date, what was done, `Awaiting approval by Jess and Dan`, link to the mock-up.
+
+## Step 7: Report back
+
+Send the user the exported slide PNGs for the new ambassador (SendUserFile), then give them the Notion row links, the IG headline and caption, the FB caption, the list of edits and the flags. Keep it short; the mock-up holds the rest.

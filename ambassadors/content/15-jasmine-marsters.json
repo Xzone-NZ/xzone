@@ -7,26 +7,51 @@
   "date": "2026-06-11",
   "range": "sports",
   "photos": [
-    {"file": "jasmine-marsters-1.jpg", "alt": "Jasmine Marsters holding a pot of X-ZONE Sports Rub at the Strongman Series Easter Show", "note": "Holding the Sports Rub at the Easter Show, day 2"},
-    {"file": "jasmine-marsters-2.jpg", "alt": "Jasmine Marsters pulling a bus by rope at the Strongman Series Easter Show 2026", "note": "Bus pull, Easter Show 2026 (event photo)"}
+    {
+      "file": "jasmine-marsters-1.jpg",
+      "alt": "Jasmine Marsters holding a pot of X-ZONE Sports Rub at the Strongman Series Easter Show",
+      "note": "Holding the Sports Rub at the Easter Show, day 2"
+    },
+    {
+      "file": "jasmine-marsters-2.jpg",
+      "alt": "Jasmine Marsters pulling a bus by rope at the Strongman Series Easter Show 2026",
+      "note": "Bus pull, Easter Show 2026 (event photo)"
+    }
   ],
   "answers": [
-    {"q": 1, "paras": ["My name is Jasmine Marsters. I am half Cook Island, half Tongan, born and raised in South Auckland, and blessed with six beautiful kids."]},
-    {"q": 2, "paras": [
-      "I compete in strongman, and now, thanks to my eldest daughter, I have recently started learning to play rugby alongside her.",
-      "Needing to be strong, not only physically but also mentally, is what attracted me to it. I love it because all I wanted growing up with my brothers was to be as strong as them, and this was a way for me to prove it.",
-      "The pros for me are that you get to meet a lot of amazing people, all supporting one another as they put in the work to get the job done. The con for me is that it takes a toll on the body, so listen to it and look after it."
-    ]},
-    {"q": 3, "paras": [
-      "My biggest achievement to date has to be my overhead strength gains. Going from not being able to get a 20 kg bar over my head to now being able to overhead press 75 kg is a big achievement for me.",
-      "My ultimate goal is to hit the numbers I set for myself when I started my strongman journey, and one day, if I am able to, compete in an overseas competition."
-    ]},
-    {"q": 4, "paras": [
-      "It was by chance that I got to see Jess at this year's Strongman Series Easter Show, on day 2 of the competition. She was kind enough to let me try the X-ZONE Sports Rub, which honestly helped me out. The instant relief I felt was unbelievable. Ever since then I've been hooked, and it's now a part of my training and recovery routine."
-    ]}
+    {
+      "q": 1,
+      "paras": [
+        "My name is Jasmine Marsters. I am half Cook Island, half Tongan, born and raised in South Auckland, and blessed with six beautiful kids."
+      ]
+    },
+    {
+      "q": 2,
+      "paras": [
+        "I compete in strongman, and now, thanks to my eldest daughter, I have recently started learning to play rugby alongside her.",
+        "Needing to be strong, not only physically but also mentally, is what attracted me to it. I love it because all I wanted growing up with my brothers was to be as strong as them, and this was a way for me to prove it.",
+        "The pros for me are that you get to meet a lot of amazing people, all supporting one another as they put in the work to get the job done. The con for me is that it takes a toll on the body, so listen to it and look after it."
+      ]
+    },
+    {
+      "q": 3,
+      "paras": [
+        "My biggest achievement to date has to be my overhead strength gains. Going from not being able to get a 20 kg bar over my head to now being able to overhead press 75 kg is a big achievement for me.",
+        "My ultimate goal is to hit the numbers I set for myself when I started my strongman journey, and one day, if I am able to, compete in an overseas competition."
+      ]
+    },
+    {
+      "q": 4,
+      "paras": [
+        "It was by chance that I got to see Jess at this year's Strongman Series Easter Show, on day 2 of the competition. She was kind enough to let me try the X-ZONE Sports Rub, which honestly helped me out. The instant relief I felt was unbelievable. Ever since then I've been hooked, and it's now a part of my training and recovery routine."
+      ]
+    }
   ],
   "pull_quote": "All I wanted growing up with my brothers was to be as strong as them.",
-  "more": {"label": "Find out more about NZ Strongman", "url": "https://newzealandstrongman.co.nz"},
+  "more": {
+    "label": "Find out more about NZ Strongman",
+    "url": "https://newzealandstrongman.co.nz"
+  },
   "ig": {
     "headline": "From 20 kg to 75 kg overhead",
     "subline": "Ambassador 15: Jasmine Marsters, NZ Strongman",
@@ -50,5 +75,9 @@
     "Jasmine's Instagram handle and NZ Strongman's handle to tag",
     "Date on the draft is 11 June 2026, already past. Confirm whether this is a repost or set a new date that fits the summer calendar",
     "Confirm \"Strongman Series Easter Show\" is the event's official name"
-  ]
+  ],
+  "buffer": {
+    "instagram": "6af5a91a09e869a662dd3656",
+    "facebook": "6af5af429b3fbcc1bc2fd62d"
+  }
 }
