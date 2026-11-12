@@ -39,3 +39,16 @@ Left blank on the website form. Tick off as more info comes in.
 - [ ] New labels ("Sports Rub" etc.) rolling out; only new Sports Rub photos so far. Stock images coming
 - [x] Calendar cadence: now 3 posts a week + 1 email a week (Jessica, 11 Nov)
 - [ ] Pre-Christmas sale suggested as a one-day Buy 2 Get 1 Free on Fri 18 Dec, 8 days before the Boxing Day offer. Confirm both
+
+## Official X-ZONE brand page (received 12 Nov, `source/xzone-official-brand-page.png`)
+Colour palette with print specs. Each range pairs a colour with a contrasting X:
+| Colour | CMYK | PMS | Sampled from the image |
+|---|---|---|---|
+| Dark green | 91/24/100/55 | 357 | #0D441F |
+| Lime | 11/0/82/0 | 394 | #E0E64A |
+| Navy | 100/83/18/48 | 662 | #131D4A |
+| Orange | 0/35/85/0 | 1365 | #F3AC3E |
+| Black | 100% black | Black | #1F1C1D |
+| Red-orange | 0/89/100/0 | 172 | #E44726 |
+Logos: landscape, stacked and X icon, in green on white and white on green. Type: Galano Grotesque Light, Medium, Bold, Black. Imagery: TBC.
+- [ ] Decide whether this replaces the Reclaim guidelines palette (Bush, Sun, Ember)
