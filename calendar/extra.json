@@ -355,9 +355,9 @@
    "title": "Price hold and summer kit",
    "about": "November's one campaign: a summer first-aid kit checklist first, then the old-price hold. Moved to Thursday 26 Nov, our usual email day, so it reads as our own news rather than part of the Friday 27 Nov sales noise; the old prices are already held from the mid-November rise.",
    "hero": {
-    "headline": "Stock the summer kit",
-    "subline": "What every bach, car and sports bag needs this summer",
-    "photo": "range"
+    "headline": "The summer kit most baches are missing",
+    "subline": "Plus our old prices, held until {DATE}",
+    "photo": "cricket"
    },
    "sections": [
     {
@@ -387,7 +387,9 @@
     "Confirm the old-price hold covers every product, trial pots included",
     "Confirm replies to Shopify Messaging emails reach Jess and Dan",
     "UTM-tagged {LINK} for the email button and every product link",
-    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending",
+    "Review is the shortened quote from the testimonials page: swap for the full Judge.me review, word for word",
+    "Hero photo is a new stand-in still waiting on client approval"
    ]
   },
   {
@@ -401,9 +403,9 @@
    "title": "Gift guide and bruise colours",
    "about": "Week 2 newsletter: the bruise-colour lesson from the unscheduled w2-wed post, the Christmas gift guide from w2-thu, and the week's three posts.",
    "hero": {
-    "headline": "The gift guide, sorted by person",
+    "headline": "Christmas gifts, sorted by person",
     "subline": "For the tradie, the tramper, the touch player and the gardener",
-    "photo": "range"
+    "photo": "founders"
    },
    "sections": [
     {
@@ -440,7 +442,8 @@
     "Bruise timeline and GP guidance to be checked by Jess and Dan",
     "Any gift wrapping or gift card option to mention",
     "Instagram and Facebook links in the email footer (handles not given on the form)",
-    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending",
+    "Review is the shortened quote from the testimonials page: swap for the full Judge.me review, word for word"
    ]
   },
   {
@@ -454,9 +457,9 @@
    "title": "Last Christmas order dates",
    "about": "Week 3 newsletter: last Christmas order dates (from w3-thu), the day-two tramping lesson from the unscheduled w3-wed post, and the week's three posts.",
    "hero": {
-    "headline": "Last order dates for Christmas",
-    "subline": "Urban, rural and overseas, so your gifts arrive in time",
-    "photo": "range"
+    "headline": "Will it arrive before Christmas?",
+    "subline": "Our last order dates, plus what goes wrong on day two of a tramp",
+    "photo": "aoraki"
    },
    "sections": [
     {
@@ -493,7 +496,9 @@
     "Confirm the Sports roll-on is the one to feature (Relief roll-on is the alternative)",
     "UTM-tagged {LINK} for the email button and every product link",
     "Instagram and Facebook links in the email footer (handles not given on the form)",
-    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending",
+    "Review is the shortened quote from the testimonials page: swap for the full Judge.me review, word for word",
+    "Hero photo is a new stand-in still waiting on client approval"
    ]
   },
   {
@@ -507,9 +512,9 @@
    "title": "Pre-Christmas sale",
    "about": "December's one campaign, sent Friday 18 Dec, the same day as the bach cupboard post: the bach cupboard lesson first, then the pre-Christmas sale. The offer ({OFFER}) is for Jess and Dan to set. No build-up emails.",
    "hero": {
-    "headline": "Our pre-Christmas sale",
-    "subline": "{OFFER}. Stock the bach before the holidays.",
-    "photo": "range"
+    "headline": "What every bach cupboard should hold",
+    "subline": "{OFFER} in our pre-Christmas sale",
+    "photo": "ankle"
    },
    "sections": [
     {
@@ -539,7 +544,8 @@
     "Check the sale ends before the last urban order date ({DATE_URBAN}) so orders arrive for Christmas",
     "Confirm base descriptions (rub, spray, roll-on) against the labels",
     "UTM-tagged {LINK} for the email button and every product link",
-    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending",
+    "Review is the shortened quote from the testimonials page: swap for the full Judge.me review, word for word"
    ]
   },
   {
@@ -591,7 +597,8 @@
     "Blog link for the week 5 article 'Boxing Day recovery: hydration, movement and sleep' for {LINK}",
     "UTM-tagged {LINK} for the email button and every product link",
     "Instagram and Facebook links in the email footer (handles not given on the form)",
-    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending",
+    "Review is the shortened quote from the testimonials page: swap for the full Judge.me review, word for word"
    ]
   },
   {
@@ -605,9 +612,9 @@
    "title": "Joints Rub and stiff joints",
    "about": "January's one campaign, with no offer: a stiff-joints lesson first, then the Joints Rub, one of the two flagships the client named, with its lab result and a real review. Sent Sunday 3 January because 1 and 2 January are public holidays and December already has its campaign.",
    "hero": {
-    "headline": "Easier joints for 2027",
+    "headline": "Stiff joints this summer? Here is what helps",
     "subline": "Three habits, the 10% rule, then the Joints Rub",
-    "photo": "bush"
+    "photo": "hands"
    },
    "sections": [
     {
@@ -624,8 +631,8 @@
     }
    ],
    "review": {
-    "quote": "Before and after joint surgery, and when training.",
-    "name": "Karlene J, Auckland"
+    "quote": "Rub it on and forget I have found the X-Zone Joints product easy to use. I use it both for relieving aches and pains in my joints and for prevention support prior to hiking/tramping. It has been really effective. I am on my second bottle.",
+    "name": "Maria G., New Zealand, verified Judge.me review (Joints Rub)"
    },
    "cta": {
     "label": "Meet the Joints Rub",
@@ -637,7 +644,8 @@
     "Karlene's quote mentions joint surgery: quote only, the email makes no claim about surgery recovery",
     "Blog link for the week 6 article 'The 10% rule: how to start 2027 without getting hurt' (optional second link)",
     "UTM-tagged {LINK} for the email button and every product link",
-    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending",
+    "Hero photo is a new stand-in still waiting on client approval"
    ]
   },
   {
@@ -651,9 +659,9 @@
    "title": "DOMS and the lab results",
    "about": "Week 7 newsletter: the DOMS lesson from Monday's carousel, the Trinity Bioactives in-vitro results from Friday's post, and the unscheduled hamstring tip from w7-sat.",
    "hero": {
-    "headline": "Why day two hurts more",
-    "subline": "Delayed onset muscle soreness, explained in plain English",
-    "photo": "shoulder"
+    "headline": "Why day two hurts more than day one",
+    "subline": "DOMS in plain English, and what the lab found",
+    "photo": "running"
    },
    "sections": [
     {
@@ -688,7 +696,9 @@
     "Confirm Dr Vanessa Ingraham's evaluation is live on the blog before referring to it",
     "Check rātā's traditional uses against the herb fact sheet",
     "Instagram and Facebook links in the email footer (handles not given on the form)",
-    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending",
+    "Review is the shortened quote from the testimonials page: swap for the full Judge.me review, word for word",
+    "Hero photo is a new stand-in still waiting on client approval"
    ]
   },
   {
@@ -702,7 +712,7 @@
    "title": "Heat or ice, answered",
    "about": "Week 8 newsletter: heat or ice from Friday's post, the overhead-work shoulder tip from the unscheduled w8-sat Reel, and the week's turmeric and pukatea posts.",
    "hero": {
-    "headline": "Heat or ice, answered",
+    "headline": "Heat or ice? The honest answer",
     "subline": "It depends on how new the pain is",
     "photo": "ankle"
    },
@@ -740,7 +750,8 @@
     "Check pukatea's traditional uses against the herb fact sheet",
     "UTM-tagged {LINK} for the email button and every product link",
     "Instagram and Facebook links in the email footer (handles not given on the form)",
-    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending",
+    "Review is the shortened quote from the testimonials page: swap for the full Judge.me review, word for word"
    ]
   },
   {
@@ -790,7 +801,8 @@
     "Tennis elbow and back-pain guidance to be checked by Jess and Dan",
     "UTM-tagged {LINK} for the email button and every product link",
     "Instagram and Facebook links in the email footer (handles not given on the form)",
-    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending",
+    "Review is the shortened quote from the testimonials page: swap for the full Judge.me review, word for word"
    ]
   },
   {
@@ -804,9 +816,9 @@
    "title": "Sleep and medicine aches",
    "about": "Week 10 newsletter: sleep habits from Friday's post, the medicines-and-muscle-pain lesson from Monday's carousel, and the unscheduled hands-and-wrists tip from w10-sat.",
    "hero": {
-    "headline": "Your body repairs while you sleep",
-    "subline": "Three free habits that matter more than any product",
-    "photo": "bush"
+    "headline": "The best recovery tool is free, and it's your bed",
+    "subline": "Three sleep habits, and when a medicine is behind the aches",
+    "photo": "bushwalk"
    },
    "sections": [
     {
@@ -827,8 +839,8 @@
     }
    ],
    "review": {
-    "quote": "I've never slept like this.",
-    "name": "Tracey, New Zealand"
+    "quote": "By far better than anything else I’ve used. Gives instant and long lasting pain relief for my arthritis and calcific tendonitis. I highly recommend it.",
+    "name": "Philippa C., New Zealand, verified Judge.me review (Sports Roll-On)"
    },
    "cta": {
     "label": "Find your roll-on",
@@ -842,7 +854,8 @@
     "Confirm the Tūpākihi toxicity line and lab wording before the Wednesday Reel",
     "UTM-tagged {LINK} for the email button and every product link",
     "Instagram and Facebook links in the email footer (handles not given on the form)",
-    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending",
+    "Hero photo is a new stand-in still waiting on client approval"
    ]
   },
   {
@@ -856,9 +869,9 @@
    "title": "Sports Rub: warm-up and recovery",
    "about": "February's one campaign, sent Thursday 4 Feb before Waitangi weekend, with no sale or offer: long-weekend first aid and a warm-up first, then the Sports Rub, one of the two flagships the client named, with its lab result and a real review. A short, respectful Waitangi note closes it, and nothing is sent on Waitangi Day.",
    "hero": {
-    "headline": "Warm up first, recover well after",
-    "subline": "First aid, a five-minute warm-up and the Sports Rub",
-    "photo": "ankle"
+    "headline": "The five minutes that save your long weekend",
+    "subline": "First aid, a quick warm-up and the Sports Rub",
+    "photo": "running"
    },
    "sections": [
     {
@@ -879,8 +892,8 @@
     }
    ],
    "review": {
-    "quote": "Pre and post workouts.",
-    "name": "Matt A, personal trainer and CrossFit competitor"
+    "quote": "I was sceptical, but wow! I’m a runner that runs long distances. This stuff post run provides instant relief to sore muscles and speeds up recovery. Totally recommend.",
+    "name": "James H., New Zealand, verified Judge.me review (Sports Rub)"
    },
    "cta": {
     "label": "Meet the Sports Rub",
@@ -894,7 +907,8 @@
     "Warm-up and first-aid guidance to be checked by Jess and Dan",
     "Blog link for the eleven-herb guide",
     "UTM-tagged {LINK} for the email button and every product link",
-    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending",
+    "Hero photo is a new stand-in still waiting on client approval"
    ]
   },
   {
@@ -908,9 +922,9 @@
    "title": "The sideline kit for parents",
    "about": "Week 12 newsletter for parents: the sideline kit from the unscheduled w12-wed post, the trials warm-up from Wednesday's Reel, and Steve Wilbury's quote from the unscheduled w12-thu post.",
    "hero": {
-    "headline": "Pack the sideline bag once",
-    "subline": "What to bring, and when to sit them out",
-    "photo": "ankle"
+    "headline": "What smart sideline parents keep in the car",
+    "subline": "What to pack, and when to sit them out",
+    "photo": "cricket"
    },
    "sections": [
     {
@@ -945,7 +959,9 @@
     "Head-knock guidance to be checked before sending",
     "UTM-tagged {LINK} for the email button and every product link",
     "Instagram and Facebook links in the email footer (handles not given on the form)",
-    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending",
+    "Review is the shortened quote from the testimonials page: swap for the full Judge.me review, word for word",
+    "Hero photo is a new stand-in still waiting on client approval"
    ]
   },
   {
@@ -959,9 +975,9 @@
    "title": "Summer thank-you and survey",
    "about": "Week 13 newsletter: a summer thank-you from Jess and Dan, the most-asked questions from Friday's post, and the 'what should we cover next' survey from the unscheduled w13-thu post.",
    "hero": {
-    "headline": "Thank you for a summer of learning",
+    "headline": "Thank you for a summer of learning with us",
     "subline": "Now help us choose what we cover this autumn",
-    "photo": "founders"
+    "photo": "bush"
    },
    "sections": [
     {
@@ -996,7 +1012,8 @@
     "Confirm use and age guidance (1 to 5 ml, up to five times a day, patch test) against the current labels",
     "Mavis's quote names a condition: quote only, no claim that the rub treats arthritis",
     "Instagram and Facebook links in the email footer (handles not given on the form)",
-    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending",
+    "Review is the shortened quote from the testimonials page: swap for the full Judge.me review, word for word"
    ]
   }
  ],
