@@ -128,5 +128,5 @@ Thirteen ready-to-paste emails for Shopify Messaging (Shopify Email), built from
 
 ## Before the first send
 - Fill in the business address in the footer of each file.
-- Swap shortened review quotes for full Judge.me reviews where marked in the calendar (weeks 6, 10 and 11 already have them).
+- Twelve of the 13 emails carry a full Judge.me review, word for word. Week 9 still uses Ben M's shortened quote until his full review is found (see `brief/reviews.md`).
 - The hero photos for the new images are stand-ins waiting on client approval.
