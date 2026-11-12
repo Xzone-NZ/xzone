@@ -26,6 +26,8 @@ Images load from the repo at commit ed4eb7f, so keep those files.
 
 ## Notion
 
+Notion skill page: https://app.notion.com/p/416952099f258111812fcac79fe47560 (Head of Marketing > Skills)
+
 Logged in Head of Marketing > Outputs > Output Log (`notion_page.py` makes each row's page):
 - Jasmine: https://app.notion.com/p/416952099f2581e7a8dfc95f0d43d260
 - Mollie: https://app.notion.com/p/416952099f25816fbcf3ea5fcea961b3

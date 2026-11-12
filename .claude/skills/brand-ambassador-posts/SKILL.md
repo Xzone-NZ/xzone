@@ -118,6 +118,8 @@ When the user asks to add posts to Buffer, save them as **drafts** (`saveToDraft
 
 ## Step 6: Notion
 
+The same skill lives in Notion as a skill page (Head of Marketing > Skills > Brand Ambassador Posts, https://app.notion.com/p/416952099f258111812fcac79fe47560). If you change the steps here, update that page to match.
+
 Every finished ambassador goes into Notion (Head of Marketing > Outputs > **Output Log** database, data source `collection://2d89e36d-bbb6-4aad-8afd-3854cff4ebc6`). Fetch the data source first to confirm the schema, and search it for the ambassador's name so you update an existing row instead of adding a duplicate.
 
 1. Generate the page body (flags as a checklist, the three IG slides as images, IG caption, FB post, full blog post, Buffer draft IDs, edits):
