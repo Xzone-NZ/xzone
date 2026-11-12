@@ -25,7 +25,8 @@ Source: `source/xzone-official-brand-page.png`. The form's hex codes were wrong;
 | Black | #1F1C1D | Black | Sports |
 | Red | #E44726 | 172 | Sports accent |
 
-Range pairs: Relief green + lime, Joints navy + orange, Sports black + red. Brand posts use green + lime. Reclaim's earlier palette (Bush Deep, Bush, Sun, Ember) and its "no blue, no navy" rule are retired.
+Range pairs: Relief green + lime, Joints navy + orange, Sports black + red. Brand posts use green + lime.
+**Social posts (decided 12 Nov):** no red or orange on social posts, except the ambassador series, which always uses black + red (with the green title band and lime subline) whatever the range. Reclaim's earlier palette (Bush Deep, Bush, Sun, Ember) and its "no blue, no navy" rule are retired.
 Contrast: lime and orange are accents on dark grounds, never small text on white.
 
 ## Type (form)

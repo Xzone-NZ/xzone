@@ -91,7 +91,7 @@ Write `ambassadors/content/<NN>-<slug>.json` (NN = series number, two digits) in
 
 Optional `ig.cover_photo` and `ig.end_photo` (photo index, default 0 and 1) pick which photo goes on the carousel cover and last slide. The cover photo area is landscape, so a wide shot suits it; a tall action shot suits the last slide.
 
-`range` is one of `relief`, `joints`, `sports`. Colours come from the spec (Relief green + lime, Joints navy + orange, Sports black + red); the build handles it.
+`range` is one of `relief`, `joints`, `sports`; it sets the pill text only. **Ambassador posts always use black + red** (black quote slide, red pill) whatever the range, on top of the usual green title band and lime subline. Black + red is reserved for the ambassador series: every other post follows the Instagram Posts rule of no red or orange (decided 12 Nov). The build handles it.
 
 Then run:
 
