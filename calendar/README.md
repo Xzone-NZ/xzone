@@ -8,6 +8,7 @@
 - `schedule.json` the slot list pulled from the summer plan.
 - `BRIEF.md` the writing rules the content follows.
 - `template.html` + `build.py` build `xzone-summer-calendar.html` (run `python3 build.py`).
+- `buffer_export.py` writes `buffer/buffer-posts.json` and `.csv`: the 39 scheduled posts as Buffer drafts (78 rows, Instagram and Facebook), 7pm NZT, caption plus hashtags, media and confirm notes. Re-run after any content change.
 - `small/` stand-in photos used in the previews. Swap for real shoot photos later.
 
 Live page: https://claude.ai/artifact/Q3HxajV6KzhTtxjB5EwkNf
