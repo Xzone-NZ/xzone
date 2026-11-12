@@ -40,6 +40,16 @@ Contrast: lime and orange are accents on dark grounds, never small text on white
 - Open Sans (from the guidelines) is dropped.
 - Sentence case and the label style carry over from the guidelines.
 
+## Social design direction (feedback, 12 Nov)
+Canvas: https://claude.ai/artifact/RLoAHdj2FRV5R3hstYRMWL (Round 1: three directions; Round 2: refined).
+- **Approved:** Reel 1, the founders story ("Why we swapped the office for the Waitākere Ranges"), and Story 1, the ankle photo with a poll sticker.
+- **Headlines are always hooks.** Write every reel, story and post headline like the Reel 1 one: a curiosity or story hook ("Why we…", "The one thing we…", "Every family has one…"), with a play-button "Watch…" line on reels. Voice rules still apply (no exclamation marks, no "cures").
+- **House style:** Reel 2's green #0D441F and lime #E0E64A with Poppins ExtraBold. Key words get a lime (or range-accent) highlighter.
+- **Stories:** Story 1's format, a full photo plus a two-option poll and a "tomorrow we share…" line.
+- **Posts:** Post 1's layout (photo on top, review in a colour band below) in each range's colours: Relief lime band, Joints orange band with navy text, Sports red band with white text.
+- **Less dark.** The first round was too dark. Mix in white, lime, orange and red grounds and don't run more than one dark-green design in a row.
+- **Pending photos:** backyard cricket, Hooker Valley track, bush walk, and two hands close-ups were added to Round 2 but are not approved yet.
+
 ## Carried over from guidelines (form silent so far)
 These are the guidelines' rules. Each one is replaced if a later part of the form answers it.
 - Logo use, clear space, minimum sizes, avatar (black icon on white circle)
