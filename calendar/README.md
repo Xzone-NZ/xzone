@@ -9,6 +9,7 @@
 - `BRIEF.md` the writing rules the content follows.
 - `template.html` + `build.py` build `xzone-summer-calendar.html` (run `python3 build.py`).
 - `buffer_export.py` writes `buffer/buffer-posts.json` and `.csv`: the 39 scheduled posts as Buffer drafts (78 rows, Instagram and Facebook), 7pm NZT, caption plus hashtags, media and confirm notes. Re-run after any content change.
+- **In Buffer (12 Nov 2026):** all 78 are loaded as drafts (39 Instagram for xzonenz, 39 Facebook for the XZone NZ page), each set to its date at 7pm NZT, Reels set as Reels. Drafts never publish on their own: attach the image or video, fill any {PLACEHOLDER}, then schedule each one in Buffer. The free plan holds only 10 scheduled posts at a time, so schedule a week or two ahead. Edits made in Buffer do not flow back here.
 - `small/` stand-in photos used in the previews. Swap for real shoot photos later.
 
 Live page: https://claude.ai/artifact/Q3HxajV6KzhTtxjB5EwkNf
