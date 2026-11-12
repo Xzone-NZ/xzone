@@ -19,4 +19,6 @@ The client's own photos from their Google Drive folder (shared 12 Nov 2026), res
 | sports-spray-gym.jpg | Sports Spray on an arm at the gym | Training, Sports range |
 | sports-spray-arm.jpg | Sports Spray on a forearm | Tennis elbow, tradies, Sports range |
 
+**Three more iStock images added 12 Nov** (on the canvas, not copied here): an older man in a beanie with mountains behind (`elder-mountains`, used in the week 13 autumn story), a couple resting on the waterfront after a run (`couple-waterfront`, week 6 routine story) and a family playing with a rugby ball on a deck (`family-deck`, week 4 parents story and week 12 sideline post).
+
 **Not copied here:** the six iStock images in the Drive folder (already used as stand-ins: hands, Hooker Valley, bush walk, running, hands in green jumper, backyard cricket). They are licensed stock; the brand guidelines say no stock photography, so Jess and Dan should confirm they're happy to use them. Two Drive files (IMG_8848.jpg and IMG_9452.JPG) would not download; they may be too large for Drive's direct link.
