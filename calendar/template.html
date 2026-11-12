@@ -74,10 +74,12 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 @media (max-width:1100px){.days{grid-template-columns:repeat(4,minmax(0,1fr))}}
 @media (max-width:640px){.days{grid-template-columns:repeat(2,minmax(0,1fr))}.wmeta{text-align:left}.bar{position:static}}
 
-/* ---------- brand previews: Round 2 social style (green, lime, white; navy only for Joints). 1cqw = 1% of the frame width ---------- */
+/* ---------- brand previews: approved Round 2 look (green, white, a little lime; navy only for Joints). 1cqw = 1% of the frame width.
+   Layout lives on an absolute .pin layer, never on the container itself: flex on a size container locks up Chrome. ---------- */
 .pv{--ink:#0D441F;--pw:13,68,31;container-type:inline-size;position:relative;overflow:hidden;width:100%;aspect-ratio:4/5;background:#fff;color:var(--ink);font-family:var(--font);text-align:left}
 .pv.r-joints{--ink:#131D4A;--pw:19,29,74}
 .pv.tall{aspect-ratio:9/16}
+.pv .pin{position:absolute;inset:0;display:flex;flex-direction:column}
 .pv .ph{position:absolute;inset:0;background-size:cover;background-position:center}
 .pv .prod{background-size:auto 80%!important;background-repeat:no-repeat;background-color:#fff}
 .pv .lgp{position:absolute;top:5cqw;left:5cqw;z-index:3;background:#fff;border-radius:99cqw;padding:1.5cqw 3cqw;display:flex;line-height:0}
@@ -85,51 +87,48 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .pv .lgi{height:3.8cqw;width:auto;display:block}
 .pv .lgw{background:#fff;border-radius:99cqw;padding:1.2cqw 2.4cqw;display:flex;line-height:0}
 .pv .lgw img{height:3cqw;width:auto}
-.pv .tag{align-self:flex-start;background:#E0E64A;color:#0D441F;border-radius:99cqw;padding:1.2cqw 2.8cqw;font-size:2.6cqw;font-weight:700;letter-spacing:.12em;text-transform:uppercase;line-height:1.3}
+.pv .tag{align-self:flex-start;background:#E0E64A;color:#0D441F;border-radius:99cqw;padding:1.2cqw 2.8cqw;font-size:2.5cqw;font-weight:700;letter-spacing:.12em;text-transform:uppercase;line-height:1.3}
 .pv .watch{display:flex;align-items:center;gap:2cqw;font-size:3cqw;font-weight:600}
 .pv .watch svg{width:5.4cqw;height:5.4cqw;color:#E0E64A;flex:none}
-/* reel and live: photo-led, green fade at the bottom (Reel A) */
+/* Reel A: full photo, green fade at the foot */
 .pv.reel{background:#0D441F;color:#fff}
-.pv.reel .grad{position:absolute;inset:0;background:linear-gradient(180deg,rgba(var(--pw),0) 28%,rgba(var(--pw),.55) 56%,rgba(var(--pw),.96) 100%)}
+.pv.reel .grad{position:absolute;inset:0;background:linear-gradient(180deg,rgba(var(--pw),0) 30%,rgba(var(--pw),.55) 56%,rgba(var(--pw),.96) 100%)}
 .pv.reel .rb{position:absolute;left:6cqw;right:6cqw;bottom:8cqw;display:flex;flex-direction:column;gap:2.6cqw;z-index:2}
 .pv.tall.reel .rb{bottom:24cqw}
-.pv.tall.reel .lgp{top:9cqw}
+.pv.tall .lgp{top:9cqw}
 .pv.reel .h{font-size:7.6cqw;line-height:1.07;font-weight:800}
 .pv.tall.reel .h{font-size:9cqw}
 .pv.reel .s{font-size:3.5cqw;line-height:1.4;font-weight:500;color:rgba(255,255,255,.88)}
-/* single posts: photo on top, colour band below (Post 1) */
-.pv .pin{position:absolute;inset:0;display:flex;flex-direction:column}
+/* Reel B: photo on top, white panel */
+.pv.rw{background:#fff}
+.pv.rw .rimg{flex:none;height:52%;position:relative;background-size:cover;background-position:center}
+.pv.rw .rp{padding:6cqw 6.5cqw 0;display:flex;flex-direction:column;gap:2.8cqw}
+.pv.rw .tag{background:var(--ink);color:#E0E64A}
+.pv.rw .h{font-size:8.4cqw;line-height:1.08;font-weight:800}
+.pv.rw .s{font-size:3.4cqw;line-height:1.4;font-weight:500;opacity:.8}
+.pv.rw .watch svg{color:var(--ink)}
+/* posts and carousel covers: photo on top, colour band below (Posts A to C) */
 .pv .pimg{flex:none;position:relative;background-size:cover;background-position:center}
-.pv .pband{flex:1;min-height:0;display:flex;flex-direction:column;gap:1.8cqw;padding:4.4cqw 6cqw 4.2cqw;background:#fff;color:var(--ink)}
+.pv .pband{flex:1;min-height:0;display:flex;flex-direction:column;gap:1.8cqw;padding:5cqw 7cqw 4.6cqw;background:#fff;color:var(--ink)}
+.pv .pband.t-green{background:#0D441F;color:#fff}
+.pv .pband.t-lime{background:#E0E64A;color:#0D441F}
 .pv .lab{font-size:2.4cqw;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
-.pv.post .h{font-size:6.2cqw;line-height:1.08;font-weight:800}
-.pv.post .s{font-size:3.1cqw;line-height:1.4;font-weight:500;opacity:.85}
+.pv .t-green .lab{color:#E0E64A}
+.pv .pband .h{font-size:6.2cqw;line-height:1.08;font-weight:800}
+.pv .pband .s{font-size:3.1cqw;line-height:1.42;font-weight:500;opacity:.86}
 .pv .foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:3cqw}
 .pv .foot.end{justify-content:flex-end}
-.pv.bd .pband{background:#E0E64A}
-.pv.bd .steps{display:grid;gap:1cqw;font-size:2.6cqw;line-height:1.35;font-weight:500}
-.pv.bd .steps span{border-left:.6cqw solid var(--ink);padding-left:1.8cqw}
-.pv.q .pband{background:#0D441F;color:#fff}
-.pv.q .lab{color:#E0E64A}
-.pv.q.light .pband{background:#fff;color:var(--ink)}
-.pv.q.light .lab{color:var(--ink)}
-.pv.q .qt{font-size:6cqw;line-height:1.12;font-weight:800}
-.pv.q .who{font-size:2.9cqw;font-weight:600;opacity:.9}
+.pv .steps{display:grid;gap:1cqw;font-size:2.6cqw;line-height:1.35;font-weight:500}
+.pv .steps span{border-left:.6cqw solid currentColor;padding-left:1.8cqw}
+.pv .t-green .steps span{border-left-color:#E0E64A}
+.pv .qt{font-size:6cqw;line-height:1.1;font-weight:800}
+.pv .who{font-size:2.9cqw;font-weight:600;opacity:.92}
 .pv .fbtag{position:absolute;top:4cqw;right:4cqw;background:#fff;color:#0D441F;font-size:2.6cqw;font-weight:700;padding:1cqw 2.4cqw;border-radius:99cqw}
 .pv .poll{display:grid;gap:1.3cqw}
-.pv .poll span{border:.35cqw solid rgba(var(--pw),.25);border-radius:99cqw;padding:1.3cqw 3cqw;font-size:2.9cqw;font-weight:600;text-align:center}
-/* carousel cover: lime ground, photo inset (Reel C) */
-.pv.cv{background:#E0E64A}
-.pv.cv .pin{gap:2.2cqw;padding:5cqw 6cqw 7cqw}
-.pv.cv .ctop{display:flex;justify-content:space-between;align-items:center;gap:2cqw;margin-bottom:2cqw}
-.pv.cv .lgp{position:static}
-.pv.cv .tag{background:var(--ink);color:#E0E64A;align-self:auto}
-.pv.cv .h{font-size:7.4cqw;line-height:1.06;font-weight:800}
-.pv.cv .s{font-size:3.2cqw;line-height:1.4;font-weight:500;opacity:.85}
-.pv.cv .cimg{margin-top:auto;flex:none;height:48cqw;border-radius:3.6cqw;background-size:cover;background-position:center}
+.pv .poll span{border:.35cqw solid currentColor;border-radius:99cqw;padding:1.3cqw 3cqw;font-size:2.9cqw;font-weight:600;text-align:center;opacity:.9}
 .pv .dots{position:absolute;bottom:2.6cqw;left:0;right:0;display:flex;justify-content:center;gap:1.4cqw;z-index:3}
-.pv .dots i{width:1.5cqw;height:1.5cqw;border-radius:50%;background:rgba(var(--pw),.3)}
-.pv .dots i.on{background:var(--ink)}
+.pv .dots i{width:1.5cqw;height:1.5cqw;border-radius:50%;background:currentColor;opacity:.3}
+.pv .dots i.on{opacity:1}
 /* carousel inner slides: white, lime number */
 .pv .inner{position:absolute;inset:0;padding:13cqw 7cqw 12cqw;display:flex;flex-direction:column;gap:3.4cqw;background:#fff;color:var(--ink)}
 .pv .inner .n{width:12cqw;height:12cqw;border-radius:50%;background:#E0E64A;color:#0D441F;display:grid;place-items:center;font-size:5.2cqw;font-weight:800;flex:none}
@@ -137,21 +136,30 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .pv .inner p{margin:0;font-size:4.1cqw;line-height:1.42;font-weight:400;opacity:.85}
 .pv .idx{position:absolute;top:5cqw;right:6cqw;font-size:3cqw;font-weight:700;color:var(--ink);opacity:.7}
 .pv .inner~.lgi{position:absolute;left:7cqw;bottom:5cqw}
-/* story: full photo, poll-sticker format (Story 1) */
+/* Story A: full photo, poll sticker */
 .pv.st{background:#0D441F;color:#fff}
 .pv.st .g1{position:absolute;left:0;right:0;top:0;height:26%;background:linear-gradient(180deg,rgba(var(--pw),.75),rgba(var(--pw),0))}
 .pv.st .g2{position:absolute;left:0;right:0;bottom:0;height:66%;background:linear-gradient(180deg,rgba(var(--pw),0),rgba(var(--pw),.72) 55%,rgba(var(--pw),.96))}
 .pv.st .lgp{left:50%;transform:translateX(-50%);top:8cqw}
 .pv.st .sb{position:absolute;left:8cqw;right:8cqw;bottom:13cqw;display:flex;flex-direction:column;align-items:center;gap:4.2cqw;text-align:center;z-index:2}
-.pv.st .tag{align-self:center}
+.pv.st .sb .tag{align-self:center}
 .pv.st .x{font-size:6.4cqw;line-height:1.14;font-weight:800}
-.pv.st .stk{width:100%;background:#fff;color:#0D441F;border-radius:3.4cqw;overflow:hidden;display:flex;flex-direction:column}
-.pv.st .stk span{padding:2.8cqw 4cqw;font-size:3.8cqw;font-weight:600}
+.pv.st .stk{width:100%;box-sizing:border-box;background:#fff;color:var(--ink);border-radius:3.4cqw;overflow:hidden;display:flex;flex-direction:column}
+.pv.st .stk span{padding:2.8cqw 4cqw;font-size:3.8cqw;font-weight:600;text-align:center}
 .pv.st .stk span+span{border-top:.25cqw solid #E8E8E8}
-.pv.st .ask{width:100%;box-sizing:border-box;background:#fff;color:#0D441F;border-radius:3.4cqw;padding:3.4cqw 4cqw;display:grid;gap:1.4cqw}
+.pv.st .ask{width:100%;box-sizing:border-box;background:#fff;color:var(--ink);border-radius:3.4cqw;padding:3.4cqw 4cqw;display:grid;gap:1.4cqw;text-align:center}
 .pv.st .ask b{font-size:3.4cqw}
 .pv.st .ask i{font-style:normal;font-size:3.2cqw;color:#5f6b62}
-.pv.st .lnk{background:#fff;color:#0D441F;border-radius:99cqw;padding:2.4cqw 4.4cqw;font-size:3.4cqw;font-weight:700}
+.pv.st .lnk{background:#fff;color:var(--ink);border-radius:99cqw;padding:2.4cqw 4.4cqw;font-size:3.4cqw;font-weight:700}
+/* Story C: white, photo card, sticker over the card */
+.pv.st.sw{background:#fff;color:var(--ink)}
+.pv.sw .pin{padding:9cqw 7cqw 12cqw;gap:4.4cqw}
+.pv.sw .stop{display:flex;justify-content:space-between;align-items:center}
+.pv.sw .stop .tag{background:var(--ink);color:#fff}
+.pv.sw .x{font-size:7cqw;line-height:1.1;font-weight:800}
+.pv.sw .card{flex:1;min-height:30cqw;border-radius:4cqw;background-size:cover;background-position:center}
+.pv.sw .stk,.pv.sw .ask{width:auto;margin:-16cqw 7cqw 0;position:relative;box-shadow:0 2.4cqw 6cqw rgba(var(--pw),.22)}
+.pv.sw .lnk{align-self:center;margin-top:-10cqw;position:relative;box-shadow:0 2.4cqw 6cqw rgba(var(--pw),.22)}
 
 /* ---------- detail panel ---------- */
 .ov{position:fixed;inset:0;background:rgba(10,16,12,.6);z-index:20;display:grid;place-items:center;padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
@@ -233,12 +241,16 @@ const stories=[];D.weeks.forEach(w=>w.stories.forEach(s=>{s._w=w.week;stories.pu
 function photo(k){return IMG[k]||IMG.bush}
 const RN={relief:'Relief range',joints:'Joints range',sports:'Sports range'};
 const PLAY='<svg viewBox="0 0 56 56" aria-hidden="true"><circle cx="28" cy="28" r="26.5" fill="none" stroke="currentColor" stroke-width="3"/><path d="M23 18.5 39 28l-16 9.5v-19Z" fill="currentColor"/></svg>';
+function hsh(s){let n=7;for(const c of String(s))n=(n*31+c.charCodeAt(0))>>>0;return n}
 function label(p){return p.pill||RN[p.range]||''}
 function lgp(){return `<span class="lgp"><img src="${IMG.logo}" alt=""></span>`}
 function lgi(){return `<img class="lgi" src="${IMG.logo}" alt="">`}
 function lgw(){return `<span class="lgw"><img src="${IMG.logo}" alt=""></span>`}
 function bg(k){return `background-image:url(${photo(k)})`}
 function pimg(k,h,extra=''){return `<div class="pimg ${k==='range'?'prod':''}" style="height:${h}cqw;${bg(k)}">${extra}</div>`}
+// band colour: mostly white and green, lime only now and then
+function tone(p,pool){return pool[hsh(p.id)%pool.length]}
+function logoFor(t){return t==='t-green'?lgw():lgi()}
 
 function preview(p,opts){return previewRaw(p,opts).replace(/<div class="pv( |")/,(m,c)=>`<div class="pv r-${p.range||'all'}${c}`)}
 function previewRaw(p,opts={}){
@@ -246,39 +258,47 @@ function previewRaw(p,opts={}){
   const ph=`<div class="ph ${p.photo==='range'?'prod':''}" style="${bg(p.photo)}"></div>`;
   if(t==='reel'||t==='live'){
     const live=t==='live', tag=live?'Live on Facebook':(lab||'Reel');
-    return `<div class="pv reel ${live?'':'tall'}">${ph}<div class="grad"></div>${lgp()}<div class="rb"><span class="tag">${esc(tag)}</span><div class="h">${h}</div>${s?`<div class="s">${s}</div>`:''}<div class="watch">${PLAY}<span>${live?'Join us live':'Watch'+(p.duration?' · '+esc(p.duration):'')}</span></div></div></div>`;
+    const watch=`<div class="watch">${PLAY}<span>${live?'Join us live':'Watch'+(p.duration?' · '+esc(p.duration):'')}</span></div>`;
+    if(!live && hsh(p.id)%3===1) return `<div class="pv rw tall"><div class="pin"><div class="rimg ${p.photo==='range'?'prod':''}" style="${bg(p.photo)}">${lgp()}</div><div class="rp"><span class="tag">${esc(tag)}</span><div class="h">${h}</div>${s?`<div class="s">${s}</div>`:''}${watch}</div></div></div>`;
+    return `<div class="pv reel ${live?'':'tall'}">${ph}<div class="grad"></div>${lgp()}<div class="rb"><span class="tag">${esc(tag)}</span><div class="h">${h}</div>${s?`<div class="s">${s}</div>`:''}${watch}</div></div>`;
   }
-  if(t==='quote') return `<div class="pv post q ${p.range==='joints'?'light':''}"><div class="pin">${pimg(p.photo,66)}<div class="pband"><span class="lab">In their words${lab?' · '+esc(lab):''}</span><div class="qt">${h}</div><div class="foot"><span class="who">${s}</span>${p.range==='joints'?lgi():lgw()}</div></div></div></div>`;
+  if(t==='quote'){
+    const tn=p.range==='joints'?'':'t-green';
+    return `<div class="pv post"><div class="pin">${pimg(p.photo,65)}<div class="pband ${tn}"><span class="lab">In their words${lab?' · '+esc(lab):''}</span><div class="qt">${h}</div><div class="foot"><span class="who">${s}</span>${logoFor(tn)}</div></div></div></div>`;
+  }
   if(t==='fb'){
     const poll=(p.poll||[]).length?`<div class="poll">${p.poll.slice(0,3).map(o=>`<span>${esc(o)}</span>`).join('')}</div>`:(s?`<div class="s">${s}</div>`:'');
-    return `<div class="pv post fbp"><div class="pin">${pimg(p.photo,(p.poll||[]).length?50:62,'<span class="fbtag">Facebook</span>')}<div class="pband"><div class="h">${h}</div>${poll}<div class="foot end">${lgi()}</div></div></div></div>`;
+    return `<div class="pv post"><div class="pin">${pimg(p.photo,(p.poll||[]).length?50:62,'<span class="fbtag">Facebook</span>')}<div class="pband"><div class="h">${h}</div>${poll}<div class="foot end">${lgi()}</div></div></div></div>`;
   }
-  if(t==='band'){
-    const st=(p.steps||[]).slice(0,3), steps=st.length?`<div class="steps">${st.map(x=>`<span><b>${esc(x.b)}</b> ${esc(x.t)}</span>`).join('')}</div>`:'';
-    return `<div class="pv post bd"><div class="pin">${pimg(p.photo,steps?54:64)}<div class="pband">${lab?`<span class="lab">${esc(lab)}</span>`:''}<div class="h">${h}</div>${steps||(s?`<div class="s">${s}</div>`:'')}<div class="foot end">${lgi()}</div></div></div></div>`;
+  if(t==='band'||t==='ground'){
+    const tn=tone(p,t==='band'?['','t-green','','t-green','t-lime']:['','t-green']);
+    const st=t==='band'?(p.steps||[]).slice(0,3):[], steps=st.length?`<div class="steps">${st.map(x=>`<span><b>${esc(x.b)}</b> ${esc(x.t)}</span>`).join('')}</div>`:'';
+    return `<div class="pv post"><div class="pin">${pimg(p.photo,steps?54:65)}<div class="pband ${tn}">${lab?`<span class="lab">${esc(lab)}</span>`:''}<div class="h">${h}</div>${steps||(s?`<div class="s">${s}</div>`:'')}<div class="foot end">${logoFor(tn)}</div></div></div></div>`;
   }
   if(t==='carousel'){
+    const tn=tone(p,['','t-green']);
     const dots=`<div class="dots">${(p.slides||[]).map((_,i)=>`<i class="${i===0?'on':''}"></i>`).join('')}</div>`;
-    return `<div class="pv cv"><div class="pin"><div class="ctop">${lgp()}${lab?`<span class="tag">${esc(lab)}</span>`:''}</div><div class="h">${h}</div>${s?`<div class="s">${s}</div>`:''}<div class="cimg ${p.photo==='range'?'prod':''}" style="${bg(p.photo)}"></div>${dots}</div></div>`;
+    return `<div class="pv post cv"><div class="pin">${pimg(p.photo,65,lgp())}<div class="pband ${tn}">${lab?`<span class="lab">${esc(lab)}</span>`:''}<div class="h">${h}</div>${s?`<div class="s">${s}</div>`:''}${dots}</div></div></div>`;
   }
-  // ground: single post, white band
-  return `<div class="pv post gr"><div class="pin">${pimg(p.photo,66)}<div class="pband">${lab?`<span class="lab">${esc(lab)}</span>`:''}<div class="h">${h}</div>${s?`<div class="s">${s}</div>`:''}<div class="foot end">${lgi()}</div></div></div></div>`;
+  return `<div class="pv post"><div class="pin">${pimg(p.photo,65)}<div class="pband"><div class="h">${h}</div>${s?`<div class="s">${s}</div>`:''}<div class="foot end">${lgi()}</div></div></div></div>`;
 }
 function slide(p,s,i,n){
   if(i===0) return preview(p);
   return `<div class="pv r-${p.range||'all'}"><div class="inner"><span class="idx">${i+1} / ${n}</span><div class="n">${i+1}</div><h4>${esc(s.h)}</h4><p>${esc(s.b)}</p></div>${lgi()}</div>`;
 }
 const SLAB={quiz:'Quiz',question:'Ask Jess and Dan',poll:'Poll',countdown:'Countdown',link:'Link',bts:'Behind the scenes',testimonial:'Customer words',prompt:'Your turn',explainer:'Explainer',recap:'Recap',greeting:'From Jess and Dan'};
-const SPH={quiz:['bush','bushwalk'],question:['founders'],poll:['cricket','ankle','aoraki'],countdown:['range'],link:['range','bushwalk'],bts:['founders'],testimonial:['hands','shoulder'],prompt:['aoraki','bushwalk','cricket'],explainer:['bush','handsclose'],recap:['range','founders'],greeting:['founders']};
-const SKEY=[[/hand|gardener|maker/i,'handsclose'],[/cricket/i,'cricket'],[/tramp|trail|track|walk/i,'bushwalk'],[/knee|joint|arthritis|rheumat/i,'hands'],[/sport|netball|rugby|football|sideline|trials|code|training/i,'ankle'],[/bruise|bump/i,'bruise'],[/sleep|back|worksite|site/i,'shoulder']];
-function storyPhoto(s){for(const [re,k] of SKEY) if(re.test(s.text||'')) return k;const l=SPH[s.type]||['bush'];let n=0;for(const c of String(s.id))n+=c.charCodeAt(0);return l[n%l.length]}
+const SPH={quiz:['bush','bushwalk'],question:['founders'],poll:['cricket','ankle','aoraki','running'],countdown:['range'],link:['range','bushwalk'],bts:['founders'],testimonial:['running','shoulder','bushwalk'],prompt:['aoraki','bushwalk','cricket','running'],explainer:['bush','handsclose'],recap:['range','founders'],greeting:['founders']};
+const SKEY=[[/hand|gardener|maker/i,'handsclose'],[/cricket/i,'cricket'],[/tramp|trail|track|walk/i,'bushwalk'],[/knee|joint|arthritis|rheumat/i,'hands'],[/run|cyclist|recover/i,'running'],[/sport|netball|rugby|football|sideline|trials|code|training/i,'ankle'],[/bruise|bump/i,'bruise'],[/sleep|back|worksite|site/i,'shoulder']];
+function storyPhoto(s){for(const [re,k] of SKEY) if(re.test(s.text||'')) return k;const l=SPH[s.type]||['bush'];return l[hsh(s.id)%l.length]}
 function storyPv(s){
-  const k=storyPhoto(s), opts=s.options||[];
+  const k=storyPhoto(s), opts=s.options||[], tag=esc(SLAB[s.type]||s.type);
   let stk='';
   if(opts.length) stk=`<div class="stk">${opts.slice(0,4).map(x=>`<span>${esc(x)}</span>`).join('')}</div>`;
   else if(s.type==='question') stk=`<div class="ask"><b>Ask Jess and Dan</b><i>Type your question</i></div>`;
   else if(s.type==='link') stk=`<span class="lnk">Read it on the feed</span>`;
-  return `<div class="pv tall st"><div class="ph ${k==='range'?'prod':''}" style="${bg(k)}"></div><div class="g1"></div><div class="g2"></div>${lgp()}<div class="sb"><span class="tag">${esc(SLAB[s.type]||s.type)}</span><div class="x">${esc(s.text)}</div>${stk}</div></div>`;
+  const white=['hands','handsclose','range'].includes(k)||['explainer','recap'].includes(s.type);
+  if(white) return `<div class="pv tall st sw"><div class="pin"><div class="stop">${lgi()}<span class="tag">${tag}</span></div><div class="x">${esc(s.text)}</div><div class="card ${k==='range'?'prod':''}" style="${bg(k)}"></div>${stk}</div></div>`;
+  return `<div class="pv tall st"><div class="ph ${k==='range'?'prod':''}" style="${bg(k)}"></div><div class="g1"></div><div class="g2"></div>${lgp()}<div class="sb"><span class="tag">${tag}</span><div class="x">${esc(s.text)}</div>${stk}</div></div>`;
 }
 function tags(p){
   const fb=p.where&&p.where.toLowerCase().includes('fb only');

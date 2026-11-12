@@ -67,7 +67,7 @@
      "kind": "Educate",
      "template": "reel",
      "range": "relief",
-     "photo": "bush",
+     "photo": "founders",
      "title": "Kahikatea, herb nine",
      "about": "Herb of the week Reel for Kahikatea, the ninth of eleven, naming the range it lives in.",
      "headline": "Why New Zealand's tallest tree is in our Relief range",
@@ -1002,7 +1002,7 @@
      "kind": "Educate",
      "template": "carousel",
      "range": "all",
-     "photo": "bush",
+     "photo": "founders",
      "title": "Eleven herbs, one post",
      "about": "The save-this reference card: all eleven herbs, one line each, grouped by range.",
      "headline": "Every native herb we use, in one post",
@@ -1215,7 +1215,7 @@
      "kind": "Educate",
      "template": "reel",
      "range": "none",
-     "photo": "ankle",
+     "photo": "running",
      "title": "Trials warm-up for kids",
      "about": "Wellness Reel: a 20-second warm-up for netball and rugby trials that looks after ankles and knees.",
      "headline": "Twenty seconds your ankles will thank you for",
@@ -1254,7 +1254,8 @@
      "cta": "Save this",
      "shoot": "Two or three real kids in school sport gear doing each move on a school field, with parent permission.",
      "flags": [
-      "Signed parental consent for any children filmed."
+      "Signed parental consent for any children filmed.",
+      "Preview photo is a new stand-in still waiting on client approval"
      ]
     }
    ],

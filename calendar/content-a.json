@@ -348,7 +348,7 @@
      "kind": "Educate",
      "template": "carousel",
      "range": "relief",
-     "photo": "bush",
+     "photo": "bushwalk",
      "title": "Herb two: Horopito, the pepper tree",
      "about": "Herb-of-the-week carousel on horopito, its traditional use for skin and circulation, and which range it is in.",
      "headline": "The native leaf that bites back",
@@ -391,7 +391,8 @@
      "flags": [
       "Herb facts (traditional use, where it grows, which range) to be checked against the label and Jess and Dan's herb fact sheet",
       "Range for horopito: the schedule hook says Sports Rub, but the plan's FAQ section lists horopito in the Relief range only. Confirm and fill {RANGE}",
-      "Confirm where horopito grows as stated"
+      "Confirm where horopito grows as stated",
+      "Preview photo is a new stand-in still waiting on client approval"
      ]
     },
     {
@@ -755,7 +756,7 @@
      "kind": "Educate",
      "template": "reel",
      "range": "joints",
-     "photo": "bush",
+     "photo": "bushwalk",
      "title": "Herb three: Kūmarahou, gumdiggers' soap",
      "about": "Herb-of-the-week Reel filmed in the bush on kūmarahou, the gumdiggers' soap, and which ranges it is in.",
      "headline": "Why gumdiggers washed with this native shrub",
@@ -800,7 +801,8 @@
       "Herb facts (traditional use, where it grows, which range) to be checked against the label and Jess and Dan's herb fact sheet",
       "Confirm kūmarahou is in flower in December where we film; otherwise use bank footage",
       "Confirm wording on kūmarahou's traditional use in rongoā",
-      "The lather demo uses the flowers; confirm Jess and Dan are happy to show picking (use already-fallen flowers if not)"
+      "The lather demo uses the flowers; confirm Jess and Dan are happy to show picking (use already-fallen flowers if not)",
+      "Preview photo is a new stand-in still waiting on client approval"
      ]
     },
     {

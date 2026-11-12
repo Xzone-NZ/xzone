@@ -123,7 +123,7 @@ __PREVIEW_CSS__
     <div class="col">
       <h2>Instagram profile</h2>
       <div class="phone"><div class="screen"><div class="status"><span>9:41</span><span>●●● ▮</span></div><div class="scroll" id="ig"></div></div></div>
-      <div class="hint">Newest post top left. The grid mixes lime carousel covers, photo-led Reels and single posts with white and lime bands, so it stays light and reads as one brand.</div>
+      <div class="hint">Newest post top left. The grid mixes photo-led Reels with posts on white and green bands, and only the odd lime one, so it stays light and reads as one brand.</div>
     </div>
     <div class="col">
       <h2>Facebook page</h2>
@@ -150,7 +150,7 @@ const BIO=`<b>X-ZONE New Zealand</b>Natural pain relief made in Aotearoa.<br>11 
 function igHead(n){return `<div class="ig-top"><span>xzonenz</span><span>☰</span></div>
 <div class="ig-prof"><div class="av"><img src="${IMG.icon}" alt=""></div><div class="nums"><span><b>${n}</b>posts</span><span><b>656</b>followers</span><span><b>—</b>following</span></div></div>
 <div class="bio">${BIO}</div><div class="btns"><span>Follow</span><span>Message</span></div>
-<div class="hls">${['Herbs','How to','First aid','Reviews','Lab tests'].map(t=>`<div><i><span>${t}</span></i>${t}</div>`).join('')}</div>
+<div class="hls">${[['Our story','founders'],['Herbs','bushwalk'],['First aid','ankle'],['Reviews','running'],['Joints','hands']].map(([t,k])=>`<div><i><span style="background:url(${photo(k)}) center/cover"></span></i>${t}</div>`).join('')}</div>
 <div class="tabs"><span class="on">Posts</span><span>Reels</span><span>Tagged</span></div>`}
 function render(){
   const k=+$('#wk').value, w=D.weeks[k-1];
