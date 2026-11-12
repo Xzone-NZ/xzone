@@ -81,7 +81,9 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .pv{container-type:inline-size;position:relative;overflow:hidden;width:100%;aspect-ratio:1;background:var(--pg);color:#fff;font-family:var(--font)}
 .pv.tall{aspect-ratio:9/16}
 .pv .ph{position:absolute;inset:0;background-size:cover;background-position:center}
+.pv .ph.fit{background-size:contain;background-repeat:no-repeat;background-color:color-mix(in srgb,var(--pg) 78%,#000)}
 .pv .wash{position:absolute;inset:0;background:linear-gradient(180deg,rgba(var(--pw),.15),rgba(var(--pw),.82))}
+.pv .ph.fit+.wash{background:linear-gradient(180deg,rgba(var(--pw),0) 42%,rgba(var(--pw),.78))}
 .pv .lg{position:absolute;top:4cqw;left:4cqw;width:22cqw;filter:brightness(0) invert(1)}
 .pv .pill{color:var(--pt)!important;position:absolute;top:4cqw;right:4cqw;background:var(--pa);color:#171717;font-weight:700;font-size:3.2cqw;padding:1cqw 2.6cqw;border-radius:9cqw;text-transform:uppercase;letter-spacing:.06em}
 .pv .hl{position:absolute;left:5cqw;right:5cqw;bottom:12cqw;font-weight:800;font-size:8.6cqw;line-height:1.04;letter-spacing:-.01em}
@@ -101,11 +103,18 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .pv .play::after{content:"";border-left:5.5cqw solid #fff;border-top:3.4cqw solid transparent;border-bottom:3.4cqw solid transparent;margin-left:1.4cqw}
 .pv.tall .hl{font-size:10cqw;bottom:16cqw}
 .pv.tall .hl em{font-size:5.4cqw}
-.pv .stars{position:absolute;top:18cqw;left:6cqw;color:var(--pa);font-size:6cqw;letter-spacing:.2em}
-.pv .q{position:absolute;left:6cqw;right:6cqw;top:28cqw;font-weight:700;font-size:6.4cqw;line-height:1.15}
+.pv .quo{position:absolute;top:8cqw;right:5cqw;font-family:Georgia,'Times New Roman',serif;font-size:42cqw;line-height:.72;font-weight:700;color:var(--pa);opacity:.16;pointer-events:none;animation:breathe 6s ease-in-out 2s infinite}
+.pv .stars{position:absolute;top:20cqw;left:6cqw;color:var(--pa);font-size:7.5cqw;display:flex;gap:1.6cqw}
+.pv .stars span{animation:pop .5s cubic-bezier(.2,1.6,.4,1) both}
+.pv .q{position:absolute;left:6cqw;right:14cqw;top:32cqw;font-weight:800;font-size:7.4cqw;line-height:1.12;animation:rise .6s 1.05s ease both}
 .pv .q em{font-style:normal;color:var(--pa)}
-.pv .who{position:absolute;left:6cqw;bottom:12cqw;font-size:3.4cqw;font-weight:600}
-.pv .idx{position:absolute;top:5cqw;right:5cqw;font-size:3.4cqw;font-weight:700;color:var(--pa)}
+.pv .who{position:absolute;left:6cqw;right:6cqw;bottom:11cqw;font-size:3.8cqw;font-weight:700;border-left:.9cqw solid var(--pa);padding-left:3cqw;line-height:1.35;animation:rise .6s 1.3s ease both}
+.pv .who i{display:block;font-style:normal;font-weight:600;font-size:3.1cqw;color:var(--pa);text-transform:uppercase;letter-spacing:.09em;margin-top:.6cqw}
+@keyframes pop{0%{transform:scale(0) rotate(-25deg);opacity:0}100%{transform:scale(1) rotate(0);opacity:1}}
+@keyframes rise{0%{transform:translateY(3.5cqw);opacity:0}100%{transform:translateY(0);opacity:1}}
+@keyframes breathe{0%,100%{opacity:.16}50%{opacity:.3}}
+@media (prefers-reduced-motion:reduce){.pv .stars span,.pv .q,.pv .who,.pv .quo{animation:none}}
+.pv .sig{margin-top:auto;color:var(--pa);font-size:4.4cqw;font-weight:600}
 .pv .inner{position:absolute;inset:0;padding:16cqw 7cqw 10cqw;display:flex;flex-direction:column;gap:4cqw;background:var(--pg)}
 .pv .inner .n{font-size:14cqw;font-weight:800;color:var(--pa);line-height:1}
 .pv .inner h4{margin:0;font-size:7.6cqw;line-height:1.08;font-weight:800}
@@ -200,7 +209,9 @@ const fmtDate=iso=>{const d=new Date(iso+'T12:00:00');return d.getDate()+' '+MON
 const addDays=(iso,n)=>{const d=new Date(iso+'T12:00:00');d.setDate(d.getDate()+n);return d.toISOString().slice(0,10)};
 const all=[];D.weeks.forEach(w=>w.posts.forEach(p=>{p._w=w.week;all.push(p)}));
 const mails=[];D.weeks.forEach(w=>(w.emails||[]).forEach(e=>{e._w=w.week;mails.push(e)}));
-function emailPv(e){const s=(e.sections||[])[0]||{};return `<div class="pv em"><div class="eh"><img src="${IMG.logo}" alt=""></div><span class="etag">${e.type==='campaign'?'Campaign':'Newsletter'}</span><div class="ehero" style="background-image:url(${photo(e.hero&&e.hero.photo)})"><b>${esc(e.hero&&e.hero.headline)}<i>${esc(e.hero&&e.hero.subline)}</i></b></div><div class="ebody"><h5>${esc(s.h)}</h5><p>${esc((s.b||'').slice(0,110))}${(s.b||'').length>110?'…':''}</p><span class="ebtn">${esc(e.cta&&e.cta.label)}</span></div></div>`}
+const FOCUS={founders:'center 12%',jessdan:'center 18%',garden:'center 24%'};
+function heroStyle(k){let s=`background-image:url(${photo(k)})`;if(k==='range')s+=';background-size:contain;background-repeat:no-repeat;background-color:#03200f';else if(FOCUS[k])s+=`;background-position:${FOCUS[k]}`;return s}
+function emailPv(e){const s=(e.sections||[])[0]||{};return `<div class="pv em"><div class="eh"><img src="${IMG.logo}" alt=""></div><span class="etag">${e.type==='campaign'?'Campaign':'Newsletter'}</span><div class="ehero" style="${heroStyle(e.hero&&e.hero.photo)}"><b>${esc(e.hero&&e.hero.headline)}<i>${esc(e.hero&&e.hero.subline)}</i></b></div><div class="ebody"><h5>${esc(s.h)}</h5><p>${esc((s.b||'').slice(0,110))}${(s.b||'').length>110?'…':''}</p><span class="ebtn">${esc(e.cta&&e.cta.label)}</span></div></div>`}
 const stories=[];D.weeks.forEach(w=>w.stories.forEach(s=>{s._w=w.week;stories.push(s)}));
 
 function photo(k){return IMG[k]||IMG.bush}
@@ -209,10 +220,17 @@ function logo(){return `<img class="lg" src="${IMG.logo}" alt="">`}
 
 function preview(p,opts){return previewRaw(p,opts).replace(/<div class="pv( |")/,(m,c)=>`<div class="pv r-${p.range||'all'}${c}`)}
 function previewRaw(p,opts={}){
-  const t=p.template, ph=`<div class="ph" style="background-image:url(${photo(p.photo)})"></div>`;
+  const t=p.template, fit=p.photo==='range',
+    pos=fit&&(t==='band'||t==='fb')?';background-position:center 70%':(FOCUS[p.photo]?`;background-position:${FOCUS[p.photo]}`:''),
+    ph=`<div class="ph${fit?' fit':''}" style="background-image:url(${photo(p.photo)})${pos}"></div>`;
   if(t==='reel') return `<div class="pv tall">${ph}<div class="wash"></div>${logo()}<span class="badge">Reel · ${esc(p.duration||'')}</span><div class="play"></div><div class="hl">${esc(p.headline)}<em>${esc(p.subline)}</em></div><div class="ft">@xzonenz</div></div>`;
   if(t==='live') return `<div class="pv">${ph}<div class="wash"></div>${logo()}<span class="badge live">Live</span><div class="hl">${esc(p.headline)}<em>${esc(p.subline)}</em></div><div class="ft">Facebook Live · X-ZONE NZ</div></div>`;
-  if(t==='quote'){const q=(p.slides&&p.slides[0]&&p.slides[0].b)||p.subline;return `<div class="pv">${ph}<div class="wash" style="background:rgba(var(--pw),.82)"></div>${logo()}${pill(p)}<div class="stars">★★★★★</div><div class="q">${esc(p.headline)}</div><div class="who">${esc(p.subline)}</div><div class="ft">@xzonenz · xzone.nz</div></div>`}
+  if(t==='quote'){
+    const review=/testimonial/i.test(p.format||'')||p.pillar==='Social proof';
+    const stars=review?`<div class="stars">${[0,1,2,3,4].map(i=>`<span style="animation-delay:${.15+i*.18}s">★</span>`).join('')}</div>`:'';
+    const who=String(p.subline||'').split('·');
+    const whoHtml=`<div class="who">${esc(who[0].trim())}${who[1]?`<i>${esc(who[1].trim())}</i>`:''}</div>`;
+    return `<div class="pv">${ph}<div class="wash" style="background:rgba(var(--pw),.88)"></div>${logo()}${pill(p)}<div class="quo">”</div>${stars}<div class="q" ${review?'':'style="animation-delay:.3s"'}>${esc(p.headline)}</div>${whoHtml}<div class="ft">@xzonenz · xzone.nz</div></div>`}
   if(t==='band'||t==='fb'){
     const steps=(p.steps||[]).length&&t==='band'?`<div class="steps">${p.steps.map(s=>`<span><b>${esc(s.b)}</b>${esc(s.t)}</span>`).join('')}</div>`:'';
     const poll=t==='fb'&&(p.poll||[]).length?`<div class="poll">${p.poll.slice(0,4).map(o=>`<span>${esc(o)}</span>`).join('')}</div>`:'';
@@ -225,13 +243,17 @@ function previewRaw(p,opts={}){
 }
 function slide(p,s,i,n){
   if(i===0) return preview(p);
-  return `<div class="pv r-${p.range||'all'}"><div class="inner"><span class="idx">${i+1} / ${n}</span><div class="n">${String(i+1).padStart(2,'0')}</div><h4>${esc(s.h)}</h4><p>${esc(s.b)}</p></div><img class="lg" src="${IMG.logo}" alt=""></div>`;
+  let b=String(s.b||''),sig='';
+  const m=b.match(/\s*Ngā mihi, Jess and Dan\.?\s*$/);
+  if(m){b=b.slice(0,m.index).trim();sig='<span class="sig">Ngā mihi, Jess and Dan</span>'}
+  return `<div class="pv r-${p.range||'all'}"><div class="inner"><div class="n">${String(i+1).padStart(2,'0')}</div><h4>${esc(s.h)}</h4><p>${esc(b)}</p>${sig}</div><img class="lg" src="${IMG.logo}" alt=""></div>`;
 }
 const SLAB={quiz:'Quiz',question:'Ask Jess and Dan',poll:'Poll',countdown:'Countdown',link:'Link',bts:'Behind the scenes',testimonial:'Customer words',prompt:'Your turn',explainer:'Explainer',recap:'Recap',greeting:'From Jess and Dan'};
 const SPH={quiz:'bush',question:'founders',poll:'bush',countdown:'range',link:'range',bts:'founders',testimonial:'bush',prompt:'bush',explainer:'bush',recap:'range',greeting:'founders'};
 function storyPv(s){
   const o=(s.options||[]).length?`<div class="o">${s.options.map(x=>`<span>${esc(x)}</span>`).join('')}</div>`:'';
-  return `<div class="pv tall st"><div class="ph" style="background-image:url(${photo(SPH[s.type]||'bush')})"></div><div class="wash"></div><div class="top"><img src="${IMG.icon}" alt="">xzonenz</div><div class="stk"><span class="k">${esc(SLAB[s.type]||s.type)}</span><span class="x">${esc(s.text)}</span>${o}</div></div>`;
+  const k=SPH[s.type]||'bush';
+  return `<div class="pv tall st"><div class="ph${k==='range'?' fit':''}" style="background-image:url(${photo(k)})"></div><div class="wash"></div><div class="top"><img src="${IMG.icon}" alt="">xzonenz</div><div class="stk"><span class="k">${esc(SLAB[s.type]||s.type)}</span><span class="x">${esc(s.text)}</span>${o}</div></div>`;
 }
 function tags(p){
   const fb=p.where&&p.where.toLowerCase().includes('fb only');

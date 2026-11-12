@@ -5,7 +5,7 @@
    "date": "2026-12-11",
    "day": "Fri",
    "where": "IG + FB",
-   "format": "Testimonial graphic",
+   "format": "Animated testimonial graphic",
    "pillar": "Social proof",
    "kind": "Educate",
    "template": "quote",
@@ -14,7 +14,7 @@
    "title": "Mavis and Pam on the Joints Rub",
    "about": "The first testimonial graphic of the quarter: two real Joints Rub reviews from Mavis and Pam, inside a short lesson on living with stiff joints, aimed at our 40 to 85 core customer.",
    "headline": "\"Excellent for my arthritis.\"",
-   "subline": "Mavis, Huntly. Joints Rub review",
+   "subline": "Mavis, from Huntly \u00b7 Joints Rub review",
    "pill": "Joints range",
    "steps": [],
    "slides": [],
@@ -552,7 +552,7 @@
    "hero": {
     "headline": "Meri Kirihimete from our whānau",
     "subline": "Thank you for every jar, every message and every story",
-    "photo": "founders"
+    "photo": "jessdan"
    },
    "sections": [
     {
@@ -958,7 +958,7 @@
    "hero": {
     "headline": "Thank you for a summer of learning",
     "subline": "Now help us choose what we cover this autumn",
-    "photo": "founders"
+    "photo": "garden"
    },
    "sections": [
     {
