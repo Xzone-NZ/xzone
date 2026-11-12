@@ -5,6 +5,7 @@ Made with the `brand-ambassador-posts` skill (`.claude/skills/brand-ambassador-p
 - `content/NN-slug.json` one file per ambassador (answers, social copy, edits, flags)
 - `photos/` cropped ambassador photos and logo copies
 - `template.html` + `build.py` build `xzone-ambassador-posts.html` (run `python3 ambassadors/build.py`)
+- `export_instagram.py` exports each carousel slide to `instagram/<slug>-slide-<n>.png` at 1080 x 1350, ready to post
 
 Live mock-up: https://claude.ai/artifact/4Mth5ByJpS4nTdkWobnJxA
 

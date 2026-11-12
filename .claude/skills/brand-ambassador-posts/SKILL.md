@@ -99,8 +99,14 @@ Then run:
 python3 ambassadors/build.py
 ```
 
-It reads every file in `ambassadors/content/`, newest number first, and writes `ambassadors/xzone-ambassador-posts.html` (photos and logo embedded). Publish that file as an Artifact. If `ambassadors/README.md` lists a live URL, update that artifact in place instead of making a new one, and record the URL there on first publish.
+Then export the Instagram slides as ready-to-post 1080 x 1350 PNGs (into `ambassadors/instagram/<slug>-slide-<n>.png`):
+
+```bash
+python3 ambassadors/export_instagram.py
+```
+
+`build.py` reads every file in `ambassadors/content/`, newest number first, and writes `ambassadors/xzone-ambassador-posts.html` (photos and logo embedded). Publish that file as an Artifact. If `ambassadors/README.md` lists a live URL, update that artifact in place instead of making a new one, and record the URL there on first publish.
 
 ## Step 5: Report back
 
-Give the user: the IG headline and caption, the FB caption, the list of edits and the flags. Keep it short; the mock-up holds the rest.
+Send the user the exported slide PNGs for the new ambassador (SendUserFile), then give them: the IG headline and caption, the FB caption, the list of edits and the flags. Keep it short; the mock-up holds the rest.
