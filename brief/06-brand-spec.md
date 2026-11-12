@@ -11,7 +11,7 @@ Sources: form (`01-website-form.md`), guidelines v1 (`05-brand-guidelines.md`).
 - Replaces the guidelines' "Backed by science. Powered by plants."
 - Matches the 2026 logo lock-ups ("Move Freely", "Live Freely")
 
-Mission: To empower people to move freely, recover naturally and live life to the fullest by providing science-backed products that harness the healing power of New Zealand's native plants.
+Mission: To empower people to move freely, recover naturally and live life to the fullest by providing science-backed, topical, natural, herbal pain relief rubs, sprays and roll-ons for muscles and joints, made with New Zealand's native plants.
 
 ## Colour (X-ZONE's own brand page, decided 12 Nov)
 Source: `source/xzone-official-brand-page.png`. The form's hex codes were wrong; these are the official colours (screen values sampled from the page).
