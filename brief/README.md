@@ -9,6 +9,7 @@ The client is filling in the form in parts. Everything here is a **living draft*
 | **06-brand-spec.md** | **Working source of truth: form overrides guidelines** | Update with each form part |
 | xzone-brand-guidelines.html | Brand guidelines v1.2 page (2 pages, logos embedded), snapshot of the live artifact | v1.2, Nov 2026 |
 | 05-brand-guidelines.md | Reclaim Co brand guidelines v1 (PDF in `source/`) | v1, 4 Nov |
+| xzone-summer-social-plan.html | Summer social plan page (13 weeks, 23 Nov 2026 to 21 Feb 2027), snapshot of the live artifact | Updated 11 Nov |
 | 03-summer-plan-review.md | Notes on the draft summer social plan | Draft, revisit when the form is complete |
 | 04-email-signature-review.md | Notes on the draft email signature | Draft, revisit when the form is complete |
 | open-questions.md | Gaps and conflicts to resolve | Ongoing |
