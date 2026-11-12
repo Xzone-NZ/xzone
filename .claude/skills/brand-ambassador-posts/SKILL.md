@@ -107,6 +107,10 @@ python3 ambassadors/export_instagram.py
 
 `build.py` reads every file in `ambassadors/content/`, newest number first, and writes `ambassadors/xzone-ambassador-posts.html` (photos and logo embedded). Publish that file as an Artifact. If `ambassadors/README.md` lists a live URL, update that artifact in place instead of making a new one, and record the URL there on first publish.
 
-## Step 5: Report back
+## Step 5 (only when asked): Buffer drafts
+
+When the user asks to add posts to Buffer, save them as **drafts** (`saveToDraft: true`), never scheduled or published. Use the `xzonenz` Instagram channel from `list_channels`, type `post`, all three slides as image assets with alt text, caption plus hashtags as the text. Commit and push the slide PNGs first, then point Buffer at the raw GitHub URLs pinned to that commit (`https://raw.githubusercontent.com/Xzone-NZ/xzone/<commit sha>/ambassadors/instagram/<slug>-slide-<n>.png`); the repo is public, so these load. Record the Buffer post IDs in `ambassadors/README.md`.
+
+## Step 6: Report back
 
 Send the user the exported slide PNGs for the new ambassador (SendUserFile), then give them: the IG headline and caption, the FB caption, the list of edits and the flags. Keep it short; the mock-up holds the rest.

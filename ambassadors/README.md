@@ -13,3 +13,6 @@ Live mock-up: https://claude.ai/artifact/4Mth5ByJpS4nTdkWobnJxA
 |---|---|---|
 | 15 | Jasmine Marsters, NZ Strongman | Draft, photos in |
 | 14 | Mollie Allison, NZ beach volleyball | Draft, photos in |
+
+## Buffer
+Instagram carousels saved as drafts on the xzonenz channel (12 Nov): Jasmine `6af5a91a09e869a662dd3656`, Mollie `6af5a922a3fba876f6bfa072`. Images load from the repo at commit ed4eb7f, so keep those files.
