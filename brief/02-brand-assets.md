@@ -45,6 +45,10 @@ Copies of the 8 working photos are in `source/drive/photos/` (received 12 Nov). 
 
 - `X Zone promo v2.mp4` (landscape, about 970 MB)
 - `X Zone promo portrait.mp4` (portrait, about 110 MB, ready for Reels/Stories)
+
+Compressed copies in the repo (12 Nov), `source/drive/videos/`. Originals stay in Drive (too big for GitHub):
+- `xzone-promo-landscape-1080p.mp4`: 1920 x 1080, 1 min 43 s, 35 MB (from the 4K, 970 MB original)
+- `xzone-promo-portrait-864x1080.mp4`: 864 x 1080 (4:5, feed size), 1 min 43 s, 23 MB (from 109 MB). For full-screen 9:16 Reels or Stories it will need re-cutting or padding
 - Plus the YouTube instruction video: https://youtu.be/JIkXSSABxPI
 
 ## Other
