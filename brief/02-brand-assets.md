@@ -22,7 +22,13 @@ No reversed (white) or green tagline lock-ups yet. No SVGs. PDFs can stand in as
 
 Note: one file is misspelt `X-Zone_Landcsape_Black.jpg`.
 
-In the repo (12 Nov): the portrait (secondary) logo set is in `source/drive/logos/`: Green (JPG, PDF, PNG), Black (JPG, PDF, PNG), White (PNG). PNGs are 2480 x 1748. Landscape logos, icon and tagline lock-ups have not been sent through yet.
+In the repo (12 Nov): the full logo set from Drive is in `source/drive/logos/`, all files as supplied (3 MB total, no resizing needed):
+- `landscape/`: primary logo, Green and Black (AI, PDF, PNG, JPG) and White (AI, PNG). Includes `X-Zone_Landscape_Green.png`
+- `portrait/`: secondary logo, same set
+- `icon/`: X symbol, same set. Includes `X-Zone_Icon_Green.png`
+- `taglines/`: 2026 lock-ups (Move Freely, Live Freely, Muscle), landscape and portrait, black only (PDF, PNG)
+
+The guidelines cite `X-Zone_Logo_Landscape_Green.png`; the actual Drive filename is `X-Zone_Landscape_Green.png`.
 
 ## Photos (10)
 
