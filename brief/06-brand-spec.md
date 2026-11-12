@@ -13,19 +13,20 @@ Sources: form (`01-website-form.md`), guidelines v1 (`05-brand-guidelines.md`).
 
 Mission: To empower people to move freely, recover naturally and live life to the fullest by providing science-backed products that harness the healing power of New Zealand's native plants.
 
-## Colour (guidelines v1, kept by decision 11 Nov)
-The form's hex codes (#16B800 etc.) were wrong. Jessica's decision: **keep the guidelines palette.** The logo file's own green measures **#004F23**.
+## Colour (X-ZONE's own brand page, decided 12 Nov)
+Source: `source/xzone-official-brand-page.png`. The form's hex codes were wrong; these are the official colours (screen values sampled from the page).
 
-| Name | Hex | Use |
-|---|---|---|
-| Bush Deep | #113619 | Primary ground |
-| Bush | #1E4D27 | Bands, pills, links |
-| Sun | #FBCD0A | One accent per layout |
-| Ember | #E8471F | Sports range only, small |
-| Mint | #E2F5EB | Light tint, panels |
-| Coal | #171717 | Body text |
+| Colour | Hex | PMS | Range |
+|---|---|---|---|
+| Green | #0D441F | 357 | Logo, Relief |
+| Lime | #E0E64A | 394 | Relief accent |
+| Navy | #131D4A | 662 | Joints |
+| Orange | #F3AC3E | 1365 | Joints accent |
+| Black | #1F1C1D | Black | Sports |
+| Red | #E44726 | 172 | Sports accent |
 
-Rules from guidelines stand: 60/30/10, one yellow element per layout, no blue or navy.
+Range pairs: Relief green + lime, Joints navy + orange, Sports black + red. Brand posts use green + lime. Reclaim's earlier palette (Bush Deep, Bush, Sun, Ember) and its "no blue, no navy" rule are retired.
+Contrast: lime and orange are accents on dark grounds, never small text on white.
 
 ## Type (form)
 | Role | Brand font (licensed) | Canva / web |

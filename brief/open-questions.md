@@ -51,4 +51,4 @@ Colour palette with print specs. Each range pairs a colour with a contrasting X:
 | Black | 100% black | Black | #1F1C1D |
 | Red-orange | 0/89/100/0 | 172 | #E44726 |
 Logos: landscape, stacked and X icon, in green on white and white on green. Type: Galano Grotesque Light, Medium, Bold, Black. Imagery: TBC.
-- [ ] Decide whether this replaces the Reclaim guidelines palette (Bush, Sun, Ember)
+- [x] Official palette adopted everywhere (Jessica, 12 Nov): see 06-brand-spec.md
