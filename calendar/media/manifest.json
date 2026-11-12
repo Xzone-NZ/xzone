@@ -1,0 +1,345 @@
+[
+ {
+  "id": "w1-mon",
+  "template": "carousel",
+  "files": [
+   "w1-mon/slide-01.jpg",
+   "w1-mon/slide-02.jpg",
+   "w1-mon/slide-03.jpg",
+   "w1-mon/slide-04.jpg",
+   "w1-mon/slide-05.jpg",
+   "w1-mon/slide-06.jpg",
+   "w1-mon/slide-07.jpg"
+  ]
+ },
+ {
+  "id": "w1-tue",
+  "template": "reel",
+  "files": [
+   "w1-tue/reel.mp4"
+  ]
+ },
+ {
+  "id": "w1-fri",
+  "template": "band",
+  "files": [
+   "w1-fri/post.jpg"
+  ]
+ },
+ {
+  "id": "w2-mon",
+  "template": "carousel",
+  "files": [
+   "w2-mon/slide-01.jpg",
+   "w2-mon/slide-02.jpg",
+   "w2-mon/slide-03.jpg",
+   "w2-mon/slide-04.jpg",
+   "w2-mon/slide-05.jpg",
+   "w2-mon/slide-06.jpg"
+  ]
+ },
+ {
+  "id": "w2-sat",
+  "template": "reel",
+  "files": [
+   "w2-sat/reel.mp4"
+  ]
+ },
+ {
+  "id": "w2-fri",
+  "template": "band",
+  "files": [
+   "w2-fri/post.jpg"
+  ]
+ },
+ {
+  "id": "w3-mon",
+  "template": "carousel",
+  "files": [
+   "w3-mon/slide-01.jpg",
+   "w3-mon/slide-02.jpg",
+   "w3-mon/slide-03.jpg",
+   "w3-mon/slide-04.jpg",
+   "w3-mon/slide-05.jpg",
+   "w3-mon/slide-06.jpg",
+   "w3-mon/slide-07.jpg"
+  ]
+ },
+ {
+  "id": "w3-tue",
+  "template": "reel",
+  "files": [
+   "w3-tue/reel.mp4"
+  ]
+ },
+ {
+  "id": "w3-testimonial",
+  "template": "quote",
+  "files": [
+   "w3-testimonial/post.jpg"
+  ]
+ },
+ {
+  "id": "w4-mon",
+  "template": "carousel",
+  "files": [
+   "w4-mon/slide-01.jpg",
+   "w4-mon/slide-02.jpg",
+   "w4-mon/slide-03.jpg",
+   "w4-mon/slide-04.jpg",
+   "w4-mon/slide-05.jpg",
+   "w4-mon/slide-06.jpg",
+   "w4-mon/slide-07.jpg"
+  ]
+ },
+ {
+  "id": "w4-tue",
+  "template": "reel",
+  "files": [
+   "w4-tue/reel.mp4"
+  ]
+ },
+ {
+  "id": "w4-fri",
+  "template": "band",
+  "files": [
+   "w4-fri/post.jpg"
+  ]
+ },
+ {
+  "id": "w5-mon",
+  "template": "ground",
+  "files": [
+   "w5-mon/post.jpg"
+  ]
+ },
+ {
+  "id": "w5-tue",
+  "template": "reel",
+  "files": [
+   "w5-tue/reel.mp4"
+  ]
+ },
+ {
+  "id": "w5-sat",
+  "template": "band",
+  "files": [
+   "w5-sat/post.jpg"
+  ]
+ },
+ {
+  "id": "w6-wed",
+  "template": "carousel",
+  "files": [
+   "w6-wed/slide-01.jpg",
+   "w6-wed/slide-02.jpg",
+   "w6-wed/slide-03.jpg",
+   "w6-wed/slide-04.jpg",
+   "w6-wed/slide-05.jpg",
+   "w6-wed/slide-06.jpg",
+   "w6-wed/slide-07.jpg"
+  ]
+ },
+ {
+  "id": "w6-tue",
+  "template": "reel",
+  "files": [
+   "w6-tue/reel.mp4"
+  ]
+ },
+ {
+  "id": "w6-fri",
+  "template": "band",
+  "files": [
+   "w6-fri/post.jpg"
+  ]
+ },
+ {
+  "id": "w7-mon",
+  "template": "carousel",
+  "files": [
+   "w7-mon/slide-01.jpg",
+   "w7-mon/slide-02.jpg",
+   "w7-mon/slide-03.jpg",
+   "w7-mon/slide-04.jpg",
+   "w7-mon/slide-05.jpg",
+   "w7-mon/slide-06.jpg",
+   "w7-mon/slide-07.jpg"
+  ]
+ },
+ {
+  "id": "w7-tue",
+  "template": "reel",
+  "files": [
+   "w7-tue/reel.mp4"
+  ]
+ },
+ {
+  "id": "w7-wed",
+  "template": "band",
+  "files": [
+   "w7-wed/post.jpg"
+  ]
+ },
+ {
+  "id": "w8-mon",
+  "template": "carousel",
+  "files": [
+   "w8-mon/slide-01.jpg",
+   "w8-mon/slide-02.jpg",
+   "w8-mon/slide-03.jpg",
+   "w8-mon/slide-04.jpg",
+   "w8-mon/slide-05.jpg",
+   "w8-mon/slide-06.jpg",
+   "w8-mon/slide-07.jpg"
+  ]
+ },
+ {
+  "id": "w8-tue",
+  "template": "reel",
+  "files": [
+   "w8-tue/reel.mp4"
+  ]
+ },
+ {
+  "id": "w8-wed",
+  "template": "band",
+  "files": [
+   "w8-wed/post.jpg"
+  ]
+ },
+ {
+  "id": "w9-mon",
+  "template": "carousel",
+  "files": [
+   "w9-mon/slide-01.jpg",
+   "w9-mon/slide-02.jpg",
+   "w9-mon/slide-03.jpg",
+   "w9-mon/slide-04.jpg",
+   "w9-mon/slide-05.jpg",
+   "w9-mon/slide-06.jpg",
+   "w9-mon/slide-07.jpg"
+  ]
+ },
+ {
+  "id": "w9-tue",
+  "template": "reel",
+  "files": [
+   "w9-tue/reel.mp4"
+  ]
+ },
+ {
+  "id": "w9-fri",
+  "template": "band",
+  "files": [
+   "w9-fri/post.jpg"
+  ]
+ },
+ {
+  "id": "w10-mon",
+  "template": "carousel",
+  "files": [
+   "w10-mon/slide-01.jpg",
+   "w10-mon/slide-02.jpg",
+   "w10-mon/slide-03.jpg",
+   "w10-mon/slide-04.jpg",
+   "w10-mon/slide-05.jpg",
+   "w10-mon/slide-06.jpg",
+   "w10-mon/slide-07.jpg"
+  ]
+ },
+ {
+  "id": "w10-tue",
+  "template": "reel",
+  "files": [
+   "w10-tue/reel.mp4"
+  ]
+ },
+ {
+  "id": "w10-wed",
+  "template": "band",
+  "files": [
+   "w10-wed/post.jpg"
+  ]
+ },
+ {
+  "id": "w11-mon",
+  "template": "carousel",
+  "files": [
+   "w11-mon/slide-01.jpg",
+   "w11-mon/slide-02.jpg",
+   "w11-mon/slide-03.jpg",
+   "w11-mon/slide-04.jpg",
+   "w11-mon/slide-05.jpg",
+   "w11-mon/slide-06.jpg",
+   "w11-mon/slide-07.jpg"
+  ]
+ },
+ {
+  "id": "w11-tue",
+  "template": "reel",
+  "files": [
+   "w11-tue/reel.mp4"
+  ]
+ },
+ {
+  "id": "w11-fri",
+  "template": "band",
+  "files": [
+   "w11-fri/post.jpg"
+  ]
+ },
+ {
+  "id": "w12-mon",
+  "template": "carousel",
+  "files": [
+   "w12-mon/slide-01.jpg",
+   "w12-mon/slide-02.jpg",
+   "w12-mon/slide-03.jpg",
+   "w12-mon/slide-04.jpg",
+   "w12-mon/slide-05.jpg",
+   "w12-mon/slide-06.jpg",
+   "w12-mon/slide-07.jpg"
+  ]
+ },
+ {
+  "id": "w12-sat",
+  "template": "reel",
+  "files": [
+   "w12-sat/reel.mp4"
+  ]
+ },
+ {
+  "id": "w12-fri",
+  "template": "band",
+  "files": [
+   "w12-fri/post.jpg"
+  ]
+ },
+ {
+  "id": "w13-mon",
+  "template": "carousel",
+  "files": [
+   "w13-mon/slide-01.jpg",
+   "w13-mon/slide-02.jpg",
+   "w13-mon/slide-03.jpg",
+   "w13-mon/slide-04.jpg",
+   "w13-mon/slide-05.jpg",
+   "w13-mon/slide-06.jpg"
+  ]
+ },
+ {
+  "id": "w13-tue",
+  "template": "reel",
+  "files": [
+   "w13-tue/reel.mp4"
+  ]
+ },
+ {
+  "id": "w13-wed",
+  "template": "band",
+  "files": [
+   "w13-wed/post.jpg"
+  ]
+ }
+]

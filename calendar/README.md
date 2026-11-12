@@ -8,6 +8,7 @@
 - `schedule.json` the slot list pulled from the summer plan.
 - `BRIEF.md` the writing rules the content follows.
 - `template.html` + `build.py` build `xzone-summer-calendar.html` (run `python3 build.py`).
+- `render.js` + `reels.py` render every scheduled post to `media/<post id>/`: 1080x1080 JPEGs (one per carousel slide) and 1080x1920 MP4 Reels built from each shot list, with `cover.jpg`. Run `python3 build.py && node render.js && python3 reels.py`. These are the files attached to the Buffer drafts; re-render and re-attach once real shoot photos and footage arrive.
 - `small/` stand-in photos used in the previews. Swap for real shoot photos later.
 
 Live page: https://claude.ai/artifact/Q3HxajV6KzhTtxjB5EwkNf
