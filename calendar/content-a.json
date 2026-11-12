@@ -18,13 +18,13 @@
      "photo": "bush",
      "title": "Launch: eleven herbs, starting with Harakeke",
      "about": "Launch carousel that sets out what this account is for (teaching first) and opens the herb-of-the-week series with Harakeke.",
-     "headline": "Eleven native herbs. Here is the first.",
-     "subline": "Harakeke, in our Relief and Sports ranges",
+     "headline": "The riverbank plant hiding in our rubs",
+     "subline": "Herb 1 of 11: harakeke, in Relief and Sports",
      "pill": "Herb 1 of 11",
      "steps": [],
      "slides": [
       {
-       "h": "Eleven native herbs. Here is the first.",
+       "h": "The riverbank plant hiding in our rubs",
        "b": "Kia ora. This summer we are teaching what helps when something hurts, one native herb a week. We start with harakeke."
       },
       {
@@ -78,7 +78,7 @@
      "photo": "shoulder",
      "title": "Rub it in, not on",
      "about": "How-to Reel showing why massage matters as much as the herbs, so people use the product properly and get more from it.",
-     "headline": "Rub it in, not just on",
+     "headline": "Why most people put their rub on wrong",
      "subline": "Twenty seconds of massage does half the work",
      "pill": "",
      "steps": [],
@@ -216,7 +216,7 @@
      "photo": "range",
      "title": "Black Friday: stock the summer kit",
      "about": "The week's one promo: a summer first-aid kit checklist first, with the Black Friday offer and the old-price window at the end.",
-     "headline": "Stock the summer kit",
+     "headline": "The summer kit most baches are missing",
      "subline": "What every bach, car and sports bag needs",
      "pill": "Black Friday",
      "steps": [
@@ -351,13 +351,13 @@
      "photo": "bush",
      "title": "Herb two: Horopito, the pepper tree",
      "about": "Herb-of-the-week carousel on horopito, its traditional use for skin and circulation, and which range it is in.",
-     "headline": "Horopito, the native pepper tree",
-     "subline": "Herb two of eleven, and why we use it",
+     "headline": "The native leaf that bites back",
+     "subline": "Herb 2 of 11: horopito, the pepper tree",
      "pill": "Herb 2 of 11",
      "steps": [],
      "slides": [
       {
-       "h": "Horopito, the native pepper tree",
+       "h": "The native leaf that bites back",
        "b": "Herb two of eleven. Bite a leaf and you will know where the name comes from."
       },
       {
@@ -540,8 +540,8 @@
      "photo": "range",
      "title": "Which one should I buy",
      "about": "Range education post that answers the most common question, which range and which format, to pin to the top of the grid.",
-     "headline": "Relief, Joints or Sports? Start here",
-     "subline": "Then choose rub, spray or roll-on",
+     "headline": "Which jar is yours? Start here",
+     "subline": "Relief, Joints or Sports. Then rub, spray or roll-on.",
      "pill": "Pin this",
      "steps": [
       {
@@ -583,7 +583,7 @@
      "photo": "founders",
      "title": "Jess: why we started X-ZONE",
      "about": "Founder Reel with Jess to camera explaining in 30 seconds why X-ZONE exists, to build trust with new followers.",
-     "headline": "Why we started X-ZONE",
+     "headline": "Why we swapped the office for the Waitākere Ranges",
      "subline": "Jess, in 30 seconds",
      "pill": "",
      "steps": [],
@@ -695,16 +695,16 @@
      "kind": "Educate",
      "template": "carousel",
      "range": "sports",
-     "photo": "ankle",
+     "photo": "bushwalk",
      "title": "Five things for a tramper's kit",
      "about": "Injury first-aid carousel for peak tramping season: five items for a tramping first-aid kit, with the roll-on as one step, not the headline.",
-     "headline": "Five things in a tramper's first-aid kit",
+     "headline": "What experienced trampers pack that beginners don't",
      "subline": "Number four is a roll-on",
      "pill": "",
      "steps": [],
      "slides": [
       {
-       "h": "Five things in a tramper's first-aid kit",
+       "h": "What experienced trampers pack that beginners don't",
        "b": "Peak tramping season is here. This is what lives in our packs. Number four is a roll-on."
       },
       {
@@ -741,7 +741,8 @@
      "shoot": "A tramping pack open on a hut deck with the five items laid out in a row, natural light.",
      "flags": [
       "First-aid and safety wording to be checked by Jess and Dan",
-      "Confirm the Sports roll-on is the one to feature (Relief roll-on is the alternative)"
+      "Confirm the Sports roll-on is the one to feature (Relief roll-on is the alternative)",
+      "Preview photo is a new stand-in still waiting on client approval"
      ]
     },
     {
@@ -757,8 +758,8 @@
      "photo": "bush",
      "title": "Herb three: Kūmarahou, gumdiggers' soap",
      "about": "Herb-of-the-week Reel filmed in the bush on kūmarahou, the gumdiggers' soap, and which ranges it is in.",
-     "headline": "Kūmarahou, the gumdiggers' soap",
-     "subline": "Herb three of eleven, in the bush",
+     "headline": "Why gumdiggers washed with this native shrub",
+     "subline": "Herb 3 of 11: kūmarahou",
      "pill": "Herb 3 of 11",
      "steps": [],
      "slides": [],
@@ -1026,13 +1027,13 @@
      "photo": "bruise",
      "title": "Bumps, bruises and grazes",
      "about": "Parent-focused injury first-aid carousel: what is normal for bumps, bruises and grazes, what needs a doctor, with the Relief Rub as one step and the blog's when-to-get-help line last.",
-     "headline": "Bumps, bruises and grazes",
+     "headline": "When a bruise is fine, and when it isn't",
      "subline": "What is normal, and what needs a doctor",
      "pill": "",
      "steps": [],
      "slides": [
       {
-       "h": "Bumps, bruises and grazes",
+       "h": "When a bruise is fine, and when it isn't",
        "b": "Summer holidays mean scraped knees and the odd egg on the forehead. Here is what is normal, and what needs a doctor."
       },
       {
@@ -1086,8 +1087,8 @@
      "photo": "bush",
      "title": "Herb four: Kōwhai, more than the flower",
      "about": "Herb-of-the-week Reel on kōwhai, beyond the famous yellow flowers, and which range it lives in.",
-     "headline": "Kōwhai: more than the flower",
-     "subline": "Herb four of eleven",
+     "headline": "The tūī's favourite tree has another job",
+     "subline": "Herb 4 of 11: kōwhai",
      "pill": "Herb 4 of 11",
      "steps": [],
      "slides": [],
@@ -1218,7 +1219,7 @@
      "photo": "range",
      "title": "The bach cupboard",
      "about": "The week's promo, part of the pre-Christmas sale: what to leave in the bach cupboard all summer, with the Relief range and the bundle link last.",
-     "headline": "What lives in the bach cupboard",
+     "headline": "What every bach cupboard should hold",
      "subline": "Leave these there all summer",
      "pill": "Relief range",
      "steps": [

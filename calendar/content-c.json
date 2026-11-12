@@ -18,12 +18,12 @@
      "photo": "shoulder",
      "title": "Lower back on site",
      "about": "Tradie-week opener: five free habits that protect the lower back, with Ben M's words on the last slide.",
-     "headline": "Lower back on site: five free habits",
+     "headline": "Five free habits that save a tradie's back",
      "subline": "None of them cost a cent.",
      "pill": "Tradie week",
      "slides": [
       {
-       "h": "Lower back on site: five habits that cost nothing",
+       "h": "Five free habits that save a tradie's back",
        "b": "Most site back pain builds over weeks, not one bad lift. Swipe for five small habits that add up."
       },
       {
@@ -70,8 +70,8 @@
      "photo": "bush",
      "title": "Kahikatea, herb nine",
      "about": "Herb of the week Reel for Kahikatea, the ninth of eleven, naming the range it lives in.",
-     "headline": "Kahikatea: the tallest tree in the forest",
-     "subline": "Herb nine of eleven. Found in our Relief range.",
+     "headline": "Why New Zealand's tallest tree is in our Relief range",
+     "subline": "Herb 9 of 11: kahikatea",
      "pill": "Herb 9 of 11",
      "shots": [
       {
@@ -190,7 +190,7 @@
      "photo": "shoulder",
      "title": "Tradie pack: three site injuries",
      "about": "Education post recapping the week's three site injuries, with the tradie pack and site discount last and the link in stories only.",
-     "headline": "Three injuries the site gives you",
+     "headline": "The three injuries every worksite hands out",
      "subline": "Back, elbow, shoulder. What to do for each.",
      "pill": "Tradie week",
      "steps": [
@@ -343,12 +343,12 @@
      "photo": "founders",
      "title": "Medicines linked to muscle pain",
      "about": "Wellness carousel from the blog: common medicines that can cause muscle aches, and why the first step is a GP or pharmacist, not stopping the medicine.",
-     "headline": "Seven medicines linked to muscle pain",
-     "subline": "And what to do if you're on one.",
+     "headline": "Could your medicine be making your muscles ache?",
+     "subline": "Seven to know. Never stop one without your GP.",
      "pill": "From the blog",
      "slides": [
       {
-       "h": "Seven common medicines linked to muscle pain",
+       "h": "Could your medicine be making your muscles ache?",
        "b": "If you started a new medicine and your muscles started aching, the two might be connected. Swipe, then talk to your GP."
       },
       {
@@ -398,8 +398,8 @@
      "photo": "bush",
      "title": "Tūpākihi, herb ten",
      "about": "Herb of the week Reel for Tūpākihi in the Joints Rub, with its one lab line on screen, worded as an in-vitro result.",
-     "headline": "Tūpākihi: the herb few have heard of",
-     "subline": "Herb ten of eleven. In our Joints Rub.",
+     "headline": "The native herb almost nobody has heard of",
+     "subline": "Herb 10 of 11: tūpākihi, in our Joints Rub",
      "pill": "Herb 10 of 11",
      "shots": [
       {
@@ -458,7 +458,7 @@
      "photo": "founders",
      "title": "Sleep is recovery",
      "about": "Wellness post: three free sleep habits that matter more than any product, and the small place a rub has in a wind-down.",
-     "headline": "Sleep is recovery",
+     "headline": "The best recovery tool is free, and it's your bed",
      "subline": "Three things that beat any product.",
      "pill": "Recovery science",
      "steps": [
@@ -660,12 +660,12 @@
      "photo": "bush",
      "title": "Karaeo and all eleven",
      "about": "Herb eleven completes the set: Karaeo first, then all eleven herbs on one carousel, each with its range.",
-     "headline": "Karaeo: herb eleven. The set is complete",
-     "subline": "Swipe for all eleven, and where each one lives.",
+     "headline": "Herb eleven, and the full set in one swipe",
+     "subline": "Karaeo, plus where each of the eleven lives",
      "pill": "Herb 11 of 11",
      "slides": [
       {
-       "h": "Karaeo: herb eleven",
+       "h": "Herb eleven, and the full set in one swipe",
        "b": "The last of our eleven native herbs. A climbing vine of the New Zealand bush, in our Joints Rub. Swipe for the full set."
       },
       {
@@ -714,10 +714,10 @@
      "kind": "Educate",
      "template": "reel",
      "range": "none",
-     "photo": "bush",
+     "photo": "bushwalk",
      "title": "Jess names the herbs",
      "about": "Founders Reel in Jess's own voice, walking the bush and naming the herbs, cut with Robbie Love's photography.",
-     "headline": "The bush, through Robbie's lens",
+     "headline": "Walk the bush with us and name every herb",
      "subline": "Jess names the herbs as she walks.",
      "pill": "Founders",
      "shots": [
@@ -759,7 +759,8 @@
      "shoot": "Jess on a Waitākere bush track with a lapel mic, recorded naming each herb live, cut with Robbie Love's existing photographs.",
      "flags": [
       "Confirm Robbie Love's permission and credit line for his photographs, and his business name (Green Falcon).",
-      "The herbs named in the caption depend on what Jess actually passes; update the caption to match the final cut."
+      "The herbs named in the caption depend on what Jess actually passes; update the caption to match the final cut.",
+      "Preview photo is a new stand-in still waiting on client approval"
      ]
     },
     {
@@ -855,8 +856,8 @@
      "photo": "ankle",
      "title": "Waitangi weekend first aid",
      "about": "The week's promo: a long-weekend first-aid checklist, with free NZ shipping as the last line.",
-     "headline": "Long weekend first aid",
-     "subline": "What to do in the first 48 hours.",
+     "headline": "The first 48 hours decide your long weekend",
+     "subline": "What to do straight after a sprain",
      "pill": "Waitangi weekend",
      "steps": [
       {
@@ -1004,12 +1005,12 @@
      "photo": "bush",
      "title": "Eleven herbs, one post",
      "about": "The save-this reference card: all eleven herbs, one line each, grouped by range.",
-     "headline": "Eleven herbs, all of them",
-     "subline": "One post. Save it.",
+     "headline": "Every native herb we use, in one post",
+     "subline": "Save it for later",
      "pill": "Herb guide",
      "slides": [
       {
-       "h": "Eleven herbs, all of them, one post",
+       "h": "Every native herb we use, in one post",
        "b": "Every native herb we use, which range it's in, and one thing to know. Save this."
       },
       {
@@ -1177,8 +1178,8 @@
      "photo": "range",
      "title": "The sideline kit, Relief bundle",
      "about": "The week's promo: Wednesday's parent kit lesson again, with the Relief bundle offered in the last line.",
-     "headline": "The sideline kit",
-     "subline": "Pack it once. Keep it in the car.",
+     "headline": "What smart sideline parents keep in the car",
+     "subline": "Pack it once. Forget about it till Saturday.",
      "pill": "Relief range",
      "steps": [
       {
@@ -1217,7 +1218,7 @@
      "photo": "ankle",
      "title": "Trials warm-up for kids",
      "about": "Wellness Reel: a 20-second warm-up for netball and rugby trials that looks after ankles and knees.",
-     "headline": "A 20-second warm-up for trials",
+     "headline": "Twenty seconds your ankles will thank you for",
      "subline": "Netball and rugby. Ankles and knees first.",
      "pill": "Warm-up",
      "shots": [
@@ -1323,7 +1324,7 @@
      "photo": "range",
      "title": "Twelve most-saved summer posts",
      "about": "Recap carousel of the twelve most-saved posts of the quarter, so new followers find the best lessons.",
-     "headline": "Summer's twelve most-saved posts",
+     "headline": "The twelve posts you saved most this summer",
      "subline": "The ones you kept. All in one place.",
      "pill": "Summer recap",
      "slides": [
@@ -1422,7 +1423,7 @@
      "photo": "founders",
      "title": "What you asked most",
      "about": "Community post answering the most common questions from three months of question boxes, comments and the Live.",
-     "headline": "What you asked most, answered",
+     "headline": "Your most-asked questions, answered by Jess and Dan",
      "subline": "Three months of questions. One post.",
      "pill": "Ask Jess and Dan",
      "steps": [

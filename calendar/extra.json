@@ -10,7 +10,7 @@
    "kind": "Educate",
    "template": "quote",
    "range": "joints",
-   "photo": "bush",
+   "photo": "hands",
    "title": "Mavis and Pam on the Joints Rub",
    "about": "The first testimonial graphic of the quarter: two real Joints Rub reviews from Mavis and Pam, inside a short lesson on living with stiff joints, aimed at our 40 to 85 core customer.",
    "headline": "\"Excellent for my arthritis.\"",
@@ -31,7 +31,8 @@
     "Reviews name conditions (arthritis, rheumatics): the caption quotes them without claiming the rub treats either; check against NZ therapeutic advertising rules before posting",
     "Option: a second frame with Pam's quote, \"Excellent for my rheumatics.\", Pam, Balclutha, as a two-image post",
     "UTM-tagged Joints Rub link for the bio",
-    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending",
+    "Preview photo is a new stand-in still waiting on client approval"
    ]
   },
   {
@@ -47,7 +48,7 @@
    "photo": "range",
    "title": "Stock the summer first-aid kit",
    "about": "The week's one promo: a summer first-aid kit checklist first, with the old-price hold (prices held at the pre-increase level until {DATE}) in the last line.",
-   "headline": "Stock the summer kit",
+   "headline": "The summer kit most baches are missing",
    "subline": "What every bach, car and sports bag needs",
    "pill": "Old prices held",
    "steps": [
@@ -91,7 +92,7 @@
    "photo": "range",
    "title": "The bach cupboard",
    "about": "The week's promo and the pre-Christmas sale post: what to leave in the bach cupboard all summer, with the Relief range and the sale ({OFFER}) last.",
-   "headline": "What lives in the bach cupboard",
+   "headline": "What every bach cupboard should hold",
    "subline": "Leave these there all summer",
    "pill": "Pre-Christmas sale",
    "steps": [
@@ -177,10 +178,10 @@
    "kind": "Educate",
    "template": "band",
    "range": "all",
-   "photo": "range",
+   "photo": "aoraki",
    "title": "A weekly recovery routine",
    "about": "Education post for New Year's Day: a weekly recovery routine of three habits, with Karlene's quote and a soft mention of which range suits last.",
-   "headline": "A weekly recovery routine for 2027",
+   "headline": "The 2027 recovery routine we actually stick to",
    "subline": "Three habits that do the real work",
    "pill": "Recovery",
    "steps": [
@@ -203,7 +204,8 @@
    "shoot": "A towel, walking shoes, a glass of water and a Sports Rub and Joints Rub on a wooden bench, morning light.",
    "flags": [
     "Karlene's quote mentions joint surgery: quote only, the caption makes no claim about surgery recovery",
-    "The hook described a last slide but the format is a single post: confirm post or carousel"
+    "The hook described a last slide but the format is a single post: confirm post or carousel",
+    "Preview photo is a new stand-in still waiting on client approval"
    ],
    "slides": [],
    "shots": [],
@@ -223,7 +225,7 @@
    "photo": "shoulder",
    "title": "Three site injuries for tradies",
    "about": "Education post recapping tradie week's three site injuries (back, elbow, shoulder) with what to do for each, Ben M's quote, and a soft Sports and Joints mention last.",
-   "headline": "Three injuries the site gives you",
+   "headline": "The three injuries every worksite hands out",
    "subline": "Back, elbow, shoulder. What to do for each.",
    "pill": "Tradie week",
    "steps": [
@@ -266,8 +268,8 @@
    "photo": "ankle",
    "title": "Long weekend first aid",
    "about": "Education post before Waitangi weekend: what to do in the first 48 hours if something hurts, with a soft Relief mention last. No offer, and no selling on Waitangi Day itself.",
-   "headline": "Long weekend first aid",
-   "subline": "What to do in the first 48 hours.",
+   "headline": "The first 48 hours decide your long weekend",
+   "subline": "What to do straight after a sprain",
    "pill": "Long weekend",
    "steps": [
     {
@@ -309,8 +311,8 @@
    "photo": "range",
    "title": "The sideline kit for parents",
    "about": "Education post for parents as Saturday sport returns: what to pack in the sideline bag and when a knock means sit them out, with a soft Relief range mention last.",
-   "headline": "The sideline kit",
-   "subline": "Pack it once. Keep it in the car.",
+   "headline": "What smart sideline parents keep in the car",
+   "subline": "Pack it once. Forget about it till Saturday.",
    "pill": "Relief range",
    "steps": [
     {

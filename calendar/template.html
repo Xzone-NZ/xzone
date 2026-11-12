@@ -74,57 +74,84 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 @media (max-width:1100px){.days{grid-template-columns:repeat(4,minmax(0,1fr))}}
 @media (max-width:640px){.days{grid-template-columns:repeat(2,minmax(0,1fr))}.wmeta{text-align:left}.bar{position:static}}
 
-/* ---------- brand previews: official range colour pairs, drawn via container units ---------- */
-.pv{--pg:#0D441F;--pa:#E0E64A;--pt:#1F1C1D;--pw:13,68,31}
-.pv.r-joints{--pg:#131D4A;--pa:#F3AC3E;--pt:#1F1C1D;--pw:19,29,74}
-.pv.r-sports{--pg:#1F1C1D;--pa:#E44726;--pt:#ffffff;--pw:31,28,29}
-.pv{container-type:inline-size;position:relative;overflow:hidden;width:100%;aspect-ratio:1;background:var(--pg);color:#fff;font-family:var(--font)}
+/* ---------- brand previews: Round 2 social style (green, lime, white; navy only for Joints). 1cqw = 1% of the frame width ---------- */
+.pv{--ink:#0D441F;--pw:13,68,31;container-type:inline-size;position:relative;overflow:hidden;width:100%;aspect-ratio:4/5;background:#fff;color:var(--ink);font-family:var(--font);text-align:left}
+.pv.r-joints{--ink:#131D4A;--pw:19,29,74}
 .pv.tall{aspect-ratio:9/16}
 .pv .ph{position:absolute;inset:0;background-size:cover;background-position:center}
-.pv .wash{position:absolute;inset:0;background:linear-gradient(180deg,rgba(var(--pw),.15),rgba(var(--pw),.82))}
-.pv .lg{position:absolute;top:4cqw;left:4cqw;width:22cqw;filter:brightness(0) invert(1)}
-.pv .pill{color:var(--pt)!important;position:absolute;top:4cqw;right:4cqw;background:var(--pa);color:#171717;font-weight:700;font-size:3.2cqw;padding:1cqw 2.6cqw;border-radius:9cqw;text-transform:uppercase;letter-spacing:.06em}
-.pv .hl{position:absolute;left:5cqw;right:5cqw;bottom:12cqw;font-weight:800;font-size:8.6cqw;line-height:1.04;letter-spacing:-.01em}
-.pv .hl em{display:block;font-style:normal;color:var(--pa);font-weight:600;font-size:4.4cqw;line-height:1.2;margin-top:2cqw;letter-spacing:0}
-.pv .ft{position:absolute;left:0;right:0;bottom:0;height:7cqw;background:rgba(0,0,0,.35);font-size:2.8cqw;letter-spacing:.12em;display:flex;align-items:center;padding:0 5cqw;font-weight:600;text-transform:uppercase}
-.pv .band{position:absolute;left:0;right:0;top:0;background:var(--pg);padding:5cqw 5cqw 4cqw;z-index:2}
-.pv .band b{display:block;font-size:7cqw;font-weight:800;line-height:1.05}
-.pv .band i{display:block;font-style:normal;color:var(--pa);font-size:4cqw;font-weight:600;margin-top:1.4cqw}
-.pv .steps{position:absolute;left:0;right:0;bottom:0;display:grid;grid-auto-flow:column;grid-auto-columns:1fr;background:rgba(var(--pw),.9);z-index:2}
-.pv .steps span{padding:3cqw 3cqw 3.4cqw;font-size:2.9cqw;line-height:1.3;border-left:1px solid rgba(255,255,255,.15)}
-.pv .steps b{display:block;color:var(--pa);font-size:3.2cqw;margin-bottom:.8cqw}
-.pv .band~.lg{top:auto;bottom:4cqw;z-index:3}
-.pv.has-steps .band~.lg{display:none}
-.pv .badge{position:absolute;top:4cqw;right:4cqw;font-size:3.2cqw;font-weight:700;background:rgba(0,0,0,.45);padding:1cqw 2.4cqw;border-radius:2cqw;letter-spacing:.06em}
-.pv .badge.live{background:#e02424}
-.pv .play{position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);width:16cqw;height:16cqw;border-radius:50%;background:rgba(255,255,255,.22);display:grid;place-items:center}
-.pv .play::after{content:"";border-left:5.5cqw solid #fff;border-top:3.4cqw solid transparent;border-bottom:3.4cqw solid transparent;margin-left:1.4cqw}
-.pv.tall .hl{font-size:10cqw;bottom:16cqw}
-.pv.tall .hl em{font-size:5.4cqw}
-.pv .stars{position:absolute;top:18cqw;left:6cqw;color:var(--pa);font-size:6cqw;letter-spacing:.2em}
-.pv .q{position:absolute;left:6cqw;right:6cqw;top:28cqw;font-weight:700;font-size:6.4cqw;line-height:1.15}
-.pv .q em{font-style:normal;color:var(--pa)}
-.pv .who{position:absolute;left:6cqw;bottom:12cqw;font-size:3.4cqw;font-weight:600}
-.pv .idx{position:absolute;top:5cqw;right:5cqw;font-size:3.4cqw;font-weight:700;color:var(--pa)}
-.pv .inner{position:absolute;inset:0;padding:16cqw 7cqw 10cqw;display:flex;flex-direction:column;gap:4cqw;background:var(--pg)}
-.pv .inner .n{font-size:14cqw;font-weight:800;color:var(--pa);line-height:1}
-.pv .inner h4{margin:0;font-size:7.6cqw;line-height:1.08;font-weight:800}
-.pv .inner p{margin:0;font-size:4.6cqw;line-height:1.38;color:#e6efe8;font-weight:400}
-.pv .dots{position:absolute;bottom:3cqw;left:0;right:0;display:flex;justify-content:center;gap:1.4cqw;z-index:3}
-.pv .dots i{width:1.6cqw;height:1.6cqw;border-radius:50%;background:rgba(255,255,255,.45)}
-.pv .dots i.on{background:#fff}
-.pv.fbp .band{padding-right:22cqw}
-.pv .fbtag{position:absolute;top:4cqw;right:4cqw;z-index:3;background:#1b3f8f;font-size:3.2cqw;font-weight:700;padding:1cqw 2.4cqw;border-radius:2cqw}
-.pv .poll{position:absolute;left:5cqw;right:5cqw;bottom:5cqw;display:grid;gap:1.8cqw;z-index:2}
-.pv .poll span{background:#fff;color:#171717;border-radius:2cqw;padding:2.2cqw 3cqw;font-size:3.4cqw;font-weight:600}
-/* story */
-.pv.st .stk{position:absolute;left:8cqw;right:8cqw;top:30%;background:#fff;color:#171717;border-radius:4cqw;padding:5cqw;display:grid;gap:3cqw;box-shadow:0 2cqw 6cqw rgba(0,0,0,.25)}
-.pv.st .stk .k{font-size:4.6cqw;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--pg)}
-.pv.st .stk .x{font-size:6.6cqw;font-weight:700;line-height:1.2}
-.pv.st .stk .o{display:grid;gap:2cqw}
-.pv.st .stk .o span{border:1px solid #dfe5df;border-radius:3cqw;padding:2.4cqw 3cqw;font-size:5cqw;font-weight:500}
-.pv.st .top{position:absolute;top:4cqw;left:4cqw;right:4cqw;display:flex;gap:2cqw;align-items:center;font-size:4.4cqw;font-weight:600;z-index:2}
-.pv.st .top img{width:9cqw;height:9cqw;border-radius:50%;background:#fff;padding:1.2cqw}
+.pv .prod{background-size:auto 80%!important;background-repeat:no-repeat;background-color:#fff}
+.pv .lgp{position:absolute;top:5cqw;left:5cqw;z-index:3;background:#fff;border-radius:99cqw;padding:1.5cqw 3cqw;display:flex;line-height:0}
+.pv .lgp img{height:3.4cqw;width:auto}
+.pv .lgi{height:3.8cqw;width:auto;display:block}
+.pv .lgw{background:#fff;border-radius:99cqw;padding:1.2cqw 2.4cqw;display:flex;line-height:0}
+.pv .lgw img{height:3cqw;width:auto}
+.pv .tag{align-self:flex-start;background:#E0E64A;color:#0D441F;border-radius:99cqw;padding:1.2cqw 2.8cqw;font-size:2.6cqw;font-weight:700;letter-spacing:.12em;text-transform:uppercase;line-height:1.3}
+.pv .watch{display:flex;align-items:center;gap:2cqw;font-size:3cqw;font-weight:600}
+.pv .watch svg{width:5.4cqw;height:5.4cqw;color:#E0E64A;flex:none}
+/* reel and live: photo-led, green fade at the bottom (Reel A) */
+.pv.reel{background:#0D441F;color:#fff}
+.pv.reel .grad{position:absolute;inset:0;background:linear-gradient(180deg,rgba(var(--pw),0) 28%,rgba(var(--pw),.55) 56%,rgba(var(--pw),.96) 100%)}
+.pv.reel .rb{position:absolute;left:6cqw;right:6cqw;bottom:8cqw;display:flex;flex-direction:column;gap:2.6cqw;z-index:2}
+.pv.tall.reel .rb{bottom:24cqw}
+.pv.tall.reel .lgp{top:9cqw}
+.pv.reel .h{font-size:7.6cqw;line-height:1.07;font-weight:800}
+.pv.tall.reel .h{font-size:9cqw}
+.pv.reel .s{font-size:3.5cqw;line-height:1.4;font-weight:500;color:rgba(255,255,255,.88)}
+/* single posts: photo on top, colour band below (Post 1) */
+.pv .pin{position:absolute;inset:0;display:flex;flex-direction:column}
+.pv .pimg{flex:none;position:relative;background-size:cover;background-position:center}
+.pv .pband{flex:1;min-height:0;display:flex;flex-direction:column;gap:1.8cqw;padding:4.4cqw 6cqw 4.2cqw;background:#fff;color:var(--ink)}
+.pv .lab{font-size:2.4cqw;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.pv.post .h{font-size:6.2cqw;line-height:1.08;font-weight:800}
+.pv.post .s{font-size:3.1cqw;line-height:1.4;font-weight:500;opacity:.85}
+.pv .foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:3cqw}
+.pv .foot.end{justify-content:flex-end}
+.pv.bd .pband{background:#E0E64A}
+.pv.bd .steps{display:grid;gap:1cqw;font-size:2.6cqw;line-height:1.35;font-weight:500}
+.pv.bd .steps span{border-left:.6cqw solid var(--ink);padding-left:1.8cqw}
+.pv.q .pband{background:#0D441F;color:#fff}
+.pv.q .lab{color:#E0E64A}
+.pv.q.light .pband{background:#fff;color:var(--ink)}
+.pv.q.light .lab{color:var(--ink)}
+.pv.q .qt{font-size:6cqw;line-height:1.12;font-weight:800}
+.pv.q .who{font-size:2.9cqw;font-weight:600;opacity:.9}
+.pv .fbtag{position:absolute;top:4cqw;right:4cqw;background:#fff;color:#0D441F;font-size:2.6cqw;font-weight:700;padding:1cqw 2.4cqw;border-radius:99cqw}
+.pv .poll{display:grid;gap:1.3cqw}
+.pv .poll span{border:.35cqw solid rgba(var(--pw),.25);border-radius:99cqw;padding:1.3cqw 3cqw;font-size:2.9cqw;font-weight:600;text-align:center}
+/* carousel cover: lime ground, photo inset (Reel C) */
+.pv.cv{background:#E0E64A}
+.pv.cv .pin{gap:2.2cqw;padding:5cqw 6cqw 7cqw}
+.pv.cv .ctop{display:flex;justify-content:space-between;align-items:center;gap:2cqw;margin-bottom:2cqw}
+.pv.cv .lgp{position:static}
+.pv.cv .tag{background:var(--ink);color:#E0E64A;align-self:auto}
+.pv.cv .h{font-size:7.4cqw;line-height:1.06;font-weight:800}
+.pv.cv .s{font-size:3.2cqw;line-height:1.4;font-weight:500;opacity:.85}
+.pv.cv .cimg{margin-top:auto;flex:none;height:48cqw;border-radius:3.6cqw;background-size:cover;background-position:center}
+.pv .dots{position:absolute;bottom:2.6cqw;left:0;right:0;display:flex;justify-content:center;gap:1.4cqw;z-index:3}
+.pv .dots i{width:1.5cqw;height:1.5cqw;border-radius:50%;background:rgba(var(--pw),.3)}
+.pv .dots i.on{background:var(--ink)}
+/* carousel inner slides: white, lime number */
+.pv .inner{position:absolute;inset:0;padding:13cqw 7cqw 12cqw;display:flex;flex-direction:column;gap:3.4cqw;background:#fff;color:var(--ink)}
+.pv .inner .n{width:12cqw;height:12cqw;border-radius:50%;background:#E0E64A;color:#0D441F;display:grid;place-items:center;font-size:5.2cqw;font-weight:800;flex:none}
+.pv .inner h4{margin:0;font-size:6.8cqw;line-height:1.08;font-weight:800}
+.pv .inner p{margin:0;font-size:4.1cqw;line-height:1.42;font-weight:400;opacity:.85}
+.pv .idx{position:absolute;top:5cqw;right:6cqw;font-size:3cqw;font-weight:700;color:var(--ink);opacity:.7}
+.pv .inner~.lgi{position:absolute;left:7cqw;bottom:5cqw}
+/* story: full photo, poll-sticker format (Story 1) */
+.pv.st{background:#0D441F;color:#fff}
+.pv.st .g1{position:absolute;left:0;right:0;top:0;height:26%;background:linear-gradient(180deg,rgba(var(--pw),.75),rgba(var(--pw),0))}
+.pv.st .g2{position:absolute;left:0;right:0;bottom:0;height:66%;background:linear-gradient(180deg,rgba(var(--pw),0),rgba(var(--pw),.72) 55%,rgba(var(--pw),.96))}
+.pv.st .lgp{left:50%;transform:translateX(-50%);top:8cqw}
+.pv.st .sb{position:absolute;left:8cqw;right:8cqw;bottom:13cqw;display:flex;flex-direction:column;align-items:center;gap:4.2cqw;text-align:center;z-index:2}
+.pv.st .tag{align-self:center}
+.pv.st .x{font-size:6.4cqw;line-height:1.14;font-weight:800}
+.pv.st .stk{width:100%;background:#fff;color:#0D441F;border-radius:3.4cqw;overflow:hidden;display:flex;flex-direction:column}
+.pv.st .stk span{padding:2.8cqw 4cqw;font-size:3.8cqw;font-weight:600}
+.pv.st .stk span+span{border-top:.25cqw solid #E8E8E8}
+.pv.st .ask{width:100%;box-sizing:border-box;background:#fff;color:#0D441F;border-radius:3.4cqw;padding:3.4cqw 4cqw;display:grid;gap:1.4cqw}
+.pv.st .ask b{font-size:3.4cqw}
+.pv.st .ask i{font-style:normal;font-size:3.2cqw;color:#5f6b62}
+.pv.st .lnk{background:#fff;color:#0D441F;border-radius:99cqw;padding:2.4cqw 4.4cqw;font-size:3.4cqw;font-weight:700}
 
 /* ---------- detail panel ---------- */
 .ov{position:fixed;inset:0;background:rgba(10,16,12,.6);z-index:20;display:grid;place-items:center;padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
@@ -204,34 +231,54 @@ function emailPv(e){const s=(e.sections||[])[0]||{};return `<div class="pv em"><
 const stories=[];D.weeks.forEach(w=>w.stories.forEach(s=>{s._w=w.week;stories.push(s)}));
 
 function photo(k){return IMG[k]||IMG.bush}
-function pill(p){if(!p.pill)return'';return `<span class="pill ${p.range==='sports'?'sports':''}">${esc(p.pill)}</span>`}
-function logo(){return `<img class="lg" src="${IMG.logo}" alt="">`}
+const RN={relief:'Relief range',joints:'Joints range',sports:'Sports range'};
+const PLAY='<svg viewBox="0 0 56 56" aria-hidden="true"><circle cx="28" cy="28" r="26.5" fill="none" stroke="currentColor" stroke-width="3"/><path d="M23 18.5 39 28l-16 9.5v-19Z" fill="currentColor"/></svg>';
+function label(p){return p.pill||RN[p.range]||''}
+function lgp(){return `<span class="lgp"><img src="${IMG.logo}" alt=""></span>`}
+function lgi(){return `<img class="lgi" src="${IMG.logo}" alt="">`}
+function lgw(){return `<span class="lgw"><img src="${IMG.logo}" alt=""></span>`}
+function bg(k){return `background-image:url(${photo(k)})`}
+function pimg(k,h,extra=''){return `<div class="pimg ${k==='range'?'prod':''}" style="height:${h}cqw;${bg(k)}">${extra}</div>`}
 
 function preview(p,opts){return previewRaw(p,opts).replace(/<div class="pv( |")/,(m,c)=>`<div class="pv r-${p.range||'all'}${c}`)}
 function previewRaw(p,opts={}){
-  const t=p.template, ph=`<div class="ph" style="background-image:url(${photo(p.photo)})"></div>`;
-  if(t==='reel') return `<div class="pv tall">${ph}<div class="wash"></div>${logo()}<span class="badge">Reel · ${esc(p.duration||'')}</span><div class="play"></div><div class="hl">${esc(p.headline)}<em>${esc(p.subline)}</em></div><div class="ft">@xzonenz</div></div>`;
-  if(t==='live') return `<div class="pv">${ph}<div class="wash"></div>${logo()}<span class="badge live">Live</span><div class="hl">${esc(p.headline)}<em>${esc(p.subline)}</em></div><div class="ft">Facebook Live · X-ZONE NZ</div></div>`;
-  if(t==='quote'){const q=(p.slides&&p.slides[0]&&p.slides[0].b)||p.subline;return `<div class="pv">${ph}<div class="wash" style="background:rgba(var(--pw),.82)"></div>${logo()}${pill(p)}<div class="stars">★★★★★</div><div class="q">${esc(p.headline)}</div><div class="who">${esc(p.subline)}</div><div class="ft">@xzonenz · xzone.nz</div></div>`}
-  if(t==='band'||t==='fb'){
-    const steps=(p.steps||[]).length&&t==='band'?`<div class="steps">${p.steps.map(s=>`<span><b>${esc(s.b)}</b>${esc(s.t)}</span>`).join('')}</div>`:'';
-    const poll=t==='fb'&&(p.poll||[]).length?`<div class="poll">${p.poll.slice(0,4).map(o=>`<span>${esc(o)}</span>`).join('')}</div>`:'';
-    const fb=t==='fb'?`<span class="fbtag">Facebook</span>`:'';
-    return `<div class="pv ${steps?'has-steps':''} ${t==='fb'?'fbp':''}">${ph}${poll?'<div class="wash" style="background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.55))"></div>':''}<div class="band"><b>${esc(p.headline)}</b><i>${esc(p.subline)}</i></div>${fb}${logo()}${steps}${poll}</div>`;
+  const t=p.template, lab=label(p), h=esc(p.headline), s=esc(p.subline);
+  const ph=`<div class="ph ${p.photo==='range'?'prod':''}" style="${bg(p.photo)}"></div>`;
+  if(t==='reel'||t==='live'){
+    const live=t==='live', tag=live?'Live on Facebook':(lab||'Reel');
+    return `<div class="pv reel ${live?'':'tall'}">${ph}<div class="grad"></div>${lgp()}<div class="rb"><span class="tag">${esc(tag)}</span><div class="h">${h}</div>${s?`<div class="s">${s}</div>`:''}<div class="watch">${PLAY}<span>${live?'Join us live':'Watch'+(p.duration?' · '+esc(p.duration):'')}</span></div></div></div>`;
   }
-  // ground + carousel cover
-  const dots=t==='carousel'?`<div class="dots">${(p.slides||[]).map((_,i)=>`<i class="${i===0?'on':''}"></i>`).join('')}</div>`:'';
-  return `<div class="pv">${ph}<div class="wash"></div>${logo()}${pill(p)}<div class="hl">${esc(p.headline)}<em>${esc(p.subline)}</em></div>${dots||'<div class="ft">@xzonenz · xzone.nz</div>'}</div>`;
+  if(t==='quote') return `<div class="pv post q ${p.range==='joints'?'light':''}"><div class="pin">${pimg(p.photo,66)}<div class="pband"><span class="lab">In their words${lab?' · '+esc(lab):''}</span><div class="qt">${h}</div><div class="foot"><span class="who">${s}</span>${p.range==='joints'?lgi():lgw()}</div></div></div></div>`;
+  if(t==='fb'){
+    const poll=(p.poll||[]).length?`<div class="poll">${p.poll.slice(0,3).map(o=>`<span>${esc(o)}</span>`).join('')}</div>`:(s?`<div class="s">${s}</div>`:'');
+    return `<div class="pv post fbp"><div class="pin">${pimg(p.photo,(p.poll||[]).length?50:62,'<span class="fbtag">Facebook</span>')}<div class="pband"><div class="h">${h}</div>${poll}<div class="foot end">${lgi()}</div></div></div></div>`;
+  }
+  if(t==='band'){
+    const st=(p.steps||[]).slice(0,3), steps=st.length?`<div class="steps">${st.map(x=>`<span><b>${esc(x.b)}</b> ${esc(x.t)}</span>`).join('')}</div>`:'';
+    return `<div class="pv post bd"><div class="pin">${pimg(p.photo,steps?54:64)}<div class="pband">${lab?`<span class="lab">${esc(lab)}</span>`:''}<div class="h">${h}</div>${steps||(s?`<div class="s">${s}</div>`:'')}<div class="foot end">${lgi()}</div></div></div></div>`;
+  }
+  if(t==='carousel'){
+    const dots=`<div class="dots">${(p.slides||[]).map((_,i)=>`<i class="${i===0?'on':''}"></i>`).join('')}</div>`;
+    return `<div class="pv cv"><div class="pin"><div class="ctop">${lgp()}${lab?`<span class="tag">${esc(lab)}</span>`:''}</div><div class="h">${h}</div>${s?`<div class="s">${s}</div>`:''}<div class="cimg ${p.photo==='range'?'prod':''}" style="${bg(p.photo)}"></div>${dots}</div></div>`;
+  }
+  // ground: single post, white band
+  return `<div class="pv post gr"><div class="pin">${pimg(p.photo,66)}<div class="pband">${lab?`<span class="lab">${esc(lab)}</span>`:''}<div class="h">${h}</div>${s?`<div class="s">${s}</div>`:''}<div class="foot end">${lgi()}</div></div></div></div>`;
 }
 function slide(p,s,i,n){
   if(i===0) return preview(p);
-  return `<div class="pv r-${p.range||'all'}"><div class="inner"><span class="idx">${i+1} / ${n}</span><div class="n">${String(i+1).padStart(2,'0')}</div><h4>${esc(s.h)}</h4><p>${esc(s.b)}</p></div><img class="lg" src="${IMG.logo}" alt=""></div>`;
+  return `<div class="pv r-${p.range||'all'}"><div class="inner"><span class="idx">${i+1} / ${n}</span><div class="n">${i+1}</div><h4>${esc(s.h)}</h4><p>${esc(s.b)}</p></div>${lgi()}</div>`;
 }
 const SLAB={quiz:'Quiz',question:'Ask Jess and Dan',poll:'Poll',countdown:'Countdown',link:'Link',bts:'Behind the scenes',testimonial:'Customer words',prompt:'Your turn',explainer:'Explainer',recap:'Recap',greeting:'From Jess and Dan'};
-const SPH={quiz:'bush',question:'founders',poll:'bush',countdown:'range',link:'range',bts:'founders',testimonial:'bush',prompt:'bush',explainer:'bush',recap:'range',greeting:'founders'};
+const SPH={quiz:['bush','bushwalk'],question:['founders'],poll:['cricket','ankle','aoraki'],countdown:['range'],link:['range','bushwalk'],bts:['founders'],testimonial:['hands','shoulder'],prompt:['aoraki','bushwalk','cricket'],explainer:['bush','handsclose'],recap:['range','founders'],greeting:['founders']};
+const SKEY=[[/hand|gardener|maker/i,'handsclose'],[/cricket/i,'cricket'],[/tramp|trail|track|walk/i,'bushwalk'],[/knee|joint|arthritis|rheumat/i,'hands'],[/sport|netball|rugby|football|sideline|trials|code|training/i,'ankle'],[/bruise|bump/i,'bruise'],[/sleep|back|worksite|site/i,'shoulder']];
+function storyPhoto(s){for(const [re,k] of SKEY) if(re.test(s.text||'')) return k;const l=SPH[s.type]||['bush'];let n=0;for(const c of String(s.id))n+=c.charCodeAt(0);return l[n%l.length]}
 function storyPv(s){
-  const o=(s.options||[]).length?`<div class="o">${s.options.map(x=>`<span>${esc(x)}</span>`).join('')}</div>`:'';
-  return `<div class="pv tall st"><div class="ph" style="background-image:url(${photo(SPH[s.type]||'bush')})"></div><div class="wash"></div><div class="top"><img src="${IMG.icon}" alt="">xzonenz</div><div class="stk"><span class="k">${esc(SLAB[s.type]||s.type)}</span><span class="x">${esc(s.text)}</span>${o}</div></div>`;
+  const k=storyPhoto(s), opts=s.options||[];
+  let stk='';
+  if(opts.length) stk=`<div class="stk">${opts.slice(0,4).map(x=>`<span>${esc(x)}</span>`).join('')}</div>`;
+  else if(s.type==='question') stk=`<div class="ask"><b>Ask Jess and Dan</b><i>Type your question</i></div>`;
+  else if(s.type==='link') stk=`<span class="lnk">Read it on the feed</span>`;
+  return `<div class="pv tall st"><div class="ph ${k==='range'?'prod':''}" style="${bg(k)}"></div><div class="g1"></div><div class="g2"></div>${lgp()}<div class="sb"><span class="tag">${esc(SLAB[s.type]||s.type)}</span><div class="x">${esc(s.text)}</div>${stk}</div></div>`;
 }
 function tags(p){
   const fb=p.where&&p.where.toLowerCase().includes('fb only');

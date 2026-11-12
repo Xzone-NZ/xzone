@@ -23,6 +23,8 @@ Form overrides were applied to these pages:
 - Brand guidelines v1.1: https://claude.ai/artifact/2PmSvpcLQ2HuV8TafG3ac3
 - Email signature: https://claude.ai/artifact/MmXp2cYwedpcEExEPPweyT
 - Summer social plan: https://claude.ai/artifact/HcSkHfjZAGz8UBYpkFjTsj
-- Instagram concepts: https://claude.ai/artifact/FZKXmwYVD5y2afJcVzKvAT (type, emoji, competitor wording, lab claim, "Dan" not "Danny")
+- Instagram concepts: https://claude.ai/artifact/X7oXkdrueJ36c4SJuCa5cy (restyled to the Round 2 social style 12 Nov; old link FZKXmwYVD5y2afJcVzKvAT no longer opens)
+- Social design options canvas: https://claude.ai/artifact/RLoAHdj2FRV5R3hstYRMWL
+- Summer calendar and feed mock-up: see `calendar/README.md` (republished 12 Nov at new links)
 
 Re-apply as more form parts arrive.

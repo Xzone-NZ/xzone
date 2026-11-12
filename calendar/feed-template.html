@@ -54,8 +54,8 @@ h1{margin:4px 0 6px;font-size:clamp(26px,4vw,36px);font-weight:800;letter-spacin
 .tabs span.on{color:#111;border-top:1px solid #111;margin-top:-1px}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px}
 .cell{position:relative;aspect-ratio:3/4;overflow:hidden;background:var(--deep);border:0;padding:0;cursor:pointer;display:block;width:100%}
-.cell .pv{position:absolute;left:0;top:50%;transform:translateY(-50%);width:100%}
-.cell .pv.tall{top:0;transform:none;height:100%;aspect-ratio:auto}
+.cell .pv{position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto}
+.cell .pv.tall{height:100%}
 .cell .ico{position:absolute;top:5px;right:6px;z-index:5;width:16px;height:16px;fill:#fff;filter:drop-shadow(0 1px 2px rgba(0,0,0,.5))}
 .cell.newest::after{content:"New";position:absolute;left:5px;top:5px;z-index:5;background:var(--sun);color:#171717;font:700 9px/1 var(--font);padding:3px 5px;border-radius:3px}
 /* ---------- Facebook ---------- */
@@ -83,6 +83,8 @@ h1{margin:4px 0 6px;font-size:clamp(26px,4vw,36px);font-weight:800;letter-spacin
 .more{padding:0 12px;margin-top:-6px;font-size:13px;color:#65676b;font-weight:600}
 .pmedia{position:relative}
 .pmedia .pv.tall{aspect-ratio:4/5}
+.pmedia .pv.tall.reel .rb{bottom:8cqw}
+.pmedia .pv.tall.reel .h{font-size:7.6cqw}
 .react{display:flex;justify-content:space-between;padding:0 12px 4px;font-size:12px;color:#65676b}
 .acts{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #e4e6eb;margin:0 12px;padding:6px 0 8px;font-size:13px;font-weight:600;color:#65676b;text-align:center}
 .reeltag{position:absolute;left:10px;bottom:10px;z-index:5;background:rgba(0,0,0,.55);color:#fff;font:600 11px/1 var(--ui);padding:5px 8px;border-radius:12px}
@@ -121,7 +123,7 @@ __PREVIEW_CSS__
     <div class="col">
       <h2>Instagram profile</h2>
       <div class="phone"><div class="screen"><div class="status"><span>9:41</span><span>●●● ▮</span></div><div class="scroll" id="ig"></div></div></div>
-      <div class="hint">Newest post top left. The grid alternates bush-green herb carousels, photo-led Reels and single posts, so it reads as one brand.</div>
+      <div class="hint">Newest post top left. The grid mixes lime carousel covers, photo-led Reels and single posts with white and lime bands, so it stays light and reads as one brand.</div>
     </div>
     <div class="col">
       <h2>Facebook page</h2>

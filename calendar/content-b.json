@@ -18,8 +18,8 @@
      "photo": "bush",
      "title": "Herb five: Koromiko",
      "about": "Herb of the week post introducing koromiko, the fifth of the eleven herbs, and its place in the Relief range.",
-     "headline": "Koromiko: the herb grandmother knew",
-     "subline": "Herb five of eleven, in our Relief range",
+     "headline": "The herb your grandmother already knew",
+     "subline": "Herb 5 of 11: koromiko, in our Relief range",
      "pill": "Herb 5 of 11",
      "caption": "Koromiko grows almost everywhere in Aotearoa, from roadside banks to the edge of the bush. Ask an older Kiwi and there is a good chance they remember it.\n\nIt is a native hebe, with long narrow leaves and white to lilac flower spikes in summer. In rongoā Māori the leaves were traditionally used for upset stomachs, and on the skin for cuts and sores. During the Second World War, families even sent dried koromiko to soldiers overseas.\n\nWe use koromiko in our Relief range, the rub, spray and roll-on we make for everyday aches, bumps and bruises.\n\nHerb five of eleven. Save this for the full set.\n\nDid your nan know koromiko? Tell us below.",
      "hashtags": "#Koromiko #Aotearoa #NZNativePlants #XZoneNZ #NaturalPainRelief",
@@ -39,7 +39,7 @@
      "kind": "Educate",
      "template": "reel",
      "range": "none",
-     "photo": "shoulder",
+     "photo": "cricket",
      "title": "Backyard cricket warm-up",
      "about": "Christmas Day Reel teaching a 20-second warm-up before backyard cricket, the summer injury moment everyone recognises.",
      "headline": "The Christmas cricket warm-up nobody does",
@@ -82,7 +82,8 @@
      "cta": "Save this",
      "shoot": "A real family backyard cricket game on a summer afternoon, filmed handheld, with one family member doing the warm-up.",
      "flags": [
-      "Get signed releases from any family members or friends filmed for the cricket Reel."
+      "Get signed releases from any family members or friends filmed for the cricket Reel.",
+      "Preview photo is a new stand-in still waiting on client approval"
      ]
     },
     {
@@ -311,8 +312,8 @@
      "photo": "bush",
      "title": "Herb six: Pūriri",
      "about": "Herb of the week Reel for pūriri, in the Sports range, with the lab's COX-2 result as one on-screen line.",
-     "headline": "Pūriri: herb six, in our Sports range",
-     "subline": "A native of the upper North Island",
+     "headline": "The tree New Zealand's biggest moth calls home",
+     "subline": "Herb 6 of 11: pūriri, in our Sports range",
      "pill": "Herb 6 of 11",
      "shots": [
       {
@@ -361,14 +362,14 @@
      "kind": "Educate",
      "template": "carousel",
      "range": "none",
-     "photo": "ankle",
+     "photo": "aoraki",
      "title": "The 10% rule for January",
      "about": "New Year carousel explaining why January injuries happen and the 10% rule, tied to the week 6 blog article.",
-     "headline": "Why January injuries happen",
+     "headline": "Why so many of us get hurt in January",
      "subline": "Too much, too soon. The 10% rule.",
      "slides": [
       {
-       "h": "Why January injuries happen",
+       "h": "Why so many of us get hurt in January",
        "b": "Too much, too soon. And the simple rule that helps. Swipe."
       },
       {
@@ -401,7 +402,8 @@
      "cta": "Save this",
      "shoot": "A walker in their fifties lacing shoes on a back step at dawn, plus a notebook with weekly minutes written in.",
      "flags": [
-      "Blog link for the week 6 article 'The 10% rule: how to start 2027 without getting hurt'."
+      "Blog link for the week 6 article 'The 10% rule: how to start 2027 without getting hurt'.",
+      "Preview photo is a new stand-in still waiting on client approval"
      ]
     },
     {
@@ -444,10 +446,10 @@
      "kind": "Promo",
      "template": "band",
      "range": "all",
-     "photo": "range",
+     "photo": "aoraki",
      "title": "New Year Recovery Kit",
      "about": "The week's one promo: a weekly recovery routine first, with the New Year Recovery Kit and Karlene's quote at the end.",
-     "headline": "A weekly recovery routine for 2027",
+     "headline": "The 2027 recovery routine we actually stick to",
      "subline": "Three habits first. The kit comes last.",
      "pill": "Recovery Kit",
      "steps": [
@@ -470,7 +472,8 @@
      "shoot": "The kit contents laid out on a wooden bench beside a towel and walking shoes, natural light.",
      "flags": [
       "New Year Recovery Kit: contents ({KIT_CONTENTS}), price, offer ({OFFER}), end date ({DATE}) and UTM link.",
-      "The hook says the kit is 'the last slide' but the format is a single post: confirm post or carousel."
+      "The hook says the kit is 'the last slide' but the format is a single post: confirm post or carousel.",
+      "Preview photo is a new stand-in still waiting on client approval"
      ]
     },
     {
@@ -674,8 +677,8 @@
      "photo": "bush",
      "title": "Herb seven: Rātā",
      "about": "Herb of the week Reel for rātā, explaining why the red-flowering tree belongs in the everyday Relief range.",
-     "headline": "Rātā: herb seven, in our Relief range",
-     "subline": "The red-flowering tree of the summer forest",
+     "headline": "The red tree that lights up the summer forest",
+     "subline": "Herb 7 of 11: rātā, in our Relief range",
      "pill": "Herb 7 of 11",
      "shots": [
       {
@@ -726,7 +729,7 @@
      "photo": "range",
      "title": "What the lab found",
      "about": "Plain-English post on the Trinity Bioactives in-vitro results and Dr Vanessa Ingraham's evaluation; the post to boost on Facebook.",
-     "headline": "What the lab found, in plain English",
+     "headline": "We sent our rubs to a lab. Here is what happened",
      "subline": "Independent in-vitro tests by Trinity Bioactives",
      "pill": "The science",
      "steps": [
@@ -945,15 +948,15 @@
      "kind": "Educate",
      "template": "carousel",
      "range": "joints",
-     "photo": "range",
+     "photo": "handsclose",
      "title": "Turmeric and the Joints Rub",
      "about": "Joint-pain carousel from the Golden Turmeric blog: turmeric inside, the Joints Rub outside, with Mavis and Pam's quotes for the Facebook audience.",
-     "headline": "Turmeric inside, herbs outside",
+     "headline": "The stiff-joint duo: one inside, one outside",
      "subline": "The natural duo for stiff, sore joints",
      "pill": "Joints range",
      "slides": [
       {
-       "h": "Turmeric inside, herbs outside",
+       "h": "The stiff-joint duo: one inside, one outside",
        "b": "The natural duo for joint pain, and why they make sense together. Swipe."
       },
       {
@@ -987,7 +990,8 @@
      "shoot": "A mug of golden milk beside the Joints Rub on a kitchen bench in morning light, with older hands around the mug.",
      "flags": [
       "Check the turmeric safety line with a pharmacist or GP.",
-      "Blog link for the Golden Turmeric article."
+      "Blog link for the Golden Turmeric article.",
+      "Preview photo is a new stand-in still waiting on client approval"
      ]
     },
     {
@@ -1003,8 +1007,8 @@
      "photo": "bush",
      "title": "Herb eight: Pukatea",
      "about": "Herb of the week Reel for pukatea, the swamp forest giant traditionally used for pain, found in both the Joints and Sports ranges.",
-     "headline": "Pukatea: herb eight, the swamp forest giant",
-     "subline": "In our Joints and Sports ranges",
+     "headline": "The swamp giant with roots like walls",
+     "subline": "Herb 8 of 11: pukatea, in Joints and Sports",
      "pill": "Herb 8 of 11",
      "shots": [
       {
