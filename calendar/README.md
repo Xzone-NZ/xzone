@@ -8,6 +8,7 @@
 - `schedule.json` the slot list pulled from the summer plan.
 - `BRIEF.md` the writing rules the content follows.
 - `template.html` + `build.py` build `xzone-summer-calendar.html` (run `python3 build.py`).
+- `designs/` the 65 hand-built designs (posts, Reels and stories, weeks 1 to 13) rendered from the design canvas. `build.py` shows these in the calendar and feed in place of the generated previews; publish them alongside the pages as supporting files.
 - `small/` stand-in photos used in the previews. Swap for real shoot photos later. cricket, aoraki, bushwalk, hands and handsclose were added 12 Nov and are not yet approved by the client.
 - Preview style is the approved Round 2 social style (see `brief/06-brand-spec.md`, Social design direction).
 

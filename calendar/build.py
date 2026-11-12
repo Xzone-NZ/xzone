@@ -41,6 +41,16 @@ for w in weeks:
     out_weeks.append({**{k: w[k] for k in ('week', 'theme', 'dates')}, 'posts': chosen,
                       'stories': keep, 'emails': emails.get(w['week'], [])})
 
+# hand-built designs (calendar/designs/W{week}-{Mon|Wed|Fri|Story-1|Story-2}.jpg) replace the generated previews
+des = {}
+for w in out_weeks:
+    for i, p in enumerate(w['posts'][:3]):
+        n = f"W{w['week']}-{['Mon', 'Wed', 'Fri'][i]}"
+        if os.path.exists(f'{H}/designs/{n}.jpg'): des[p['id']] = f'designs/{n}.jpg'
+    for i, s in enumerate(w['stories'][:2]):
+        n = f"W{w['week']}-Story-{i + 1}"
+        if os.path.exists(f'{H}/designs/{n}.jpg'): des[s['id']] = f'designs/{n}.jpg'
+
 img = {}
 for n in ['bush', 'founders', 'bruise', 'shoulder', 'ankle', 'cricket', 'aoraki', 'bushwalk', 'hands', 'handsclose', 'running', 'relief-rub-back', 'relief-rub-leg', 'jess-dan-tees', 'jess-dan-garden', 'sports-rub-gym', 'relief-rollon-shoulder', 'sports-spray-arm', 'sports-spray-knee']:
     img[n] = 'data:image/jpeg;base64,' + base64.b64encode(open(f'{H}/small/{n}.jpg', 'rb').read()).decode()
@@ -48,9 +58,9 @@ for n in ['range', 'icon', 'logo']:
     img[n] = 'data:image/png;base64,' + base64.b64encode(open(f'{H}/small/{n}.png', 'rb').read()).decode()
 data = json.dumps({'weeks': out_weeks}, ensure_ascii=False).replace('</', '<\\/')
 t = open(f'{H}/template.html').read()
-out = t.replace('__DATA__', data).replace('__IMG__', json.dumps(img))
+out = t.replace('__DATA__', data).replace('__IMG__', json.dumps(img)).replace('__DES__', json.dumps(des))
 open(f'{H}/xzone-summer-calendar.html', 'w').write(out)
-print('weeks', len(out_weeks), 'posts', sum(len(w['posts']) for w in out_weeks),
+print('designs', len(des), 'weeks', len(out_weeks), 'posts', sum(len(w['posts']) for w in out_weeks),
       'stories', sum(len(w['stories']) for w in out_weeks),
       'emails', sum(len(w['emails']) for w in out_weeks), 'bytes', len(out))
 
@@ -59,6 +69,6 @@ ft = open(f'{H}/feed-template.html').read()
 css = t[t.index('/* ---------- brand previews'):t.index('/* ---------- detail panel')]
 js = t[t.index("const esc="):t.index("const SLAB=")]
 js = '\n'.join(l for l in js.splitlines() if not l.startswith('const all=') and not l.startswith('const mails=') and not l.startswith('const stories='))
-feed = ft.replace('__PREVIEW_CSS__', css).replace('__PREVIEW_JS__', js).replace('__DATA__', data).replace('__IMG__', json.dumps(img))
+feed = ft.replace('__PREVIEW_CSS__', css).replace('__PREVIEW_JS__', js).replace('__DATA__', data).replace('__IMG__', json.dumps(img)).replace('__DES__', json.dumps(des))
 open(f'{H}/xzone-feed-preview.html', 'w').write(feed)
 print('feed bytes', len(feed))
