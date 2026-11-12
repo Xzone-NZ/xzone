@@ -1,0 +1,83 @@
+{
+  "number": 14,
+  "slug": "mollie-allison",
+  "name": "Mollie Allison",
+  "role": "NZ beach volleyball representative",
+  "sport": "NZ Beach Volleyball",
+  "date": "2026-05-27",
+  "range": "sports",
+  "photos": [
+    {
+      "file": "mollie-allison-1.jpg",
+      "alt": "Mollie Allison serving on a sand court, in a New Zealand top",
+      "note": "Mollie serving on the sand"
+    },
+    {
+      "file": "mollie-allison-2.jpg",
+      "alt": "Spectators and players at a New Zealand beach volleyball tour event by the sea",
+      "note": "NZ Beach Tour event by the sea (event photo)"
+    }
+  ],
+  "answers": [
+    {
+      "q": 1,
+      "paras": [
+        "I'm Mollie Allison and I am currently studying for my Postgraduate Diploma in Clinical Exercise Physiology. I am based in Hamilton, and in my spare time I coach volleyball and beach volleyball to all ages, from 5-year-olds to adults."
+      ]
+    },
+    {
+      "q": 2,
+      "paras": [
+        "I currently represent New Zealand in beach volleyball as part of the NZA squad, as well as playing competitive indoor volleyball during the winter. I love spending all my time on the courts, training hard myself but also giving back and teaching all I know to those around me.",
+        "A big pro of playing beach volleyball is being able to train outdoors and at beaches. A big con is not having many people to train with in my area, as well as everything being largely self-funded."
+      ]
+    },
+    {
+      "q": 3,
+      "paras": [
+        "My biggest achievements to date would be representing NZ in America and Australia, and consistently making the top 5 on the New Zealand Beach Tour at a young age.",
+        "My ultimate goal is to be part of New Zealand's top partnership and represent all over the world."
+      ]
+    },
+    {
+      "q": 4,
+      "paras": [
+        "X-ZONE will help me with my performance and to achieve my goals by managing muscle soreness, warming up effectively, recovering better and staying consistent through high-intensity training."
+      ]
+    }
+  ],
+  "pull_quote": "Training hard myself, but also giving back and teaching all I know to those around me.",
+  "more": {
+    "label": "Find out more about NZ beach volleyball",
+    "url": "https://www.volleyballnz.org.nz"
+  },
+  "ig": {
+    "headline": "Top five on the NZ Beach Tour",
+    "subline": "Ambassador 14: Mollie Allison, NZ beach volleyball",
+    "pill": "Sports range",
+    "quote": "I love spending all my time on the courts, training hard myself but also giving back and teaching all I know to those around me.",
+    "caption": "Consistency is what turns training into results.\n\nMollie Allison represents New Zealand in beach volleyball and has played for NZ in America and Australia. She has made the top five on the New Zealand Beach Tour again and again, at a young age.\n\nShe does it from Hamilton, a long way from the nearest beach court, with few training partners and largely self-funded. In between, she is studying clinical exercise physiology and coaching everyone from 5-year-olds to adults.\n\nHer goal: to be part of New Zealand's top partnership and play all over the world.\n\nFor Mollie, X-ZONE is part of staying consistent: managing muscle soreness, warming up and recovering through high-intensity training.\n\nRead Mollie's full story, link in bio.",
+    "hashtags": "#XZoneNZ #Aotearoa #BeachVolleyball #VolleyballNZ #Hamilton",
+    "cover_photo": 1,
+    "end_photo": 0
+  },
+  "fb": {
+    "caption": "Top five on the New Zealand Beach Tour, at a young age, from Hamilton.\n\nMeet Mollie Allison, our 14th ambassador. She represents New Zealand in beach volleyball, coaches players from 5 to adult, and is studying clinical exercise physiology. She tells us about training with few partners, funding it herself, and the goal of playing for New Zealand around the world.\n\nRead her story: {BLOG LINK}"
+  },
+  "edits": [
+    "\"Introducing; \" to \"Introducing: \"; \"Kiwi's\" to \"Kiwis\" in the series intro",
+    "\"studying my\" to \"studying for my\"; \"indoor\" to \"indoor volleyball\"; \"New Zealand Beach tour\" to \"New Zealand Beach Tour\"",
+    "Kept \"X-ZONE will help me\" in future tense, as she wrote it (see flags)",
+    "Photos cropped from her collage: the serve shot, and the beach event shot below the title card"
+  ],
+  "flags": [
+    "The carousel cover uses the beach event photo because it is wide and fits the cover. If Mollie isn't in it, swap to her serve shot (set ig.cover_photo to 0)",
+    "The beach photo is cropped below the \"Beach Volleyball\" title card from her collage, so none of that graphic is used. Confirm it came from Mollie or Volleyball NZ and who took it",
+    "Signed permission from Mollie for her name, words and photos; photo credit for the tour photos",
+    "Question 4 says X-ZONE \"will help\". Ask whether she is already using it and which product, so the post can say so",
+    "What \"NZA squad\" stands for, to spell it out for readers",
+    "Exact link for \"Volleyball New Zealand, Upcoming Beach Events\"; the mock-up uses volleyballnz.org.nz",
+    "Date on the draft is 27 May 2026, already past. Confirm repost or set a new date",
+    "Mollie's Instagram handle and Volleyball NZ's handle to tag"
+  ]
+}
