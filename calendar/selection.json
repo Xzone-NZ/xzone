@@ -1,18 +1,195 @@
 {
- "note": "Client form part 3: 3 posts a week (4 Reels, 4 singles, 4 carousels a month), cross-posted to FB. Rhythm Mon carousel, Wed Reel, Fri single. Unlisted posts stay in content-*.json but are not scheduled.",
+ "note": "Client form part 3: 3 posts a week (4 Reels, 4 singles, 4 carousels a month), cross-posted to FB. Rhythm Mon carousel, Wed Reel, Fri single. Unlisted posts stay in content-*.json but are not scheduled. Ambassador carousels are extra posts: week 7 Saturday (Jasmine Marsters) and week 10 Thursday (Mollie Allison).",
  "weeks": {
-  "1":  [["w1-mon","Mon"],["w1-tue","Wed"],["w1-fri","Fri"]],
-  "2":  [["w2-mon","Mon"],["w2-sat","Wed"],["w2-fri","Fri"]],
-  "3":  [["w3-mon","Mon"],["w3-tue","Wed"],["w3-testimonial","Fri"]],
-  "4":  [["w4-mon","Mon"],["w4-tue","Wed"],["w4-fri","Fri"]],
-  "5":  [["w5-mon","Mon"],["w5-tue","Wed"],["w5-sat","Sat"]],
-  "6":  [["w6-wed","Mon"],["w6-tue","Wed"],["w6-fri","Fri"]],
-  "7":  [["w7-mon","Mon"],["w7-tue","Wed"],["w7-wed","Fri"]],
-  "8":  [["w8-mon","Mon"],["w8-tue","Wed"],["w8-wed","Fri"]],
-  "9":  [["w9-mon","Mon"],["w9-tue","Wed"],["w9-fri","Fri"]],
-  "10": [["w10-mon","Mon"],["w10-tue","Wed"],["w10-wed","Fri"]],
-  "11": [["w11-mon","Mon"],["w11-tue","Wed"],["w11-fri","Fri"]],
-  "12": [["w12-mon","Mon"],["w12-sat","Wed"],["w12-fri","Fri"]],
-  "13": [["w13-mon","Mon"],["w13-tue","Wed"],["w13-wed","Fri"]]
+  "1": [
+   [
+    "w1-mon",
+    "Mon"
+   ],
+   [
+    "w1-tue",
+    "Wed"
+   ],
+   [
+    "w1-fri",
+    "Fri"
+   ]
+  ],
+  "2": [
+   [
+    "w2-mon",
+    "Mon"
+   ],
+   [
+    "w2-sat",
+    "Wed"
+   ],
+   [
+    "w2-fri",
+    "Fri"
+   ]
+  ],
+  "3": [
+   [
+    "w3-mon",
+    "Mon"
+   ],
+   [
+    "w3-tue",
+    "Wed"
+   ],
+   [
+    "w3-testimonial",
+    "Fri"
+   ]
+  ],
+  "4": [
+   [
+    "w4-mon",
+    "Mon"
+   ],
+   [
+    "w4-tue",
+    "Wed"
+   ],
+   [
+    "w4-fri",
+    "Fri"
+   ]
+  ],
+  "5": [
+   [
+    "w5-mon",
+    "Mon"
+   ],
+   [
+    "w5-tue",
+    "Wed"
+   ],
+   [
+    "w5-sat",
+    "Sat"
+   ]
+  ],
+  "6": [
+   [
+    "w6-wed",
+    "Mon"
+   ],
+   [
+    "w6-tue",
+    "Wed"
+   ],
+   [
+    "w6-fri",
+    "Fri"
+   ]
+  ],
+  "7": [
+   [
+    "w7-mon",
+    "Mon"
+   ],
+   [
+    "w7-tue",
+    "Wed"
+   ],
+   [
+    "w7-wed",
+    "Fri"
+   ],
+   [
+    "w7-amb-jasmine",
+    "Sat"
+   ]
+  ],
+  "8": [
+   [
+    "w8-mon",
+    "Mon"
+   ],
+   [
+    "w8-tue",
+    "Wed"
+   ],
+   [
+    "w8-wed",
+    "Fri"
+   ]
+  ],
+  "9": [
+   [
+    "w9-mon",
+    "Mon"
+   ],
+   [
+    "w9-tue",
+    "Wed"
+   ],
+   [
+    "w9-fri",
+    "Fri"
+   ]
+  ],
+  "10": [
+   [
+    "w10-mon",
+    "Mon"
+   ],
+   [
+    "w10-tue",
+    "Wed"
+   ],
+   [
+    "w10-wed",
+    "Fri"
+   ],
+   [
+    "w10-amb-mollie",
+    "Thu"
+   ]
+  ],
+  "11": [
+   [
+    "w11-mon",
+    "Mon"
+   ],
+   [
+    "w11-tue",
+    "Wed"
+   ],
+   [
+    "w11-fri",
+    "Fri"
+   ]
+  ],
+  "12": [
+   [
+    "w12-mon",
+    "Mon"
+   ],
+   [
+    "w12-sat",
+    "Wed"
+   ],
+   [
+    "w12-fri",
+    "Fri"
+   ]
+  ],
+  "13": [
+   [
+    "w13-mon",
+    "Mon"
+   ],
+   [
+    "w13-tue",
+    "Wed"
+   ],
+   [
+    "w13-wed",
+    "Fri"
+   ]
+  ]
  }
 }

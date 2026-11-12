@@ -341,6 +341,99 @@
    "shots": [],
    "poll": [],
    "duration": ""
+  },
+  {
+   "id": "w7-amb-jasmine",
+   "date": "2027-01-09",
+   "day": "Sat",
+   "where": "IG + FB",
+   "format": "Carousel",
+   "pillar": "Ambassadors",
+   "kind": "Educate",
+   "template": "carousel",
+   "range": "sports",
+   "photo": "running",
+   "title": "Ambassador 15: Jasmine Marsters, NZ Strongman",
+   "about": "Ambassador carousel for back-into-training week: Jasmine Marsters, South Auckland strongman and mum of six, who added the Sports Rub to her recovery routine after meeting Jess at the Easter Show.",
+   "headline": "From 20 kg to 75 kg overhead",
+   "subline": "Meet Jasmine Marsters: South Auckland, mum of six, strongman.",
+   "pill": "Sports range",
+   "steps": [],
+   "slides": [
+    {
+     "h": "From 20 kg to 75 kg overhead",
+     "b": "Meet Jasmine Marsters: South Auckland, mum of six, strongman. Ambassador 15."
+    },
+    {
+     "h": "In her words",
+     "b": "The instant relief I felt was unbelievable. Ever since then I've been hooked, and it's now a part of my training and recovery routine."
+    },
+    {
+     "h": "Read Jasmine's full story",
+     "b": "Strongman, rugby with her eldest daughter, and the day she met Jess at the Easter Show. Link in bio."
+    }
+   ],
+   "caption": "Strength is built one kilo at a time.\n\nWhen Jasmine Marsters started strongman, she couldn't get a 20 kg bar over her head. Today she presses 75 kg.\n\nJasmine is half Cook Island, half Tongan, born and raised in South Auckland, and mum to six. Growing up, all she wanted was to be as strong as her brothers. Now she's proving it on the strongman field, and learning rugby alongside her eldest daughter.\n\nHer advice: strongman takes a toll on the body, so listen to it and look after it.\n\nJess met Jasmine on day 2 of this year's Strongman Series Easter Show and handed her a pot of Sports Rub to try. In Jasmine's words, \"it's now a part of my training and recovery routine.\"\n\nRead Jasmine's full story, link in bio.\n\nFacebook version:\nFrom a 20 kg bar to a 75 kg overhead press.\n\nMeet Jasmine Marsters, our 15th ambassador: South Auckland mum of six, strongman competitor, and new rugby player alongside her eldest daughter. She tells us why strength is mental as well as physical, and how a chance meeting with Jess at the Easter Show added Sports Rub to her recovery routine.\n\nRead her story: {BLOG LINK}\n\n#NZStrongman",
+   "hashtags": "#XZoneNZ #Aotearoa #NZStrongman #Strongman #WomenWhoLift",
+   "cta": "Link in bio",
+   "shoot": "Ambassador photos supplied (see ambassadors/photos); confirm photo credit and permission.",
+   "flags": [
+    "Signed permission from Jasmine for her name, words and both photos on the blog, Instagram and Facebook",
+    "Credit for the bus-pull photo (event photographer) and permission to post it",
+    "Jasmine's Instagram handle and NZ Strongman's handle to tag",
+    "Date on the draft is 11 June 2026, already past. Confirm whether this is a repost or set a new date that fits the summer calendar",
+    "Confirm \"Strongman Series Easter Show\" is the event's official name",
+    "Design uses the approved look; the first ambassador mock-up used the old Sports livery (red and black)",
+    "Facebook caption: use the Facebook version at the end of the caption field"
+   ]
+  },
+  {
+   "id": "w10-amb-mollie",
+   "date": "2027-01-28",
+   "day": "Thu",
+   "where": "IG + FB",
+   "format": "Carousel",
+   "pillar": "Ambassadors",
+   "kind": "Educate",
+   "template": "carousel",
+   "range": "sports",
+   "photo": "running",
+   "title": "Ambassador 14: Mollie Allison, NZ beach volleyball",
+   "about": "Ambassador carousel the day before the week 10 \"Mollie's story\" link story: Mollie Allison, NZ beach volleyball representative from Hamilton, who uses the Sports range to manage soreness, warm up and recover.",
+   "headline": "Top five on the NZ Beach Tour",
+   "subline": "Meet Mollie Allison: Hamilton, NZ squad, coach and student.",
+   "pill": "Sports range",
+   "steps": [],
+   "slides": [
+    {
+     "h": "Top five on the NZ Beach Tour",
+     "b": "Meet Mollie Allison: Hamilton, NZ squad, coach and student. Ambassador 14."
+    },
+    {
+     "h": "In her words",
+     "b": "I love spending all my time on the courts, training hard myself but also giving back and teaching all I know to those around me."
+    },
+    {
+     "h": "Read Mollie's full story",
+     "b": "Training with few partners, funding it herself, and the goal of playing for New Zealand around the world. Link in bio."
+    }
+   ],
+   "caption": "Consistency is what turns training into results.\n\nMollie Allison represents New Zealand in beach volleyball and has played for NZ in America and Australia. She has made the top five on the New Zealand Beach Tour again and again, at a young age.\n\nShe does it from Hamilton, a long way from the nearest beach court, with few training partners and largely self-funded. In between, she is studying clinical exercise physiology and coaching everyone from 5-year-olds to adults.\n\nHer goal: to be part of New Zealand's top partnership and play all over the world.\n\nFor Mollie, X-ZONE is part of staying consistent: managing muscle soreness, warming up and recovering through high-intensity training.\n\nRead Mollie's full story, link in bio.\n\nFacebook version:\nTop five on the New Zealand Beach Tour, at a young age, from Hamilton.\n\nMeet Mollie Allison, our 14th ambassador. She represents New Zealand in beach volleyball, coaches players from 5 to adult, and is studying clinical exercise physiology. She tells us about training with few partners, funding it herself, and the goal of playing for New Zealand around the world.\n\nRead her story: {BLOG LINK}",
+   "hashtags": "#XZoneNZ #Aotearoa #BeachVolleyball #VolleyballNZ #Hamilton",
+   "cta": "Link in bio",
+   "shoot": "Ambassador photos supplied (see ambassadors/photos); confirm photo credit and permission.",
+   "flags": [
+    "The carousel cover uses the beach event photo because it is wide and fits the cover. If Mollie isn't in it, swap to her serve shot (set ig.cover_photo to 0)",
+    "The beach photo is cropped below the \"Beach Volleyball\" title card from her collage, so none of that graphic is used. Confirm it came from Mollie or Volleyball NZ and who took it",
+    "Signed permission from Mollie for her name, words and photos; photo credit for the tour photos",
+    "Question 4 says X-ZONE \"will help\". Ask whether she is already using it and which product, so the post can say so",
+    "What \"NZA squad\" stands for, to spell it out for readers",
+    "Exact link for \"Volleyball New Zealand, Upcoming Beach Events\"; the mock-up uses volleyballnz.org.nz",
+    "Date on the draft is 27 May 2026, already past. Confirm repost or set a new date",
+    "Mollie's Instagram handle and Volleyball NZ's handle to tag",
+    "Design uses the approved look; the first ambassador mock-up used the old Sports livery (red and black)",
+    "Facebook caption: use the Facebook version at the end of the caption field"
+   ]
   }
  ],
  "emails": [

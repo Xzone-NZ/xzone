@@ -290,6 +290,7 @@ function previewRaw(p,opts={}){
 }
 function slide(p,s,i,n){
   if(i===0) return preview(p);
+  if(DES[p.id+':'+(i+1)]) return designPv(DES[p.id+':'+(i+1)],false);
   return `<div class="pv r-${p.range||'all'}"><div class="inner"><span class="idx">${i+1} / ${n}</span><div class="n">${i+1}</div><h4>${esc(s.h)}</h4><p>${esc(s.b)}</p></div>${lgi()}</div>`;
 }
 const SLAB={quiz:'Quiz',question:'Ask Jess and Dan',poll:'Poll',countdown:'Countdown',link:'Link',bts:'Behind the scenes',testimonial:'Customer words',prompt:'Your turn',explainer:'Explainer',recap:'Recap',greeting:'From Jess and Dan'};

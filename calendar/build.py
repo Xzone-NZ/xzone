@@ -44,9 +44,12 @@ for w in weeks:
 # hand-built designs (calendar/designs/W{week}-{Mon|Wed|Fri|Story-1|Story-2}.jpg) replace the generated previews
 des = {}
 for w in out_weeks:
-    for i, p in enumerate(w['posts'][:3]):
-        n = f"W{w['week']}-{['Mon', 'Wed', 'Fri'][i]}"
+    for i, p in enumerate(w['posts']):
+        n = f"W{w['week']}-{['Mon', 'Wed', 'Fri'][i]}" if i < 3 else p['id']
+        if os.path.exists(f'{H}/designs/{p["id"]}.jpg'): n = p['id']
         if os.path.exists(f'{H}/designs/{n}.jpg'): des[p['id']] = f'designs/{n}.jpg'
+        for k in range(2, 11):  # extra designed carousel slides: designs/<post id>-slide-<n>.jpg
+            if os.path.exists(f'{H}/designs/{p["id"]}-slide-{k}.jpg'): des[f"{p['id']}:{k}"] = f"designs/{p['id']}-slide-{k}.jpg"
     for i, s in enumerate(w['stories'][:2]):
         n = f"W{w['week']}-Story-{i + 1}"
         if os.path.exists(f'{H}/designs/{n}.jpg'): des[s['id']] = f'designs/{n}.jpg'
