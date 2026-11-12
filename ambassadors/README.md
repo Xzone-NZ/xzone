@@ -11,4 +11,4 @@ Live mock-up: https://claude.ai/artifact/4Mth5ByJpS4nTdkWobnJxA
 | No. | Ambassador | Status |
 |---|---|---|
 | 15 | Jasmine Marsters, NZ Strongman | Draft, photos in |
-| 14 | Mollie Allison, NZ beach volleyball | Draft, photos still to add |
+| 14 | Mollie Allison, NZ beach volleyball | Draft, photos in |

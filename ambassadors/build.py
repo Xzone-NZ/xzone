@@ -115,9 +115,11 @@ def section(a, logo_green, logo_white, icon):
     </div>"""
 
     ig = a["ig"]
+    cov = photos[ig.get("cover_photo", 0)]
+    fin = photos[ig.get("end_photo", 1)]
     cover = f"""
       <div class="slide cover">
-        <div class="band"><img class="logo" src="{logo_white}" alt=""><h4>{e(ig["headline"])}</h4><p>{e(ig["subline"])}</p></div>{photo(photos[0], "bg")}
+        <div class="band"><img class="logo" src="{logo_white}" alt=""><h4>{e(ig["headline"])}</h4><p>{e(ig["subline"])}</p></div>{photo(cov, "bg")}
         <div class="pill" style="background:{accent};color:{on_accent}">{e(ig["pill"])}</div>
         <div class="foot"><span>@xzonenz</span><span>xzone.nz</span></div>
       </div>"""
@@ -129,7 +131,7 @@ def section(a, logo_green, logo_white, icon):
         <img class="logo" src="{logo_white}" alt="">
       </div></div>"""
     end = f"""
-      <div class="slide">{photo(photos[1], "bg")}<div class="wash"></div>
+      <div class="slide">{photo(fin, "bg")}<div class="wash"></div>
         <div class="end"><h4>Read {e(first)}'s full story</h4><p>Ambassador {a["number"]} &middot; link in bio</p></div>
         <div class="foot"><span>@xzonenz</span><span>xzone.nz</span></div>
       </div>"""

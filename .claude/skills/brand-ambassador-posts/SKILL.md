@@ -89,6 +89,8 @@ Write `ambassadors/content/<NN>-<slug>.json` (NN = series number, two digits) in
 }
 ```
 
+Optional `ig.cover_photo` and `ig.end_photo` (photo index, default 0 and 1) pick which photo goes on the carousel cover and last slide. The cover photo area is landscape, so a wide shot suits it; a tall action shot suits the last slide.
+
 `range` is one of `relief`, `joints`, `sports`. Colours come from the spec (Relief green + lime, Joints navy + orange, Sports black + red); the build handles it.
 
 Then run:
