@@ -18,7 +18,7 @@ Source: `source/xzone-official-brand-page.png`. The form's hex codes were wrong;
 
 | Colour | Hex | PMS | Range |
 |---|---|---|---|
-| Green | #0D441F | 357 | Logo, Relief |
+| Green | #004F23 | 357 | Logo, Relief (measured from the logo files; replaces the page-sampled #0D441F, decided 12 Nov) |
 | Lime | #E0E64A | 394 | Relief accent |
 | Navy | #131D4A | 662 | Joints |
 | Orange | #F3AC3E | 1365 | Joints accent |

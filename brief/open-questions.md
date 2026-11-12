@@ -46,7 +46,7 @@ Left blank on the website form. Tick off as more info comes in.
 Colour palette with print specs. Each range pairs a colour with a contrasting X:
 | Colour | CMYK | PMS | Sampled from the image |
 |---|---|---|---|
-| Dark green | 91/24/100/55 | 357 | #0D441F |
+| Dark green | 91/24/100/55 | 357 | #0D441F (superseded: use #004F23 from the logo files, 12 Nov) |
 | Lime | 11/0/82/0 | 394 | #E0E64A |
 | Navy | 100/83/18/48 | 662 | #131D4A |
 | Orange | 0/35/85/0 | 1365 | #F3AC3E |
