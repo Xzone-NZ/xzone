@@ -25,7 +25,8 @@ Source: `source/xzone-official-brand-page.png`. The form's hex codes were wrong;
 | Black | #1F1C1D | Black | Sports |
 | Red | #E44726 | 172 | Sports accent |
 
-Range pairs: Relief green + lime, Joints navy + orange, Sports black + red. Brand posts use green + lime. Reclaim's earlier palette (Bush Deep, Bush, Sun, Ember) and its "no blue, no navy" rule are retired.
+Range pairs: Relief green + lime, Joints navy + orange, Sports black + red. Brand posts use green + lime.
+**Social posts (decided 12 Nov):** no red or orange on social posts, except the ambassador series, which always uses black + red (with the green title band and lime subline) whatever the range. Reclaim's earlier palette (Bush Deep, Bush, Sun, Ember) and its "no blue, no navy" rule are retired.
 Contrast: lime and orange are accents on dark grounds, never small text on white.
 
 ## Type (form)
@@ -44,7 +45,7 @@ Contrast: lime and orange are accents on dark grounds, never small text on white
 Canvas: https://claude.ai/artifact/RLoAHdj2FRV5R3hstYRMWL (Round 1: three directions; Round 2: refined).
 - **Approved:** Reel 1, the founders story ("Why we swapped the office for the Waitākere Ranges"), and Story 1, the ankle photo with a poll sticker.
 - **Headlines are always hooks.** Write every reel, story and post headline like the Reel 1 one: a curiosity or story hook ("Why we…", "The one thing we…", "Every family has one…"), with a play-button "Watch…" line on reels. Voice rules still apply (no exclamation marks, no "cures").
-- **House style:** Reel 2's green #0D441F and lime #E0E64A with Poppins ExtraBold. Key words get a lime (or range-accent) highlighter.
+- **House style:** logo green #004F23 (confirmed 15 Nov; the Round 2 designs first used the page-sampled #0D441F) and lime #E0E64A with Poppins ExtraBold. Key words get a lime (or range-accent) highlighter.
 - **Stories:** Story 1's format, a full photo plus a two-option poll and a "tomorrow we share…" line.
 - **No red or orange on social** (12 Nov). Use green, lime and white, with navy kept only for Joints pieces. Orange and red stay on packaging only.
 - **Posts:** Post 1's layout (photo on top, review in a band below) in lime (green text), white (green or navy text) or green (white text, lime label).

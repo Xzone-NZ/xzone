@@ -13,7 +13,7 @@ ALT = {'founders': 'Jess and Dan sitting by a stream in the bush', 'ankle': 'A r
        'cricket': 'A family playing backyard cricket', 'aoraki': 'A walker on the Hooker Valley track below Aoraki', 'bushwalk': 'Walkers on a boardwalk through mossy native bush',
        'hands': 'An older man rubbing the joints of his hand', 'handsclose': 'Older hands massaging a stiff thumb joint', 'running': 'Two people running on the Auckland waterfront',
        'jess-dan-tees': 'Jess and Dan in X-ZONE t-shirts', 'jess-dan-garden': 'Jess and Dan with native plants in their garden', 'relief-rub-back': 'Relief Rub being massaged into a lower back', 'relief-rub-knee': 'Relief Rub on a grazed knee', 'relief-rub-leg': 'Relief Rub being applied to a leg', 'sports-rub-gym': 'Sports Rub being massaged into a thigh at the gym', 'sports-spray-arm': 'Sports Spray on a forearm', 'sports-spray-knee': 'Sports Spray on a knee', 'elder-mountains': 'An older man in a beanie with mountains behind', 'couple-waterfront': 'A couple resting on the waterfront after a run', 'family-deck': 'A family playing with a rugby ball on their deck', 'mollie': 'Mollie Allison serving on a sand court, in a New Zealand top'}
-G, L, N = '#0D441F', '#E0E64A', '#131D4A'
+G, L, N = '#004F23', '#E0E64A', '#131D4A'
 def src(k): return f'/_blob/{B[k]}'
 def hl(text, mode):
     def rep(m):
@@ -22,7 +22,7 @@ def hl(text, mode):
         if mode == 'white': return f'<span style="background: linear-gradient(transparent 58%, #ffffff 58%); padding: 0 4px">{t}</span>'
         return f'<span style="background: linear-gradient(transparent 58%, {L} 58%); padding: 0 4px">{t}</span>'
     return re.sub(r'\[\[(.+?)\]\]', rep, text)
-def page(title, w, h, body, link='#0D441F', hover='#0a3318'):
+def page(title, w, h, body, link='#004F23', hover='#0a3318'):
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -57,8 +57,8 @@ LINK_ICON = f'<svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-h
 
 def band_colors(band, ink=G):
     if band == 'green': return G, '#ffffff', L, 'rgba(255,255,255,0.86)', 'lime'
-    if band == 'lime': return L, G, G, 'rgba(13,68,31,0.88)', 'white'
-    return '#ffffff', ink, ink, ('rgba(19,29,74,0.8)' if ink == N else 'rgba(13,68,31,0.85)'), 'hl'
+    if band == 'lime': return L, G, G, 'rgba(0,79,35,0.88)', 'white'
+    return '#ffffff', ink, ink, ('rgba(19,29,74,0.8)' if ink == N else 'rgba(0,79,35,0.85)'), 'hl'
 
 def footer(band, ink, left=''):
     logo = (f'<div style="background: #ffffff; border-radius: 999px; padding: 14px 28px; display: flex; align-items: center"><img src="{src("logo")}" alt="X-ZONE New Zealand" style="height: 34px; width: auto"></div>'
@@ -76,7 +76,7 @@ def photo_block(k, crop, h, logo=False):
 
 def carousel(s):
     bg, fg, labc, subc, mode = band_colors(s['band'], s.get('ink', G))
-    on, off = (L, 'rgba(255,255,255,0.35)') if s['band'] == 'green' else (fg, 'rgba(13,68,31,0.25)')
+    on, off = (L, 'rgba(255,255,255,0.35)') if s['band'] == 'green' else (fg, 'rgba(0,79,35,0.25)')
     dots = ''.join(f'<span style="width: 16px; height: 16px; border-radius: 50%; background: {on if i == 0 else off}"></span>' for i in range(s['dots']))
     arrow = L if s['band'] == 'green' else fg
     swipe = f'<div style="display: flex; align-items: center; gap: 14px; color: {fg}; font-size: 26px; font-weight: 600"><span>Swipe</span><svg width="34" height="34" viewBox="0 0 36 36" fill="none" aria-hidden="true"><path d="M6 18h23M29 18l-9-9M29 18l-9 9" stroke="{arrow}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>'
@@ -119,7 +119,7 @@ def single(s):
 def reel_a(s):
     body = f'''<div style="position: relative; width: 1080px; height: 1920px; overflow: hidden; background: {G}; font-family: 'Poppins', sans-serif; box-sizing: border-box">
   <img src="{src(s['photo'])}" alt="{ALT[s['photo']]}" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; object-position: {s.get('crop', '50% 50%')}">
-  <div style="position: absolute; left: 0; right: 0; bottom: 0; height: 1150px; background: linear-gradient(180deg, rgba(13,68,31,0) 0%, rgba(13,68,31,0.55) 45%, rgba(13,68,31,0.96) 100%)"></div>
+  <div style="position: absolute; left: 0; right: 0; bottom: 0; height: 1150px; background: linear-gradient(180deg, rgba(0,79,35,0) 0%, rgba(0,79,35,0.55) 45%, rgba(0,79,35,0.96) 100%)"></div>
   {LOGO_PILL(150, 72, 42, '18px 34px')}
   <div style="position: absolute; left: 72px; right: 72px; bottom: 400px; display: flex; flex-direction: column; align-items: flex-start; gap: 34px">
     <div style="background: {L}; color: {G}; border-radius: 999px; padding: 14px 30px; font-size: 27px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase">{s['tag']}</div>
@@ -140,7 +140,7 @@ def reel_b(s):
   <div style="padding: 64px 72px 0 72px; display: flex; flex-direction: column; align-items: flex-start; gap: 30px">
     <div style="background: {ink}; color: {L}; border-radius: 999px; padding: 14px 30px; font-size: 27px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase">{s['tag']}</div>
     <h1 style="margin: 0; color: {ink}; font-size: {s.get('size', 90)}px; line-height: 1.08; font-weight: 800">{hl(s['h'], 'hl')}</h1>
-    <p style="margin: 0; color: rgba(13,68,31,0.8); font-size: 36px; line-height: 1.4; font-weight: 500">{s['sub']}</p>
+    <p style="margin: 0; color: rgba(0,79,35,0.8); font-size: 36px; line-height: 1.4; font-weight: 500">{s['sub']}</p>
     <div style="display: flex; align-items: center; gap: 20px; color: {ink}; font-size: 30px; font-weight: 600; margin-top: 4px">{PLAY(ink)}<span>{s['watch']}</span></div>
   </div>
 </div>'''
@@ -148,7 +148,7 @@ def reel_b(s):
 
 def sticker(st, shadow=False):
     if not st: return ''
-    sh = 'box-shadow: 0 24px 60px rgba(13,68,31,0.22); ' if shadow else ''
+    sh = 'box-shadow: 0 24px 60px rgba(0,79,35,0.22); ' if shadow else ''
     kind = st[0]
     if kind == 'q':
         return f'<div style="width: 780px; {sh}background: #ffffff; border-radius: 36px; padding: 40px 48px; box-sizing: border-box; display: flex; flex-direction: column; gap: 18px; text-align: center"><div style="font-size: 36px; font-weight: 700; color: {G}">{st[1]}</div><div style="background: #f1f3ef; border-radius: 20px; padding: 26px; font-size: 32px; font-weight: 500; color: #5f6b62">Type your question</div></div>'
@@ -163,8 +163,8 @@ def sticker(st, shadow=False):
 def story_a(s):
     body = f'''<div style="position: relative; width: 1080px; height: 1920px; overflow: hidden; background: {G}; font-family: 'Poppins', sans-serif; box-sizing: border-box">
   <img src="{src(s['photo'])}" alt="{ALT[s['photo']]}" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; object-position: {s.get('crop', '50% 50%')}">
-  <div style="position: absolute; left: 0; right: 0; top: 0; height: 440px; background: linear-gradient(180deg, rgba(13,68,31,0.8) 0%, rgba(13,68,31,0) 100%)"></div>
-  <div style="position: absolute; left: 0; right: 0; bottom: 0; height: 1250px; background: linear-gradient(180deg, rgba(13,68,31,0) 0%, rgba(13,68,31,0.72) 55%, rgba(13,68,31,0.96) 100%)"></div>
+  <div style="position: absolute; left: 0; right: 0; top: 0; height: 440px; background: linear-gradient(180deg, rgba(0,79,35,0.8) 0%, rgba(0,79,35,0) 100%)"></div>
+  <div style="position: absolute; left: 0; right: 0; bottom: 0; height: 1250px; background: linear-gradient(180deg, rgba(0,79,35,0) 0%, rgba(0,79,35,0.72) 55%, rgba(0,79,35,0.96) 100%)"></div>
   <div style="position: absolute; left: 0; right: 0; top: 130px; display: flex; justify-content: center"><div style="background: #ffffff; border-radius: 999px; padding: 16px 32px; display: flex; align-items: center"><img src="{src("logo")}" alt="X-ZONE New Zealand" style="height: 38px; width: auto"></div></div>
   <div style="position: absolute; left: 90px; right: 90px; bottom: 220px; display: flex; flex-direction: column; align-items: center; gap: 52px">
     <h1 style="margin: 0; color: #ffffff; font-size: {s.get('size', 92)}px; line-height: 1.1; font-weight: 800; text-align: center">{hl(s['h'], 'lime')}</h1>
@@ -196,7 +196,7 @@ def story_c(s):
   </div>
   <h1 style="margin: 20px 0 0 0; color: {G}; font-size: {s.get('size', 96)}px; line-height: 1.07; font-weight: 800">{hl(s['h'], 'hl')}</h1>
   <div style="position: relative; width: 920px; height: {boxh}px; flex-shrink: 0">{card}{over}</div>
-  {f'<p style="margin: 10px 0 0 0; color: rgba(13,68,31,0.8); font-size: 33px; line-height: 1.45; font-weight: 500; text-align: center">{s["line"]}</p>' if s.get('line') else ''}
+  {f'<p style="margin: 10px 0 0 0; color: rgba(0,79,35,0.8); font-size: 33px; line-height: 1.45; font-weight: 500; text-align: center">{s["line"]}</p>' if s.get('line') else ''}
 </div>'''
     return page(s['title'], 1080, 1920, body)
 

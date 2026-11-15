@@ -7,7 +7,7 @@ ns = {}
 src = open(os.path.join(SCR, 'emails.py')).read()
 exec(src.split("DAY = r'")[0].replace("OUT, EXTRA = sys.argv[1], sys.argv[2]", "OUT = EXTRA = None"), ns)
 E, REV = ns['E'], ns['REV']
-G, L, INK = '#0D441F', '#E0E64A', '#26352a'
+G, L, INK = '#004F23', '#E0E64A', '#26352a'
 HEAD = "'Poppins', Arial, Helvetica, sans-serif"
 BODY = "Arial, Helvetica, sans-serif"
 SMALL = '/home/user/xzone/calendar/small'; ORIG = os.path.join(SCR, '..', 'images')

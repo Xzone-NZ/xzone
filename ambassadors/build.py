@@ -31,8 +31,10 @@ SERIES_INTRO = [
     "Join us in discovering their inspiring stories.",
 ]
 # ground, accent, text on accent (brand spec range pairs)
+# Black + red is reserved for the ambassador series; other posts use no red or orange.
+AMBASSADOR_COLOURS = ("#1F1C1D", "#E44726", "#FFFFFF")
 RANGES = {
-    "relief": ("#0D441F", "#E0E64A", "#0D441F"),
+    "relief": ("#004F23", "#E0E64A", "#004F23"),
     "joints": ("#131D4A", "#F3AC3E", "#131D4A"),
     "sports": ("#1F1C1D", "#E44726", "#FFFFFF"),
 }
@@ -82,7 +84,8 @@ def caption_html(name_handle, text):
 
 
 def section(a, logo_green, logo_white, icon):
-    ground, accent, on_accent = RANGES[a["range"]]
+    # Ambassador series look: always black + red, whatever the range (decided 12 Nov).
+    ground, accent, on_accent = AMBASSADOR_COLOURS
     photos = a["photos"] + [{"file": None, "alt": "", "note": "Second photo"}] * (2 - len(a["photos"]))
     first = a["name"].split()[0]
     title = f'Introducing: {a["name"]}, {a["sport"]}'

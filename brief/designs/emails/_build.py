@@ -7,7 +7,7 @@ B = {'founders': '02e558eca951173a5ebb2af8f459a960', 'logo': '25197b28f4e73a8b27
      'cricket': '11a7cd58a4080325358b6129ce7498e9', 'aoraki': '05eb395fa63417fa9b52a0a72b64d79a', 'bushwalk': '1e3be30ec195c75a250fcea6bebb2c8e',
      'hands': '2904a9a5b12644007408ef19c33a72f3', 'handsclose': '9ee689101ce237ac8bd2bc2c81fbc0a1', 'running': '812990ea70541643834c6b3b08c76d9e',
      'jess-dan-tees': '2e0053c0b4994ed2020b08b26ac36ac4', 'jess-dan-garden': '5de84cca1ac1924820cfab3106c42c36', 'jess-dan-expo': '5c547f267afde9f9aa4bd829dbae4d68', 'relief-rollon-shoulder': 'bc9c642fb9787508d512b14216a6a0fd', 'relief-rub-leg': '7c4dc8163ed84ea819baf23ffaaaa973', 'sports-rub-gym': '687c3ea396d216bafa56dd82643c01fb', 'sports-spray-knee': 'ab98e6ec43549b66058b8cdfea34bb44', 'sports-spray-arm': 'a26ba0467a35ce72edfcbec2cb642c42', 'relief-rub-back': '9f42f545745a082ee90e54e2cc819e60'}
-G, L = '#0D441F', '#E0E64A'
+G, L = '#004F23', '#E0E64A'
 HEAD = "'Poppins', Arial, Helvetica, sans-serif"
 BODY = "Arial, Helvetica, sans-serif"
 REV = {
@@ -62,7 +62,7 @@ def button(label, green):
 def email(e):
     hook, sub, photo, crop, rk = E[e['id']]
     green = e['type'] == 'campaign'
-    band_bg, band_fg, lab_c, sub_c = (G, '#ffffff', L, 'rgba(255,255,255,0.86)') if green else ('#ffffff', G, G, 'rgba(13,68,31,0.82)')
+    band_bg, band_fg, lab_c, sub_c = (G, '#ffffff', L, 'rgba(255,255,255,0.86)') if green else ('#ffffff', G, G, 'rgba(0,79,35,0.82)')
     kind = 'Campaign' if green else 'Newsletter'
     secs = []
     for s in e['sections']:
@@ -72,7 +72,7 @@ def email(e):
             secs.append(f'<div style="margin: 8px 32px 28px; background: #f3f5ef; border-radius: 16px; padding: 22px 24px 10px"><div style="font-family: {HEAD}; font-weight: 700; font-size: 13px; letter-spacing: 3px; text-transform: uppercase; color: {G}; margin-bottom: 8px">{esc(s["h"])}</div>{rows}</div>')
         else:
             secs.append(f'<div style="padding: 0 32px 12px"><h2 style="margin: 0 0 10px 0; font-family: {HEAD}; font-weight: 800; font-size: 24px; line-height: 1.2; color: {G}">{esc(s["h"])}</h2>{paras(s["b"])}</div>')
-    rbg, rfg, rlab, rsub, rnote = (('#f3f5ef', G, G, 'rgba(13,68,31,0.85)', 'rgba(13,68,31,0.55)') if green else (G, '#ffffff', L, 'rgba(255,255,255,0.88)', 'rgba(255,255,255,0.6)'))
+    rbg, rfg, rlab, rsub, rnote = (('#f3f5ef', G, G, 'rgba(0,79,35,0.85)', 'rgba(0,79,35,0.55)') if green else (G, '#ffffff', L, 'rgba(255,255,255,0.88)', 'rgba(255,255,255,0.6)'))
     if rk:
         r = REV[rk]
         qdiv = (f'<div style="margin-top: 10px; font-family: {BODY}; font-size: 16px; line-height: 1.6; color: {rsub}">{html.escape(r["quote"]).replace(chr(10), "<br>")}”</div>' if r['quote'] else '')
@@ -137,7 +137,7 @@ def page(title, body, h):
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap">
 <style>
 body{{margin:0}}
-a{{color:#0D441F}}a:hover{{color:#0a3318}}
+a{{color:#004F23}}a:hover{{color:#0a3318}}
 </style>
 </helmet>
 {body}

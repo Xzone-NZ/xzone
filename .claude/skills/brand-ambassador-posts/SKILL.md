@@ -91,9 +91,7 @@ Write `ambassadors/content/<NN>-<slug>.json` (NN = series number, two digits) in
 
 Optional `ig.cover_photo` and `ig.end_photo` (photo index, default 0 and 1) pick which photo goes on the carousel cover and last slide. The cover photo area is landscape, so a wide shot suits it; a tall action shot suits the last slide.
 
-`range` is one of `relief`, `joints`, `sports`.
-
-**Design rule (12 Nov 2026, overrides the mock-up template's colours):** social uses green #0D441F, lime #E0E64A and white only, with navy #131D4A for Joints pieces. No red, orange or black slides, for any range. The approved ambassador carousel is on the design canvas (https://claude.ai/artifact/RLoAHdj2FRV5R3hstYRMWL, Ambassadors page): slide 1 photo on top with a green or white band, a hook headline with one lime highlight word and a short "Meet ..." line; slide 2 the ambassador's own words on the opposite colour; slide 3 "Read <Name>'s full story" with a lime "Ambassador NN · link in bio" pill. `ambassadors/template.html` still renders the old Sports livery, so build final slides from the canvas designs (see `brief/designs/ambassadors/`) until the template is updated. Add each finished carousel to the summer calendar as an extra post (see `calendar/selection.json`).
+`range` is one of `relief`, `joints`, `sports`; it sets the pill text only. **Ambassador posts always use black + red** (black quote slide, red pill) whatever the range, on top of the usual logo-green (#004F23) title band and lime subline. Black + red is reserved for the ambassador series: every other social post uses green #004F23, lime #E0E64A and white (navy #131D4A for Joints), with no red or orange (decided 12 Nov; confirmed 15 Nov). `ambassadors/build.py` and `ambassadors/template.html` handle it. Add each finished carousel to the summer calendar as an extra post (see `calendar/selection.json`), using the exported slides (`ambassadors/instagram/<slug>-slide-<n>.png`) as its designs.
 
 Then run:
 

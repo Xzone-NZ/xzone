@@ -1,7 +1,7 @@
 """Ambassador carousels (Jasmine Marsters, Mollie Allison) in the approved social style. 3 slides each, 1080 x 1350."""
 import sys, re, html
 OUT = sys.argv[1]
-G, L = '#0D441F', '#E0E64A'
+G, L = '#004F23', '#E0E64A'
 LOGO = '/_blob/25197b28f4e73a8b274a5afe746a93c6'
 PH = {'jas1': '/_blob/d2c897c75f5fcbc8a6cfd774ddbcdc20', 'jas2': '/_blob/7857f267843431270af02d3c5fd6a212',
       'mol1': '/_blob/d6f4ed7c106a6a841dd33259362017c8', 'mol2': '/_blob/fc32ab8f9a90be36adee1c41a420f62d'}
@@ -38,7 +38,7 @@ class Component extends DCLogic {{
 </html>
 '''
 def dots(n, on, green):
-    a, b = (L, 'rgba(255,255,255,0.35)') if green else (G, 'rgba(13,68,31,0.25)')
+    a, b = (L, 'rgba(255,255,255,0.35)') if green else (G, 'rgba(0,79,35,0.25)')
     return '<div style="display: flex; gap: 12px">' + ''.join(f'<span style="width: 16px; height: 16px; border-radius: 50%; background: {a if i == on else b}"></span>' for i in range(n)) + '</div>'
 def logo(green):
     if green: return f'<div style="background: #ffffff; border-radius: 999px; padding: 14px 28px; display: flex; align-items: center"><img src="{LOGO}" alt="X-ZONE New Zealand" style="height: 34px; width: auto"></div>'
@@ -46,7 +46,7 @@ def logo(green):
 
 def cover(a):
     green = a['band'] == 'green'
-    bg, fg, lab, sub = (G, '#ffffff', L, 'rgba(255,255,255,0.86)') if green else ('#ffffff', G, G, 'rgba(13,68,31,0.85)')
+    bg, fg, lab, sub = (G, '#ffffff', L, 'rgba(255,255,255,0.86)') if green else ('#ffffff', G, G, 'rgba(0,79,35,0.85)')
     arrow = L if green else G
     return page(f"{a['name']} carousel, slide 1", f'''<div style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: {bg}; font-family: 'Poppins', sans-serif; display: flex; flex-direction: column">
   <div style="position: relative; width: 1080px; height: 720px; flex-shrink: 0">
@@ -66,7 +66,7 @@ def cover(a):
 
 def quote(a):
     green = a['band'] != 'green'   # alternate with the cover
-    bg, fg, mark, sub = (G, '#ffffff', L, 'rgba(255,255,255,0.8)') if green else ('#ffffff', G, G, 'rgba(13,68,31,0.75)')
+    bg, fg, mark, sub = (G, '#ffffff', L, 'rgba(255,255,255,0.8)') if green else ('#ffffff', G, G, 'rgba(0,79,35,0.75)')
     return page(f"{a['name']} carousel, slide 2", f'''<div style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: {bg}; font-family: 'Poppins', sans-serif; box-sizing: border-box; padding: 110px 90px 80px; display: flex; flex-direction: column">
   <div style="color: {mark}; font-size: 260px; line-height: 0.8; font-weight: 900; height: 170px">“</div>
   <div style="color: {fg}; font-size: 60px; line-height: 1.2; font-weight: 800; margin-top: 20px">{html.escape(a['quote'])}</div>
@@ -81,7 +81,7 @@ def story(a):
     if a['last'] == 'full':
         return page(f"{a['name']} carousel, slide 3", f'''<div style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: {G}; font-family: 'Poppins', sans-serif">
   <img src="{PH[a['p2']]}" alt="{a['alt2']}" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; object-position: {a['crop2']}">
-  <div style="position: absolute; left: 0; right: 0; bottom: 0; height: 820px; background: linear-gradient(180deg, rgba(13,68,31,0) 0%, rgba(13,68,31,0.6) 45%, rgba(13,68,31,0.96) 100%)"></div>
+  <div style="position: absolute; left: 0; right: 0; bottom: 0; height: 820px; background: linear-gradient(180deg, rgba(0,79,35,0) 0%, rgba(0,79,35,0.6) 45%, rgba(0,79,35,0.96) 100%)"></div>
   <div style="position: absolute; left: 64px; top: 56px; background: #ffffff; border-radius: 999px; padding: 16px 30px; display: flex; align-items: center"><img src="{LOGO}" alt="X-ZONE New Zealand" style="height: 36px; width: auto"></div>
   <div style="position: absolute; left: 80px; right: 80px; bottom: 70px; display: flex; flex-direction: column; gap: 20px">
     <div style="align-self: flex-start; background: {L}; color: {G}; border-radius: 999px; padding: 12px 28px; font-size: 25px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase">{a['tag3']}</div>
