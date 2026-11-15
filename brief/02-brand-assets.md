@@ -22,17 +22,34 @@ No reversed (white) or green tagline lock-ups yet. No SVGs. PDFs can stand in as
 
 Note: one file is misspelt `X-Zone_Landcsape_Black.jpg`.
 
+In the repo (12 Nov): the full logo set from Drive is in `source/drive/logos/`, all files as supplied (3 MB total, no resizing needed):
+- `landscape/`: primary logo, Green and Black (AI, PDF, PNG, JPG) and White (AI, PNG). Includes `X-Zone_Landscape_Green.png`
+- `portrait/`: secondary logo, same set
+- `icon/`: X symbol, same set. Includes `X-Zone_Icon_Green.png`
+- `taglines/`: 2026 lock-ups (Move Freely, Live Freely, Muscle), landscape and portrait, black only (PDF, PNG)
+
+The guidelines cite `X-Zone_Logo_Landscape_Green.png`; the actual Drive filename is `X-Zone_Landscape_Green.png`.
+
 ## Photos (10)
 
 - Founders: `Jess n Dan.jpg`, `Jess Dan Garden.jpg`, `jess dan expo 1.png` (expo stand, 14 MB)
 - Dan: `Dan Guitar 1 (1).jpg`, `Dan Guitar2 (1).jpg`
-- Untitled: `IMG_0654.jpg`, `IMG_0075a.JPG`, `IMG_0035a.JPG`
+- Untitled:
+  - `IMG_0035a.JPG` (portrait) and `IMG_0075a.JPG` (landscape): a woman in a pale blue dress and hat with a buckskin horse by a paddock fence. Professional shoot (Canon). Who it is isn't labelled: ask whether this is the horse trainer from the origin story
+  - `IMG_0654.jpg`: outdoor selfie of two people holding an X-ZONE flyer ("Feel the natural power of X-ZONE") and product. iPhone, Sep 2026. Casual, better for Stories than the feed
 - **Broken (0 bytes, need re-uploading):** `IMG_8848.jpg`, `IMG_9452.JPG`
+
+Copies of the 8 working photos are in `source/drive/photos/` (received 12 Nov). The two broken files were 0 bytes in the download too.
 
 ## Videos
 
 - `X Zone promo v2.mp4` (landscape, about 970 MB)
 - `X Zone promo portrait.mp4` (portrait, about 110 MB, ready for Reels/Stories)
+
+Compressed copies in the repo (12 Nov), `source/drive/videos/`. Originals stay in Drive (too big for GitHub):
+- `xzone-promo-landscape-1080p.mp4`: 1920 x 1080, 1 min 43 s, 35 MB (from the 4K, 970 MB original)
+- `xzone-promo-portrait-864x1080.mp4`: 864 x 1080 (4:5, feed size), 1 min 43 s, 23 MB (from 109 MB). For Reels and Stories use the 9:16 version below
+- `xzone-promo-reel-1080x1920.mp4`: 1080 x 1920 (9:16) for Reels and Stories, 1 min 43 s, 36 MB. The full 4:5 frame sits centred, with a blurred, slightly darkened copy filling above and below, so nothing is cropped. Captions and stickers fit in the blurred bands
 - Plus the YouTube instruction video: https://youtu.be/JIkXSSABxPI
 
 ## Other

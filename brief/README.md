@@ -7,7 +7,9 @@ The client is filling in the form in parts. Everything here is a **living draft*
 | 01-website-form.md | Form answers, part 1 (business, audience, goals, colours, fonts) | Complete (parts 1 to 3 received 11 Nov) |
 | 02-brand-assets.md | Drive inventory: logos, photos, videos | Received 11 Nov |
 | **06-brand-spec.md** | **Working source of truth: form overrides guidelines** | Update with each form part |
+| xzone-brand-guidelines.html | Brand guidelines v1.2 page (2 pages, logos embedded), snapshot of the live artifact | v1.2, Nov 2026 |
 | 05-brand-guidelines.md | Reclaim Co brand guidelines v1 (PDF in `source/`) | v1, 4 Nov |
+| xzone-summer-social-plan.html | Summer social plan page (13 weeks, 23 Nov 2026 to 21 Feb 2027), snapshot of the live artifact | Updated 11 Nov |
 | 03-summer-plan-review.md | Notes on the draft summer social plan | Draft, revisit when the form is complete |
 | 04-email-signature-review.md | Notes on the draft email signature | Draft, revisit when the form is complete |
 | open-questions.md | Gaps and conflicts to resolve | Ongoing |
@@ -23,6 +25,8 @@ Form overrides were applied to these pages:
 - Brand guidelines v1.1: https://claude.ai/artifact/2PmSvpcLQ2HuV8TafG3ac3
 - Email signature: https://claude.ai/artifact/MmXp2cYwedpcEExEPPweyT
 - Summer social plan: https://claude.ai/artifact/HcSkHfjZAGz8UBYpkFjTsj
-- Instagram concepts: https://claude.ai/artifact/FZKXmwYVD5y2afJcVzKvAT (type, emoji, competitor wording, lab claim, "Dan" not "Danny")
+- Instagram concepts: https://claude.ai/artifact/X7oXkdrueJ36c4SJuCa5cy (restyled to the Round 2 social style 12 Nov; old link FZKXmwYVD5y2afJcVzKvAT no longer opens)
+- Social design options canvas: https://claude.ai/artifact/RLoAHdj2FRV5R3hstYRMWL
+- Summer calendar and feed mock-up: see `calendar/README.md` (republished 12 Nov at new links)
 
 Re-apply as more form parts arrive.

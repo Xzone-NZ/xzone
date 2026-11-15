@@ -1,26 +1,24 @@
 # X-ZONE Brand Intake: Website Form
 
-Source: Reclaim Co. website form (Netlify). Part 1 received 11 Nov 2026 12:42, part 2 (voice) 13:36, part 3 (everything else) 14:47. Form now complete. Cleaned up and organised; client wording kept where it matters.
+Source: Reclaim Co. website form (Netlify). Part 1 received 11 Nov 2026 12:42, part 2 (voice) 13:36, part 3 (everything else) 14:47. Form now complete. Consolidated form re-sent 12 Nov 12:14 and checked line by line against this file. Cleaned up and organised; client wording kept where it matters.
 
 ## Business
 
 | | |
 |---|---|
 | Client | XZONE |
-| Legal name | X-ZONE NZ LIMITED |
+| Legal name | X-ZONE New Zealand Ltd (consolidated form, 12 Nov; earlier part gave X-ZONE NZ LIMITED, so confirm against the Companies Office record) |
 | Contacts | Jess Martin (Director), Dan Holt (Director) |
 | Email | sales@xzone.nz |
 | Phone | +64 21 392 117, +64 22 304 9485 |
-| Website | https://www.xzone.nz |
-| Based | Auckland, New Zealand. Mostly NZ customers, small online sales to AU, UK, USA |
+| Website | https://xzone.nz/ |
+| Based | Auckland, New Zealand. Mostly NZ customers, small online sales to AU, UK, USA. B2C online direct plus B2B wholesale |
 
 ## What they do
 
-**Mission:** To empower people to move freely, recover naturally and live life to the fullest by providing science-backed products that harness the healing power of New Zealand's native plants.
+**Mission:** To empower people to move freely, recover naturally and live life to the fullest by providing science-backed, topical, natural, herbal pain relief rubs, sprays and roll-ons for muscles and joints, made with New Zealand's native plants.
 
 **Vision:** To be a leading natural health brand that helps people globally live healthier, more active and fulfilling lives, while caring for people, animals and the planet.
-
-They produce topical, natural, herbal pain relief rubs, sprays and roll-ons for muscles and joints.
 
 **Taglines**
 - Move Freely. Live Naturally.
@@ -36,7 +34,7 @@ They produce topical, natural, herbal pain relief rubs, sprays and roll-ons for 
 
 **Flagships:** Joints Rub and Sports Rub (the two best sellers).
 
-B2B: pharmacies, health stores, chiropractors. 200+ stockists.
+All three customer groups are B2C. B2B wholesale (mainly pharmacies, health stores and chiropractors) is a separate channel. 200+ stockists.
 
 ## What makes them different
 
@@ -49,8 +47,9 @@ B2B: pharmacies, health stores, chiropractors. 200+ stockists.
 
 ## Competitors
 
-Main: **KoruFx** and **Om Rub**. Nobody they admire.
+Main: **KoruFx** and **Om Rub** (the biggest). "Honestly, nobody in the category is doing anything we really admire marketing-wise."
 
+- KoruFx: URL not given
 - Om Rub: https://omrub.com/
 - Koru Nutrition: https://korunutrition.co.nz/
 - Antiflamme: https://www.antiflamme.co.nz/
@@ -160,7 +159,7 @@ Galano Grotesque is paid and not licensed in Canva. No set type rules.
 
 
 ## Look (form part 3)
-- Like: **Antipodes**, **Harkers Herbals**
+- Like: **Antipodes**, **Harker's Herbals**
 - Don't like: Voltaren
 
 ## Channels, proof and story (form part 3, received 11 Nov 14:47)
@@ -171,12 +170,12 @@ Galano Grotesque is paid and not licensed in Canva. No set type rules.
 | On camera | Yes, happy to appear on camera and do voiceovers |
 | Testimonials | All customer-published reviews can be quoted directly or indirectly: Judge.me reviews on the 7 product pages (e.g. https://xzone.nz/products/x-zone-joints-rub), Google Reviews, and customer emails |
 | Named clients | Full name OK where the customer used it publicly |
-| Handles | Facebook, Instagram, YouTube, LinkedIn (handles not given). No TikTok |
-| Channel order | Facebook and Instagram first. YouTube for the corporate video. LinkedIn barely used |
+| Handles | Facebook, Instagram, YouTube, LinkedIn (handles not given). They have a TikTok account but do not post on it yet |
+| Channel order | Facebook and Instagram first. Then YouTube for the corporate video and the like. LinkedIn barely used. TikTok not posted to |
 | Cadence | **3 posts a week on Facebook and Instagram.** Low engagement, so replying is easy |
 | Email | Shopify Messaging, 2,991 subscribers |
-| Blog | Monthly, plus Grandranker recently started writing blogs. They can manage blogs |
-| Approver | Jess and Dan, "very quick" |
+| Blog | Usually monthly. Recently signed up with Grandranker, who have been writing blogs for the last week or so. They can manage blogs themselves |
+| Approver | Jess and Dan, "very quick". Scheduling currently only through Meta Business Suite |
 | Scheduler | Meta Business Suite only |
 
 ### Lab results (their wording, "Awards")
@@ -185,9 +184,13 @@ Independent in-vitro lab tests by Trinity Bioactives (2024):
 2. Joints Rub: reduced macrophage concentration by 48.1%. "Helping to reduce joint pain by targeting and decreasing inflammatory cells."
 3. Sports Rub: most effective, reduced macrophage concentration by 54.1%. "Almost twice as effective as the Control, Indomethacin, which is 30% reduction."
 
+Also listed under "Awards": over 200 stockists.
+
+House wording for these results: lead with "in independent lab tests", never "proven", and no drug comparison as a claim (see `06-brand-spec.md`).
+
 ### Story (their words, summarised)
 - Friends since they met at primary school in West Auckland, aged 6. Grew up with the Waitākere Ranges on their doorstep.
-- Corporate backgrounds: Jess in commercial real estate, Danny in advertising. Wanted something more meaningful.
+- Corporate backgrounds: Jess in commercial real estate, Dan in advertising. Wanted something more meaningful.
 - Bought the business from a horse trainer who made the original product for race horses' tight, sore muscles. Friends and family kept asking for "that horse stuff", so she made a human version under the brand **Comfort Zone**, the precursor to X-ZONE.
 - After buying it: market research with **Retail X**, did a **rongoā course**, and reformulated. The original had only harakeke and kūmarahou. They added the 11 NZ natives plus extra herbals to create the three ranges.
 
@@ -208,5 +211,7 @@ Independent in-vitro lab tests by Trinity Bioactives (2024):
 | Blog | Yes, "we can manage" | |
 
 ### Anything else
-- Stock images still to upload (coming now).
+- Stock images still to upload; they will send these through.
+- Brand photos: no product photos of the whole range yet, only the Sports Rub.
+- Logo files and video: left blank on the consolidated form (logos are in the Drive, see `02-brand-assets.md`).
 - Labels being updated one product at a time ("Sports" becomes "Sports Rub" plus minor tweaks). Only the new Sports Rub has product photos so far; it is going in the Drive folder.

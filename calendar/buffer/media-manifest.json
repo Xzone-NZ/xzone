@@ -1,0 +1,720 @@
+{
+ "posts": {
+  "w1-mon": {
+   "week": 1,
+   "date": "2026-11-23",
+   "day": "Mon",
+   "format": "Carousel",
+   "title": "Launch: eleven herbs, starting with Harakeke",
+   "files": [
+    "media/w1-mon/slide-01.jpg",
+    "media/w1-mon/slide-02.jpg",
+    "media/w1-mon/slide-03.jpg",
+    "media/w1-mon/slide-04.jpg",
+    "media/w1-mon/slide-05.jpg",
+    "media/w1-mon/slide-06.jpg",
+    "media/w1-mon/slide-07.jpg"
+   ],
+   "video_needed": false
+  },
+  "w1-tue": {
+   "week": 1,
+   "date": "2026-11-25",
+   "day": "Wed",
+   "format": "Reel",
+   "title": "Rub it in, not on",
+   "files": [
+    "media/w1-tue/reel-cover.jpg"
+   ],
+   "video_needed": true
+  },
+  "w1-fri": {
+   "week": 1,
+   "date": "2026-11-27",
+   "day": "Fri",
+   "format": "Post",
+   "title": "Stock the summer first-aid kit",
+   "files": [
+    "media/w1-fri/post.jpg"
+   ],
+   "video_needed": false
+  },
+  "w2-mon": {
+   "week": 2,
+   "date": "2026-11-30",
+   "day": "Mon",
+   "format": "Carousel",
+   "title": "Herb two: Horopito, the pepper tree",
+   "files": [
+    "media/w2-mon/slide-01.jpg",
+    "media/w2-mon/slide-02.jpg",
+    "media/w2-mon/slide-03.jpg",
+    "media/w2-mon/slide-04.jpg",
+    "media/w2-mon/slide-05.jpg",
+    "media/w2-mon/slide-06.jpg"
+   ],
+   "video_needed": false
+  },
+  "w2-sat": {
+   "week": 2,
+   "date": "2026-12-02",
+   "day": "Wed",
+   "format": "Reel",
+   "title": "Jess: why we started X-ZONE",
+   "files": [
+    "media/w2-sat/reel-cover.jpg"
+   ],
+   "video_needed": true
+  },
+  "w2-fri": {
+   "week": 2,
+   "date": "2026-12-04",
+   "day": "Fri",
+   "format": "Post",
+   "title": "Which one should I buy",
+   "files": [
+    "media/w2-fri/post.jpg"
+   ],
+   "video_needed": false
+  },
+  "w3-mon": {
+   "week": 3,
+   "date": "2026-12-07",
+   "day": "Mon",
+   "format": "Carousel",
+   "title": "Five things for a tramper's kit",
+   "files": [
+    "media/w3-mon/slide-01.jpg",
+    "media/w3-mon/slide-02.jpg",
+    "media/w3-mon/slide-03.jpg",
+    "media/w3-mon/slide-04.jpg",
+    "media/w3-mon/slide-05.jpg",
+    "media/w3-mon/slide-06.jpg",
+    "media/w3-mon/slide-07.jpg"
+   ],
+   "video_needed": false
+  },
+  "w3-tue": {
+   "week": 3,
+   "date": "2026-12-09",
+   "day": "Wed",
+   "format": "Reel",
+   "title": "Herb three: Kūmarahou, gumdiggers' soap",
+   "files": [
+    "media/w3-tue/reel-cover.jpg"
+   ],
+   "video_needed": true
+  },
+  "w3-testimonial": {
+   "week": 3,
+   "date": "2026-12-11",
+   "day": "Fri",
+   "format": "Testimonial graphic",
+   "title": "Maria G. on the Joints Rub",
+   "files": [
+    "media/w3-testimonial/post.jpg"
+   ],
+   "video_needed": false
+  },
+  "w4-mon": {
+   "week": 4,
+   "date": "2026-12-14",
+   "day": "Mon",
+   "format": "Carousel",
+   "title": "Bumps, bruises and grazes",
+   "files": [
+    "media/w4-mon/slide-01.jpg",
+    "media/w4-mon/slide-02.jpg",
+    "media/w4-mon/slide-03.jpg",
+    "media/w4-mon/slide-04.jpg",
+    "media/w4-mon/slide-05.jpg",
+    "media/w4-mon/slide-06.jpg",
+    "media/w4-mon/slide-07.jpg"
+   ],
+   "video_needed": false
+  },
+  "w4-tue": {
+   "week": 4,
+   "date": "2026-12-16",
+   "day": "Wed",
+   "format": "Reel",
+   "title": "Herb four: Kōwhai, more than the flower",
+   "files": [
+    "media/w4-tue/reel-cover.jpg"
+   ],
+   "video_needed": true
+  },
+  "w4-fri": {
+   "week": 4,
+   "date": "2026-12-18",
+   "day": "Fri",
+   "format": "Post",
+   "title": "The bach cupboard",
+   "files": [
+    "media/w4-fri/post.jpg"
+   ],
+   "video_needed": false
+  },
+  "w5-mon": {
+   "week": 5,
+   "date": "2026-12-21",
+   "day": "Mon",
+   "format": "Post",
+   "title": "Herb five: Koromiko",
+   "files": [
+    "media/w5-mon/post.jpg"
+   ],
+   "video_needed": false
+  },
+  "w5-tue": {
+   "week": 5,
+   "date": "2026-12-23",
+   "day": "Wed",
+   "format": "Reel",
+   "title": "Backyard cricket warm-up",
+   "files": [
+    "media/w5-tue/reel-cover.jpg"
+   ],
+   "video_needed": true
+  },
+  "w5-sat": {
+   "week": 5,
+   "date": "2026-12-26",
+   "day": "Sat",
+   "format": "Post",
+   "title": "Boxing Day recovery guide",
+   "files": [
+    "media/w5-sat/post.jpg"
+   ],
+   "video_needed": false
+  },
+  "w6-wed": {
+   "week": 6,
+   "date": "2026-12-28",
+   "day": "Mon",
+   "format": "Carousel",
+   "title": "The 10% rule for January",
+   "files": [
+    "media/w6-wed/slide-01.jpg",
+    "media/w6-wed/slide-02.jpg",
+    "media/w6-wed/slide-03.jpg",
+    "media/w6-wed/slide-04.jpg",
+    "media/w6-wed/slide-05.jpg",
+    "media/w6-wed/slide-06.jpg",
+    "media/w6-wed/slide-07.jpg"
+   ],
+   "video_needed": false
+  },
+  "w6-tue": {
+   "week": 6,
+   "date": "2026-12-30",
+   "day": "Wed",
+   "format": "Reel",
+   "title": "Herb six: Pūriri",
+   "files": [
+    "media/w6-tue/reel-cover.jpg"
+   ],
+   "video_needed": true
+  },
+  "w6-fri": {
+   "week": 6,
+   "date": "2027-01-01",
+   "day": "Fri",
+   "format": "Post",
+   "title": "A weekly recovery routine",
+   "files": [
+    "media/w6-fri/post.jpg"
+   ],
+   "video_needed": false
+  },
+  "w7-mon": {
+   "week": 7,
+   "date": "2027-01-04",
+   "day": "Mon",
+   "format": "Carousel",
+   "title": "DOMS explained",
+   "files": [
+    "media/w7-mon/slide-01.jpg",
+    "media/w7-mon/slide-02.jpg",
+    "media/w7-mon/slide-03.jpg",
+    "media/w7-mon/slide-04.jpg",
+    "media/w7-mon/slide-05.jpg",
+    "media/w7-mon/slide-06.jpg",
+    "media/w7-mon/slide-07.jpg"
+   ],
+   "video_needed": false
+  },
+  "w7-tue": {
+   "week": 7,
+   "date": "2027-01-06",
+   "day": "Wed",
+   "format": "Reel",
+   "title": "Herb seven: Rātā",
+   "files": [
+    "media/w7-tue/reel-cover.jpg"
+   ],
+   "video_needed": true
+  },
+  "w7-wed": {
+   "week": 7,
+   "date": "2027-01-08",
+   "day": "Fri",
+   "format": "Post",
+   "title": "What the lab found",
+   "files": [
+    "media/w7-wed/post.jpg"
+   ],
+   "video_needed": false
+  },
+  "w7-amb-jasmine": {
+   "week": 7,
+   "date": "2027-01-09",
+   "day": "Sat",
+   "format": "Carousel",
+   "title": "Ambassador 15: Jasmine Marsters, NZ Strongman",
+   "files": [
+    "media/w7-amb-jasmine/slide-01.jpg",
+    "media/w7-amb-jasmine/slide-02.jpg",
+    "media/w7-amb-jasmine/slide-03.jpg"
+   ],
+   "video_needed": false
+  },
+  "w8-mon": {
+   "week": 8,
+   "date": "2027-01-11",
+   "day": "Mon",
+   "format": "Carousel",
+   "title": "Turmeric and the Joints Rub",
+   "files": [
+    "media/w8-mon/slide-01.jpg",
+    "media/w8-mon/slide-02.jpg",
+    "media/w8-mon/slide-03.jpg",
+    "media/w8-mon/slide-04.jpg",
+    "media/w8-mon/slide-05.jpg",
+    "media/w8-mon/slide-06.jpg",
+    "media/w8-mon/slide-07.jpg"
+   ],
+   "video_needed": false
+  },
+  "w8-tue": {
+   "week": 8,
+   "date": "2027-01-13",
+   "day": "Wed",
+   "format": "Reel",
+   "title": "Herb eight: Pukatea",
+   "files": [
+    "media/w8-tue/reel-cover.jpg"
+   ],
+   "video_needed": true
+  },
+  "w8-wed": {
+   "week": 8,
+   "date": "2027-01-15",
+   "day": "Fri",
+   "format": "Post",
+   "title": "Heat or ice, answered",
+   "files": [
+    "media/w8-wed/post.jpg"
+   ],
+   "video_needed": false
+  },
+  "w9-mon": {
+   "week": 9,
+   "date": "2027-01-18",
+   "day": "Mon",
+   "format": "Carousel",
+   "title": "Lower back on site",
+   "files": [
+    "media/w9-mon/slide-01.jpg",
+    "media/w9-mon/slide-02.jpg",
+    "media/w9-mon/slide-03.jpg",
+    "media/w9-mon/slide-04.jpg",
+    "media/w9-mon/slide-05.jpg",
+    "media/w9-mon/slide-06.jpg",
+    "media/w9-mon/slide-07.jpg"
+   ],
+   "video_needed": false
+  },
+  "w9-tue": {
+   "week": 9,
+   "date": "2027-01-20",
+   "day": "Wed",
+   "format": "Reel",
+   "title": "Kahikatea, herb nine",
+   "files": [
+    "media/w9-tue/reel-cover.jpg"
+   ],
+   "video_needed": true
+  },
+  "w9-fri": {
+   "week": 9,
+   "date": "2027-01-22",
+   "day": "Fri",
+   "format": "Post",
+   "title": "Three site injuries for tradies",
+   "files": [
+    "media/w9-fri/post.jpg"
+   ],
+   "video_needed": false
+  },
+  "w10-mon": {
+   "week": 10,
+   "date": "2027-01-25",
+   "day": "Mon",
+   "format": "Carousel",
+   "title": "Medicines linked to muscle pain",
+   "files": [
+    "media/w10-mon/slide-01.jpg",
+    "media/w10-mon/slide-02.jpg",
+    "media/w10-mon/slide-03.jpg",
+    "media/w10-mon/slide-04.jpg",
+    "media/w10-mon/slide-05.jpg",
+    "media/w10-mon/slide-06.jpg",
+    "media/w10-mon/slide-07.jpg"
+   ],
+   "video_needed": false
+  },
+  "w10-tue": {
+   "week": 10,
+   "date": "2027-01-27",
+   "day": "Wed",
+   "format": "Reel",
+   "title": "Tūpākihi, herb ten",
+   "files": [
+    "media/w10-tue/reel-cover.jpg"
+   ],
+   "video_needed": true
+  },
+  "w10-wed": {
+   "week": 10,
+   "date": "2027-01-29",
+   "day": "Fri",
+   "format": "Post",
+   "title": "Sleep is recovery",
+   "files": [
+    "media/w10-wed/post.jpg"
+   ],
+   "video_needed": false
+  },
+  "w10-amb-mollie": {
+   "week": 10,
+   "date": "2027-01-28",
+   "day": "Thu",
+   "format": "Carousel",
+   "title": "Ambassador 14: Mollie Allison, NZ beach volleyball",
+   "files": [
+    "media/w10-amb-mollie/slide-01.jpg",
+    "media/w10-amb-mollie/slide-02.jpg",
+    "media/w10-amb-mollie/slide-03.jpg"
+   ],
+   "video_needed": false
+  },
+  "w11-mon": {
+   "week": 11,
+   "date": "2027-02-01",
+   "day": "Mon",
+   "format": "Carousel",
+   "title": "Karaeo and all eleven",
+   "files": [
+    "media/w11-mon/slide-01.jpg",
+    "media/w11-mon/slide-02.jpg",
+    "media/w11-mon/slide-03.jpg",
+    "media/w11-mon/slide-04.jpg",
+    "media/w11-mon/slide-05.jpg",
+    "media/w11-mon/slide-06.jpg",
+    "media/w11-mon/slide-07.jpg"
+   ],
+   "video_needed": false
+  },
+  "w11-tue": {
+   "week": 11,
+   "date": "2027-02-03",
+   "day": "Wed",
+   "format": "Reel",
+   "title": "Jess names the herbs",
+   "files": [
+    "media/w11-tue/reel-cover.jpg"
+   ],
+   "video_needed": true
+  },
+  "w11-fri": {
+   "week": 11,
+   "date": "2027-02-05",
+   "day": "Fri",
+   "format": "Post",
+   "title": "Long weekend first aid",
+   "files": [
+    "media/w11-fri/post.jpg"
+   ],
+   "video_needed": false
+  },
+  "w12-mon": {
+   "week": 12,
+   "date": "2027-02-08",
+   "day": "Mon",
+   "format": "Carousel",
+   "title": "Eleven herbs, one post",
+   "files": [
+    "media/w12-mon/slide-01.jpg",
+    "media/w12-mon/slide-02.jpg",
+    "media/w12-mon/slide-03.jpg",
+    "media/w12-mon/slide-04.jpg",
+    "media/w12-mon/slide-05.jpg",
+    "media/w12-mon/slide-06.jpg",
+    "media/w12-mon/slide-07.jpg"
+   ],
+   "video_needed": false
+  },
+  "w12-sat": {
+   "week": 12,
+   "date": "2027-02-10",
+   "day": "Wed",
+   "format": "Reel",
+   "title": "Trials warm-up for kids",
+   "files": [
+    "media/w12-sat/reel-cover.jpg"
+   ],
+   "video_needed": true
+  },
+  "w12-fri": {
+   "week": 12,
+   "date": "2027-02-12",
+   "day": "Fri",
+   "format": "Post",
+   "title": "The sideline kit for parents",
+   "files": [
+    "media/w12-fri/post.jpg"
+   ],
+   "video_needed": false
+  },
+  "w13-mon": {
+   "week": 13,
+   "date": "2027-02-15",
+   "day": "Mon",
+   "format": "Carousel",
+   "title": "Twelve most-saved summer posts",
+   "files": [
+    "media/w13-mon/slide-01.jpg",
+    "media/w13-mon/slide-02.jpg",
+    "media/w13-mon/slide-03.jpg",
+    "media/w13-mon/slide-04.jpg",
+    "media/w13-mon/slide-05.jpg",
+    "media/w13-mon/slide-06.jpg"
+   ],
+   "video_needed": false
+  },
+  "w13-tue": {
+   "week": 13,
+   "date": "2027-02-17",
+   "day": "Wed",
+   "format": "Reel",
+   "title": "Top Reel, new hook",
+   "files": [
+    "media/w13-tue/reel-cover.jpg"
+   ],
+   "video_needed": true
+  },
+  "w13-wed": {
+   "week": 13,
+   "date": "2027-02-19",
+   "day": "Fri",
+   "format": "Post",
+   "title": "What you asked most",
+   "files": [
+    "media/w13-wed/post.jpg"
+   ],
+   "video_needed": false
+  }
+ },
+ "stories": {
+  "w1-s2": {
+   "week": 1,
+   "day": "Wed",
+   "type": "question",
+   "text": "Ask Jess and Dan. What hurts, or what do you want to know about our herbs?",
+   "file": "media/stories/w1-s2.jpg"
+  },
+  "w1-s4": {
+   "week": 1,
+   "day": "Fri",
+   "type": "link",
+   "text": "Our summer first-aid kit list is on the feed. Old prices held until {DATE}.",
+   "file": "media/stories/w1-s4.jpg"
+  },
+  "w2-s3": {
+   "week": 2,
+   "day": "Wed",
+   "type": "question",
+   "text": "Ask Jess and Dan anything about bruises, bumps or our herbs.",
+   "file": "media/stories/w2-s3.jpg"
+  },
+  "w2-s4": {
+   "week": 2,
+   "day": "Thu",
+   "type": "link",
+   "text": "The gift guide: for the tradie, the tramper, the touch player.",
+   "file": "media/stories/w2-s4.jpg"
+  },
+  "w3-s1": {
+   "week": 3,
+   "day": "Mon",
+   "type": "quiz",
+   "text": "Herb three is kūmarahou. What is its old nickname?",
+   "file": "media/stories/w3-s1.jpg"
+  },
+  "w3-s3": {
+   "week": 3,
+   "day": "Wed",
+   "type": "question",
+   "text": "Heading out on a tramp this summer? Ask Jess and Dan about feet, calves and knees.",
+   "file": "media/stories/w3-s3.jpg"
+  },
+  "w4-s2": {
+   "week": 4,
+   "day": "Wed",
+   "type": "question",
+   "text": "Parents: what do you want to know about bumps, bruises or using X-ZONE with kids?",
+   "file": "media/stories/w4-s2.jpg"
+  },
+  "w4-s4": {
+   "week": 4,
+   "day": "Fri",
+   "type": "link",
+   "text": "Our pre-Christmas sale is on: {OFFER}.",
+   "file": "media/stories/w4-s4.jpg"
+  },
+  "w5-s2": {
+   "week": 5,
+   "day": "Fri",
+   "type": "greeting",
+   "text": "Meri Kirihimete from our whānau to yours. Thank you for a big year.",
+   "file": "media/stories/w5-s2.jpg"
+  },
+  "w5-s3": {
+   "week": 5,
+   "day": "Sat",
+   "type": "link",
+   "text": "Boxing Day recovery: water, movement, sleep. The full guide is on the feed.",
+   "file": "media/stories/w5-s3.jpg"
+  },
+  "w6-s8": {
+   "week": 6,
+   "day": "Thu",
+   "type": "link",
+   "text": "Stockist of the week: find us at {STOCKIST}, Nelson.",
+   "file": "media/stories/w6-s8.jpg"
+  },
+  "w6-s9": {
+   "week": 6,
+   "day": "Fri",
+   "type": "link",
+   "text": "A weekly recovery routine for 2027. Three habits, on the feed now.",
+   "file": "media/stories/w6-s9.jpg"
+  },
+  "w7-s2": {
+   "week": 7,
+   "day": "Wed",
+   "type": "question",
+   "text": "Ask Jess and Dan: what hurts this week?",
+   "file": "media/stories/w7-s2.jpg"
+  },
+  "w7-s4": {
+   "week": 7,
+   "day": "Thu",
+   "type": "link",
+   "text": "Stockist of the week: find us at {STOCKIST}, Dunedin.",
+   "file": "media/stories/w7-s4.jpg"
+  },
+  "w8-s3": {
+   "week": 8,
+   "day": "Wed",
+   "type": "question",
+   "text": "Ask Jess and Dan anything about joints, heat, ice or recovery.",
+   "file": "media/stories/w8-s3.jpg"
+  },
+  "w8-s5": {
+   "week": 8,
+   "day": "Thu",
+   "type": "link",
+   "text": "Stockist of the week: find us at {STOCKIST}, Christchurch.",
+   "file": "media/stories/w8-s5.jpg"
+  },
+  "w9-s2": {
+   "week": 9,
+   "day": "Wed",
+   "type": "question",
+   "text": "Ask Jess and Dan: what hurts on your worksite?",
+   "file": "media/stories/w9-s2.jpg"
+  },
+  "w9-s6": {
+   "week": 9,
+   "day": "Fri",
+   "type": "link",
+   "text": "Three site injuries and what to do for each. On the feed now.",
+   "file": "media/stories/w9-s6.jpg"
+  },
+  "w10-s2": {
+   "week": 10,
+   "day": "Wed",
+   "type": "poll",
+   "text": "How many hours did you sleep last night?",
+   "file": "media/stories/w10-s2.jpg"
+  },
+  "w10-s5": {
+   "week": 10,
+   "day": "Fri",
+   "type": "link",
+   "text": "Mollie's story, and the Sports range. Link below.",
+   "file": "media/stories/w10-s5.jpg"
+  },
+  "w11-s4": {
+   "week": 11,
+   "day": "Wed",
+   "type": "question",
+   "text": "Ask Jess and Dan: what do you want to know about the herbs?",
+   "file": "media/stories/w11-s4.jpg"
+  },
+  "w11-s7": {
+   "week": 11,
+   "day": "Sat",
+   "type": "greeting",
+   "text": "Ngā mihi o Te Rā o Waitangi, from Jess, Dan and the X-ZONE whānau.",
+   "file": "media/stories/w11-s7.jpg"
+  },
+  "w12-s1": {
+   "week": 12,
+   "day": "Mon",
+   "type": "quiz",
+   "text": "Challenge: can you name all eleven of our native herbs?",
+   "file": "media/stories/w12-s1.jpg"
+  },
+  "w12-s4": {
+   "week": 12,
+   "day": "Fri",
+   "type": "link",
+   "text": "The sideline kit list for parents. Save it for Saturday.",
+   "file": "media/stories/w12-s4.jpg"
+  },
+  "w13-s2": {
+   "week": 13,
+   "day": "Wed",
+   "type": "question",
+   "text": "Ask Jess and Dan: what should we answer in autumn?",
+   "file": "media/stories/w13-s2.jpg"
+  },
+  "w13-s5": {
+   "week": 13,
+   "day": "Sat",
+   "type": "greeting",
+   "text": "Thank you for a summer of learning with us. Ngā mihi, Jess and Dan.",
+   "file": "media/stories/w13-s5.jpg"
+  }
+ },
+ "soft_photo": [
+  "w4-s2",
+  "w6-s9",
+  "w10-s5",
+  "w12-fri",
+  "w13-s2"
+ ]
+}

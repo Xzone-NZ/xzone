@@ -24,15 +24,17 @@ Left blank on the website form. Tick off as more info comes in.
 - [ ] Named clients / stockists, awards, founder story
 
 ## Operations
-- [ ] Social handles, channel priority, posting cadence
-- [ ] Email platform (Shopify Email?), blog yes/no
-- [ ] Approver and scheduler
+- [x] Channel priority and posting cadence (form part 3: FB + IG first, 3 posts a week). Handles: see below
+- [x] Email platform: Shopify Messaging, 2,991 subscribers. Blog: yes, monthly plus Grandranker
+- [x] Approver: Jess and Dan. Scheduler: Meta Business Suite only
 
 ## Deliverables wanted
-- [ ] Yes/no and monthly quantity for each: Reels, feed posts, carousels, stories/highlights, LinkedIn, Facebook, TikTok, blog, newsletter template, campaign emails, testimonial graphics, profile images/banners
+- [x] Answered in form part 3, see `01-website-form.md` "Assets wanted". Was: yes/no and monthly quantity for each: Reels, feed posts, carousels, stories/highlights, LinkedIn, Facebook, TikTok, blog, newsletter template, campaign emails, testimonial graphics, profile images/banners
 
 ## From form part 3 (11 Nov)
 - [ ] Social handles: form lists the platforms but not the handles. Confirm @xzonenz
+- [ ] Legal name: consolidated form (12 Nov) says "X-ZONE New Zealand Ltd", earlier part said "X-ZONE NZ LIMITED". Which is registered?
+- [ ] KoruFx: named as a main competitor but no URL given
 - [x] Name: use "Dan" everywhere (Jessica, 11 Nov)
 - [ ] 'Since 2003': is this the original horse-trainer product? Affects weeks 6 and 11 copy
 - [x] Lab wording: always "in independent lab tests"; no "proven", no drug comparison as a claim (Jessica, 11 Nov)
@@ -44,7 +46,7 @@ Left blank on the website form. Tick off as more info comes in.
 Colour palette with print specs. Each range pairs a colour with a contrasting X:
 | Colour | CMYK | PMS | Sampled from the image |
 |---|---|---|---|
-| Dark green | 91/24/100/55 | 357 | #0D441F |
+| Dark green | 91/24/100/55 | 357 | #004F23 (superseded: use #004F23 from the logo files, 12 Nov) |
 | Lime | 11/0/82/0 | 394 | #E0E64A |
 | Navy | 100/83/18/48 | 662 | #131D4A |
 | Orange | 0/35/85/0 | 1365 | #F3AC3E |
