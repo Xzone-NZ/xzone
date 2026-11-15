@@ -40,6 +40,20 @@ Contrast: lime and orange are accents on dark grounds, never small text on white
 - Open Sans (from the guidelines) is dropped.
 - Sentence case and the label style carry over from the guidelines.
 
+## Social design direction (feedback, 12 Nov)
+Canvas: https://claude.ai/artifact/RLoAHdj2FRV5R3hstYRMWL (Round 1: three directions; Round 2: refined).
+- **Approved:** Reel 1, the founders story ("Why we swapped the office for the Waitākere Ranges"), and Story 1, the ankle photo with a poll sticker.
+- **Headlines are always hooks.** Write every reel, story and post headline like the Reel 1 one: a curiosity or story hook ("Why we…", "The one thing we…", "Every family has one…"), with a play-button "Watch…" line on reels. Voice rules still apply (no exclamation marks, no "cures").
+- **House style:** Reel 2's green #0D441F and lime #E0E64A with Poppins ExtraBold. Key words get a lime (or range-accent) highlighter.
+- **Stories:** Story 1's format, a full photo plus a two-option poll and a "tomorrow we share…" line.
+- **No red or orange on social** (12 Nov). Use green, lime and white, with navy kept only for Joints pieces. Orange and red stay on packaging only.
+- **Posts:** Post 1's layout (photo on top, review in a band below) in lime (green text), white (green or navy text) or green (white text, lime label).
+- **Less dark.** The first round was too dark. Mix in white and lime grounds and don't run more than one dark-green design in a row.
+- **Go easy on lime** (12 Nov). Lime is an accent: about one piece in ten, never two lime tiles side by side on the grid. Bands are mostly white or green.
+- **The reference feel is the Instagram mock-up in the PDF** (`brief/exports/X-ZONE-Social-Design-Direction.pdf`, page 6): Reels alternate the Reel A full-photo look and the Reel B white-panel look; carousel covers and single posts use the Post A to C layout; stories use Story A, or the white Story C look for joints, hands and text-heavy frames. Vary the photos so the grid never repeats a shot in a row.
+- **Reviews are quoted in full, word for word, from Judge.me**, with the reviewer's name as shown, "Verified review" and the product. Posts A to C use Maria G. (Joints Rub), Philippa C. (Sports Roll-On) and James H. (Sports Rub).
+- **Pending photos:** backyard cricket, Hooker Valley track, bush walk, two hands close-ups and the waterfront running shot were added but are not approved yet. The running shot is iStock, and the guidelines say no stock.
+
 ## Carried over from guidelines (form silent so far)
 These are the guidelines' rules. Each one is replaced if a later part of the form answers it.
 - Logo use, clear space, minimum sizes, avatar (black icon on white circle)
