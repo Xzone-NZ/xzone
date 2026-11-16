@@ -5,7 +5,7 @@ Copy comes from calendar/extra.json. Hooks, photos and reviews come from the can
 
 Run from the repo root:  python3 brief/exports/shopify-emails/_build.py
 """
-import json, re, html, os
+import json, re, html, os, datetime
 from PIL import Image
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
@@ -23,6 +23,7 @@ HEAD = "'Poppins', Arial, Helvetica, sans-serif"
 BODY = "Arial, Helvetica, sans-serif"
 SITE = 'https://www.xzone.nz/'
 SIGNOFF = 'Ngā mihi, Jess and Dan'
+NAME = 'Move Freely'  # the newsletter's name, shown under the logo
 
 # ---- shared images (the hero crops are already in images/) ----
 os.makedirs(f'{OUT}/images', exist_ok=True)
@@ -76,7 +77,10 @@ def build(e):
     # brand stripe + logo
     rows.append(f'<tr><td bgcolor="{G}" style="height:6px;line-height:6px;font-size:0;background-color:{G};">&nbsp;</td></tr>')
     rows.append(f'<tr><td bgcolor="{L}" style="height:3px;line-height:3px;font-size:0;background-color:{L};">&nbsp;</td></tr>')
-    rows.append(f'<tr><td align="center" style="padding:26px 0 24px;"><a href="{SITE}" target="_blank"><img src="{{{{ img }}}}xzone-email-logo.png" width="132" alt="X-ZONE New Zealand" style="display:block;width:132px;height:auto;border:0;"></a></td></tr>')
+    rows.append(f'<tr><td align="center" style="padding:26px 0 14px;"><a href="{SITE}" target="_blank"><img src="{{{{ img }}}}xzone-email-logo.png" width="132" alt="X-ZONE New Zealand" style="display:block;width:132px;height:auto;border:0;"></a></td></tr>')
+    d = datetime.date.fromisoformat(e['date'])
+    rows.append(f'<tr><td align="center" style="padding:0 20px 22px;"><p style="margin:0;font-family:{HEAD};font-size:20px;line-height:1.2;font-weight:800;color:{G};">{NAME}</p>'
+                f'<p style="margin:6px 0 0 0;font-family:{HEAD};font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:{MUTED};">No. {e["week"]:02d} &nbsp;<span style="color:{L};">&#9679;</span>&nbsp; {d.day} {d.strftime("%B %Y")}</p></td></tr>')
     # hero
     rows.append(f'<tr><td><a href="{href}" target="_blank"><img class="fluid" src="{{{{ img }}}}{hero_file}" width="600" alt="{esc(hook.replace("[[", "").replace("]]", ""))}" style="display:block;width:600px;max-width:100%;height:auto;border:0;"></a></td></tr>')
     # headline band
@@ -196,7 +200,7 @@ a {{ color:{G}; }}
 <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="{PAGE}" style="background-color:{PAGE};">
 <tr><td align="center" style="padding:18px 10px 28px;">
 <table role="presentation" class="w" width="600" border="0" cellpadding="0" cellspacing="0" style="width:600px;max-width:600px;">
-<tr><td class="px" style="padding:0 4px 12px;font-family:{BODY};font-size:12px;color:{MUTED};">{kind} &middot; Week {e["week"]}</td>
+<tr><td class="px" style="padding:0 4px 12px;font-family:{BODY};font-size:12px;color:{MUTED};">{NAME} &middot; No. {e["week"]:02d}</td>
 <td class="px" align="right" style="padding:0 4px 12px;font-family:{BODY};font-size:12px;"><a href="{SITE}" target="_blank" style="color:{MUTED};text-decoration:underline;">xzone.nz</a></td></tr>
 </table>
 <table role="presentation" class="w" width="600" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="width:600px;max-width:600px;background-color:#ffffff;">

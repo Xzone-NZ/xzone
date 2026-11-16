@@ -4,6 +4,8 @@ Thirteen ready-to-paste emails for Shopify Messaging (Shopify Email), built from
 
 ## The design
 
+The newsletter is called **Move Freely**. The name, issue number and send date sit under the logo (set `NAME` in `_build.py`). The approval page is `brief/exports/approval/move-freely-approval.html`; rebuild it with `python3 brief/exports/approval/_build.py`.
+
 Each email has: a green and lime brand stripe, the logo, a full-width hero photo, the headline with its button, an "In this issue" list, numbered lessons with a lime marker, the Instagram and Facebook week in a green box, a signature with Jess and Dan's photo, a five-star review, a Relief, Joints and Sports range card, the PS and a green footer. Campaigns (weeks 1, 4, 6 and 11) use a green headline band; newsletters use white. To change the layout, edit `_build.py` and run `python3 brief/exports/shopify-emails/_build.py` from the repo root.
 
 ## Set up once
