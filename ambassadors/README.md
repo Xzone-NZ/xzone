@@ -24,7 +24,7 @@ Live mock-up: https://claude.ai/artifact/4Mth5ByJpS4nTdkWobnJxA (first draft; re
 | Jasmine Marsters | `6af5a91a09e869a662dd3656` | `6af5af429b3fbcc1bc2fd62d` |
 | Mollie Allison | `6af5a922a3fba876f6bfa072` | `6af5af478810c41b3dd1dc1f` |
 
-Images load from the repo at commit ed4eb7f, so keep those files. Those drafts still show the earlier slides: re-point them at the current `instagram/` slides before scheduling.
+Images load from the repo at commit ed4eb7f, so keep those files. On 16 Nov the Instagram drafts were re-pointed at the black and red slides (`calendar/buffer/media/w7-amb-jasmine/` and `w10-amb-mollie/`, pinned to commit caa314e). The Facebook drafts keep the ambassador's main photo.
 
 ## Notion
 
