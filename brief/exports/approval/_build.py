@@ -14,6 +14,7 @@ rows, cards = [], []
 for e in emails:
     n = '%02d' % e['week']
     src = open(f'{EM}/xzone-email-w{n}.html').read()
+    src = re.sub(r'\{% comment %\}.*?\{% endcomment %\}\n?', '', src, flags=re.S)
     src = re.sub(r'\{%.*?%\}\n?', '', src)
     src = src.replace('{{ img }}', 'images/').replace('{{ unsubscribe_link }}', '#').replace('{{ open_tracking_block }}', '')
     src = src.replace('<head>', '<head><base target="_blank">', 1)
@@ -130,3 +131,15 @@ document.querySelectorAll('iframe').forEach(f => {{
 '''
 open(OUT, 'w').write(page)
 print(OUT, f'{len(page.encode())/1024:.0f} KB')
+
+# A single self-contained file (images embedded) to send or open offline.
+import base64
+def data_uri(m):
+    f = m.group(1); mime = 'image/png' if f.endswith('.png') else 'image/jpeg'
+    return 'data:%s;base64,%s' % (mime, base64.b64encode(open(f'{EM}/images/{f}', 'rb').read()).decode())
+solo = re.sub(r'images/(xzone-email-[a-z0-9-]+\.(?:jpg|png))', data_uri, page)
+solo = ('<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+        + solo.replace('\n<header', '\n</head>\n<body style="margin:0">\n<header', 1) + '</body>\n</html>\n')
+SOLO = OUT.replace('.html', '-standalone.html')
+open(SOLO, 'w').write(solo)
+print(SOLO, f'{len(solo.encode())/1024/1024:.1f} MB')
