@@ -1,6 +1,6 @@
 # X-ZONE emails for Shopify (custom-coded)
 
-Thirteen ready-to-paste emails for Shopify Messaging (Shopify Email), built from the designs on the canvas (Emails page). Each file is a complete custom-coded email: email-safe tables, inline styles, 600px wide, about 16 to 19 KB (Shopify allows 500 KB; Gmail clips above roughly 100 KB).
+Thirteen ready-to-paste emails for Shopify Messaging (Shopify Email), built from the designs on the canvas (Emails page). Each file is a complete custom-coded email: email-safe tables, inline styles, 600px wide, about 16 to 19 KB (Shopify allows 50 KB of code; Gmail clips above roughly 100 KB).
 
 ## The design
 
