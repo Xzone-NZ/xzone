@@ -1,10 +1,14 @@
 # X-ZONE emails for Shopify (custom-coded)
 
-Thirteen ready-to-paste emails for Shopify Messaging (Shopify Email), built from the designs on the canvas (Emails page). Each file is a complete custom-coded email: email-safe tables, inline styles, 600px wide, about 10 KB (Shopify allows 500 KB; Gmail clips above roughly 100 KB).
+Thirteen ready-to-paste emails for Shopify Messaging (Shopify Email), built from the designs on the canvas (Emails page). Each file is a complete custom-coded email: email-safe tables, inline styles, 600px wide, about 16 to 19 KB (Shopify allows 500 KB; Gmail clips above roughly 100 KB).
+
+## The design
+
+Each email has: a green and lime brand stripe, the logo, a full-width hero photo, the headline with its button, an "In this issue" list, numbered lessons with a lime marker, the Instagram and Facebook week in a green box, a signature with Jess and Dan's photo, a five-star review, a Relief, Joints and Sports range card, the PS and a green footer. Campaigns (weeks 1, 4, 6 and 11) use a green headline band; newsletters use white. To change the layout, edit `_build.py` and run `python3 brief/exports/shopify-emails/_build.py` from the repo root.
 
 ## Set up once
 
-1. **Upload the images.** In Shopify admin go to **Content > Files** and upload everything in `images/` (the logo and the 13 hero photos). Keep the file names.
+1. **Upload the images.** In Shopify admin go to **Content > Files** and upload everything in `images/` (the logo, the 13 hero photos, the founders photo and the range photo). Keep the file names.
 2. **Copy your Files folder address.** Copy the link of any uploaded image. Delete the file name and anything after it (including `?v=...`), so it ends in `/files/`. It looks like `https://cdn.shopify.com/s/files/1/0000/0000/0000/files/`.
 
 ## For each email
