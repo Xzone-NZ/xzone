@@ -78,3 +78,4 @@ tr:nth-child(even) td{background:#FAFBF8}
 .divider{height:1px;background:var(--line);margin:4mm 0}
 table.tight td{padding:1.3mm 2.5mm;font-size:8.3pt;line-height:1.45}
 table.tight th{padding:1.6mm 2.5mm}
+.compact .prompt{font-size:7.6pt;line-height:1.4;padding:3mm 4.5mm}

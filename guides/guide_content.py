@@ -438,7 +438,7 @@ def g2_p5(P):
     return f'''
 <div class="kicker">Once a week</div>
 <h2>What the weekly review <span class="hl">tells you</span></h2>
-<p class="lede">The scheduled task runs once a week and posts a short report. Read it at the start of the week and spend 15 minutes
+<p class="lede">The scheduled task runs every Monday morning and saves the review as a dated page in Notion. Read it at the start of the week and spend 15 minutes
 agreeing what to make. It covers six things.</p>
 <div class="grid2">
 <div class="card"><h3><span class="num">1</span>Do we need more content?</h3>
@@ -537,27 +537,81 @@ def g2_p7(P):
 def g2_p8(P):
     return f'''
 <div class="kicker">For whoever manages the scheduled task</div>
-<h2>The weekly review <span class="hl">prompt</span></h2>
-<p class="lede">Your scheduled task is already set up. Compare it with this version and copy across anything it's missing, so every review covers the same
-six points. Run it inside the Marketing Project with Notion and GitHub switched on, and web search on for the trends.</p>
-{P("""Run the weekly content ideas review for X-ZONE.
+<h2>Set up the weekly <span class="hl">review</span></h2>
+<p class="lede">Create the scheduled task once and it runs every Monday morning. Each run starts with no memory of earlier chats,
+so the prompt on the next page carries everything it needs: the Notion links, what to check and where the report goes.</p>
+<table>
+<tr><th style="width:28%">Setting</th><th>Use</th></tr>
+<tr><td><b>Name</b></td><td>Weekly Ideas Review</td></tr>
+<tr><td><b>Schedule</b></td><td>Weekly, Monday 7:45am, Pacific/Auckland time zone</td></tr>
+<tr><td><b>Where it runs</b></td><td>Inside the Marketing Project, so it has the Project's instructions</td></tr>
+<tr><td><b>Connectors and tools</b></td><td>Notion, GitHub (access to <code>Xzone-NZ/xzone</code>) and web search. Without web search it can't see what's trending.</td></tr>
+<tr><td><b>Notifications</b></td><td>Push or email on, so the team knows the review is ready</td></tr>
+<tr><td><b>Prompt</b></td><td>Copy the full prompt on page 09 exactly as written</td></tr>
+</table>
 
-1. Load the Role Card, Business Context and Brand Voice & Caption Guide from Notion (Head of Marketing), and brief/06-brand-spec.md and calendar/ from GitHub Xzone-NZ/xzone.
-2. Content health: compare the next two weeks of the Output Log and calendar against the targets (3 posts a week cross-posted to Facebook and Instagram, 1 email a week; monthly 4 Reels, 4 single posts, 4 carousels, 12 Facebook posts, 3 newsletters, 1 campaign email). List what's drafted, approved and missing.
-3. New ideas: for every idea in the Ideas database with Status New, recommend Shortlist, Park (with a reason), Merge (with which idea) or Needs detail. For each one to shortlist give the format, skill, range, pillar, a hook, a suggested week, and who is needed (Marketing Project, Jess, Dan, the team member building assets, an ambassador or customer). Fill in any blank fields. Do not change Status yourself.
-4. Backlog: flag Shortlisted ideas older than 3 weeks, and Parked ideas whose season has come back.
-5. Trending: search the web for what's coming up or trending in the next 4 weeks for a NZ natural pain relief brand: NZ seasons, sport and outdoor events, natural health and wellness topics, and formats working on Instagram and Facebook. Suggest up to 5 content ideas from it, add them to Ideas as New (Source: Head of Marketing), and say why each fits.
-6. Balance: flag gaps by range and pillar, and whether the mix keeps to 80% educate, 20% sell.
-7. End with this week's 3 to 5 actions, each with an owner.
+<h3>What you get each Monday</h3>
+<p>A Notion page under Head of Marketing called <b>"Weekly Ideas Review: [date]"</b>, under 400 words, with a link to each idea it mentions.
+The new trend ideas are already added to the Ideas database as New, and there's a line in the Activity Log.</p>
 
-Rules: never suggest an offer Jess and Dan haven't set; anything on te reo Māori or rongoā rākau needs cultural review; keep to the Claims rules. Keep the report under 400 words. Add one line to the Activity Log.""", "Weekly review prompt")}
-<div class="grid2">
+<div class="grid2" style="margin-top:4mm">
 <div class="card"><h3>Good to know</h3>
-<ul style="margin:0"><li>The review recommends; people decide. It does not shortlist or park on its own.</li>
+<ul style="margin:0"><li>The review recommends; people decide. It never changes an idea's Status.</li>
+<li>It can fill in blank Format, Pillar, Range and Hook fields on New ideas.</li>
 <li>It can only see trends if web search is on for the task.</li>
-<li>If Notion or GitHub isn't connected when it runs, it should say so and stop.</li></ul></div>
+<li>If Notion or GitHub doesn't load, it says which one and stops.</li>
+<li>It never publishes, schedules or sends anything.</li></ul></div>
 <div class="card"><h3>Weekly 15-minute routine</h3>
-<ol style="margin:0"><li>Read the review.</li><li>Agree shortlist and park calls.</li><li>Book anyone needed on camera.</li><li>Ask the Project to plan the week.</li><li>Send the approval batch to Jess and Dan.</li></ol></div>
+<ol style="margin:0"><li>Open the Monday review page in Notion.</li><li>Agree shortlist and park calls.</li><li>Book anyone needed on camera.</li><li>Ask the Project to plan the week.</li><li>Send the approval batch to Jess and Dan.</li></ol></div>
+</div>
+<div class="note green" style="margin-top:4mm"><b>Changing it later:</b> if the targets, the team or the skills change, update the prompt in the scheduled task as well as this guide, so the two stay the same.</div>
+'''
+
+
+def g2_p9(P):
+    return f'''
+<div class="kicker">Copy into the scheduled task</div>
+<h2>The weekly review <span class="hl">prompt</span></h2>
+<div class="compact">
+{P("""Run the weekly content ideas review for X-ZONE, a New Zealand natural pain-relief brand (Relief, Joints and Sports ranges, made with NZ native herbs). You are acting as the Head of Marketing. This is a recommendation report for the team: do not publish, schedule or send anything, and do not change any idea's Status.
+
+1. LOAD CONTEXT
+Fetch from Notion: the Head of Marketing hub (https://app.notion.com/p/Head-of-Marketing-416952099f2581b9a90ce335ec6b3295), then the Role Card, Business Context, Brand Voice & Caption Guide, the Output Log (under Outputs) and the Ideas database (https://app.notion.com/p/777c8288fbaa42098e1708801aded374).
+From GitHub Xzone-NZ/xzone (default branch): brief/06-brand-spec.md, brief/open-questions.md, calendar/README.md and calendar/selection.json.
+If Notion or GitHub fails to load, stop and say which one failed. Do not work from memory.
+
+2. CONTENT HEALTH
+Compare the next two weeks of the Output Log and calendar against the targets: 3 posts a week cross-posted to Facebook and Instagram, and 1 email a week. Monthly: 4 Reels, 4 single-image posts, 4 carousels, 12 Facebook posts, 3 newsletters and 1 campaign email. List what's drafted, what's approved and what's missing. Say plainly whether we need more content, and how much.
+
+3. NEW IDEAS
+For every idea with Status "New", recommend one of: Shortlist, Park (give the reason), Merge (name the idea to merge it into) or Needs detail (say what's missing).
+For each idea you recommend shortlisting, give:
+- Format and the skill to use (Weekly Social Content Set, Instagram Posts, Facebook Posts, Reels, Stories, Campaign Email Sequence, Testimonial to Graphic, Brand Ambassador Posts, Stockist Marketing Pack)
+- Range, pillar and a draft hook
+- A suggested week
+- Who is needed: the Marketing Project (drafts all copy), Jess (on camera, herbs, the horse-rub story, garden), Dan (on camera, voiceovers, founders story, sport), the team member building assets (Canva, filming, scheduling), an ambassador, or a customer
+You may fill in blank Format, Pillar, Range and Hook fields on New ideas. Leave Status as it is.
+
+4. BACKLOG
+Flag Shortlisted ideas more than 3 weeks old (make or park?) and Parked ideas whose season has come back.
+
+5. TRENDING
+Search the web for what's coming up or trending in the next 4 weeks that a NZ natural pain-relief brand could create content for: NZ seasons and public holidays, sport and outdoor events (tramping, cricket, multisport, running), natural health and wellness topics people are searching for, and content formats working on Instagram and Facebook right now. Suggest up to 5 content ideas from this. Add each one to the Ideas database with Status New, Source "Head of Marketing", format, range, pillar and a hook, and in one line say why it fits X-ZONE.
+
+6. BALANCE
+Flag gaps by range (Relief, Joints, Sports) and pillar, any repetition, and whether the mix keeps to 80% educate, 20% sell.
+
+7. ACTIONS
+End with this week's 3 to 5 actions, each with an owner.
+
+RULES
+- Never suggest an offer, discount, bundle, code or free shipping that Jess and Dan haven't set.
+- Anything on te reo Māori or rongoā rākau needs cultural review and Jess and Dan's sign-off.
+- Hooks follow the claims rules: "supports", "helps", "traditionally used"; never "cures" or "proven". NZ spelling. No emoji. No exclamation marks in headlines.
+- Never invent an answer to an item in brief/open-questions.md. Flag it instead.
+
+OUTPUT
+Create a Notion page under Head of Marketing called "Weekly Ideas Review: " followed by today's date (for example "Weekly Ideas Review: 16 Nov 2026"), with the sections above, under 400 words, linking each idea you mention. Then add one line to the Activity Log with a link to that page. Finish your reply with the page link and the 3 to 5 actions.""", "Weekly review prompt: copy all of it")}
 </div>
 '''
 
@@ -587,6 +641,6 @@ GUIDES = [
             "sub": "How to drop ideas into the Ideas database, what the weekly review tells you, who makes what, and how to act on it.",
             "for": "the X-ZONE marketing team", "version": "November 2026",
         },
-        "pages": [g2_p2, g2_p3, g2_p4, g2_p5, g2_p6, g2_p7, g2_p8],
+        "pages": [g2_p2, g2_p3, g2_p4, g2_p5, g2_p6, g2_p7, g2_p8, g2_p9],
     },
 ]
