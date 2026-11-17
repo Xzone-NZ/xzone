@@ -16,4 +16,6 @@
 - Preview style is the approved Round 2 social style (see `brief/06-brand-spec.md`, Social design direction).
 
 Live page: https://claude.ai/artifact/MBFynFP4giMK47gpidW4rM
+
+**Review layer (16 Nov 2026):** every post, email and story on the live page has Approve / Needs changes and a note box. Feedback is stored in the artifact's database: `reviews/<viewer id>` holds `items.<piece id> = {status, note, at}` (each reviewer writes only their own doc), and `replies/<piece id> = {text, at}` holds answers from Reclaim Co (owner only), shown under the feedback. Read it with the ArtifactData tool, apply changes to the content files, rebuild and republish to the same URL with the same `capabilities`. Jess and Dan need Contributor access in the page's Share menu to leave feedback.
 Feed mock-up (built by the same build.py from feed-template.html): https://claude.ai/artifact/6BxDXBEPrE5kgjmoraMDmu

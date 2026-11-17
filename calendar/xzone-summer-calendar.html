@@ -201,6 +201,52 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--deep);color:#fff;padding:9px 16px;border-radius:999px;font-size:13px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:30}
 .toast.on{opacity:1}
 @media (prefers-reduced-motion:reduce){.toast{transition:none}}
+
+/* ---------- review layer: Jess and Dan approve or ask for changes on every piece; feedback is shared and read back by Reclaim Co ---------- */
+:root{--ok:#1d7a3e;--okbg:#e3f2e7;--chg:#c2381b;--chgbg:#fbe6e0;--wait:#8a948c}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ok:#7fd49a;--okbg:#17321f;--chg:#ff9a80;--chgbg:#3a1d16;--wait:#7d8a80}}
+:root[data-theme="dark"]{--ok:#7fd49a;--okbg:#17321f;--chg:#ff9a80;--chgbg:#3a1d16;--wait:#7d8a80}
+.rvbar{display:grid;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.rvbar .rvtop{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:baseline;justify-content:space-between}
+.rvbar h2{font-size:16px;font-weight:700}
+.rvbar p{margin:0;font-size:13px;color:var(--muted);max-width:80ch}
+.rvbar .who{font-size:13px;color:var(--muted)}
+.rvbar .who b{color:var(--fg)}
+.meter{display:flex;height:8px;border-radius:99px;overflow:hidden;background:var(--chip)}
+.meter i{display:block;height:100%}
+.meter .m-ok{background:var(--ok)}.meter .m-chg{background:var(--chg)}
+.legend{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.legend span::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;background:var(--chip);vertical-align:1px}
+.legend .l-ok::before{background:var(--ok)}.legend .l-chg::before{background:var(--chg)}
+.rvnote{font-size:12px;border-radius:8px;padding:8px 10px;background:var(--soft);color:var(--fg)}
+.rv{display:flex;flex-wrap:wrap;gap:4px;min-height:18px}
+.rvp{font-size:10.5px;font-weight:600;padding:2px 7px;border-radius:99px;border:1px solid var(--line);color:var(--wait);background:var(--card);line-height:1.4}
+.rvp.ok{color:var(--ok);background:var(--okbg);border-color:transparent}
+.rvp.chg{color:var(--chg);background:var(--chgbg);border-color:transparent}
+.rvp.cm{color:var(--fg);background:var(--chip);border-color:transparent}
+.slot.s-chg{border-color:var(--chg);box-shadow:inset 0 0 0 1px var(--chg)}
+.slot.s-ok{border-color:var(--ok)}
+.story .rv{min-height:0}
+.wrv{font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted);margin-top:2px}
+.wrv b.ok{color:var(--ok)}.wrv b.chg{color:var(--chg)}
+.rvbox{display:grid;gap:10px;border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:var(--bg)}
+.rvbox h4{margin:0;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.rvbtns{display:flex;flex-wrap:wrap;gap:8px}
+.rvbtns button{font:600 13px/1 var(--font);border:1.5px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:10px 16px;cursor:pointer}
+.rvbtns button[data-rvs="approved"][aria-pressed="true"]{background:var(--ok);border-color:var(--ok);color:var(--card)}
+.rvbtns button[data-rvs="changes"][aria-pressed="true"]{background:var(--chg);border-color:var(--chg);color:var(--card)}
+.rvbox label{font-size:12px;color:var(--muted)}
+.rvbox textarea{font:400 13.5px/1.5 var(--font);color:var(--fg);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;resize:vertical;min-height:76px;width:100%}
+.rvbox textarea:focus-visible{outline:2px solid var(--sun);outline-offset:1px}
+.rvrow{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.rvlist{display:grid;gap:8px}
+.rvitem{display:grid;grid-template-columns:28px 1fr;gap:10px;font-size:13px}
+.rvitem img{width:28px;height:28px;border-radius:50%}
+.rvitem .nm{font-weight:600}
+.rvitem .tx{white-space:pre-line}
+.rvitem .tm{font-size:11px;color:var(--muted)}
+.rvreply{border-left:3px solid var(--rule);padding:4px 0 4px 10px;font-size:13px;white-space:pre-line}
+.rvreply b{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 </style>
 
 <div class="wrap">
@@ -209,6 +255,12 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
     <h1>Summer content calendar</h1>
     <p class="lede">Thirteen weeks, 23 November 2026 to 21 February 2027, at the pace Jess and Dan asked for: three posts a week on Instagram and Facebook (a carousel on Monday, a Reel on Wednesday, a single post on Friday), one email a week, and a couple of light stories. Click anything to open the full piece: every slide, the Reel shot list, the caption or email copy, what to shoot, and what to confirm before it goes live.</p>
     <div class="stats" id="stats"></div>
+    <section class="rvbar" id="rvbar" aria-live="polite">
+      <div class="rvtop"><h2>Review and feedback</h2><span class="who" id="rvwho">Loading feedback…</span></div>
+      <p>Open any post, email or story and choose <b>Approve</b> or <b>Needs changes</b>, with a note if you like. Jess and Dan each see the other's feedback, and Reclaim Co reads it straight from this page, so there is nothing to send. Please start with weeks 1 to 4: week 1 goes live on Monday 23 November.</p>
+      <div class="meter" id="rvmeter" aria-hidden="true"></div>
+      <div class="legend" id="rvlegend"></div>
+    </section>
   </header>
 
   <div class="bar">
@@ -319,36 +371,38 @@ function tags(p){
 
 // ---------- render ----------
 let FILTER='all';
-const match=p=>FILTER==='all'||(FILTER==='reel'&&p.template==='reel')||(FILTER==='promo'&&p.kind==='Promo')||(FILTER==='fb'&&/fb only/i.test(p.where))||(FILTER==='carousel'&&p.template==='carousel')||(FILTER==='single'&&!['reel','carousel'].includes(p.template))||(FILTER==='flags'&&(p.flags||[]).length);
+const RVF=['todo','changes'];
+const match=p=>FILTER==='all'||RVF.includes(FILTER)||(FILTER==='reel'&&p.template==='reel')||(FILTER==='promo'&&p.kind==='Promo')||(FILTER==='fb'&&/fb only/i.test(p.where))||(FILTER==='carousel'&&p.template==='carousel')||(FILTER==='single'&&!['reel','carousel'].includes(p.template))||(FILTER==='flags'&&(p.flags||[]).length);
 function render(){
   const root=$('#weeks');root.innerHTML='';
   D.weeks.forEach(w=>{
     const start=w.posts[0].date;const monday=addDays(start,-DAYS.indexOf(w.posts[0].day));
     const promo=w.posts.filter(p=>p.kind==='Promo').length;
-    let html=`<section class="week" id="week-${w.week}"><div class="whead"><div><span class="wn">Week ${w.week}</span><h2>${esc(w.theme)}</h2></div><div class="wmeta">${esc(w.dates)}<br>${w.posts.length} posts (${promo} promo) · ${(w.emails||[]).length} email · ${w.stories.length} stories</div></div><div class="days">`;
+    let html=`<section class="week" id="week-${w.week}"><div class="whead"><div><span class="wn">Week ${w.week}</span><h2>${esc(w.theme)}</h2></div><div class="wmeta">${esc(w.dates)}<br>${w.posts.length} posts (${promo} promo) · ${(w.emails||[]).length} email · ${w.stories.length} stories<div class="wrv" data-wk="${w.week}"></div></div></div><div class="days">`;
     DAYS.forEach((d,i)=>{
       const date=addDays(monday,i);
       const ps=w.posts.filter(p=>p.date===date);
       const es=(w.emails||[]).filter(e=>e.date===date);
       html+=`<div class="day"><div class="dlab"><span>${d}</span><span>${fmtDate(date)}</span></div>`;
       if(!ps.length&&!es.length) html+=`<div class="rest">${i===6?'Rest day. Reply to comments and DMs only.':'No post. Reply to comments and messages.'}</div>`;
-      es.forEach(e=>{const show=FILTER==='all'||FILTER==='emails'||(FILTER==='promo'&&e.type==='campaign')||(FILTER==='flags'&&(e.flags||[]).length);html+=`<button class="slot email ${e.type==='campaign'?'promo':''}" data-eid="${esc(e.id)}" ${show?'':'hidden'} aria-label="Email: ${esc(e.title)}">${emailPv(e)}<div class="info"><div class="tags"><span class="tg em">Email · ${e.type==='campaign'?'Campaign':'Newsletter'}</span>${e.type==='campaign'?'<span class="tg pr">Promo</span>':''}</div><div class="t">${esc(e.title)}</div><div class="a">${esc(e.subject)}</div></div></button>`});
-      ps.forEach(p=>{const show=match(p);html+=`<button class="slot ${p.kind==='Promo'?'promo':''}" data-id="${esc(p.id)}" ${show?'':'hidden'} aria-label="${esc(p.title)}">${preview(p)}<div class="info">${tags(p)}<div class="t">${esc(p.title)}</div><div class="a">${esc(p.about)}</div></div></button>`});
+      es.forEach(e=>{const show=FILTER==='all'||RVF.includes(FILTER)||FILTER==='emails'||(FILTER==='promo'&&e.type==='campaign')||(FILTER==='flags'&&(e.flags||[]).length);html+=`<button class="slot email ${e.type==='campaign'?'promo':''}" data-eid="${esc(e.id)}" ${show?'':'hidden'} aria-label="Email: ${esc(e.title)}">${emailPv(e)}<div class="info"><div class="rv" data-rv="${esc(e.id)}"></div><div class="tags"><span class="tg em">Email · ${e.type==='campaign'?'Campaign':'Newsletter'}</span>${e.type==='campaign'?'<span class="tg pr">Promo</span>':''}</div><div class="t">${esc(e.title)}</div><div class="a">${esc(e.subject)}</div></div></button>`});
+      ps.forEach(p=>{const show=match(p);html+=`<button class="slot ${p.kind==='Promo'?'promo':''}" data-id="${esc(p.id)}" ${show?'':'hidden'} aria-label="${esc(p.title)}">${preview(p)}<div class="info"><div class="rv" data-rv="${esc(p.id)}"></div>${tags(p)}<div class="t">${esc(p.title)}</div><div class="a">${esc(p.about)}</div></div></button>`});
       html+=`</div>`;
     });
     html+=`</div>`;
-    if(w.stories.length&&(FILTER==='all'||FILTER==='stories')) html+=`<div class="stories"><h3>Stories this week</h3><div class="srow">${w.stories.map(s=>`<button class="story" data-sid="${esc(s.id)}" aria-label="Story: ${esc(s.text)}">${storyPv(s)}<span class="sd">${esc(s.day)} · ${esc(SLAB[s.type]||s.type)}</span></button>`).join('')}</div></div>`;
+    if(w.stories.length&&(FILTER==='all'||FILTER==='stories'||RVF.includes(FILTER))) html+=`<div class="stories"><h3>Stories this week</h3><div class="srow">${w.stories.map(s=>`<button class="story" data-sid="${esc(s.id)}" aria-label="Story: ${esc(s.text)}">${storyPv(s)}<span class="sd">${esc(s.day)} · ${esc(SLAB[s.type]||s.type)}</span><div class="rv" data-rv="${esc(s.id)}"></div></button>`).join('')}</div></div>`;
     html+=`</section>`;
     root.insertAdjacentHTML('beforeend',html);
   });
   if(FILTER==='stories') document.querySelectorAll('.slot').forEach(e=>e.hidden=true);
   if(FILTER==='emails') document.querySelectorAll('.slot:not(.email)').forEach(e=>e.hidden=true);
+  paintReview();
 }
 function stats(){
   const c=k=>all.filter(k).length;
   const items=[[all.length,'posts, all on IG and FB'],[c(p=>p.template==='reel'),'Reels'],[c(p=>p.template==='carousel'),'carousels'],[c(p=>!['reel','carousel'].includes(p.template)),'single posts'],[mails.length,'emails ('+mails.filter(e=>e.type==='campaign').length+' campaigns)'],[stories.length,'stories'],[c(p=>(p.flags||[]).length)+mails.filter(e=>(e.flags||[]).length).length,'with items to confirm']];
   $('#stats').innerHTML=items.map(([n,l])=>`<div class="stat"><b>${n}</b>${l}</div>`).join('');
-  const F=[['all','Everything'],['reel','Reels'],['carousel','Carousels'],['single','Single posts'],['emails','Emails'],['promo','Promo'],['stories','Stories'],['flags','Needs confirming']];
+  const F=[['all','Everything'],['reel','Reels'],['carousel','Carousels'],['single','Single posts'],['emails','Emails'],['promo','Promo'],['stories','Stories'],['flags','Needs confirming'],['todo','Not reviewed yet'],['changes','Changes asked']];
   $('#filters').insertAdjacentHTML('beforeend',F.map(([k,l])=>`<button class="chipbtn" data-f="${k}" aria-pressed="${k==='all'}">${l}</button>`).join(''));
   $('#weeknav').insertAdjacentHTML('beforeend',D.weeks.map(w=>`<a class="wkl" href="#week-${w.week}">Wk ${w.week}</a>`).join(''));
 }
@@ -373,7 +427,7 @@ function open(p){
   r+=`<div class="sec"><h4>Caption</h4><div class="cap" id="captext">${hashCap(full)}</div><button class="copy" id="copycap">Copy caption</button></div>`;
   r+=`<div class="sec"><h4>Photo or footage to capture</h4><p style="margin:0">${esc(p.shoot)}</p><div class="hint">Preview uses a stand-in from the photos we have now.</div></div>`;
   if((p.flags||[]).length) r+=`<div class="sec flagbox"><h4>Confirm with Jess and Dan before posting</h4><ul class="flags">${p.flags.map(f=>`<li>${esc(f)}</li>`).join('')}</ul></div>`;
-  $('#pright').innerHTML=r;
+  $('#pright').innerHTML=r;mountReview(p.id);
   $('#copycap').onclick=async()=>{try{await navigator.clipboard.writeText(full);toast('Caption copied')}catch(e){const rg=document.createRange();rg.selectNodeContents($('#captext'));const sl=getSelection();sl.removeAllRanges();sl.addRange(rg);toast('Caption selected. Press copy.')}};
   $('#ov').hidden=false;$('#close').focus();
 }
@@ -383,13 +437,14 @@ function openEmail(e){
   let r=`<h3 id="ptitle">${esc(e.title)}</h3><div class="hint">Week ${e._w} · ${esc(e.day)} ${fmtDate(e.date)} · Shopify Messaging · ${e.type==='campaign'?'Campaign email':'Newsletter'}</div><p style="margin:0">${esc(e.about)}</p><dl class="kv"><dt>Subject</dt><dd><b>${esc(e.subject)}</b></dd><dt>Preview text</dt><dd>${esc(e.preheader)}</dd><dt>Button</dt><dd>${esc(e.cta&&e.cta.label)}</dd></dl>`;
   r+=`<div class="sec"><h4>Email copy</h4>${(e.sections||[]).map(s=>`<div class="esec"><b>${esc(s.h)}</b><span>${esc(s.b)}</span></div>`).join('')}${e.review?`<div class="esec"><b>Review</b><span>"${esc(e.review.quote)}" ${esc(e.review.name)}</span></div>`:''}${e.ps?`<div class="esec"><b>PS</b><span>${esc(e.ps)}</span></div>`:''}</div><button class="copy" id="copyem">Copy email text</button>`;
   if((e.flags||[]).length) r+=`<div class="sec flagbox"><h4>Confirm with Jess and Dan before sending</h4><ul class="flags">${e.flags.map(f=>`<li>${esc(f)}</li>`).join('')}</ul></div>`;
-  $('#pright').innerHTML=r;
+  $('#pright').innerHTML=r;mountReview(e.id);
   $('#copyem').onclick=async()=>{try{await navigator.clipboard.writeText(txt);toast('Email text copied')}catch(_){toast('Copy blocked. Select the text instead.')}};
   $('#ov').hidden=false;$('#close').focus();
 }
 function openStory(s){
   $('#pleft').innerHTML=`<div style="max-width:300px">${storyPv(s)}</div>`;
   $('#pright').innerHTML=`<h3 id="ptitle">Story: ${esc(SLAB[s.type]||s.type)}</h3><div class="hint">Week ${s._w} · ${esc(s.day)}</div><div class="sec"><h4>On the frame</h4><p style="margin:0">${esc(s.text)}</p></div>${(s.options||[]).length?`<div class="sec"><h4>Options</h4><ol class="flags">${s.options.map(o=>`<li>${esc(o)}</li>`).join('')}</ol></div>`:''}<div class="sec"><h4>How to run it</h4><p style="margin:0">${esc(s.note)}</p></div>`;
+  mountReview(s.id);
   $('#ov').hidden=false;$('#close').focus();
 }
 let lastFocus=null;
@@ -402,7 +457,99 @@ document.addEventListener('click',e=>{
   if(e.target.id==='ov'||e.target.id==='close')close_();
 });
 function close_(){$('#ov').hidden=true;if(lastFocus)lastFocus.focus()}
-document.addEventListener('keydown',e=>{if($('#ov').hidden)return;if(e.key==='Escape')close_();if(e.key==='ArrowRight'&&ORDER.length&&!e.target.closest('.slides')){POS=(POS+1)%ORDER.length;open(all.find(p=>p.id===ORDER[POS]))}if(e.key==='ArrowLeft'&&ORDER.length&&!e.target.closest('.slides')){POS=(POS-1+ORDER.length)%ORDER.length;open(all.find(p=>p.id===ORDER[POS]))}});
+document.addEventListener('keydown',e=>{if($('#ov').hidden)return;if(e.key==='Escape')close_();if(e.target.closest('textarea,input'))return;if(e.key==='ArrowRight'&&ORDER.length&&!e.target.closest('.slides')){POS=(POS+1)%ORDER.length;open(all.find(p=>p.id===ORDER[POS]))}if(e.key==='ArrowLeft'&&ORDER.length&&!e.target.closest('.slides')){POS=(POS-1+ORDER.length)%ORDER.length;open(all.find(p=>p.id===ORDER[POS]))}});
 let tt;function toast(t){const el=$('#toast');el.textContent=t;el.classList.add('on');clearTimeout(tt);tt=setTimeout(()=>el.classList.remove('on'),1600)}
+// ---------- review layer ----------
+// Shared store: reviews/<viewer id> = {items:{<piece id>:{status:'approved'|'changes'|'', note, at}}}, one doc per reviewer, each writes only their own.
+// replies/<piece id> = {text, at}: answers from Reclaim Co, written by the owner.
+const RV={db:null,user:null,me:null,write:false,state:'loading',docs:{},replies:{},names:{},draft:{},open:null,saving:false};
+const ITEMS=[];D.weeks.forEach(w=>{w.posts.forEach(p=>ITEMS.push({id:p.id,w:w.week}));(w.emails||[]).forEach(e=>ITEMS.push({id:e.id,w:w.week}));w.stories.forEach(s=>ITEMS.push({id:s.id,w:w.week}))});
+function entries(id){const out=[];for(const [uid,d] of Object.entries(RV.docs)){const v=d&&d.items&&d.items[id];if(v&&(v.status||v.note))out.push({uid,...v})}return out.sort((a,b)=>String(a.at).localeCompare(String(b.at)))}
+function agg(id){const es=entries(id);if(es.some(e=>e.status==='changes'))return 'changes';if(es.some(e=>e.status==='approved'))return 'approved';if(es.length)return 'comment';return ''}
+function mine(id){const d=RV.me&&RV.docs[RV.me];return (d&&d.items&&d.items[id])||{status:'',note:''}}
+const first=n=>(n||'').trim().split(/\s+/)[0]||'Someone';
+const nm=uid=>uid===RV.me?'You':first(RV.names[uid]&&RV.names[uid].name);
+const when=at=>{if(!at)return '';const d=new Date(at);return d.getDate()+' '+MON[d.getMonth()]+', '+d.toLocaleTimeString([], {hour:'numeric',minute:'2-digit'})};
+async function resolveNames(){if(!RV.user)return;const ids=Object.keys(RV.docs);if(RV.me&&!ids.includes(RV.me))ids.push(RV.me);if(!ids.length)return;try{RV.names=await RV.user.profiles(ids)}catch(_){}}
+function chips(id){
+  const es=entries(id);
+  if(!es.length) return RV.state==='ready'?'<span class="rvp">Not reviewed</span>':'';
+  return es.map(e=>{const c=e.status==='approved'?'ok':e.status==='changes'?'chg':'cm';const l=e.status==='approved'?'approved':e.status==='changes'?'wants changes':'left a note';return `<span class="rvp ${c}">${esc(nm(e.uid))} ${l}${e.note&&e.status?' + note':''}</span>`}).join('');
+}
+function paintReview(){
+  document.querySelectorAll('[data-rv]').forEach(el=>{const id=el.dataset.rv;el.innerHTML=chips(id);const s=agg(id);const card=el.closest('.slot');if(card){card.classList.toggle('s-chg',s==='changes');card.classList.toggle('s-ok',s==='approved')}});
+  if(RVF.includes(FILTER)){
+    const keep=id=>FILTER==='changes'?agg(id)==='changes':(RV.me&&RV.write?!mine(id).status:!agg(id));
+    document.querySelectorAll('.slot').forEach(el=>el.hidden=!keep(el.dataset.id||el.dataset.eid));
+    document.querySelectorAll('.story').forEach(el=>el.hidden=!keep(el.dataset.sid));
+    document.querySelectorAll('.stories').forEach(el=>el.hidden=![...el.querySelectorAll('.story')].some(x=>!x.hidden));
+  }
+  D.weeks.forEach(w=>{const el=document.querySelector(`[data-wk="${w.week}"]`);if(!el)return;const its=ITEMS.filter(i=>i.w===w.week);const ok=its.filter(i=>agg(i.id)==='approved').length,ch=its.filter(i=>agg(i.id)==='changes').length;el.innerHTML=RV.state==='ready'?`<b class="ok">${ok} approved</b> · <b class="chg">${ch} changes</b> · ${its.length-ok-ch} to review`:''});
+  const n=ITEMS.length,ok=ITEMS.filter(i=>agg(i.id)==='approved').length,ch=ITEMS.filter(i=>agg(i.id)==='changes').length;
+  const f4=ITEMS.filter(i=>i.w<=4),f4done=f4.filter(i=>['approved','changes'].includes(agg(i.id))).length;
+  $('#rvmeter').innerHTML=`<i class="m-ok" style="width:${ok/n*100}%"></i><i class="m-chg" style="width:${ch/n*100}%"></i>`;
+  $('#rvlegend').innerHTML=`<span class="l-ok">${ok} approved</span><span class="l-chg">${ch} changes asked</span><span>${n-ok-ch} not reviewed</span><span>Weeks 1 to 4: ${f4done} of ${f4.length} decided</span>`;
+  const who=$('#rvwho');
+  if(RV.state==='loading') who.textContent='Loading feedback…';
+  else if(RV.state==='off') who.textContent='Feedback is not available in this view. Open the page on claude.ai, signed in.';
+  else if(!RV.write) who.innerHTML='You can read the feedback. To leave your own, ask the owner for <b>Contributor</b> access in Share.';
+  else {const mineN=ITEMS.filter(i=>mine(i.id).status).length;who.innerHTML=`Reviewing as <b>${esc(first(RV.names[RV.me]&&RV.names[RV.me].name)||'you')}</b> · you have decided ${mineN} of ${n}`}
+  if(RV.open&&!$('#ov').hidden) paintBox();
+}
+function mountReview(id){
+  RV.open=id;
+  const box=document.createElement('div');box.className='rvbox';box.id='rvbox';
+  const hint=$('#pright .hint');if(hint)hint.after(box);else $('#pright').prepend(box);
+  paintBox(true);
+}
+function paintBox(fresh){
+  const box=$('#rvbox');if(!box)return;const id=RV.open,m=mine(id);
+  const others=entries(id).filter(e=>e.uid!==RV.me);
+  const rep=RV.replies[id];
+  const list=others.length?`<div class="rvlist">${others.map(e=>{const p=RV.names[e.uid]||{};const l=e.status==='approved'?'Approved':e.status==='changes'?'Needs changes':'Note';return `<div class="rvitem"><img src="${esc(p.avatarUrl||'')}" alt=""><div><span class="nm">${esc(nm(e.uid))}</span> <span class="rvp ${e.status==='approved'?'ok':e.status==='changes'?'chg':'cm'}">${l}</span><div class="tx">${esc(e.note||'')}</div><div class="tm">${when(e.at)}</div></div></div>`}).join('')}</div>`:'';
+  const reply=rep&&rep.text?`<div class="rvreply"><b>Reply from Reclaim Co${rep.at?' · '+when(rep.at):''}</b>${esc(rep.text)}</div>`:'';
+  if(RV.state!=='ready'||!RV.write){
+    box.innerHTML=`<h4>Feedback</h4>${list||`<div class="hint">${RV.state==='loading'?'Loading feedback…':'No feedback on this piece yet.'}</div>`}${reply}${RV.state==='ready'&&!RV.write?'<div class="hint">To leave your own feedback, ask the owner for Contributor access in Share.</div>':''}`;
+    return;
+  }
+  const ta=$('#rvnote');const keepTyping=!fresh&&ta&&document.activeElement===ta;
+  const btns=`<div class="rvbtns" role="group" aria-label="Your decision"><button data-rvs="approved" aria-pressed="${m.status==='approved'}">Approve</button><button data-rvs="changes" aria-pressed="${m.status==='changes'}">Needs changes</button></div>`;
+  if(keepTyping){box.querySelector('.rvbtns').outerHTML=btns;const o=box.querySelector('.rvothers');if(o)o.innerHTML=list+reply;return}
+  const val=RV.draft[id]!=null?RV.draft[id]:(m.note||'');
+  box.innerHTML=`<h4>Your review</h4>${btns}<label for="rvnote">Note for Reclaim Co: what to change, or an answer to anything in the confirm list</label><textarea id="rvnote" rows="3" placeholder="e.g. Swap the photo for one of us at the market. Old prices end 20 Dec.">${esc(val)}</textarea><div class="rvrow"><button class="copy" id="rvsave">Save note</button><span class="hint" id="rvmsg">${m.at?'Saved '+when(m.at):''}</span></div><div class="rvothers">${list}${reply}</div>`;
+}
+async function saveReview(patch){
+  if(!RV.write||RV.saving)return;const id=RV.open;const cur=mine(id);
+  const v={status:patch.status!=null?patch.status:(cur.status||''),note:patch.note!=null?patch.note:(cur.note||''),at:new Date().toISOString()};
+  RV.saving=true;const msg=$('#rvmsg');if(msg)msg.textContent='Saving…';
+  const ref=RV.db.doc('reviews/'+RV.me);
+  try{
+    if(RV.docs[RV.me]) await ref.update({items:{[id]:v}});
+    else await ref.set({items:{[id]:v}});
+    RV.docs[RV.me]={items:{...((RV.docs[RV.me]||{}).items||{}),[id]:v}};
+    delete RV.draft[id];
+    toast(v.status==='approved'?'Approved':v.status==='changes'?'Marked as needs changes':'Note saved');
+  }catch(e){
+    if(e&&e.code==='invalid_argument'){RV.write=false;toast('Your access is read-only. Ask for Contributor access.')}
+    else toast('Could not save. Check your connection and try again.');
+  }finally{RV.saving=false;paintReview()}
+}
+document.addEventListener('click',e=>{
+  const b=e.target.closest('[data-rvs]');if(b){const m=mine(RV.open);const s=b.dataset.rvs===m.status?'':b.dataset.rvs;const ta=$('#rvnote');saveReview({status:s,note:ta?ta.value:undefined});return}
+  if(e.target.id==='rvsave'){const ta=$('#rvnote');saveReview({note:ta?ta.value:''})}
+});
+document.addEventListener('input',e=>{if(e.target.id==='rvnote'){RV.draft[RV.open]=e.target.value;const msg=$('#rvmsg');if(msg)msg.textContent='Not saved yet'}});
+(async function initReview(){
+  const C=window.claude;
+  if(!C||!C.use){RV.state='off';paintReview();return}
+  const timer=setTimeout(()=>{if(RV.state==='loading'){RV.state='off';paintReview()}},10000);
+  let db=null,user=null;try{[db,user]=await Promise.all([C.use('db'),C.use('user')])}catch(_){}
+  if(!db){clearTimeout(timer);RV.state='off';paintReview();return}
+  RV.db=db;RV.user=user;
+  if(user){try{RV.me=await user.id()}catch(_){}try{const c=await user.can('data.write');RV.write=!!RV.me&&c!==false}catch(_){RV.write=!!RV.me}}
+  let gotR=false,gotP=false;const done=()=>{if(gotR&&gotP&&RV.state==='loading'){clearTimeout(timer);RV.state='ready'}};
+  db.collection('reviews').onSnapshot(async snap=>{const d={};snap.docs.forEach(x=>{if(x.exists)d[x.id]=x.data()});RV.docs=d;gotR=true;done();await resolveNames();paintReview()},err=>{clearTimeout(timer);if(RV.state==='loading')RV.state='off';paintReview()});
+  db.collection('replies').onSnapshot(snap=>{const d={};snap.docs.forEach(x=>{if(x.exists)d[x.id]=x.data()});RV.replies=d;gotP=true;done();paintReview()},()=>{gotP=true;done();paintReview()});
+})();
 stats();render();
 </script>
