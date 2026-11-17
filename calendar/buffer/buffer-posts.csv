@@ -1,9 +1,9 @@
 id,post,week,date,time,timezone,channel,format,title,text,media,files,file_urls,shoot,placeholders,confirm
 w1-mon-in,w1-mon,1,2026-11-23,19:00,Pacific/Auckland,Instagram,Carousel,"Launch: eleven herbs, starting with Harakeke","Eleven native herbs, one a week, starting today.
 
-Kia ora and welcome. This summer we want to be the account you save when something hurts: what to do in the first 48 hours, how to use a rub properly, and when it is time to see your GP.
+Kia ora and welcome. This summer we want to be the brand you save when something hurts: what to do in the first 48 hours, how to use a rub properly, and when it is time to see your GP.
 
-Our products come in three ranges. Relief for everyday aches and bumps. Joints for stiffness and mobility. Sports for warm-up and recovery. The eleven herbs are spread across them, so every herb post will tell you where it lives.
+Our products come in three ranges. Relief for bumps and bruising, your first-aid go-to. Joints for stiffness and mobility. Sports for warm-up and recovery. The eleven herbs are spread across them, so every herb post will tell you where it lives.
 
 Herb one is harakeke, New Zealand flax. Its gel has long been valued in rongoā rākau, Māori plant medicine, and it sits in both our Relief and Sports ranges.
 
@@ -14,9 +14,9 @@ Ngā mihi, Jess and Dan
 #XZoneNZ #Aotearoa #Harakeke #NativeHerbs #NaturalPainRelief",7 slides,media/w1-mon/slide-01.jpg | media/w1-mon/slide-02.jpg | media/w1-mon/slide-03.jpg | media/w1-mon/slide-04.jpg | media/w1-mon/slide-05.jpg | media/w1-mon/slide-06.jpg | media/w1-mon/slide-07.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w1-mon/slide-01.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w1-mon/slide-02.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w1-mon/slide-03.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w1-mon/slide-04.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w1-mon/slide-05.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w1-mon/slide-06.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w1-mon/slide-07.jpg,"Harakeke in natural light on a Waitākere riverbank, a hand cupping the base of a leaf, Relief and Sports jars on a rock nearby.",False,"Herb facts (traditional use, where it grows, which range) to be checked against the label and Jess and Dan's herb fact sheet | Confirm harakeke traditional-use wording (gel in rongoā rākau) with someone with the right knowledge | Confirm Jess and Dan are happy for every caption to sign off with their names"
 w1-mon-fa,w1-mon,1,2026-11-23,19:00,Pacific/Auckland,Facebook,Carousel,"Launch: eleven herbs, starting with Harakeke","Eleven native herbs, one a week, starting today.
 
-Kia ora and welcome. This summer we want to be the account you save when something hurts: what to do in the first 48 hours, how to use a rub properly, and when it is time to see your GP.
+Kia ora and welcome. This summer we want to be the brand you save when something hurts: what to do in the first 48 hours, how to use a rub properly, and when it is time to see your GP.
 
-Our products come in three ranges. Relief for everyday aches and bumps. Joints for stiffness and mobility. Sports for warm-up and recovery. The eleven herbs are spread across them, so every herb post will tell you where it lives.
+Our products come in three ranges. Relief for bumps and bruising, your first-aid go-to. Joints for stiffness and mobility. Sports for warm-up and recovery. The eleven herbs are spread across them, so every herb post will tell you where it lives.
 
 Herb one is harakeke, New Zealand flax. Its gel has long been valued in rongoā rākau, Māori plant medicine, and it sits in both our Relief and Sports ranges.
 
@@ -30,77 +30,83 @@ w1-tue-in,w1-tue,1,2026-11-25,19:00,Pacific/Auckland,Instagram,Reel,"Rub it in, 
 A dab of rub sitting on your skin does very little. Rub it in with slow, firm circles for a good 20 seconds. Massage warms the area, eases the tightness around the sore spot, and helps the herbs absorb.
 
 Try it like this:
+Warm the area first. A warm shower or a heat pack opens the pores and helps the rub absorb.
 A small amount on your fingertips.
 Slow circles, firm enough to move the skin.
 Work outward from the sore spot.
 Wash your hands after, and keep it away from your eyes.
 
+Use it before exercise too: massaged into the muscles you are about to work, it is part of a good warm-up.
+
 If a pain is sharp, getting worse, or came from a fall or a big knock, see your GP before you start rubbing.
 
 We filmed this with the Sports Rub, and the same goes for every rub in the range. Save this one for later.
 
-#XZoneNZ #Aotearoa #NativeHerbs #MassageTherapy #MuscleRecovery",video (film from the shot list); cover image ready,media/w1-tue/reel-cover.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w1-tue/reel-cover.jpg,"Dan or Jess applying Sports Rub to a bare shoulder in natural window light, filmed close on the hands.",False,Confirm on-camera person (Jess or Dan) and that the shoulder belongs to someone happy to appear
+#XZoneNZ #Aotearoa #NativeHerbs #MassageTherapy #MuscleRecovery",video (film from the shot list); cover image ready,media/w1-tue/reel-cover.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w1-tue/reel-cover.jpg,"Dan or Jess applying Sports Rub to a bare shoulder in natural window light, filmed close on the hands.",False,"Confirm on-camera person (Jess or Dan) and that the shoulder belongs to someone happy to appear | Jess asked us to say it is used before exercise 'to prevent injury'. The caption says 'part of a good warm-up' instead, because injury-prevention is a therapeutic claim under the NZ therapeutic advertising rules. Change it if you are comfortable with the claim."
 w1-tue-fa,w1-tue,1,2026-11-25,19:00,Pacific/Auckland,Facebook,Reel,"Rub it in, not on","The massage matters as much as what is in the jar.
 
 A dab of rub sitting on your skin does very little. Rub it in with slow, firm circles for a good 20 seconds. Massage warms the area, eases the tightness around the sore spot, and helps the herbs absorb.
 
 Try it like this:
+Warm the area first. A warm shower or a heat pack opens the pores and helps the rub absorb.
 A small amount on your fingertips.
 Slow circles, firm enough to move the skin.
 Work outward from the sore spot.
 Wash your hands after, and keep it away from your eyes.
 
+Use it before exercise too: massaged into the muscles you are about to work, it is part of a good warm-up.
+
 If a pain is sharp, getting worse, or came from a fall or a big knock, see your GP before you start rubbing.
 
 We filmed this with the Sports Rub, and the same goes for every rub in the range. Save this one for later.
 
-#XZoneNZ #Aotearoa #NativeHerbs #MassageTherapy #MuscleRecovery",video (film from the shot list); cover image ready,media/w1-tue/reel-cover.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w1-tue/reel-cover.jpg,"Dan or Jess applying Sports Rub to a bare shoulder in natural window light, filmed close on the hands.",False,Confirm on-camera person (Jess or Dan) and that the shoulder belongs to someone happy to appear
+#XZoneNZ #Aotearoa #NativeHerbs #MassageTherapy #MuscleRecovery",video (film from the shot list); cover image ready,media/w1-tue/reel-cover.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w1-tue/reel-cover.jpg,"Dan or Jess applying Sports Rub to a bare shoulder in natural window light, filmed close on the hands.",False,"Confirm on-camera person (Jess or Dan) and that the shoulder belongs to someone happy to appear | Jess asked us to say it is used before exercise 'to prevent injury'. The caption says 'part of a good warm-up' instead, because injury-prevention is a therapeutic claim under the NZ therapeutic advertising rules. Change it if you are comfortable with the claim."
 w1-fri-in,w1-fri,1,2026-11-27,19:00,Pacific/Auckland,Instagram,Post,Stock the summer first-aid kit,"A good summer first-aid kit lives where the injuries happen: the bach, the car and the sports bag.
 
 Here is what goes in ours.
 For cuts and blisters: plasters, blister pads, strapping tape, antiseptic wipes and tweezers.
 For sprains and knocks: a crepe bandage, an instant ice pack, and the number for the nearest medical centre written down. Phone signal at the bach is not a given.
-For the days after: a rub for tired muscles, bumps and bruises. Relief for the family, Sports for the ones who overdo it. Roll-ons fit a glovebox.
+20 to 30 minutes after a knock: a rub for bumps, bruises and tired muscles. Relief for the family, Sports for the ones who overdo it. Roll-ons fit a glovebox.
 
 If a knock is serious, the kit is not the answer. See your GP or call 111.
 
-Our prices went up this month, the first rise in six years. We are holding the old prices until {DATE}, so it is a good time to fill the kit. Trial pots start from $3. Link in bio.
+Our prices went up this month, the first rise in five years. We are holding the old prices until 31 December 2026, so it is a good time to fill the kit. 5ml sample sachets start from $3. Link in bio.
 
-#XZoneNZ #Aotearoa #NativeHerbs #FirstAidKit #KiwiSummer",image,media/w1-fri/post.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w1-fri/post.jpg,"A real first-aid tin open on a bach bench: bandage, plasters, ice pack and a Relief and Sports roll-on, in natural light.",True,"End date of the old-price hold for {DATE} | Confirm the old-price hold covers every product, trial pots included | UTM link for the bio and story link stickers"
+#XZoneNZ #Aotearoa #NativeHerbs #FirstAidKit #KiwiSummer",image,media/w1-fri/post.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w1-fri/post.jpg,"A real first-aid tin open on a bach bench: bandage, plasters, ice pack and a Relief and Sports roll-on, in natural light.",False,UTM link for the bio and story link stickers
 w1-fri-fa,w1-fri,1,2026-11-27,19:00,Pacific/Auckland,Facebook,Post,Stock the summer first-aid kit,"A good summer first-aid kit lives where the injuries happen: the bach, the car and the sports bag.
 
 Here is what goes in ours.
 For cuts and blisters: plasters, blister pads, strapping tape, antiseptic wipes and tweezers.
 For sprains and knocks: a crepe bandage, an instant ice pack, and the number for the nearest medical centre written down. Phone signal at the bach is not a given.
-For the days after: a rub for tired muscles, bumps and bruises. Relief for the family, Sports for the ones who overdo it. Roll-ons fit a glovebox.
+20 to 30 minutes after a knock: a rub for bumps, bruises and tired muscles. Relief for the family, Sports for the ones who overdo it. Roll-ons fit a glovebox.
 
 If a knock is serious, the kit is not the answer. See your GP or call 111.
 
-Our prices went up this month, the first rise in six years. We are holding the old prices until {DATE}, so it is a good time to fill the kit. Trial pots start from $3. Link in bio.
+Our prices went up this month, the first rise in five years. We are holding the old prices until 31 December 2026, so it is a good time to fill the kit. 5ml sample sachets start from $3. Link in bio.
 
-#XZoneNZ #Aotearoa #NativeHerbs #FirstAidKit #KiwiSummer",image,media/w1-fri/post.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w1-fri/post.jpg,"A real first-aid tin open on a bach bench: bandage, plasters, ice pack and a Relief and Sports roll-on, in natural light.",True,"End date of the old-price hold for {DATE} | Confirm the old-price hold covers every product, trial pots included | UTM link for the bio and story link stickers"
+#XZoneNZ #Aotearoa #NativeHerbs #FirstAidKit #KiwiSummer",image,media/w1-fri/post.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w1-fri/post.jpg,"A real first-aid tin open on a bach bench: bandage, plasters, ice pack and a Relief and Sports roll-on, in natural light.",False,UTM link for the bio and story link stickers
 w2-mon-in,w2-mon,2,2026-11-30,19:00,Pacific/Auckland,Instagram,Carousel,"Herb two: Horopito, the pepper tree","Horopito is the native pepper tree, and the name tells you why: bite a leaf and it bites back.
 
-It is a small shrub with red-blotched leaves that grows in our forests from the North Island hills down to Stewart Island. In rongoā rākau, Māori plant medicine, horopito was traditionally used for the skin and for circulation. That warming quality is what drew us to it.
+It is a small shrub with red-blotched leaves that grows in our forests from the North Island hills down to Stewart Island. In rongoā rākau, Māori plant medicine, horopito was traditionally used for the skin and circulation, and for painful bruises and sore joints. That warming quality is what drew us to it.
 
-Today it sits in our Relief range, working alongside other native herbs. No single herb does the job on its own, which is why each of our jars holds 11 to 14 active ingredients, where most rubs use 5 or 6.
+Today it sits in our Relief range, made for bruises, bumps and sore, tired muscles. No single herb does the job on its own, which is why each of our jars holds 11 to 14 active ingredients, where most rubs use 5 or 6.
 
 This week's blog goes deeper on horopito and sore muscles. Link in bio.
 
 Save this, and see you next Monday for herb three.
 
-#XZoneNZ #Aotearoa #Horopito #NativeHerbs #NaturalPainRelief",6 slides,media/w2-mon/slide-01.jpg | media/w2-mon/slide-02.jpg | media/w2-mon/slide-03.jpg | media/w2-mon/slide-04.jpg | media/w2-mon/slide-05.jpg | media/w2-mon/slide-06.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-01.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-02.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-03.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-04.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-05.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-06.jpg,"Close-up of horopito leaves in the bush, red blotches showing, natural light.",False,"Herb facts (traditional use, where it grows, which range) to be checked against the label and Jess and Dan's herb fact sheet | Confirm where horopito grows as stated | Preview photo is a new stand-in still waiting on client approval"
+#XZoneNZ #Aotearoa #Horopito #NativeHerbs #NaturalPainRelief",6 slides,media/w2-mon/slide-01.jpg | media/w2-mon/slide-02.jpg | media/w2-mon/slide-03.jpg | media/w2-mon/slide-04.jpg | media/w2-mon/slide-05.jpg | media/w2-mon/slide-06.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-01.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-02.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-03.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-04.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-05.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-06.jpg,"Close-up of horopito leaves in the bush, red blotches showing, natural light.",False,"Herb facts (traditional use, where it grows, which range) to be checked against the label and Jess and Dan's herb fact sheet | Confirm where horopito grows as stated | Preview photo is a new stand-in still waiting on client approval | Dan: replace the bush-walkers photo with a horopito photo (none in our library yet; please send one) | Dan: the horopito blog the caption points to still needs writing and scheduling"
 w2-mon-fa,w2-mon,2,2026-11-30,19:00,Pacific/Auckland,Facebook,Carousel,"Herb two: Horopito, the pepper tree","Horopito is the native pepper tree, and the name tells you why: bite a leaf and it bites back.
 
-It is a small shrub with red-blotched leaves that grows in our forests from the North Island hills down to Stewart Island. In rongoā rākau, Māori plant medicine, horopito was traditionally used for the skin and for circulation. That warming quality is what drew us to it.
+It is a small shrub with red-blotched leaves that grows in our forests from the North Island hills down to Stewart Island. In rongoā rākau, Māori plant medicine, horopito was traditionally used for the skin and circulation, and for painful bruises and sore joints. That warming quality is what drew us to it.
 
-Today it sits in our Relief range, working alongside other native herbs. No single herb does the job on its own, which is why each of our jars holds 11 to 14 active ingredients, where most rubs use 5 or 6.
+Today it sits in our Relief range, made for bruises, bumps and sore, tired muscles. No single herb does the job on its own, which is why each of our jars holds 11 to 14 active ingredients, where most rubs use 5 or 6.
 
 This week's blog goes deeper on horopito and sore muscles. Link in bio.
 
 Save this, and see you next Monday for herb three.
 
-#XZoneNZ #Aotearoa #Horopito #NativeHerbs #NaturalPainRelief",6 slides,media/w2-mon/slide-01.jpg | media/w2-mon/slide-02.jpg | media/w2-mon/slide-03.jpg | media/w2-mon/slide-04.jpg | media/w2-mon/slide-05.jpg | media/w2-mon/slide-06.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-01.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-02.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-03.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-04.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-05.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-06.jpg,"Close-up of horopito leaves in the bush, red blotches showing, natural light.",False,"Herb facts (traditional use, where it grows, which range) to be checked against the label and Jess and Dan's herb fact sheet | Confirm where horopito grows as stated | Preview photo is a new stand-in still waiting on client approval"
+#XZoneNZ #Aotearoa #Horopito #NativeHerbs #NaturalPainRelief",6 slides,media/w2-mon/slide-01.jpg | media/w2-mon/slide-02.jpg | media/w2-mon/slide-03.jpg | media/w2-mon/slide-04.jpg | media/w2-mon/slide-05.jpg | media/w2-mon/slide-06.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-01.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-02.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-03.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-04.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-05.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-mon/slide-06.jpg,"Close-up of horopito leaves in the bush, red blotches showing, natural light.",False,"Herb facts (traditional use, where it grows, which range) to be checked against the label and Jess and Dan's herb fact sheet | Confirm where horopito grows as stated | Preview photo is a new stand-in still waiting on client approval | Dan: replace the bush-walkers photo with a horopito photo (none in our library yet; please send one) | Dan: the horopito blog the caption points to still needs writing and scheduling"
 w2-sat-in,w2-sat,2,2026-12-02,19:00,Pacific/Auckland,Instagram,Reel,Jess: why we started X-ZONE,"We get asked this a lot, so Jess answers it herself.
 
 We have been friends since we met at primary school in West Auckland, aged six, with the Waitākere Ranges on our doorstep. After years in corporate jobs, Jess in commercial real estate and Dan in advertising, we wanted to do something more meaningful.
@@ -130,9 +136,9 @@ Ngā mihi, Jess and Dan
 w2-fri-in,w2-fri,2,2026-12-04,19:00,Pacific/Auckland,Instagram,Post,Which one should I buy,"The question we get most: which one should I buy? Two steps.
 
 Step one: the range.
-Relief is mid strength, for everyday aches, bumps, bruises, sprains and growing pains. Suitable from age five.
-Joints is higher strength, for stiffness and mobility when joint pain is long-term. Rub only.
-Sports is higher strength, for warm-up and recovery when you are active, or when pain is long-standing.
+Relief is mid strength, for bruises and bumps first, plus sprains, everyday aches and growing pains. Your first-aid go-to, suitable from age five.
+Joints is higher strength, for stiffness and mobility when joint pain is long-term. From age seven. Rub only.
+Sports is our strongest: for warm-up and recovery when you are active, and for higher pain levels. From age seven.
 
 Step two: the format.
 Rub: a cocoa butter base. Best for massaging in.
@@ -141,13 +147,13 @@ Roll-on: both bases. Small, no mess, made for bags and gloveboxes.
 
 Still not sure? Comment below with what hurts and we will point you in the right direction. We are pinning this one.
 
-#XZoneNZ #Aotearoa #NativeHerbs #JointPain #MuscleRecovery",image,media/w2-fri/post.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-fri/post.jpg,"All three ranges in all formats lined up on a bench in natural light, rub, spray and roll-on in rows.",False,"Confirm age guidance (Relief from five, Joints and Sports from seven) against the label | Confirm base descriptions (rub cocoa butter, spray alcohol, roll-on both)"
+#XZoneNZ #Aotearoa #NativeHerbs #JointPain #MuscleRecovery",image,media/w2-fri/post.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-fri/post.jpg,"All three ranges in all formats lined up on a bench in natural light, rub, spray and roll-on in rows.",False,"Confirm base descriptions (rub cocoa butter, spray alcohol, roll-on both)"
 w2-fri-fa,w2-fri,2,2026-12-04,19:00,Pacific/Auckland,Facebook,Post,Which one should I buy,"The question we get most: which one should I buy? Two steps.
 
 Step one: the range.
-Relief is mid strength, for everyday aches, bumps, bruises, sprains and growing pains. Suitable from age five.
-Joints is higher strength, for stiffness and mobility when joint pain is long-term. Rub only.
-Sports is higher strength, for warm-up and recovery when you are active, or when pain is long-standing.
+Relief is mid strength, for bruises and bumps first, plus sprains, everyday aches and growing pains. Your first-aid go-to, suitable from age five.
+Joints is higher strength, for stiffness and mobility when joint pain is long-term. From age seven. Rub only.
+Sports is our strongest: for warm-up and recovery when you are active, and for higher pain levels. From age seven.
 
 Step two: the format.
 Rub: a cocoa butter base. Best for massaging in.
@@ -156,7 +162,7 @@ Roll-on: both bases. Small, no mess, made for bags and gloveboxes.
 
 Still not sure? Comment below with what hurts and we will point you in the right direction. We are pinning this one.
 
-#XZoneNZ #Aotearoa #NativeHerbs #JointPain #MuscleRecovery",image,media/w2-fri/post.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-fri/post.jpg,"All three ranges in all formats lined up on a bench in natural light, rub, spray and roll-on in rows.",False,"Confirm age guidance (Relief from five, Joints and Sports from seven) against the label | Confirm base descriptions (rub cocoa butter, spray alcohol, roll-on both)"
+#XZoneNZ #Aotearoa #NativeHerbs #JointPain #MuscleRecovery",image,media/w2-fri/post.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w2-fri/post.jpg,"All three ranges in all formats lined up on a bench in natural light, rub, spray and roll-on in rows.",False,"Confirm base descriptions (rub cocoa butter, spray alcohol, roll-on both)"
 w3-mon-in,w3-mon,3,2026-12-07,19:00,Pacific/Auckland,Instagram,Carousel,Five things for a tramper's kit,"Five things in a tramper's first-aid kit, and number four is a roll-on.
 
 1. Blister care: plasters, strapping tape and small scissors. Treat hot spots early.
@@ -171,7 +177,7 @@ This week's blog has a full track-by-track guide to feet, calves and knees. Link
 
 Save this before your next trip.
 
-#XZoneNZ #Aotearoa #TrampingNZ #FirstAidKit #NativeHerbs",7 slides,media/w3-mon/slide-01.jpg | media/w3-mon/slide-02.jpg | media/w3-mon/slide-03.jpg | media/w3-mon/slide-04.jpg | media/w3-mon/slide-05.jpg | media/w3-mon/slide-06.jpg | media/w3-mon/slide-07.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-01.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-02.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-03.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-04.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-05.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-06.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-07.jpg,"A tramping pack open on a hut deck with the five items laid out in a row, natural light.",False,First-aid and safety wording to be checked by Jess and Dan | Confirm the Sports roll-on is the one to feature (Relief roll-on is the alternative) | Preview photo is a new stand-in still waiting on client approval
+#XZoneNZ #Aotearoa #TrampingNZ #FirstAidKit #NativeHerbs",7 slides,media/w3-mon/slide-01.jpg | media/w3-mon/slide-02.jpg | media/w3-mon/slide-03.jpg | media/w3-mon/slide-04.jpg | media/w3-mon/slide-05.jpg | media/w3-mon/slide-06.jpg | media/w3-mon/slide-07.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-01.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-02.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-03.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-04.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-05.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-06.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-07.jpg,"A tramping pack open on a hut deck with the five items laid out in a row, natural light.",False,First-aid and safety wording to be checked by Jess and Dan | Preview photo is a new stand-in still waiting on client approval | Jess and Dan expect a Sports roll-on photo in this carousel; we have none in the library yet (please send one)
 w3-mon-fa,w3-mon,3,2026-12-07,19:00,Pacific/Auckland,Facebook,Carousel,Five things for a tramper's kit,"Five things in a tramper's first-aid kit, and number four is a roll-on.
 
 1. Blister care: plasters, strapping tape and small scissors. Treat hot spots early.
@@ -186,29 +192,29 @@ This week's blog has a full track-by-track guide to feet, calves and knees. Link
 
 Save this before your next trip.
 
-#XZoneNZ #Aotearoa #TrampingNZ #FirstAidKit #NativeHerbs",7 slides,media/w3-mon/slide-01.jpg | media/w3-mon/slide-02.jpg | media/w3-mon/slide-03.jpg | media/w3-mon/slide-04.jpg | media/w3-mon/slide-05.jpg | media/w3-mon/slide-06.jpg | media/w3-mon/slide-07.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-01.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-02.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-03.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-04.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-05.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-06.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-07.jpg,"A tramping pack open on a hut deck with the five items laid out in a row, natural light.",False,First-aid and safety wording to be checked by Jess and Dan | Confirm the Sports roll-on is the one to feature (Relief roll-on is the alternative) | Preview photo is a new stand-in still waiting on client approval
+#XZoneNZ #Aotearoa #TrampingNZ #FirstAidKit #NativeHerbs",7 slides,media/w3-mon/slide-01.jpg | media/w3-mon/slide-02.jpg | media/w3-mon/slide-03.jpg | media/w3-mon/slide-04.jpg | media/w3-mon/slide-05.jpg | media/w3-mon/slide-06.jpg | media/w3-mon/slide-07.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-01.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-02.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-03.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-04.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-05.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-06.jpg | https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-mon/slide-07.jpg,"A tramping pack open on a hut deck with the five items laid out in a row, natural light.",False,First-aid and safety wording to be checked by Jess and Dan | Preview photo is a new stand-in still waiting on client approval | Jess and Dan expect a Sports roll-on photo in this carousel; we have none in the library yet (please send one)
 w3-tue-in,w3-tue,3,2026-12-09,19:00,Pacific/Auckland,Instagram,Reel,"Herb three: Kūmarahou, gumdiggers' soap","Kūmarahou is known as gumdiggers' soap. Crush the flowers with a little water and they lather in your hands, which is how the old gumdiggers washed up in the north.
 
-It is a native shrub that grows on poor clay soils, mostly in the upper North Island, and it flowers pale yellow in spring. In rongoā rākau, Māori plant medicine, kūmarahou has a long history of traditional use.
+It is a native shrub that grows on poor clay soils, mostly in the upper North Island, and it flowers pale yellow in September and October. In rongoā rākau, Māori plant medicine, it was traditionally used for many things, coughs among them. Our tincture uses its leaves and small twigs, and we use it for rheumatism and arthritis.
 
 It is herb three in our series, and you will find it in our Joints and Sports ranges.
 
-We filmed this one in the bush. Have you seen kūmarahou flowering? Tell us where in the comments.
+It flowers in early spring, so these shots are from our own footage. Have you seen kūmarahou flowering? Tell us where in the comments.
 
 Save this, and see you next week for herb four.
 
-#XZoneNZ #Aotearoa #Kumarahou #NativeHerbs #Rongoa",video (film from the shot list); cover image ready,media/w3-tue/reel-cover.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-tue/reel-cover.jpg,"Kūmarahou in flower in Northland or the Waitākere bush, with a lather demo in wet hands.",False,"Herb facts (traditional use, where it grows, which range) to be checked against the label and Jess and Dan's herb fact sheet | Confirm kūmarahou is in flower in December where we film; otherwise use bank footage | Confirm wording on kūmarahou's traditional use in rongoā | The lather demo uses the flowers; confirm Jess and Dan are happy to show picking (use already-fallen flowers if not) | Preview photo is a new stand-in still waiting on client approval"
+#XZoneNZ #Aotearoa #Kumarahou #NativeHerbs #Rongoa",video (film from the shot list); cover image ready,media/w3-tue/reel-cover.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-tue/reel-cover.jpg,"Kūmarahou in flower in Northland or the Waitākere bush, with a lather demo in wet hands.",False,"Herb facts (traditional use, where it grows, which range) to be checked against the label and Jess and Dan's herb fact sheet | Preview photo is a new stand-in still waiting on client approval | Kūmarahou flowers in September and October, so the Reel uses flower footage from the promo video | 'We use it for rheumatism and arthritis' names conditions; check against the NZ therapeutic advertising rules before posting"
 w3-tue-fa,w3-tue,3,2026-12-09,19:00,Pacific/Auckland,Facebook,Reel,"Herb three: Kūmarahou, gumdiggers' soap","Kūmarahou is known as gumdiggers' soap. Crush the flowers with a little water and they lather in your hands, which is how the old gumdiggers washed up in the north.
 
-It is a native shrub that grows on poor clay soils, mostly in the upper North Island, and it flowers pale yellow in spring. In rongoā rākau, Māori plant medicine, kūmarahou has a long history of traditional use.
+It is a native shrub that grows on poor clay soils, mostly in the upper North Island, and it flowers pale yellow in September and October. In rongoā rākau, Māori plant medicine, it was traditionally used for many things, coughs among them. Our tincture uses its leaves and small twigs, and we use it for rheumatism and arthritis.
 
 It is herb three in our series, and you will find it in our Joints and Sports ranges.
 
-We filmed this one in the bush. Have you seen kūmarahou flowering? Tell us where in the comments.
+It flowers in early spring, so these shots are from our own footage. Have you seen kūmarahou flowering? Tell us where in the comments.
 
 Save this, and see you next week for herb four.
 
-#XZoneNZ #Aotearoa #Kumarahou #NativeHerbs #Rongoa",video (film from the shot list); cover image ready,media/w3-tue/reel-cover.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-tue/reel-cover.jpg,"Kūmarahou in flower in Northland or the Waitākere bush, with a lather demo in wet hands.",False,"Herb facts (traditional use, where it grows, which range) to be checked against the label and Jess and Dan's herb fact sheet | Confirm kūmarahou is in flower in December where we film; otherwise use bank footage | Confirm wording on kūmarahou's traditional use in rongoā | The lather demo uses the flowers; confirm Jess and Dan are happy to show picking (use already-fallen flowers if not) | Preview photo is a new stand-in still waiting on client approval"
+#XZoneNZ #Aotearoa #Kumarahou #NativeHerbs #Rongoa",video (film from the shot list); cover image ready,media/w3-tue/reel-cover.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w3-tue/reel-cover.jpg,"Kūmarahou in flower in Northland or the Waitākere bush, with a lather demo in wet hands.",False,"Herb facts (traditional use, where it grows, which range) to be checked against the label and Jess and Dan's herb fact sheet | Preview photo is a new stand-in still waiting on client approval | Kūmarahou flowers in September and October, so the Reel uses flower footage from the promo video | 'We use it for rheumatism and arthritis' names conditions; check against the NZ therapeutic advertising rules before posting"
 w3-testimonial-in,w3-testimonial,3,2026-12-11,19:00,Pacific/Auckland,Instagram,Testimonial graphic,Maria G. on the Joints Rub,"Stiff joints are often worst first thing in the morning and after sitting still, and they can make summer feel smaller: shorter walks, less time in the garden.
 
 What helps alongside a rub:
@@ -315,7 +321,7 @@ w5-mon-in,w5-mon,5,2026-12-21,19:00,Pacific/Auckland,Instagram,Post,Herb five: K
 
 It is a native hebe, with long narrow leaves and white to lilac flower spikes in summer. In rongoā Māori the leaves were traditionally used for upset stomachs, and on the skin for cuts and sores. During the Second World War, families even sent dried koromiko to soldiers overseas.
 
-We use koromiko in our Relief range, the rub, spray and roll-on we make for everyday aches, bumps and bruises.
+We use koromiko in our Relief range, the rub, spray and roll-on we make for bruises, bumps and everyday aches.
 
 Herb five of eleven. Save this for the full set.
 
@@ -326,7 +332,7 @@ w5-mon-fa,w5-mon,5,2026-12-21,19:00,Pacific/Auckland,Facebook,Post,Herb five: Ko
 
 It is a native hebe, with long narrow leaves and white to lilac flower spikes in summer. In rongoā Māori the leaves were traditionally used for upset stomachs, and on the skin for cuts and sores. During the Second World War, families even sent dried koromiko to soldiers overseas.
 
-We use koromiko in our Relief range, the rub, spray and roll-on we make for everyday aches, bumps and bruises.
+We use koromiko in our Relief range, the rub, spray and roll-on we make for bruises, bumps and everyday aches.
 
 Herb five of eleven. Save this for the full set.
 
@@ -411,7 +417,7 @@ w6-tue-in,w6-tue,6,2026-12-30,19:00,Pacific/Auckland,Instagram,Reel,Herb six: P�
 
 In rongoā Māori, pūriri leaves were traditionally used in warm washes for sprains, aches and sore backs.
 
-In independent lab tests (Trinity Bioactives), pūriri tincture reduced COX-2, an enzyme linked to inflammation, by 14.2%. That is an in-vitro result on cells, not a trial on people. We share it because you should be able to see the science behind what goes on your skin.
+In independent lab tests (Trinity Bioactives), pūriri tincture reduced COX-2, an enzyme linked to inflammation, by 14.2%. That is an in-vitro result. We share it because you should be able to see the science behind what goes on your skin.
 
 Pūriri is one of the herbs in our Sports range, alongside harakeke, kūmarahou, kōwhai and pukatea.
 
@@ -422,7 +428,7 @@ w6-tue-fa,w6-tue,6,2026-12-30,19:00,Pacific/Auckland,Facebook,Reel,Herb six: Pū
 
 In rongoā Māori, pūriri leaves were traditionally used in warm washes for sprains, aches and sore backs.
 
-In independent lab tests (Trinity Bioactives), pūriri tincture reduced COX-2, an enzyme linked to inflammation, by 14.2%. That is an in-vitro result on cells, not a trial on people. We share it because you should be able to see the science behind what goes on your skin.
+In independent lab tests (Trinity Bioactives), pūriri tincture reduced COX-2, an enzyme linked to inflammation, by 14.2%. That is an in-vitro result. We share it because you should be able to see the science behind what goes on your skin.
 
 Pūriri is one of the herbs in our Sports range, alongside harakeke, kūmarahou, kōwhai and pukatea.
 
@@ -903,7 +909,7 @@ Relief: Harakeke, Horopito, Kahikatea, Rātā, Koromiko.
 Joints: Tūpākihi, Kūmarahou, Pukatea, Karaeo.
 Sports: Harakeke, Kūmarahou, Kōwhai, Pukatea, Pūriri.
 
-Some herbs work in two ranges. None of our jars holds all eleven, because each range is blended for a different job: Relief for everyday aches, Joints for stiffness and mobility, Sports for warm-up and recovery.
+Some herbs work in two ranges. None of our jars holds all eleven, because each range is blended for a different job: Relief for bruises and bumps, Joints for stiffness and mobility, Sports for warm-up and recovery.
 
 Every one of them is traditionally used in rongoā rākau, and we credit that knowledge.
 
@@ -916,7 +922,7 @@ Relief: Harakeke, Horopito, Kahikatea, Rātā, Koromiko.
 Joints: Tūpākihi, Kūmarahou, Pukatea, Karaeo.
 Sports: Harakeke, Kūmarahou, Kōwhai, Pukatea, Pūriri.
 
-Some herbs work in two ranges. None of our jars holds all eleven, because each range is blended for a different job: Relief for everyday aches, Joints for stiffness and mobility, Sports for warm-up and recovery.
+Some herbs work in two ranges. None of our jars holds all eleven, because each range is blended for a different job: Relief for bruises and bumps, Joints for stiffness and mobility, Sports for warm-up and recovery.
 
 Every one of them is traditionally used in rongoā rākau, and we credit that knowledge.
 
@@ -959,7 +965,7 @@ What goes in it: water, an ice pack, a bandage, plasters, sunscreen and somethin
 On the knock: cold for 15 minutes, then a gentle massage once any swelling settles.
 Head knocks: off the field and see a doctor if they seem dazed, sick or not themselves. When in doubt, sit them out.
 
-Our Relief range is the family one. It's mid-strength, made with native NZ herbs, and suitable for children over five. Trial pots start from $3 if you want to try it first. Save this for Saturday.
+Our Relief range is the family one. It's mid-strength, made with native NZ herbs, and suitable for children over five. 5ml sample sachets start from $3 if you want to try it first. Save this for Saturday.
 
 #XZoneNZ #Aotearoa #KidsSport #FirstAid #ReliefRange","image; photo is a 540px preview, swap for the design-canvas export",media/w12-fri/post.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w12-fri/post.jpg,"The Relief rub, spray and roll-on packed into a small kit bag on a car seat, school sports field beyond.",False,"Confirm label age guidance (Relief from five, Joints and Sports from seven, not in pregnancy or breastfeeding) against the current labels | Head-knock guidance to be checked before posting"
 w12-fri-fa,w12-fri,12,2027-02-12,19:00,Pacific/Auckland,Facebook,Post,The sideline kit for parents,"A good sideline kit is packed once and lives in the car all season.
@@ -968,7 +974,7 @@ What goes in it: water, an ice pack, a bandage, plasters, sunscreen and somethin
 On the knock: cold for 15 minutes, then a gentle massage once any swelling settles.
 Head knocks: off the field and see a doctor if they seem dazed, sick or not themselves. When in doubt, sit them out.
 
-Our Relief range is the family one. It's mid-strength, made with native NZ herbs, and suitable for children over five. Trial pots start from $3 if you want to try it first. Save this for Saturday.
+Our Relief range is the family one. It's mid-strength, made with native NZ herbs, and suitable for children over five. 5ml sample sachets start from $3 if you want to try it first. Save this for Saturday.
 
 #XZoneNZ #Aotearoa #KidsSport #FirstAid #ReliefRange","image; photo is a 540px preview, swap for the design-canvas export",media/w12-fri/post.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w12-fri/post.jpg,"The Relief rub, spray and roll-on packed into a small kit bag on a car seat, school sports field beyond.",False,"Confirm label age guidance (Relief from five, Joints and Sports from seven, not in pregnancy or breastfeeding) against the current labels | Head-knock guidance to be checked before posting"
 w13-mon-in,w13-mon,13,2027-02-15,19:00,Pacific/Auckland,Instagram,Carousel,Twelve most-saved summer posts,"Thirteen weeks, a lot of lessons, and these twelve are the ones you saved most.
@@ -1013,7 +1019,7 @@ Save it, and send it to the person who needs it.
 #XZoneNZ #Aotearoa #NaturalPainRelief #InjuryFirstAid #NZSport",video (film from the shot list); cover image ready,media/w13-tue/reel-cover.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w13-tue/reel-cover.jpg,No new filming: the original Reel file with a new two-second opening.,True,"Choose the top Reel from insights (reach and watch time) and write the new hook line. | Adjust hashtags to match the original Reel's topic, max five."
 w13-wed-in,w13-wed,13,2027-02-19,19:00,Pacific/Auckland,Instagram,Post,What you asked most,"Three months of question boxes, comments and one Facebook Live. These came up most.
 
-Which one is right for me? Relief for everyday aches and the family, Joints for stiffness and mobility, Sports for warm-up and recovery.
+Which one is right for me? Relief for bruises, bumps and the family first-aid kit, Joints for stiffness and mobility, Sports for warm-up and recovery.
 
 How much should I use? 1 to 5 ml, massaged in, up to five times a day. It works best after a shower, when your skin is warm. Patch test first.
 
@@ -1028,7 +1034,7 @@ Still got a question? Ask below.
 #XZoneNZ #Aotearoa #AskJessAndDan #NaturalPainRelief #FirstAid",image,media/w13-wed/post.jpg,https://raw.githubusercontent.com/Xzone-NZ/xzone/claude/jolly-ptolemy-s3u3e9/calendar/buffer/media/w13-wed/post.jpg,"Jess and Dan at the workbench with a stack of printed questions, natural light.",True,"Confirm label age guidance (Relief from five, Joints and Sports from seven, not in pregnancy or breastfeeding) against the current labels. | Replace or add answers once the question-box and Live questions have been tallied ({MOST-ASKED QUESTION FROM INSIGHTS}). | Confirm use guidance (1 to 5 ml, up to five times a day, patch test) against current labels."
 w13-wed-fa,w13-wed,13,2027-02-19,19:00,Pacific/Auckland,Facebook,Post,What you asked most,"Three months of question boxes, comments and one Facebook Live. These came up most.
 
-Which one is right for me? Relief for everyday aches and the family, Joints for stiffness and mobility, Sports for warm-up and recovery.
+Which one is right for me? Relief for bruises, bumps and the family first-aid kit, Joints for stiffness and mobility, Sports for warm-up and recovery.
 
 How much should I use? 1 to 5 ml, massaged in, up to five times a day. It works best after a shower, when your skin is warm. Patch test first.
 

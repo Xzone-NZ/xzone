@@ -17,7 +17,7 @@
      "range": "all",
      "photo": "bush",
      "title": "Launch: eleven herbs, starting with Harakeke",
-     "about": "Launch carousel that sets out what this account is for (teaching first) and opens the herb-of-the-week series with Harakeke.",
+     "about": "Launch carousel that sets out what this brand is for (teaching first) and opens the herb-of-the-week series with Harakeke.",
      "headline": "The riverbank plant hiding in our rubs",
      "subline": "Herb of the week: harakeke, in Relief and Sports",
      "pill": "Herb of the week",
@@ -28,12 +28,12 @@
        "b": "Kia ora. This summer we are teaching what helps when something hurts, one native herb a week. We start with harakeke."
       },
       {
-       "h": "Why this account exists",
+       "h": "Why this brand exists",
        "b": "Summer is when the injuries happen. We will share what to do in the first 48 hours, how to use what you have, and when to see your GP."
       },
       {
        "h": "Three ranges, not one jar",
-       "b": "Relief for everyday aches and bumps. Joints for stiffness and mobility. Sports for warm-up and recovery. The eleven herbs are spread across the three."
+       "b": "Relief for bumps and bruising, your first-aid go-to. Joints for stiffness and mobility. Sports for warm-up and recovery. The eleven herbs are spread across the three."
       },
       {
        "h": "Meet harakeke",
@@ -45,7 +45,7 @@
       },
       {
        "h": "Tested, and honest about it",
-       "b": "In independent in-vitro lab tests (Trinity Bioactives), the Sports Rub reduced inflammation-associated cells by 54%. That was cells in a lab, not a trial on people."
+       "b": "In independent in-vitro lab tests (Trinity Bioactives), the Sports Rub reduced inflammation-associated cells by 54%."
       },
       {
        "h": "Next Monday: herb two",
@@ -55,7 +55,7 @@
      "shots": [],
      "duration": "",
      "poll": [],
-     "caption": "Eleven native herbs, one a week, starting today.\n\nKia ora and welcome. This summer we want to be the account you save when something hurts: what to do in the first 48 hours, how to use a rub properly, and when it is time to see your GP.\n\nOur products come in three ranges. Relief for everyday aches and bumps. Joints for stiffness and mobility. Sports for warm-up and recovery. The eleven herbs are spread across them, so every herb post will tell you where it lives.\n\nHerb one is harakeke, New Zealand flax. Its gel has long been valued in rongoā rākau, Māori plant medicine, and it sits in both our Relief and Sports ranges.\n\nSwipe through, then save this post so you can follow all eleven. Next Monday: herb two.\n\nNgā mihi, Jess and Dan",
+     "caption": "Eleven native herbs, one a week, starting today.\n\nKia ora and welcome. This summer we want to be the brand you save when something hurts: what to do in the first 48 hours, how to use a rub properly, and when it is time to see your GP.\n\nOur products come in three ranges. Relief for bumps and bruising, your first-aid go-to. Joints for stiffness and mobility. Sports for warm-up and recovery. The eleven herbs are spread across them, so every herb post will tell you where it lives.\n\nHerb one is harakeke, New Zealand flax. Its gel has long been valued in rongoā rākau, Māori plant medicine, and it sits in both our Relief and Sports ranges.\n\nSwipe through, then save this post so you can follow all eleven. Next Monday: herb two.\n\nNgā mihi, Jess and Dan",
      "hashtags": "#XZoneNZ #Aotearoa #Harakeke #NativeHerbs #NaturalPainRelief",
      "cta": "Save this",
      "shoot": "Harakeke in natural light on a Waitākere riverbank, a hand cupping the base of a leaf, Relief and Sports jars on a rock nearby.",
@@ -63,7 +63,8 @@
       "Herb facts (traditional use, where it grows, which range) to be checked against the label and Jess and Dan's herb fact sheet",
       "Confirm harakeke traditional-use wording (gel in rongoā rākau) with someone with the right knowledge",
       "Confirm Jess and Dan are happy for every caption to sign off with their names"
-     ]
+     ],
+     "photo_note": "Jess: use the clearer waterfall photo, not the muted one"
     },
     {
      "id": "w1-tue",
@@ -117,12 +118,13 @@
      ],
      "duration": "20s",
      "poll": [],
-     "caption": "The massage matters as much as what is in the jar.\n\nA dab of rub sitting on your skin does very little. Rub it in with slow, firm circles for a good 20 seconds. Massage warms the area, eases the tightness around the sore spot, and helps the herbs absorb.\n\nTry it like this:\nA small amount on your fingertips.\nSlow circles, firm enough to move the skin.\nWork outward from the sore spot.\nWash your hands after, and keep it away from your eyes.\n\nIf a pain is sharp, getting worse, or came from a fall or a big knock, see your GP before you start rubbing.\n\nWe filmed this with the Sports Rub, and the same goes for every rub in the range. Save this one for later.",
+     "caption": "The massage matters as much as what is in the jar.\n\nA dab of rub sitting on your skin does very little. Rub it in with slow, firm circles for a good 20 seconds. Massage warms the area, eases the tightness around the sore spot, and helps the herbs absorb.\n\nTry it like this:\nWarm the area first. A warm shower or a heat pack opens the pores and helps the rub absorb.\nA small amount on your fingertips.\nSlow circles, firm enough to move the skin.\nWork outward from the sore spot.\nWash your hands after, and keep it away from your eyes.\n\nUse it before exercise too: massaged into the muscles you are about to work, it is part of a good warm-up.\n\nIf a pain is sharp, getting worse, or came from a fall or a big knock, see your GP before you start rubbing.\n\nWe filmed this with the Sports Rub, and the same goes for every rub in the range. Save this one for later.",
      "hashtags": "#XZoneNZ #Aotearoa #NativeHerbs #MassageTherapy #MuscleRecovery",
      "cta": "Save this",
      "shoot": "Dan or Jess applying Sports Rub to a bare shoulder in natural window light, filmed close on the hands.",
      "flags": [
-      "Confirm on-camera person (Jess or Dan) and that the shoulder belongs to someone happy to appear"
+      "Confirm on-camera person (Jess or Dan) and that the shoulder belongs to someone happy to appear",
+      "Jess asked us to say it is used before exercise 'to prevent injury'. The caption says 'part of a good warm-up' instead, because injury-prevention is a therapeutic claim under the NZ therapeutic advertising rules. Change it if you are comfortable with the claim."
      ]
     },
     {
@@ -229,21 +231,20 @@
        "t": "A crepe bandage, an instant ice pack and the nearest medical centre's number."
       },
       {
-       "b": "For the days after",
-       "t": "A rub for tired muscles and bumps. Roll-ons travel best."
+       "b": "After a knock",
+       "t": "A rub, 20 to 30 minutes after. Roll-ons travel best."
       }
      ],
      "slides": [],
      "shots": [],
      "duration": "",
      "poll": [],
-     "caption": "A good summer first-aid kit lives where the injuries happen: the bach, the car and the sports bag.\n\nHere is what goes in ours.\nFor cuts and blisters: plasters, blister pads, strapping tape, antiseptic wipes and tweezers.\nFor sprains and knocks: a crepe bandage, an instant ice pack, and the number for the nearest medical centre written down. Phone signal at the bach is not a given.\nFor the days after: a rub for tired muscles, bumps and bruises. Relief for the family, Sports for the ones who overdo it. Roll-ons fit a glovebox.\n\nIf a knock is serious, the kit is not the answer. See your GP or call 111.\n\nThis Black Friday: {OFFER}. And our old prices stay until {DATE}. Link in bio.",
+     "caption": "A good summer first-aid kit lives where the injuries happen: the bach, the car and the sports bag.\n\nHere is what goes in ours.\nFor cuts and blisters: plasters, blister pads, strapping tape, antiseptic wipes and tweezers.\nFor sprains and knocks: a crepe bandage, an instant ice pack, and the number for the nearest medical centre written down. Phone signal at the bach is not a given.\n20 to 30 minutes after a knock: a rub for bumps, bruises and tired muscles. Relief for the family, Sports for the ones who overdo it. Roll-ons fit a glovebox.\n\nIf a knock is serious, the kit is not the answer. See your GP or call 111.\n\nThis Black Friday: {OFFER}. And our old prices stay until 31 December 2026. Link in bio.",
      "hashtags": "#XZoneNZ #Aotearoa #NativeHerbs #FirstAidKit #BlackFriday",
      "cta": "Link in bio",
      "shoot": "A real first-aid tin open on a bach bench: bandage, plasters, ice pack and a Relief and Sports roll-on, in natural light.",
      "flags": [
       "Black Friday offer details for {OFFER} (and any {CODE})",
-      "End date of the old-price window for {DATE}",
       "UTM link for the bio and story link stickers"
      ]
     },
@@ -328,7 +329,7 @@
      "id": "w1-s4",
      "day": "Fri",
      "type": "link",
-     "text": "Stock the summer kit. {OFFER}. Old prices until {DATE}.",
+     "text": "Stock the summer kit. {OFFER}. Old prices until 31 December 2026.",
      "note": "Link sticker to the Black Friday landing page with UTM; reshare the Friday post behind it."
     }
    ]
@@ -366,11 +367,11 @@
       },
       {
        "h": "How it was used",
-       "b": "In rongoā rākau, horopito was traditionally used for the skin and for circulation. That warming quality is why it caught our attention."
+       "b": "In rongoā rākau, horopito was traditionally used for the skin and circulation, and for painful bruises and sore joints. That warming quality is why it caught our attention."
       },
       {
        "h": "Why it is in our range",
-       "b": "Horopito sits in our Relief range, alongside other native herbs chosen to support sore, tired muscles."
+       "b": "Horopito sits in our Relief range, made for bruises, bumps and sore, tired muscles."
       },
       {
        "h": "More than one herb",
@@ -384,14 +385,16 @@
      "shots": [],
      "duration": "",
      "poll": [],
-     "caption": "Horopito is the native pepper tree, and the name tells you why: bite a leaf and it bites back.\n\nIt is a small shrub with red-blotched leaves that grows in our forests from the North Island hills down to Stewart Island. In rongoā rākau, Māori plant medicine, horopito was traditionally used for the skin and for circulation. That warming quality is what drew us to it.\n\nToday it sits in our Relief range, working alongside other native herbs. No single herb does the job on its own, which is why each of our jars holds 11 to 14 active ingredients, where most rubs use 5 or 6.\n\nThis week's blog goes deeper on horopito and sore muscles. Link in bio.\n\nSave this, and see you next Monday for herb three.",
+     "caption": "Horopito is the native pepper tree, and the name tells you why: bite a leaf and it bites back.\n\nIt is a small shrub with red-blotched leaves that grows in our forests from the North Island hills down to Stewart Island. In rongoā rākau, Māori plant medicine, horopito was traditionally used for the skin and circulation, and for painful bruises and sore joints. That warming quality is what drew us to it.\n\nToday it sits in our Relief range, made for bruises, bumps and sore, tired muscles. No single herb does the job on its own, which is why each of our jars holds 11 to 14 active ingredients, where most rubs use 5 or 6.\n\nThis week's blog goes deeper on horopito and sore muscles. Link in bio.\n\nSave this, and see you next Monday for herb three.",
      "hashtags": "#XZoneNZ #Aotearoa #Horopito #NativeHerbs #NaturalPainRelief",
      "cta": "Save this",
      "shoot": "Close-up of horopito leaves in the bush, red blotches showing, natural light.",
      "flags": [
       "Herb facts (traditional use, where it grows, which range) to be checked against the label and Jess and Dan's herb fact sheet",
       "Confirm where horopito grows as stated",
-      "Preview photo is a new stand-in still waiting on client approval"
+      "Preview photo is a new stand-in still waiting on client approval",
+      "Dan: replace the bush-walkers photo with a horopito photo (none in our library yet; please send one)",
+      "Dan: the horopito blog the caption points to still needs writing and scheduling"
      ]
     },
     {
@@ -515,16 +518,14 @@
      "shots": [],
      "duration": "",
      "poll": [],
-     "caption": "Stuck on a gift? Start with the person, not the product.\n\nFor the tradie: sore backs, shoulders and knees from a day on the tools. The Sports Rub, massaged in at the end of the day.\n\nFor the tramper: tight calves and sore feet on day two. A roll-on, small enough for the pack and no mess.\n\nFor the touch player: hamstrings, calves and the odd rolled ankle. The Sports Spray, quick to put on at the sideline.\n\nFor the grandparent who still gardens: stiff hands, knees and hips. The Joints Rub.\n\nFor the family first-aid kit: bumps, bruises and growing pains. The Relief range, suitable from age five.\n\nStocking fillers: trial pots from $3.\n\nOld prices until {DATE}. Shop the gift guide: {LINK}",
+     "caption": "Stuck on a gift? Start with the person, not the product.\n\nFor the tradie: sore backs, shoulders and knees from a day on the tools. The Sports Rub, massaged in at the end of the day.\n\nFor the tramper: tight calves and sore feet on day two. A roll-on, small enough for the pack and no mess.\n\nFor the touch player: hamstrings, calves and the odd rolled ankle. The Sports Spray, quick to put on at the sideline.\n\nFor the grandparent who still gardens: stiff hands, knees and hips. The Joints Rub.\n\nFor the family first-aid kit: bumps, bruises and growing pains. The Relief range, suitable from age five.\n\nStocking fillers: 5ml sample sachets from $3.\n\nOld prices until 31 December 2026. Shop the gift guide: {LINK}",
      "hashtags": "#XZoneNZ #ChristmasGiftsNZ",
      "cta": "Link in bio",
      "shoot": "Each product laid out on a wooden table with a simple label card for each person: tradie, tramper, touch player, grandparent, family.",
      "flags": [
-      "Old-price end date for {DATE}",
       "Gift guide link {LINK} with UTM",
       "Confirm Sports Spray and roll-on formats and current stock for Christmas",
-      "Confirm Relief age guidance (from five) against the label",
-      "Any gift wrapping or gift card option to mention"
+      "Confirm Relief age guidance (from five) against the label"
      ]
     },
     {
@@ -546,27 +547,26 @@
      "steps": [
       {
        "b": "Relief",
-       "t": "Everyday aches, bumps, bruises, sprains and growing pains. Mid strength, from age five."
+       "t": "Bruises and bumps first, plus sprains, everyday aches and growing pains. Your first-aid go-to. Mid strength, from age five."
       },
       {
        "b": "Joints",
-       "t": "Stiffness and mobility, for long-term joint pain. Higher strength. Rub only."
+       "t": "Stiffness and mobility, for long-term joint pain. Higher strength, from age seven. Rub only."
       },
       {
        "b": "Sports",
-       "t": "Warm-up and recovery for active bodies. Higher strength. Rub, spray or roll-on."
+       "t": "Our strongest. Warm-up, recovery and higher pain levels. From age seven. Rub, spray or roll-on."
       }
      ],
      "slides": [],
      "shots": [],
      "duration": "",
      "poll": [],
-     "caption": "The question we get most: which one should I buy? Two steps.\n\nStep one: the range.\nRelief is mid strength, for everyday aches, bumps, bruises, sprains and growing pains. Suitable from age five.\nJoints is higher strength, for stiffness and mobility when joint pain is long-term. Rub only.\nSports is higher strength, for warm-up and recovery when you are active, or when pain is long-standing.\n\nStep two: the format.\nRub: a cocoa butter base. Best for massaging in.\nSpray: an alcohol base. Quick, no hands needed, good at the sideline.\nRoll-on: both bases. Small, no mess, made for bags and gloveboxes.\n\nStill not sure? Comment below with what hurts and we will point you in the right direction. We are pinning this one.",
+     "caption": "The question we get most: which one should I buy? Two steps.\n\nStep one: the range.\nRelief is mid strength, for bruises and bumps first, plus sprains, everyday aches and growing pains. Your first-aid go-to, suitable from age five.\nJoints is higher strength, for stiffness and mobility when joint pain is long-term. From age seven. Rub only.\nSports is our strongest: for warm-up and recovery when you are active, and for higher pain levels. From age seven.\n\nStep two: the format.\nRub: a cocoa butter base. Best for massaging in.\nSpray: an alcohol base. Quick, no hands needed, good at the sideline.\nRoll-on: both bases. Small, no mess, made for bags and gloveboxes.\n\nStill not sure? Comment below with what hurts and we will point you in the right direction. We are pinning this one.",
      "hashtags": "#XZoneNZ #Aotearoa #NativeHerbs #JointPain #MuscleRecovery",
      "cta": "Comment below",
      "shoot": "All three ranges in all formats lined up on a bench in natural light, rub, spray and roll-on in rows.",
      "flags": [
-      "Confirm age guidance (Relief from five, Joints and Sports from seven) against the label",
       "Confirm base descriptions (rub cocoa butter, spray alcohol, roll-on both)"
      ]
     },
@@ -656,8 +656,8 @@
      "id": "w2-s3",
      "day": "Wed",
      "type": "question",
-     "text": "Ask Jess and Dan anything about bruises, bumps or our herbs.",
-     "note": "Question box on a founders photo; answer two or three in Thursday or Friday stories."
+     "text": "Ever wondered why a bruise turns into a rainbow? Ask Jess and Dan anything about bruises, bumps or our herbs.",
+     "note": "Question box on a founders photo; answer two or three in Thursday or Friday stories. Jess: horopito, kahikatea and rātā were traditionally used for bruising, and arnica, witch hazel and St John's wort have strong evidence for bruise recovery. Use these in the answers."
     },
     {
      "id": "w2-s4",
@@ -741,8 +741,8 @@
      "shoot": "A tramping pack open on a hut deck with the five items laid out in a row, natural light.",
      "flags": [
       "First-aid and safety wording to be checked by Jess and Dan",
-      "Confirm the Sports roll-on is the one to feature (Relief roll-on is the alternative)",
-      "Preview photo is a new stand-in still waiting on client approval"
+      "Preview photo is a new stand-in still waiting on client approval",
+      "Jess and Dan expect a Sports roll-on photo in this carousel; we have none in the library yet (please send one)"
      ]
     },
     {
@@ -792,16 +792,15 @@
      ],
      "duration": "20s",
      "poll": [],
-     "caption": "Kūmarahou is known as gumdiggers' soap. Crush the flowers with a little water and they lather in your hands, which is how the old gumdiggers washed up in the north.\n\nIt is a native shrub that grows on poor clay soils, mostly in the upper North Island, and it flowers pale yellow in spring. In rongoā rākau, Māori plant medicine, kūmarahou has a long history of traditional use.\n\nIt is herb three in our series, and you will find it in our Joints and Sports ranges.\n\nWe filmed this one in the bush. Have you seen kūmarahou flowering? Tell us where in the comments.\n\nSave this, and see you next week for herb four.",
+     "caption": "Kūmarahou is known as gumdiggers' soap. Crush the flowers with a little water and they lather in your hands, which is how the old gumdiggers washed up in the north.\n\nIt is a native shrub that grows on poor clay soils, mostly in the upper North Island, and it flowers pale yellow in September and October. In rongoā rākau, Māori plant medicine, it was traditionally used for many things, coughs among them. Our tincture uses its leaves and small twigs, and we use it for rheumatism and arthritis.\n\nIt is herb three in our series, and you will find it in our Joints and Sports ranges.\n\nIt flowers in early spring, so these shots are from our own footage. Have you seen kūmarahou flowering? Tell us where in the comments.\n\nSave this, and see you next week for herb four.",
      "hashtags": "#XZoneNZ #Aotearoa #Kumarahou #NativeHerbs #Rongoa",
      "cta": "Comment below",
      "shoot": "Kūmarahou in flower in Northland or the Waitākere bush, with a lather demo in wet hands.",
      "flags": [
       "Herb facts (traditional use, where it grows, which range) to be checked against the label and Jess and Dan's herb fact sheet",
-      "Confirm kūmarahou is in flower in December where we film; otherwise use bank footage",
-      "Confirm wording on kūmarahou's traditional use in rongoā",
-      "The lather demo uses the flowers; confirm Jess and Dan are happy to show picking (use already-fallen flowers if not)",
-      "Preview photo is a new stand-in still waiting on client approval"
+      "Preview photo is a new stand-in still waiting on client approval",
+      "Kūmarahou flowers in September and October, so the Reel uses flower footage from the promo video",
+      "'We use it for rheumatism and arthritis' names conditions; check against the NZ therapeutic advertising rules before posting"
      ]
     },
     {
@@ -867,14 +866,12 @@
      "shots": [],
      "duration": "",
      "poll": [],
-     "caption": "Our last order dates for Christmas delivery in New Zealand.\n\nUrban addresses: order by {DATE_URBAN}.\nRural addresses: order by {DATE_RURAL}. Rural delivery takes a little longer, so please allow the extra days.\nOverseas: order by {DATE_INTL}.\n\nWe pack orders here in Auckland, usually within {DISPATCH_TIME}. Couriers are busy in December, so earlier is always better.\n\nOne of our customers in the UK, Eileen, wrote that her order arrived \"only days after placing the order.\"\n\nOld prices until {DATE}. Order here: {LINK}\n\nStill choosing? Our gift guide is saved in our profile highlights.",
+     "caption": "Our last order dates for Christmas delivery in New Zealand.\n\nUrban addresses: order by {DATE_URBAN}.\nRural addresses: order by {DATE_RURAL}. Rural delivery takes a little longer, so please allow the extra days.\nOverseas: order by {DATE_INTL}.\n\nWe pack orders here in Auckland, usually within {DISPATCH_TIME}. Couriers are busy in December, so earlier is always better.\n\nOne of our customers in the UK, Eileen, wrote that her order arrived \"only days after placing the order.\"\n\nOld prices until 31 December 2026. Order here: {LINK}\n\nStill choosing? Our gift guide is saved in our profile highlights.",
      "hashtags": "#XZoneNZ",
      "cta": "Link in bio",
      "shoot": "A packed courier box on the workbench with a handwritten label, natural light.",
      "flags": [
       "Last order dates for urban, rural and overseas ({DATE_URBAN}, {DATE_RURAL}, {DATE_INTL}) from the courier",
-      "Dispatch time for {DISPATCH_TIME}",
-      "Old-price end date for {DATE}",
       "Order link {LINK} with UTM"
      ]
     },
@@ -978,7 +975,7 @@
       "Bushman's tea",
       "Miner's salve"
      ],
-     "note": "Quiz sticker over a kūmarahou photo; tease Tuesday's Reel."
+     "note": "Quiz sticker over a kūmarahou flower photo (from the promo video); tease Wednesday's Reel."
     },
     {
      "id": "w3-s2",

@@ -538,14 +538,14 @@
    "week": 1,
    "day": "Fri",
    "type": "link",
-   "text": "Our summer first-aid kit list is on the feed. Old prices held until {DATE}.",
+   "text": "Our summer first-aid kit list is on the feed. Old prices held until 31 December 2026.",
    "file": "media/stories/w1-s4.jpg"
   },
   "w2-s3": {
    "week": 2,
    "day": "Wed",
    "type": "question",
-   "text": "Ask Jess and Dan anything about bruises, bumps or our herbs.",
+   "text": "Ever wondered why a bruise turns into a rainbow? Ask Jess and Dan anything about bruises, bumps or our herbs.",
    "file": "media/stories/w2-s3.jpg"
   },
   "w2-s4": {

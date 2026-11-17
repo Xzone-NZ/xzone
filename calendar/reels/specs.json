@@ -2,24 +2,133 @@
  "w1-tue": {
   "eyebrow": "Sports Rub · how to",
   "segments": [
-   {"img": "brief/photos/relief-rub-leg.jpg", "kb": "kbIn", "dur": 3.0, "text": "Why most people put their rub on [[wrong]]"},
-   {"img": "brief/photos/sports-rub-gym.jpg", "kb": "kbOut", "dur": 3.0, "text": "A dab on the skin does [[very little]]"},
-   {"img": "brief/photos/relief-rub-back.jpg", "kb": "kbUp", "dur": 3.5, "text": "Rub it in with [[slow, firm circles]]"},
-   {"clip": ["promo", 88.3], "dur": 3.5, "text": "Massage warms the area and helps the herbs [[absorb]]", "small": true},
-   {"clip": ["promo", 58.2], "dur": 3.0, "text": "Give it a full [[20 seconds]]", "timer": 20},
-   {"clip": ["promo", 28.8], "dur": 1.5, "text": "Then [[wash your hands]]", "small": true}
+   {
+    "img": "brief/photos/relief-rub-leg.jpg",
+    "kb": "kbIn",
+    "dur": 3.0,
+    "text": "Why most people put their rub on [[wrong]]"
+   },
+   {
+    "img": "brief/photos/sports-rub-gym.jpg",
+    "kb": "kbOut",
+    "dur": 2.5,
+    "text": "A dab on the skin does [[very little]]"
+   },
+   {
+    "clip": [
+     "promo",
+     28.8
+    ],
+    "dur": 3.0,
+    "text": "[[Warm the area]] first",
+    "sub": "A warm shower or heat pack opens the pores"
+   },
+   {
+    "img": "brief/photos/relief-rub-back.jpg",
+    "kb": "kbUp",
+    "dur": 3.0,
+    "text": "Rub it in with [[slow, firm circles]]"
+   },
+   {
+    "clip": [
+     "promo",
+     88.3
+    ],
+    "dur": 3.0,
+    "text": "Massage helps the herbs [[absorb]]",
+    "small": true
+   },
+   {
+    "clip": [
+     "promo",
+     58.2
+    ],
+    "dur": 3.0,
+    "text": "Give it a full [[20 seconds]]",
+    "timer": 20
+   },
+   {
+    "clip": [
+     "promo",
+     82.6
+    ],
+    "dur": 2.5,
+    "text": "Use it [[before exercise]] too",
+    "sub": "Part of a good warm-up"
+   },
+   {
+    "clip": [
+     "promo",
+     61.3
+    ],
+    "dur": 1.2,
+    "text": "Then [[wash your hands]]",
+    "small": true
+   }
   ],
-  "end": {"lines": ["Rub it in,", "not just on."], "cta": "Save this one for later", "dur": 2.5}
+  "end": {
+   "lines": [
+    "Rub it in,",
+    "not just on."
+   ],
+   "cta": "Save this one for later",
+   "dur": 2.5
+  }
  },
  "w3-tue": {
   "eyebrow": "Herb of the week",
   "segments": [
-   {"img": "calendar/small/bush.jpg", "kb": "kbIn", "dur": 3.0, "text": "Why gumdiggers washed with this [[native shrub]]"},
-   {"hold": ["promo", 37.25, 0.55], "kb": "kbIn", "dur": 4.0, "text": "This is [[kūmarahou]]", "sub": "Known as gumdiggers' soap"},
-   {"hold": ["promo", 37.45, 0.35], "kb": "kbR", "dur": 3.5, "text": "Crush the flowers with a little water and they [[lather]]", "small": true},
-   {"img": "calendar/small/bushwalk.jpg", "kb": "kbUp", "dur": 3.0, "text": "It grows mostly in the [[upper North Island]]", "small": true},
-   {"clip": ["promo", 82.6], "dur": 3.5, "text": "In our [[Joints]] and [[Sports]] ranges"}
+   {
+    "img": "calendar/small/bush-clear.jpg",
+    "kb": "kbIn",
+    "dur": 3.0,
+    "text": "Why gumdiggers washed with this [[native shrub]]"
+   },
+   {
+    "hold": [
+     "promo",
+     37.25,
+     0.55
+    ],
+    "kb": "kbIn",
+    "dur": 4.0,
+    "text": "This is [[kūmarahou]]",
+    "sub": "Known as gumdiggers' soap"
+   },
+   {
+    "hold": [
+     "promo",
+     37.45,
+     0.35
+    ],
+    "kb": "kbR",
+    "dur": 3.5,
+    "text": "Crush the flowers with a little water and they [[lather]]",
+    "small": true
+   },
+   {
+    "img": "calendar/small/bushwalk.jpg",
+    "kb": "kbUp",
+    "dur": 3.0,
+    "text": "We use its [[leaves and twigs]] for rheumatism and arthritis",
+    "small": true
+   },
+   {
+    "clip": [
+     "promo",
+     82.6
+    ],
+    "dur": 3.5,
+    "text": "In our [[Joints]] and [[Sports]] ranges"
+   }
   ],
-  "end": {"lines": ["Move Freely.", "Live Naturally."], "cta": "Save this · a new herb every week", "dur": 3.0}
+  "end": {
+   "lines": [
+    "Move Freely.",
+    "Live Naturally."
+   ],
+   "cta": "Save this · a new herb every week",
+   "dur": 3.0
+  }
  }
 }
