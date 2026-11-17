@@ -24,6 +24,9 @@ def blobmap():
     spec = open(os.path.join(ROOT, 'brief/designs/weeks-5-13/_specs.py')).read()
     names = {v: k for k, v in re.findall(r"'([\w-]+)': '([0-9a-f]{32})'", spec)}
     names['bc9c642fb9787508d512b14216a6a0fd'] = 'relief-rollon-shoulder'
+    # photos added in the repo after the canvas designs (no canvas upload id; these ids are local only)
+    names['b0c1ea4b0c1ea4b0c1ea4b0c1ea4b0c1'] = 'bush-clear'   # the waterfall without the green wash (17 Nov)
+    names['c0a1ea4c0a1ea4c0a1ea4c0a1ea4c0a1'] = 'kumarahou'    # kūmarahou in flower, from the promo video
     m = {}
     for blob, n in names.items():
         c = [p for p in (f'brief/photos/{n}.jpg', f'calendar/small/{n}.jpg', f'calendar/small/{n}.png')
@@ -64,15 +67,20 @@ def main():
             soft.append(owner)
         return a
 
+    # keep the motion Reels (made by reels/make_reels.py) across a rebuild
+    keep = {f: open(f, 'rb').read() for f in glob.glob(os.path.join(OUT, '*', 'reel.mp4')) + glob.glob(os.path.join(OUT, '*', 'reel-cover-frame.jpg'))}
     shutil.rmtree(OUT, ignore_errors=True)
     os.makedirs(os.path.join(OUT, 'stories'))
+    for f, b in keep.items():
+        os.makedirs(os.path.dirname(f), exist_ok=True)
+        open(f, 'wb').write(b)
     man = {'posts': {}, 'stories': {}}
     rel = lambda f: os.path.relpath(f, os.path.join(H, 'buffer'))
     for w in D['weeks']:
         for p in w['posts']:
             pid = p['id']
             d = os.path.join(OUT, pid)
-            os.makedirs(d)
+            os.makedirs(d, exist_ok=True)
             files = []
             if pid in AMB:
                 for i in (1, 2, 3):

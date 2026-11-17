@@ -26,16 +26,16 @@ REV = {
 }
 # id: hero hook ([[highlight]]), hero subline, photo, crop, review key (None keeps the plan's quote)
 E = {
- 'w1-email':  ('The summer kit [[most baches]] are missing', 'Plus our old prices, held until [date]', 'cricket', '58% 50%', 'paul'),
+ 'w1-email':  ('The summer kit [[most baches]] are missing', 'Plus our old prices, held until 31 December', 'ankle', '50% 55%', 'paul'),
  'w2-email':  ('Christmas gifts, [[sorted by person]]', 'For the tradie, the tramper, the touch player and the gardener', 'relief-rub-back', '50% 45%', 'chrissy'),
- 'w3-email':  ('Will it arrive [[before Christmas]]?', 'Our last order dates, plus what goes wrong on day two of a tramp', 'aoraki', '50% 60%', 'maria'),
+ 'w3-email':  ('Will it arrive [[before Christmas]]?', 'Our last order dates, plus what goes wrong on day two of a tramp', 'aoraki', '50% 60%', 'philippa'),
  'w4-email':  ('What every [[bach cupboard]] should hold', '[Offer] in our pre-Christmas sale', 'relief-rub-leg', '50% 50%', 'timvernon'),
  'w5-email':  ('[[Meri Kirihimete]] from our whānau', 'Thank you for every jar, every message and every story', 'jess-dan-tees', '50% 30%', 'caroline'),
  'w6-email':  ('Stiff joints this summer? [[Here is what helps]]', 'Three habits, the 10% rule, then the Joints Rub', 'hands', '50% 50%', 'joyann'),
  'w7-email':  ('Why day two [[hurts more]] than day one', 'DOMS in plain English, and what the lab found', 'sports-rub-gym', '50% 50%', 'james'),
  'w8-email':  ('Heat or ice? [[The honest answer]]', 'It depends on how new the pain is', 'relief-rollon-shoulder', '50% 50%', 'chris'),
  'w9-email':  ("Tennis elbow [[isn't just tennis]]", 'Gripping, drilling, pruning and scrolling all count', 'sports-spray-arm', '50% 50%', None),
- 'w10-email': ("The best recovery tool is free, and [[it's your bed]]", 'Three sleep habits, and when a medicine is behind the aches', 'bushwalk', '50% 45%', 'philippa'),
+ 'w10-email': ("The best recovery tool is free, and [[it's your bed]]", 'Three sleep habits, and when a medicine is behind the aches', 'bushwalk', '50% 45%', 'maria'),
  'w11-email': ('The five minutes that [[save your long weekend]]', 'First aid, a quick warm-up and the Sports Rub', 'sports-spray-knee', '50% 50%', 'emma'),
  'w12-email': ('What smart [[sideline parents]] keep in the car', 'What to pack, and when to sit them out', 'cricket', '40% 50%', 'alison'),
  'w13-email': ('Thank you for a summer of [[learning with us]]', 'Now help us choose what we cover this autumn', 'jess-dan-garden', '50% 35%', 'kamini'),

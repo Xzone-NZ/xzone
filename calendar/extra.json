@@ -48,7 +48,7 @@
    "range": "all",
    "photo": "range",
    "title": "Stock the summer first-aid kit",
-   "about": "The week's one promo: a summer first-aid kit checklist first, with the old-price hold (prices held at the pre-increase level until {DATE}) in the last line.",
+   "about": "The week's one promo: a summer first-aid kit checklist first, with the old-price hold (prices held at the pre-increase level until 31 December 2026) in the last line.",
    "headline": "The summer kit most baches are missing",
    "subline": "What every bach, car and sports bag needs",
    "pill": "Old prices held",
@@ -62,21 +62,19 @@
      "t": "A crepe bandage, an instant ice pack and the nearest medical centre's number."
     },
     {
-     "b": "For the days after",
-     "t": "A rub for tired muscles and bumps. Roll-ons travel best."
+     "b": "After a knock",
+     "t": "A rub, 20 to 30 minutes after. Roll-ons travel best."
     }
    ],
    "slides": [],
    "shots": [],
    "duration": "",
    "poll": [],
-   "caption": "A good summer first-aid kit lives where the injuries happen: the bach, the car and the sports bag.\n\nHere is what goes in ours.\nFor cuts and blisters: plasters, blister pads, strapping tape, antiseptic wipes and tweezers.\nFor sprains and knocks: a crepe bandage, an instant ice pack, and the number for the nearest medical centre written down. Phone signal at the bach is not a given.\nFor the days after: a rub for tired muscles, bumps and bruises. Relief for the family, Sports for the ones who overdo it. Roll-ons fit a glovebox.\n\nIf a knock is serious, the kit is not the answer. See your GP or call 111.\n\nOur prices went up this month, the first rise in six years. We are holding the old prices until {DATE}, so it is a good time to fill the kit. Trial pots start from $3. Link in bio.",
+   "caption": "A good summer first-aid kit lives where the injuries happen: the bach, the car and the sports bag.\n\nHere is what goes in ours.\nFor cuts and blisters: plasters, blister pads, strapping tape, antiseptic wipes and tweezers.\nFor sprains and knocks: a crepe bandage, an instant ice pack, and the number for the nearest medical centre written down. Phone signal at the bach is not a given.\n20 to 30 minutes after a knock: a rub for bumps, bruises and tired muscles. Relief for the family, Sports for the ones who overdo it. Roll-ons fit a glovebox.\n\nIf a knock is serious, the kit is not the answer. See your GP or call 111.\n\nOur prices went up this month, the first rise in five years. We are holding the old prices until 31 December 2026, so it is a good time to fill the kit. 5ml sample sachets start from $3. Link in bio.",
    "hashtags": "#XZoneNZ #Aotearoa #NativeHerbs #FirstAidKit #KiwiSummer",
    "cta": "Link in bio",
    "shoot": "A real first-aid tin open on a bach bench: bandage, plasters, ice pack and a Relief and Sports roll-on, in natural light.",
    "flags": [
-    "End date of the old-price hold for {DATE}",
-    "Confirm the old-price hold covers every product, trial pots included",
     "UTM link for the bio and story link stickers"
    ]
   },
@@ -329,7 +327,7 @@
      "t": "Off the field and see a doctor. When in doubt, sit out."
     }
    ],
-   "caption": "A good sideline kit is packed once and lives in the car all season.\n\nWhat goes in it: water, an ice pack, a bandage, plasters, sunscreen and something for the bumps and bruises.\nOn the knock: cold for 15 minutes, then a gentle massage once any swelling settles.\nHead knocks: off the field and see a doctor if they seem dazed, sick or not themselves. When in doubt, sit them out.\n\nOur Relief range is the family one. It's mid-strength, made with native NZ herbs, and suitable for children over five. Trial pots start from $3 if you want to try it first. Save this for Saturday.",
+   "caption": "A good sideline kit is packed once and lives in the car all season.\n\nWhat goes in it: water, an ice pack, a bandage, plasters, sunscreen and something for the bumps and bruises.\nOn the knock: cold for 15 minutes, then a gentle massage once any swelling settles.\nHead knocks: off the field and see a doctor if they seem dazed, sick or not themselves. When in doubt, sit them out.\n\nOur Relief range is the family one. It's mid-strength, made with native NZ herbs, and suitable for children over five. 5ml sample sachets start from $3 if you want to try it first. Save this for Saturday.",
    "hashtags": "#XZoneNZ #Aotearoa #KidsSport #FirstAid #ReliefRange",
    "cta": "Save this",
    "shoot": "The Relief rub, spray and roll-on packed into a small kit bag on a car seat, school sports field beyond.",
@@ -443,14 +441,14 @@
    "date": "2026-11-26",
    "day": "Thu",
    "type": "campaign",
-   "subject": "Our old prices, held until {DATE}",
+   "subject": "Our old prices, held until 31 December 2026",
    "preheader": "Our prices went up this month. We are holding the old ones for now. Plus a summer kit list.",
    "title": "Price hold and summer kit",
    "about": "November's one campaign: a summer first-aid kit checklist first, then the old-price hold. Moved to Thursday 26 Nov, our usual email day, so it reads as our own news rather than part of the Friday 27 Nov sales noise; the old prices are already held from the mid-November rise.",
    "hero": {
     "headline": "The summer kit most baches are missing",
-    "subline": "Plus our old prices, held until {DATE}",
-    "photo": "cricket"
+    "subline": "Plus our old prices, held until 31 December 2026",
+    "photo": "ankle"
    },
    "sections": [
     {
@@ -458,12 +456,12 @@
      "b": "Summer injuries happen at the bach, in the car and on the sideline, so that is where the kit belongs. For cuts and blisters: plasters, blister pads, strapping tape, antiseptic wipes and tweezers. For sprains and knocks: a crepe bandage, an instant ice pack and the nearest medical centre's number written inside the lid. Phone signal at the bach is not a given."
     },
     {
-     "h": "For the days after",
-     "b": "Once the first 48 hours have passed, a rub massaged into tired muscles helps you get moving again. Relief for the family's everyday bumps and aches. Sports for the ones who overdo it. Joints for stiff knees and hands. Roll-ons fit a glovebox. If a knock is serious, the kit is not the answer: see your GP or call 111."
+     "h": "20 to 30 minutes after a knock",
+     "b": "Give it 20 to 30 minutes after a knock, then massage a rub in gently. It helps you get moving again. Relief for bruises and bumps, your first-aid go-to. Sports for the ones who overdo it. Joints for stiff knees and hands. Roll-ons fit a glovebox. If a knock is serious, the kit is not the answer: see your GP or call 111."
     },
     {
-     "h": "Our old prices, held until {DATE}",
-     "b": "Our prices went up this month, the first rise in six years. To say thank you, we are holding the old prices until {DATE}, for new customers and old friends alike. It is a good week to fill the kit for summer. Trial pots start from $3 if you would like to try one first.\n\nNgā mihi, Jess and Dan"
+     "h": "Our old prices, held until 31 December 2026",
+     "b": "Our prices went up this month, the first rise in five years. To say thank you, we are holding the old prices until 31 December 2026, on every product, sample sachets included, for new customers and old friends alike. It is a good week to fill the kit for summer. 5ml sample sachets start from $3 if you would like to try one first.\n\nNgā mihi, Jess and Dan"
     }
    ],
    "review": {
@@ -476,12 +474,9 @@
    },
    "ps": "Not sure which range suits you? Reply and tell us what hurts. We read every email.",
    "flags": [
-    "End date of the old-price hold for {DATE}",
-    "Confirm the old-price hold covers every product, trial pots included",
-    "Confirm replies to Shopify Messaging emails reach Jess and Dan",
     "UTM-tagged {LINK} for the email button and every product link",
     "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending",
-    "Hero photo is a new stand-in still waiting on client approval"
+    "Hero photo changed to the roll-on on an ankle (the cricket photo is the Friday post); still a stand-in awaiting approval"
    ]
   },
   {
@@ -502,11 +497,11 @@
    "sections": [
     {
      "h": "Your bruise colour is a clock",
-     "b": "A bruise changes colour as it heals. Red to purple: day one or two, so a cold pack in short bursts helps. Blue to green: days three to six, when gentle warmth and light massage around the spot can help. Yellow to brown: about a week in, nearly there. See your GP if a bruise appears for no reason, is very large, sits over a joint you can't move, or isn't fading after two weeks."
+     "b": "Ever wondered why a bruise turns into a whole rainbow before it fades? That is your body's clean-up crew at work. Red to purple, days 1 to 2: fresh blood pools under the skin after tiny capillaries take a knock. Blue to dark purple, days 2 to 5: oxygen drops as the trapped red blood cells start breaking down. Green, days 5 to 7: haemoglobin turns into biliverdin, the first big sign of repair. Yellow to brown, days 7 to 14: the final breakdown into bilirubin before it clears. Gentle movement, water and the herbs in our Relief range help soothe tender areas while your body does its thing. See your GP if a bruise appears for no reason, is very large, sits over a joint you can't move, or isn't fading after two weeks."
     },
     {
      "h": "The gift guide",
-     "b": "Start with the person, not the product. The tradie with a sore back and shoulders: the Sports Rub. The tramper with tight calves on day two: a roll-on for the pack. The touch player: the Sports Spray, quick at the sideline. The grandparent who still gardens: the Joints Rub. The family first-aid kit: the Relief range. Stocking fillers: trial pots from $3."
+     "b": "Start with the person, not the product. The tradie with a sore back and shoulders: the Sports Rub. The tramper with tight calves on day two: a roll-on for the pack. The touch player: the Sports Spray, quick at the sideline. The grandparent who still gardens: the Joints Rub. The family first-aid kit: the Relief range. Stocking fillers: 5ml sample sachets from $3."
     },
     {
      "h": "This week on Instagram and Facebook",
@@ -514,7 +509,7 @@
     },
     {
      "h": "Before you go",
-     "b": "Our old prices stay until {DATE}, so it is a good week to tick a few names off the list. Every gift in the guide is on one page, sorted by person.\n\nNgā mihi, Jess and Dan"
+     "b": "Our old prices stay until 31 December 2026, so it is a good week to tick a few names off the list. Every gift in the guide is on one page, sorted by person.\n\nNgā mihi, Jess and Dan"
     }
    ],
    "review": {
@@ -527,13 +522,11 @@
    },
    "ps": "Last order dates for Christmas delivery land in next week's email.",
    "flags": [
-    "Old-price end date for {DATE}",
     "Gift guide page link {LINK} with UTM",
     "Confirm Sports Spray and roll-on formats and Christmas stock",
-    "Bruise timeline and GP guidance to be checked by Jess and Dan",
-    "Any gift wrapping or gift card option to mention",
     "Instagram and Facebook links in the email footer (handles not given on the form)",
-    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending"
+    "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending",
+    "Dan: how will the gift guide be added to the website? (a page sorted by person, linked from the email)"
    ]
   },
   {
@@ -543,7 +536,7 @@
    "day": "Thu",
    "type": "newsletter",
    "subject": "Last order dates for Christmas",
-   "preheader": "Order by {DATE_URBAN} for urban delivery. Plus what goes wrong on day two of a tramp.",
+   "preheader": "Order by 18 December for urban delivery. Plus what goes wrong on day two of a tramp.",
    "title": "Last Christmas order dates",
    "about": "Week 3 newsletter: last Christmas order dates (from w3-thu), the day-two tramping lesson from the unscheduled w3-wed post, and the week's three posts.",
    "hero": {
@@ -554,7 +547,7 @@
    "sections": [
     {
      "h": "Order by",
-     "b": "Urban addresses: order by {DATE_URBAN}. Rural addresses: order by {DATE_RURAL}, as rural delivery takes a few extra days. Overseas: order by {DATE_INTL}. We usually send orders within {DISPATCH_TIME}, but couriers are busy in December, so earlier is always better. Our old prices stay until {DATE}."
+     "b": "Urban addresses: order by Friday 18 December. Rural addresses: order by Wednesday 16 December, as rural delivery takes a few extra days. Overseas: order by {DATE_INTL}. We send orders within 12 to 18 hours, but couriers are busy in December, so earlier is always better. Our old prices stay until 31 December 2026."
     },
     {
      "h": "Day two on the track",
@@ -570,8 +563,8 @@
     }
    ],
    "review": {
-    "quote": "Rub it on and forget I have found the X-Zone Joints product easy to use. I use it both for relieving aches and pains in my joints and for prevention support prior to hiking/tramping. It has been really effective. I am on my second bottle.",
-    "name": "Maria G., New Zealand, verified Judge.me review (Joints Rub)"
+    "quote": "By far better than anything else I've used. Gives instant and long lasting pain relief for my arthritis and calcific tendonitis. I highly recommend it.",
+    "name": "Philippa C., verified Judge.me review (Sports Roll-On)"
    },
    "cta": {
     "label": "Order in time",
@@ -579,15 +572,14 @@
    },
    "ps": "Not sure which range suits someone on your list? Reply and tell us who it is for. We read every email.",
    "flags": [
-    "Last order dates for urban, rural and overseas ({DATE_URBAN}, {DATE_RURAL}, {DATE_INTL}) from the courier",
-    "Dispatch time for {DISPATCH_TIME}",
-    "Old-price end date for {DATE}",
     "Blister and infection guidance to be checked by Jess and Dan",
-    "Confirm the Sports roll-on is the one to feature (Relief roll-on is the alternative)",
     "UTM-tagged {LINK} for the email button and every product link",
     "Instagram and Facebook links in the email footer (handles not given on the form)",
     "Review quotes are the plan's shortened versions from the testimonials page; check each against the full public review before sending",
-    "Hero photo is a new stand-in still waiting on client approval"
+    "Hero photo is a new stand-in still waiting on client approval",
+    "Overseas last order date for {DATE_INTL} (NZ Post dates given were urban 18 Dec and rural 16 Dec 2026)",
+    "Review is Philippa C.'s Sports Roll-On review, to match the featured product; it names conditions, so keep them in her words only",
+    "Jess: Maria's video (in review) of rubbing on the Joints Rub could be used here once approved"
    ]
   },
   {
@@ -714,7 +706,7 @@
     },
     {
      "h": "Meet the Joints Rub",
-     "b": "Our Joints Rub is our higher-strength rub for stiffness and mobility, made with native NZ herbs traditionally used for pain, with 11 to 14 active ingredients where most rubs use five or six. In independent lab tests (Trinity Bioactives, 2024), the Joints Rub reduced inflammation-associated cells by 48.1%. These were in-vitro tests on cells, not a clinical trial on people. Massage it in for a minute, best after a warm shower. Trial pots start from $3 if you would like to try it first.\n\nNgā mihi, Jess and Dan"
+     "b": "Our Joints Rub is our higher-strength rub for stiffness and mobility, made with native NZ herbs traditionally used for pain, with 11 to 14 active ingredients where most rubs use five or six. In independent lab tests (Trinity Bioactives, 2024), the Joints Rub reduced inflammation-associated cells by 48.1%. These were in-vitro tests on cells, not a clinical trial on people. Massage it in for a minute, best after a warm shower. 5ml sample sachets start from $3 if you would like to try it first.\n\nNgā mihi, Jess and Dan"
     }
    ],
    "review": {
@@ -922,8 +914,8 @@
     }
    ],
    "review": {
-    "quote": "By far better than anything else I’ve used. Gives instant and long lasting pain relief for my arthritis and calcific tendonitis. I highly recommend it.",
-    "name": "Philippa C., New Zealand, verified Judge.me review (Sports Roll-On)"
+    "quote": "I have found the X-Zone Joints product easy to use. I use it both for relieving aches and pains in my joints and for prevention support prior to hiking/tramping. It has been really effective. I am on my second bottle.",
+    "name": "Maria G., New Zealand, verified Judge.me review (Joints Rub)"
    },
    "cta": {
     "label": "Find your roll-on",
@@ -966,7 +958,7 @@
     },
     {
      "h": "Meet the Sports Rub",
-     "b": "Our Sports Rub is the higher-strength rub we made for warm-up and recovery, with native NZ herbs traditionally used for pain. In independent lab tests (Trinity Bioactives, 2024), the Sports Rub reduced inflammation-associated cells by 54.1%, the highest of our three rubs. These were in-vitro tests on cells, not a clinical trial on people. Massage it in before you start and again afterwards. Trial pots start from $3."
+     "b": "Our Sports Rub is the higher-strength rub we made for warm-up and recovery, with native NZ herbs traditionally used for pain. In independent lab tests (Trinity Bioactives, 2024), the Sports Rub reduced inflammation-associated cells by 54.1%, the highest of our three rubs. These were in-vitro tests on cells, not a clinical trial on people. Massage it in before you start and again afterwards. 5ml sample sachets start from $3."
     },
     {
      "h": "Waitangi weekend",
@@ -1023,7 +1015,7 @@
     },
     {
      "h": "For the family",
-     "b": "Our Relief range is the family one: mid strength, made with native NZ herbs, and suitable for children over five. Trial pots start from $3 if you want to try it first.\n\nNgā mihi, Jess and Dan"
+     "b": "Our Relief range is the family one: mid strength, made with native NZ herbs, and suitable for children over five. 5ml sample sachets start from $3 if you want to try it first.\n\nNgā mihi, Jess and Dan"
     }
    ],
    "review": {
@@ -1066,7 +1058,7 @@
     },
     {
      "h": "What you asked most",
-     "b": "Which one is right for me? Relief for everyday aches and the family, Joints for stiffness and mobility, Sports for warm-up and recovery. How much should I use? 1 to 5 ml, massaged in, up to five times a day, best after a shower. Patch test first. Heat or ice? Ice for a fresh injury in the first 48 hours, gentle warmth for stiff muscles and joints."
+     "b": "Which one is right for me? Relief for bruises, bumps and the family first-aid kit, Joints for stiffness and mobility, Sports for warm-up and recovery. How much should I use? 1 to 5 ml, massaged in, up to five times a day, best after a shower. Patch test first. Heat or ice? Ice for a fresh injury in the first 48 hours, gentle warmth for stiff muscles and joints."
     },
     {
      "h": "What should we cover next?",
@@ -1100,7 +1092,7 @@
    "id": "w1-s4",
    "day": "Fri",
    "type": "link",
-   "text": "Our summer first-aid kit list is on the feed. Old prices held until {DATE}.",
+   "text": "Our summer first-aid kit list is on the feed. Old prices held until 31 December 2026.",
    "note": "Link sticker to the shop with UTM; reshare the Friday post behind it."
   },
   {

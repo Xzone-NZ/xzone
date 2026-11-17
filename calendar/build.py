@@ -67,6 +67,12 @@ print('designs', len(des), 'weeks', len(out_weeks), 'posts', sum(len(w['posts'])
       'stories', sum(len(w['stories']) for w in out_weeks),
       'emails', sum(len(w['emails']) for w in out_weeks), 'bytes', len(out))
 
+# ---------- standalone copy: the same page with every design image embedded, so one file opens anywhere ----------
+des_inline = {k: 'data:image/jpeg;base64,' + base64.b64encode(open(f'{H}/{v}', 'rb').read()).decode() for k, v in des.items()}
+standalone = t.replace('__DATA__', data).replace('__IMG__', json.dumps(img)).replace('__DES__', json.dumps(des_inline))
+open(f'{H}/xzone-summer-calendar-standalone.html', 'w').write(standalone)
+print('standalone bytes', len(standalone))
+
 # ---------- feed mock-up (shares preview CSS and JS with the calendar) ----------
 ft = open(f'{H}/feed-template.html').read()
 css = t[t.index('/* ---------- brand previews'):t.index('/* ---------- detail panel')]
