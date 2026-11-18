@@ -27,6 +27,8 @@ def blobmap():
     # photos added in the repo after the canvas designs (no canvas upload id; these ids are local only)
     names['b0c1ea4b0c1ea4b0c1ea4b0c1ea4b0c1'] = 'bush-clear'   # the waterfall without the green wash (17 Nov)
     names['c0a1ea4c0a1ea4c0a1ea4c0a1ea4c0a1'] = 'kumarahou'    # kūmarahou in flower, from the promo video
+    names['d0b0e1d0b0e1d0b0e1d0b0e1d0b0e1d0'] = 'horopito'     # horopito leaves, from the promo video (18 Nov)
+    names['e0a0e1e0a0e1e0a0e1e0a0e1e0a0e1e0'] = 'koromiko'     # koromiko in flower, from the promo video (18 Nov)
     m = {}
     for blob, n in names.items():
         c = [p for p in (f'brief/photos/{n}.jpg', f'calendar/small/{n}.jpg', f'calendar/small/{n}.png')
