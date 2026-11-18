@@ -1,5 +1,5 @@
 """Build xzone-summer-calendar.html from content-*.json, extra.json and selection.json."""
-import json, base64, os, datetime
+import json, base64, os, datetime, re
 H = os.path.dirname(os.path.abspath(__file__))
 DAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 
@@ -55,8 +55,16 @@ for w in out_weeks:
         if os.path.exists(f'{H}/designs/{n}.jpg'): des[s['id']] = f'designs/{n}.jpg'
 
 img = {}
-for n in ['bush', 'founders', 'bruise', 'shoulder', 'ankle', 'cricket', 'aoraki', 'bushwalk', 'hands', 'handsclose', 'running', 'relief-rub-back', 'relief-rub-leg', 'jess-dan-tees', 'jess-dan-garden', 'sports-rub-gym', 'relief-rollon-shoulder', 'sports-spray-arm', 'sports-spray-knee']:
-    img[n] = 'data:image/jpeg;base64,' + base64.b64encode(open(f'{H}/small/{n}.jpg', 'rb').read()).decode()
+# embed only the photos the page can show: every "photo" in the data, the story stand-ins named in the
+# template (SPH) and the bush fallback, so new photos in small/ don't bloat the page
+_tpl = open(f'{H}/template.html').read()
+_used = set(re.findall(r'"photo": "([\w-]+)"', json.dumps({'weeks': out_weeks}, ensure_ascii=False)))
+_sph = re.search(r'const SPH=\{(.*?)\};', _tpl)
+_used |= set(re.findall(r"'([\w-]+)'", _sph.group(1))) if _sph else set()
+_used.add('bush')
+for n in sorted(_used):
+    if os.path.exists(f'{H}/small/{n}.jpg'):
+        img[n] = 'data:image/jpeg;base64,' + base64.b64encode(open(f'{H}/small/{n}.jpg', 'rb').read()).decode()
 for n in ['range', 'icon', 'logo']:
     img[n] = 'data:image/png;base64,' + base64.b64encode(open(f'{H}/small/{n}.png', 'rb').read()).decode()
 data = json.dumps({'weeks': out_weeks}, ensure_ascii=False).replace('</', '<\\/')

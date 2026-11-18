@@ -7,12 +7,12 @@ B = {'founders': '02e558eca951173a5ebb2af8f459a960', 'logo': '25197b28f4e73a8b27
      'bush': 'ca1622b259e43296a606a6f48ca34f0a', 'cricket': '11a7cd58a4080325358b6129ce7498e9', 'aoraki': '05eb395fa63417fa9b52a0a72b64d79a',
      'bushwalk': '1e3be30ec195c75a250fcea6bebb2c8e', 'hands': '2904a9a5b12644007408ef19c33a72f3', 'handsclose': '9ee689101ce237ac8bd2bc2c81fbc0a1',
      'running': '812990ea70541643834c6b3b08c76d9e',
-     'jess-dan-tees': '2e0053c0b4994ed2020b08b26ac36ac4', 'jess-dan-garden': '5de84cca1ac1924820cfab3106c42c36', 'relief-rub-back': '9f42f545745a082ee90e54e2cc819e60', 'relief-rub-knee': 'ca3321f82a43b6dc05a049d31167d483', 'relief-rub-leg': '7c4dc8163ed84ea819baf23ffaaaa973', 'sports-rub-gym': '687c3ea396d216bafa56dd82643c01fb', 'sports-spray-arm': 'a26ba0467a35ce72edfcbec2cb642c42', 'sports-spray-knee': 'ab98e6ec43549b66058b8cdfea34bb44', 'elder-mountains': '8caed02fc06dd4ddf8d2e1dee55131bd', 'couple-waterfront': 'd0b2e8e3b820d5b039531894ca213520', 'family-deck': 'b6548a31b3bdb9010a2488b8d3d6a66e', 'mollie': 'd6f4ed7c106a6a841dd33259362017c8'}
+     'jess-dan-tees': '2e0053c0b4994ed2020b08b26ac36ac4', 'jess-dan-garden': '5de84cca1ac1924820cfab3106c42c36', 'relief-rub-back': '9f42f545745a082ee90e54e2cc819e60', 'relief-rub-knee': 'ca3321f82a43b6dc05a049d31167d483', 'relief-rub-leg': '7c4dc8163ed84ea819baf23ffaaaa973', 'sports-rub-gym': '687c3ea396d216bafa56dd82643c01fb', 'sports-spray-arm': 'a26ba0467a35ce72edfcbec2cb642c42', 'sports-spray-knee': 'ab98e6ec43549b66058b8cdfea34bb44', 'elder-mountains': '8caed02fc06dd4ddf8d2e1dee55131bd', 'couple-waterfront': 'd0b2e8e3b820d5b039531894ca213520', 'family-deck': 'b6548a31b3bdb9010a2488b8d3d6a66e', 'mollie': 'd6f4ed7c106a6a841dd33259362017c8', 'koromiko': 'e0a0e1e0a0e1e0a0e1e0a0e1e0a0e1e0', 'horopito': 'd0b0e1d0b0e1d0b0e1d0b0e1d0b0e1d0'}
 ALT = {'founders': 'Jess and Dan sitting by a stream in the bush', 'ankle': 'A roll-on being applied to a sore ankle', 'shoulder': 'Hands massaging rub into a sore shoulder',
        'bruise': 'A bruised knee', 'range': 'The X-ZONE range of rubs, sprays and roll-ons', 'bush': 'A waterfall and river through native bush',
        'cricket': 'A family playing backyard cricket', 'aoraki': 'A walker on the Hooker Valley track below Aoraki', 'bushwalk': 'Walkers on a boardwalk through mossy native bush',
        'hands': 'An older man rubbing the joints of his hand', 'handsclose': 'Older hands massaging a stiff thumb joint', 'running': 'Two people running on the Auckland waterfront',
-       'jess-dan-tees': 'Jess and Dan in X-ZONE t-shirts', 'jess-dan-garden': 'Jess and Dan with native plants in their garden', 'relief-rub-back': 'Relief Rub being massaged into a lower back', 'relief-rub-knee': 'Relief Rub on a grazed knee', 'relief-rub-leg': 'Relief Rub being applied to a leg', 'sports-rub-gym': 'Sports Rub being massaged into a thigh at the gym', 'sports-spray-arm': 'Sports Spray on a forearm', 'sports-spray-knee': 'Sports Spray on a knee', 'elder-mountains': 'An older man in a beanie with mountains behind', 'couple-waterfront': 'A couple resting on the waterfront after a run', 'family-deck': 'A family playing with a rugby ball on their deck', 'mollie': 'Mollie Allison serving on a sand court, in a New Zealand top'}
+       'jess-dan-tees': 'Jess and Dan in X-ZONE t-shirts', 'jess-dan-garden': 'Jess and Dan with native plants in their garden', 'relief-rub-back': 'Relief Rub being massaged into a lower back', 'relief-rub-knee': 'Relief Rub on a grazed knee', 'relief-rub-leg': 'Relief Rub being applied to a leg', 'sports-rub-gym': 'Sports Rub being massaged into a thigh at the gym', 'sports-spray-arm': 'Sports Spray on a forearm', 'sports-spray-knee': 'Sports Spray on a knee', 'elder-mountains': 'An older man in a beanie with mountains behind', 'couple-waterfront': 'A couple resting on the waterfront after a run', 'family-deck': 'A family playing with a rugby ball on their deck', 'mollie': 'Mollie Allison serving on a sand court, in a New Zealand top', 'koromiko': 'Koromiko in flower', 'horopito': 'Horopito leaves, red-blotched'}
 G, L, N = '#004F23', '#E0E64A', '#131D4A'
 def src(k): return f'/_blob/{B[k]}'
 def hl(text, mode):
@@ -202,7 +202,7 @@ def story_c(s):
 
 SPECS = {
  # ---------------- week 5: Christmas, koromiko
- 'W5-Mon': (single, dict(title='Week 5 Monday post: koromiko', band='white', photo='bushwalk', crop='35% 50%', label='Herb of the week · Koromiko', size=82,
+ 'W5-Mon': (single, dict(title='Week 5 Monday post: koromiko', band='white', photo='koromiko', crop='50% 35%', label='Herb of the week · Koromiko', size=82,
             h='The herb your [[grandmother]] already knew', sub='Koromiko, in our Relief range.')),
  'W5-Wed': (reel_b, dict(title='Week 5 Wednesday Reel: Christmas cricket warm-up', photo='cricket', crop='60% 50%', tag='Christmas cricket',
             h='The Christmas cricket [[warm-up]] nobody does', sub='Twenty seconds before you bowl your first over.', watch='Watch the 20-second warm-up')),
@@ -229,7 +229,7 @@ SPECS = {
  'W7-Wed': (reel_b, dict(title='Week 7 Wednesday Reel: rātā', photo='bushwalk', crop='70% 40%', tag='Herb of the week · Rātā',
             h='The [[red tree]] that lights up the summer forest', sub='Rātā, in our Relief range.', watch='Watch · 20 seconds')),
  'W7-Fri': (single, dict(title='Week 7 Friday post: the lab results', band='green', photo='range', label='Independent lab tests · Trinity Bioactives', size=70,
-            h='We sent our rubs to a lab. Here is [[what happened]]', rows=[('Tested', 'our three rubs, on cells linked to inflammation'), ('Found', 'Sports 54%, Joints 48%, Relief 43% fewer'), ('Means', 'a promising lab result, not a clinical trial')])),
+            h='We sent our rubs to a lab. Here is [[what happened]]', rows=[('Tested', 'our three rubs, on cells linked to inflammation'), ('Found', 'Sports 54%, Joints 48%, Relief 43% fewer'), ('Means', 'a promising in-vitro result on cells')])),
  'W7-Story-1': (story_a, dict(title='Week 7 story: what hurts this week', photo='jess-dan-garden', crop='50% 30%', h='What hurts [[this week]]?',
             st=('q', 'Ask Jess and Dan'), line='Back at work, back at training. Ask away.')),
  'W7-Story-2': (story_c, dict(title='Week 7 story: stockist of the week, Dunedin', photo='range', tag='Stockist of the week', h='Find us in [[Dunedin]]',

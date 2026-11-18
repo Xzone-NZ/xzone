@@ -6,7 +6,7 @@ B = {'founders': '02e558eca951173a5ebb2af8f459a960', 'logo': '25197b28f4e73a8b27
      'shoulder': '6c462ddd8d677371819572e77b5cec30', 'range': '274593319a3db54845362f5e4a374066', 'bush': 'ca1622b259e43296a606a6f48ca34f0a',
      'cricket': '11a7cd58a4080325358b6129ce7498e9', 'aoraki': '05eb395fa63417fa9b52a0a72b64d79a', 'bushwalk': '1e3be30ec195c75a250fcea6bebb2c8e',
      'hands': '2904a9a5b12644007408ef19c33a72f3', 'handsclose': '9ee689101ce237ac8bd2bc2c81fbc0a1', 'running': '812990ea70541643834c6b3b08c76d9e',
-     'jess-dan-tees': '2e0053c0b4994ed2020b08b26ac36ac4', 'jess-dan-garden': '5de84cca1ac1924820cfab3106c42c36', 'jess-dan-expo': '5c547f267afde9f9aa4bd829dbae4d68', 'relief-rollon-shoulder': 'bc9c642fb9787508d512b14216a6a0fd', 'relief-rub-leg': '7c4dc8163ed84ea819baf23ffaaaa973', 'sports-rub-gym': '687c3ea396d216bafa56dd82643c01fb', 'sports-spray-knee': 'ab98e6ec43549b66058b8cdfea34bb44', 'sports-spray-arm': 'a26ba0467a35ce72edfcbec2cb642c42', 'relief-rub-back': '9f42f545745a082ee90e54e2cc819e60'}
+     'jess-dan-tees': '2e0053c0b4994ed2020b08b26ac36ac4', 'jess-dan-garden': '5de84cca1ac1924820cfab3106c42c36', 'jess-dan-expo': '5c547f267afde9f9aa4bd829dbae4d68', 'relief-rollon-shoulder': 'bc9c642fb9787508d512b14216a6a0fd', 'relief-rub-leg': '7c4dc8163ed84ea819baf23ffaaaa973', 'sports-rub-gym': '687c3ea396d216bafa56dd82643c01fb', 'sports-spray-knee': 'ab98e6ec43549b66058b8cdfea34bb44', 'sports-spray-arm': 'a26ba0467a35ce72edfcbec2cb642c42', 'relief-rub-back': '9f42f545745a082ee90e54e2cc819e60', 'sports-spray-gym': 'f0a0e1f0a0e1f0a0e1f0a0e1f0a0e1f0'}
 G, L = '#004F23', '#E0E64A'
 HEAD = "'Poppins', Arial, Helvetica, sans-serif"
 BODY = "Arial, Helvetica, sans-serif"
@@ -28,17 +28,17 @@ REV = {
 E = {
  'w1-email':  ('The summer kit [[most baches]] are missing', 'Plus our old prices, held until 31 December', 'ankle', '50% 55%', 'paul'),
  'w2-email':  ('Christmas gifts, [[sorted by person]]', 'For the tradie, the tramper, the touch player and the gardener', 'relief-rub-back', '50% 45%', 'chrissy'),
- 'w3-email':  ('Will it arrive [[before Christmas]]?', 'Our last order dates, plus what goes wrong on day two of a tramp', 'aoraki', '50% 60%', 'philippa'),
+ 'w3-email':  ('Will it arrive [[before Christmas]]?', 'Our last order dates, plus what goes wrong on day two of a tramp', 'jess-dan-expo', '50% 35%', 'philippa'),
  'w4-email':  ('What every [[bach cupboard]] should hold', '[Offer] in our pre-Christmas sale', 'relief-rub-leg', '50% 50%', 'timvernon'),
- 'w5-email':  ('[[Meri Kirihimete]] from our whānau', 'Thank you for every jar, every message and every story', 'jess-dan-tees', '50% 30%', 'caroline'),
+ 'w5-email':  ('[[Meri Kirihimete]] from our whānau', 'Thank you for every jar, every message and every story', 'jess-dan-garden', '50% 35%', 'caroline'),
  'w6-email':  ('Stiff joints this summer? [[Here is what helps]]', 'Three habits, the 10% rule, then the Joints Rub', 'hands', '50% 50%', 'joyann'),
- 'w7-email':  ('Why day two [[hurts more]] than day one', 'DOMS in plain English, and what the lab found', 'sports-rub-gym', '50% 50%', 'james'),
+ 'w7-email':  ('Why day two [[hurts more]] than day one', 'DOMS in plain English, and what the lab found', 'sports-spray-gym', '50% 50%', 'james'),
  'w8-email':  ('Heat or ice? [[The honest answer]]', 'It depends on how new the pain is', 'relief-rollon-shoulder', '50% 50%', 'chris'),
- 'w9-email':  ("Tennis elbow [[isn't just tennis]]", 'Gripping, drilling, pruning and scrolling all count', 'sports-spray-arm', '50% 50%', None),
- 'w10-email': ("The best recovery tool is free, and [[it's your bed]]", 'Three sleep habits, and when a medicine is behind the aches', 'bushwalk', '50% 45%', 'maria'),
+ 'w9-email':  ("Tennis elbow [[isn't just tennis]]", 'Gripping, drilling, pruning and scrolling all count', 'handsclose', '50% 50%', None),
+ 'w10-email': ("The best recovery tool is free, and [[it's your bed]]", 'Three sleep habits, and when a medicine is behind the aches', 'running', '50% 50%', 'maria'),
  'w11-email': ('The five minutes that [[save your long weekend]]', 'First aid, a quick warm-up and the Sports Rub', 'sports-spray-knee', '50% 50%', 'emma'),
  'w12-email': ('What smart [[sideline parents]] keep in the car', 'What to pack, and when to sit them out', 'cricket', '40% 50%', 'alison'),
- 'w13-email': ('Thank you for a summer of [[learning with us]]', 'Now help us choose what we cover this autumn', 'jess-dan-garden', '50% 35%', 'kamini'),
+ 'w13-email': ('Thank you for a summer of [[learning with us]]', 'Now help us choose what we cover this autumn', 'founders', '50% 30%', 'kamini'),
 }
 DAY = r'(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday):'
 def ph(s):  # {PLACEHOLDER} -> [placeholder]
