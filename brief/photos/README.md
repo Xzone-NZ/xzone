@@ -18,6 +18,10 @@ The client's own photos from their Google Drive folder (shared 12 Nov 2026), res
 | sports-spray-knee.jpg | Sports Spray on a knee | Warm-up, sideline, Sports range (720 px original) |
 | sports-spray-gym.jpg | Sports Spray on an arm at the gym | Training, Sports range |
 | sports-spray-arm.jpg | Sports Spray on a forearm | Tennis elbow, tradies, Sports range |
+| hooker-valley-hikers.jpg | Two hikers with daypacks looking up Hooker Valley to Aoraki/Mt Cook, blue sky (landscape) | Hiking and tramping, summer outdoors, recovery after big walks, Sports range |
+| hiker-sea-cliffs.jpg | Hiker with an orange pack on a grassy clifftop above the sea at dusk (portrait) | Tramping, adventure, Stories and Reels (portrait crop). **Shot in the Faroe Islands, not NZ: don't caption it as a NZ location** |
+
+**Added 19 Nov:** `hooker-valley-hikers.jpg` and `hiker-sea-cliffs.jpg` (resized to 1400 px). Both look like stock images; as with the iStock files below, confirm the licence and that Jess and Dan are happy to use stock before publishing.
 
 **Three more iStock images added 12 Nov** (on the canvas, not copied here): an older man in a beanie with mountains behind (`elder-mountains`, used in the week 13 autumn story), a couple resting on the waterfront after a run (`couple-waterfront`, week 6 routine story) and a family playing with a rugby ball on a deck (`family-deck`, week 4 parents story and week 12 sideline post).
 
