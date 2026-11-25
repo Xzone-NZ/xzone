@@ -36,7 +36,7 @@ def cover(img, w, h):
     x, y = (img.width - w) // 2, (img.height - h) // 2
     return img.crop((x, y, x + w, y + h))
 
-def render(photo, hook, key, sub, logo, out, headline_px=70, sub_px=32, callout=None, button=None):
+def render(photo, hook, key, sub, logo, out, headline_px=70, sub_px=32, callout=None, button=None, bullets=None):
     canvas = Image.new("RGB", (W, H), GREEN)
     canvas.paste(cover(Image.open(photo).convert("RGB"), W, PHOTO_H), (0, 0))
     d = ImageDraw.Draw(canvas)
@@ -56,8 +56,21 @@ def render(photo, hook, key, sub, logo, out, headline_px=70, sub_px=32, callout=
     for i, ln in enumerate(lines):
         d.text((MARGIN, y + i * lh), ln, font=hf, fill=WHITE)
     sy = y + len(lines) * lh + 28
-    for i, ln in enumerate(wrap(d, sub, sf, W - 2 * MARGIN)):
-        d.text((MARGIN, sy + i * 49), ln, font=sf, fill=WHITE)
+    if sub:
+        for i, ln in enumerate(wrap(d, sub, sf, W - 2 * MARGIN)):
+            d.text((MARGIN, sy + i * 49), ln, font=sf, fill=WHITE)
+        sy += len(wrap(d, sub, sf, W - 2 * MARGIN)) * 49 + 10
+    if bullets:
+        bb, bm = font("Poppins_700Bold.ttf", 31), font("Poppins_500Medium.ttf", 31)
+        by = sy + 14
+        for lead, txt in bullets:
+            cy = by + 24
+            d.ellipse([MARGIN, cy - 19, MARGIN + 38, cy + 19], fill=LIME)
+            d.line([MARGIN + 10, cy + 1, MARGIN + 17, cy + 9, MARGIN + 29, cy - 8], fill=GREEN, width=5, joint="curve")
+            x = MARGIN + 60
+            d.text((x, by), lead, font=bb, fill=WHITE)
+            d.text((x + d.textlength(lead + " ", font=bb), by), "· " + txt, font=bm, fill=WHITE)
+            by += 62
     if callout:
         bf = font("Poppins_700Bold.ttf", 31)
         top, hgt = 1010, 160
