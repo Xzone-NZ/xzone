@@ -120,5 +120,5 @@ Friends since primary school in West Auckland, aged six. Waitākere Ranges. Jess
 - Slide 1 sets the numeral "5" in lime. The standing rule is no lime-coloured text: exception, or fix?
 - Slide 1 says "our 31 ingredients"; Business Context says 11 to 14 actives per product. Confirm what 31 counts.
 - Slide 3 says all ingredients and packaging are sourced from NZ. Not in Business Context; confirm with Jess and Dan.
-- Slide 4 photo: the background poster reads "Scientifically Proven". Crop or swap.
+- Slide 4 photo: the background poster reads "Scientifically Proven". Already approved by Jess and Dan on 18 Nov for this carousel only (Decision Log); not a rule for our own copy. Licensed Bigstock images for this carousel also approved 18 Nov.
 - Claims Check not yet run on the four slides.
