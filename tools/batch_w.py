@@ -14,7 +14,7 @@ P = {
  "w5-mon": ("The herb your grandmother already knew", "grandmother", "Koromiko, in our Relief range.", None),
  "w5-sat": ("Is your Boxing Day ache actually thirst?", "thirst", None, [("Water first","a big glass, then sip all day"),("Then move","a gentle walk or a swim"),("Rub before bed","then let sleep do the work")]),
  "w6-fri": ("The 2027 recovery routine we actually stick to", "actually", None, [("Two easy days","walk, swim or stretch"),("Seven hours plus","when muscles repair"),("Massage sore spots","a few minutes, a little rub")]),
- "w7-wed": ("We sent our rubs to a lab. Here is what happened", "what happened", None, [("Tested","our three rubs, on cells linked to inflammation"),("Found","Sports 54%, Joints 48%, Relief 43% fewer"),("Means","a promising in-vitro result on cells")]),
+ "w7-wed": ("We sent our rubs to a lab. Here is what happened", "what happened", None, [("Tested","our three rubs, on cells linked to inflammation"),("Found","Sports 55%, Joints 49%, Relief 43% fewer"),("Means","a promising in-vitro result on cells")]),
  "w8-wed": ("Heat or ice? The honest answer", "honest answer", None, [("Ice","new knocks and swelling, first 48 hours"),("Heat","tight muscles and old aches"),("Joints","usually warm, unless hot and swollen")]),
  "w9-fri": ("The three injuries every worksite hands out", "worksite", None, [("Lower back","warm up, keep loads close"),("Tennis elbow","ease the grip, massage the forearm"),("Shoulders","break up overhead work")]),
 }
