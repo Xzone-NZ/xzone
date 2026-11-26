@@ -36,14 +36,15 @@ def cover(img, w, h):
     x, y = (img.width - w) // 2, (img.height - h) // 2
     return img.crop((x, y, x + w, y + h))
 
-def render(photo, hook, key, sub, logo, out, headline_px=70, sub_px=32, callout=None, button=None, bullets=None):
-    canvas = Image.new("RGB", (W, H), GREEN)
-    canvas.paste(cover(Image.open(photo).convert("RGB"), W, PHOTO_H), (0, 0))
+def render(photo, hook, key, sub, logo, out, headline_px=70, sub_px=32, callout=None, button=None, bullets=None, max_bottom=1200, foot=None, swipe=False, photo_h=None, canvas_h=None, text_y=700, logo_y=None, max_lines=2):
+    CH = canvas_h or H; PH = photo_h or PHOTO_H
+    canvas = Image.new("RGB", (W, CH), GREEN)
+    canvas.paste(cover(Image.open(photo).convert("RGB"), W, PH), (0, 0))
     d = ImageDraw.Draw(canvas)
     hf, sf = font("Poppins_800ExtraBold.ttf", headline_px), font("Poppins_500Medium.ttf", sub_px)
     lines = wrap(d, hook, hf, W - 2 * MARGIN)
-    assert len(lines) <= 2, "Hook must fit on two short lines"
-    y = 700
+    assert len(lines) <= max_lines, "Hook must fit on two short lines"
+    y = text_y
     lh = int(headline_px * 1.12)
     # underline first, so the letters sit on top of it
     for i, ln in enumerate(lines):
@@ -57,9 +58,16 @@ def render(photo, hook, key, sub, logo, out, headline_px=70, sub_px=32, callout=
         d.text((MARGIN, y + i * lh), ln, font=hf, fill=WHITE)
     sy = y + len(lines) * lh + 28
     if sub:
-        for i, ln in enumerate(wrap(d, sub, sf, W - 2 * MARGIN)):
-            d.text((MARGIN, sy + i * 49), ln, font=sf, fill=WHITE)
-        sy += len(wrap(d, sub, sf, W - 2 * MARGIN)) * 49 + 10
+        px = sub_px
+        while True:
+            sf = font("Poppins_500Medium.ttf", px)
+            sl = wrap(d, sub, sf, W - 2 * MARGIN)
+            lead = round(px * 1.5)
+            if sy + len(sl) * lead <= max_bottom or px <= 24: break
+            px -= 2
+        for i, ln in enumerate(sl):
+            d.text((MARGIN, sy + i * lead), ln, font=sf, fill=WHITE)
+        sy += len(sl) * lead + 10
     if bullets:
         bb, bm = font("Poppins_700Bold.ttf", 31), font("Poppins_500Medium.ttf", 31)
         by = sy + 14
@@ -85,8 +93,16 @@ def render(photo, hook, key, sub, logo, out, headline_px=70, sub_px=32, callout=
             d.text((bx0 + 30, top + 80 - 20), button, font=bf, fill=WHITE)
             ax = bx1 - 62; ay = top + 80
             d.line([ax, ay, ax + 30, ay], fill=LIME, width=4); d.line([ax + 20, ay - 9, ax + 30, ay, ], fill=LIME, width=4); d.line([ax + 20, ay + 9, ax + 30, ay], fill=LIME, width=4)
+    if foot:
+        ff = font("Poppins_500Medium.ttf", 26)
+        d.text((MARGIN, CH - 92), foot, font=ff, fill=WHITE)
+    if swipe:
+        sw = font("Poppins_700Bold.ttf", 28)
+        d.text((MARGIN, CH - 92), "SWIPE", font=sw, fill=WHITE)
+        ax = MARGIN + d.textlength("SWIPE ", font=sw) + 14; ay = CH - 76
+        d.line([ax, ay, ax + 40, ay], fill=LIME, width=4); d.line([ax + 28, ay - 10, ax + 40, ay], fill=LIME, width=4); d.line([ax + 28, ay + 10, ax + 40, ay], fill=LIME, width=4)
     lg = Image.open(logo).convert("RGBA")
-    canvas.paste(lg, (W - MARGIN - lg.width + 8, H - 57 - lg.height), lg)
+    canvas.paste(lg, (W - MARGIN - lg.width + 8, (logo_y if logo_y else CH - 57 - lg.height)), lg)
     canvas.save(out, quality=95)
 
 if __name__ == "__main__":

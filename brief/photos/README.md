@@ -22,3 +22,15 @@ The client's own photos from their Google Drive folder (shared 12 Nov 2026), res
 **Three more iStock images added 12 Nov** (on the canvas, not copied here): an older man in a beanie with mountains behind (`elder-mountains`, used in the week 13 autumn story), a couple resting on the waterfront after a run (`couple-waterfront`, week 6 routine story) and a family playing with a rugby ball on a deck (`family-deck`, week 4 parents story and week 12 sideline post).
 
 **Not copied here:** the six iStock images in the Drive folder (already used as stand-ins: hands, Hooker Valley, bush walk, running, hands in green jumper, backyard cricket). They are licensed stock; the brand guidelines say no stock photography, so Jess and Dan should confirm they're happy to use them. Two Drive files (IMG_8848.jpg and IMG_9452.JPG) would not download; they may be too large for Drive's direct link.
+
+## Added 26 Nov 2026: licensed iStock photos (supplied by the client, allowed since 19 Nov)
+Keep the iStock file ID with any artwork that uses one. Resized to 1600 px on the long edge.
+
+| File | What it shows | Good for |
+| --- | --- | --- |
+| stock-trail-runner-hillside-iStock-471234605.jpg | Woman trail running on a golden hillside above a South Island valley | Recovery, DOMS, running, Sports range |
+| stock-mountain-bikers-iStock-1134311384.jpg | Two mountain bikers on a high gravel ridge | Sports range, warm-up, "overdo it" posts |
+| stock-family-ball-lawn-iStock-2247111861.jpg | Family laughing and playing with a ball on a lawn | Sideline parents, kids, Relief range, long weekend |
+| stock-couple-jogging-pier-iStock-1842243532.jpg | Couple jogging on a waterfront pier (vertical) | Recovery routine, habits, Stories |
+| stock-hikers-coast-path-iStock-2245937776.jpg | Two walkers from behind on a coastal hill path | Tramping, walking, habits, joints |
+| stock-hiker-snowy-mountain-iStock-2290792761.jpg | Hiker with poles on a ridge track below a snowy peak | Tramping kit, January 10% rule, Stories |
