@@ -1,3 +1,4 @@
 .claude/settings.local.json
 brief/exports/*.zip
 __pycache__/
+social-builder/out/

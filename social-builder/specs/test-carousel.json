@@ -1,0 +1,9 @@
+{
+  "id": "test-carousel",
+  "format": "carousel",
+  "slides": [
+    {"photo": "brief/photos/horopito.jpg", "hook": "Where our [[herbs]] come from", "sub": "Illustrative layout test only."},
+    {"photo": "brief/photos/koromiko.jpg", "hook": "Named, not hidden", "sub": "We list the plants on every pack.", "bullets": ["Kūmarahou", "Horopito", "Kōromiko"]},
+    {"photo": "brief/photos/relief-rub-back.jpg", "hook": "Move Freely. Live [[Naturally]].", "callout": "Find us at 200+ stockists", "button": "Shop"}
+  ]
+}

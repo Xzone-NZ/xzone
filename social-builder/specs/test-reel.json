@@ -1,0 +1,8 @@
+{
+  "id": "test-reel",
+  "format": "reel",
+  "beats": [
+    {"photo": "brief/photos/jess-dan-garden.jpg", "hook": "Why we swapped the office for the [[Ranges]]", "sub": "Watch our story", "seconds": 3},
+    {"photo": "brief/photos/jess-dan-tees.jpg", "hook": "Friends since we were six", "sub": "Illustrative reel test only.", "seconds": 3}
+  ]
+}
